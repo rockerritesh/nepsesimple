@@ -25,7 +25,7 @@ def highlight_max(s, props=''):
     return np.where(s <= 0, props, '')
 df2=df1.style.apply(highlight_max, props='color:red;', axis=0, subset=slice_)\
          .set_properties(subset=slice_)
-df2
+print(df2)
 
 df1.to_csv('my data.csv')
 
