@@ -27,8 +27,28 @@ def highlight_max(s, props=''):
     return np.where(s <= 0, props, '')
 df2=df1.style.apply(highlight_max, props='color:red;', axis=0, subset=slice_)\
          .set_properties(subset=slice_)
-print(df2)
 
-df1.to_csv('my data.csv')
 
-df2.to_excel("output.xlsx")
+
+
+df1.to_csv('mydata.csv')
+
+df2.to_excel("nepse_simple.xlsx")
+
+oxl = openpyxl.load_workbook("nepse_simple.xlsx")
+oxl.sheetnames
+
+sheet = oxl.active
+
+ws =sheet
+dims = {}
+for row in ws.rows:
+    for cell in row:
+        if cell.value:
+            dims[cell.column] = max((dims.get(cell.column, 0), len(str(cell.value))))    
+for col, value in dims.items():
+    ws.column_dimensions[col].width = value
+    
+
+oxl.save('nepse_simple.xlsx')    
+    
