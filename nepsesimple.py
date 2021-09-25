@@ -1,3 +1,5 @@
+#/bin/env python
+
 # -*- coding: utf-8 -*-
 """Untitled24.ipynb
 
