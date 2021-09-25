@@ -42,12 +42,13 @@ sheet = oxl.active
 
 ws =sheet
 dims = {}
-for row in ws.rows:
+'''for row in ws.rows:
     for cell in row:
         if cell.value:
             dims[cell.column] = max((dims.get(cell.column, 0), len(str(cell.value))))    
 for col, value in dims.items():
     ws.column_dimensions[col].width = value
+    '''
     
 
 oxl.save(loc)    
