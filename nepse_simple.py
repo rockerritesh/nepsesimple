@@ -35,7 +35,7 @@ df1.to_csv('mydata.csv')
 
 df2.to_excel(loc)
 
-oxl = openpyxl.load_workbook("nepse_simple.xlsx")
+oxl = openpyxl.load_workbook(loc)
 oxl.sheetnames
 
 sheet = oxl.active
