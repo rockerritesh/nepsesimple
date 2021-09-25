@@ -29,11 +29,11 @@ df2=df1.style.apply(highlight_max, props='color:red;', axis=0, subset=slice_)\
          .set_properties(subset=slice_)
 
 
-
+loc = "nepse_simple.xlsx"
 
 df1.to_csv('mydata.csv')
 
-df2.to_excel("nepse_simple.xlsx")
+df2.to_excel(loc)
 
 oxl = openpyxl.load_workbook("nepse_simple.xlsx")
 oxl.sheetnames
@@ -50,5 +50,5 @@ for col, value in dims.items():
     ws.column_dimensions[col].width = value
     
 
-oxl.save('nepse_simple.xlsx')    
+oxl.save(loc)    
     
