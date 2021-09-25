@@ -44,8 +44,8 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source_file: nepse_simple.xlsx
-        destination_repo: rockerritesh/LoveIt
-        destination_folder: resources
-        user_name: rockerritesh
-        user_email: 076bct088.sumit@pcampus.edu.np
-        target-branch: master
+        destination_repo: dotehacker/dotehacker.github.io
+        destination_folder: test
+        user_name: dotehacker
+        user_email: rockerritesh4@gmail.com
+        target-branch: main
