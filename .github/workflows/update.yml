@@ -36,19 +36,15 @@ jobs:
           git add .
           git diff-index --quiet HEAD || git commit -m "[skip ci] Save result of action"
           git fetch origin main
-          git push origin main
+          git push
  
     - name: Push file to remote repo
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        USERNAME: ${{ secrets.USERNAME }}
-        EMAIL: ${{ secrets.EMAIL }}
-        DEST_REPO: ${{ secrets.DEST_REPO }}
-        DEST_FOLDER: ${{ secrets.DEST_FOLDER }}
       with:
         source_file: nepse_simple.xlsx
-        destination_repo: "${USERNAME}/${DEST_REPO}"
-        destination_folder: "${DEST_FOLDER}"
-        user_name: "${USERNAME}"
-        user_email: "${EMAIL}"
+        destination_repo: rockerritesh/LoveIt
+        destination_folder: resources
+        user_name: rockerritesh
+        user_email: 076bct088.sumit@pcampus.edu.np
