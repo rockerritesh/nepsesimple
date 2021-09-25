@@ -1,4 +1,5 @@
-pandas
-requests
+lxml
 numpy
 openpyxl
+pandas
+requests
