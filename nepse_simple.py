@@ -1,4 +1,4 @@
-#/bin/env python
+# /bin/env python
 
 # -*- coding: utf-8 -*-
 """Untitled24.ipynb
@@ -14,24 +14,29 @@ import pandas as pd
 import numpy as np
 import openpyxl
 
-url = 'https://www.nepalipaisa.com/Market-Mover.aspx'
+url = "https://www.nepalipaisa.com/Market-Mover.aspx"
 html = requests.get(url).content
 df_list = pd.read_html(html)
 df = df_list[-1]
 
-df1=df.sort_values(by=['Closing Price'])
-df1.pop('Symbols')
+df1 = df.sort_values(by=["Closing Price"])
+df1.pop("Symbols")
 
-slice_ = ['% Change']
-def highlight_max(s, props=''):
-    return np.where(s <= 0, props, '')
-df2=df1.style.apply(highlight_max, props='color:red;', axis=0, subset=slice_)\
-         .set_properties(subset=slice_)
+slice_ = ["% Change"]
+
+
+def highlight_max(s, props=""):
+    return np.where(s <= 0, props, "")
+
+
+df2 = df1.style.apply(
+    highlight_max, props="color:red;", axis=0, subset=slice_
+).set_properties(subset=slice_)
 
 
 loc = "nepse_simple.xlsx"
 
-df1.to_csv('mydata.csv')
+df1.to_csv("mydata.csv")
 
 df2.to_excel(loc)
 
@@ -40,16 +45,15 @@ oxl.sheetnames
 
 sheet = oxl.active
 
-ws =sheet
+ws = sheet
 dims = {}
-'''for row in ws.rows:
+"""for row in ws.rows:
     for cell in row:
         if cell.value:
             dims[cell.column] = max((dims.get(cell.column, 0), len(str(cell.value))))    
 for col, value in dims.items():
     ws.column_dimensions[col].width = value
-    '''
-    
+    """
 
-oxl.save(loc)    
-    
+
+oxl.save(loc)
