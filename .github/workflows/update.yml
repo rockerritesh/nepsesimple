@@ -43,7 +43,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source_file: nepse_simple.html
+        source_file: 
         destination_repo: dotehacker/dotehacker.github.io
         user_name: dotehacker
         user_email: rockerritesh4@gmail.com
