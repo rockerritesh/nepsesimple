@@ -45,7 +45,6 @@ jobs:
       with:
         source_file: nepse_simple.xlsx
         destination_repo: dotehacker/dotehacker.github.io
-        destination_folder: test
         user_name: dotehacker
         user_email: rockerritesh4@gmail.com
         target-branch: main
