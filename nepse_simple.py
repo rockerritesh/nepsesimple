@@ -13,6 +13,7 @@ import requests
 import pandas as pd
 import numpy as np
 import openpyxl
+import matplotlib.pyplot as plt
 
 url = "https://www.nepalipaisa.com/Market-Mover.aspx"
 html = requests.get(url).content
@@ -60,3 +61,17 @@ for col, value in dims.items():
 
 
 oxl.save(loc)
+
+
+url2 = 'http://www.nepalstock.com/indices'
+html2 = requests.get(url).content
+df_list2 = pd.read_html(html2)
+df22 = df_list2[-1]
+
+data2=np.array(df22)
+data2=np.flip(data2)
+plot=data2[1:data.shape[0],2]
+
+plt.figure(figsize=(40, 25))
+plt.plot(plot,'go--')
+plt.savefig('graph.png')
