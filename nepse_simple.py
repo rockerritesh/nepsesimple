@@ -70,7 +70,7 @@ df22 = df_list2[-1]
 
 data2=np.array(df22)
 data2=np.flip(data2)
-plot=data2[1:data.shape[0],2]
+plot=data2[1:data2.shape[0],2]
 
 plt.figure(figsize=(40, 25))
 plt.plot(plot,'go--')
