@@ -35,7 +35,7 @@ jobs:
           git config user.email github-actions@github.com
           git add .
           git diff-index --quiet HEAD || git commit -m "[skip ci] Save result of action"
-          git fetch origin main (non-fast-forward)
+          git fetch origin main 
           git push
  
     - name: Push file to remote repo
