@@ -63,14 +63,14 @@ for col, value in dims.items():
 oxl.save(loc)
 
 
-url2 = 'https://www.nepalipaisa.com/Indices.aspx'
+url2 = "https://www.nepalipaisa.com/Indices.aspx"
 html2 = requests.get(url2).content
 df_list2 = pd.read_html(html2)
 df22 = df_list2[-1]
 
 data2 = np.array(df22)
 data2 = np.flip(data2)
-plot = data2[0:data2.shape[0], 2]
+plot = data2[0 : data2.shape[0], 2]
 
 plt.figure(figsize=(40, 25))
 plt.plot(plot, "go--")
