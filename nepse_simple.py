@@ -75,3 +75,22 @@ plot = data2[0 : data2.shape[0], 2]
 plt.figure(figsize=(40, 25))
 plt.plot(plot, "go--")
 plt.savefig("graph.png")
+
+# FOR STOCK
+
+urlstock = "https://www.sharesansar.com/market"
+htmlstock = requests.get(urlstock).content
+df_list_stock = pd.read_html(htmlstock)
+
+df_stock = df_list_stock[3]
+df_stock.to_html("stock.html")
+
+# FOR IPO
+
+
+urlshare = "https://www.sharesansar.com"
+htmlshare = requests.get(urlshare).content
+df_list_share = pd.read_html(htmlshare)
+
+df_share = df_list_share[2]
+df_share.to_html("ipo.html")
