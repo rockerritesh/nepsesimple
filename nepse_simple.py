@@ -39,7 +39,7 @@ loc = "nepse_simple.xlsx"
 
 df1.to_csv("mydata.csv")
 
-df1.to_html("index.html")
+df1.to_html("todaysummary.html")
 
 df2.to_excel(loc)
 
