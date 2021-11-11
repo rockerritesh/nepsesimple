@@ -88,7 +88,7 @@ df_stock.to_html("stock.html")
 # FOR IPO
 
 
-urlshare = "https://www.sharesansar.com"
+urlshare = "https://www.sharesansar.com/?show=home"
 htmlshare = requests.get(urlshare).content
 df_list_share = pd.read_html(htmlshare)
 
