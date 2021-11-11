@@ -1,7 +1,8 @@
+html5lib
 jinja2
 lxml
+matplotlib
 numpy
 openpyxl
 pandas
 requests
-matplotlib
