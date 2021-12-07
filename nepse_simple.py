@@ -14,6 +14,8 @@ import pandas as pd
 import numpy as np
 import openpyxl
 import matplotlib.pyplot as plt
+import bs4
+import html5lib
 
 url = "https://www.nepalipaisa.com/Market-Mover.aspx"
 html = requests.get(url).content
@@ -94,3 +96,23 @@ df_list_share = pd.read_html(htmlshare)
 
 df_share = df_list_share[2]
 df_share.to_html("ipo.html")
+
+# new way direct from nepalstock.com
+
+nepse = requests.get("http://nepalstock.com")
+soup=bs4.BeautifulSoup(nepse.text,"html5lib")
+category=soup.find_all(class_="panel-body")
+
+html = '<html><head></head><body>' + str(category[3]) + '</body> </html>'
+with open('marketsummary.html', 'w') as output:
+    output.write(html)
+
+html = '<html><head></head><body>' + str(category[2]) + '</body> </html>'
+with open('marketdata.html', 'w') as output:
+    output.write(html)
+
+html = '<html><head></head><body>' + str(category[4]) + '</body> </html>'
+with open('todayindex.html', 'w') as output:
+    output.write(html)    
+
+
