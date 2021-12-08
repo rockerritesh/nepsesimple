@@ -31,4 +31,53 @@
 
 	</div>
 </header>
-<body></body></html>
+
+<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+     
+    <style>
+        body{
+        padding:10% 3% 10% 3%;
+        text-align:center;
+        }
+        img{
+            height:140px;
+                width:140px;
+        }
+        h1{
+        color: #32a852;
+        }
+        .mode {
+            float:right;
+        }
+        .change {
+            cursor: pointer;
+            border: 1px solid #555;
+            border-radius: 40%;
+            width: 20px;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+        }
+        .dark{
+            background-color: #222;
+            color: #e6e6e6;
+        }
+    </style>
+
+<body></body>
+
+<script>
+        $( ".change" ).on("click", function() {
+            if( $( "body" ).hasClass( "dark" )) {
+                $( "body" ).removeClass( "dark" );
+                $( ".change" ).text( "OFF" );
+            } else {
+                $( "body" ).addClass( "dark" );
+                $( ".change" ).text( "ON" );
+            }
+        });
+</script>
+
+</html>
