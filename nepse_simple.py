@@ -99,7 +99,7 @@ df_share.to_html("ipo.html")
 
 # new way direct from nepalstock.com
 
-nepse = requests.get("http://nepalstock.com")
+'''nepse = requests.get("http://nepalstock.com")
 soup = bs4.BeautifulSoup(nepse.text, "html5lib")
 category = soup.find_all(class_="panel-body")
 
@@ -113,4 +113,11 @@ with open("marketdata.html", "w") as output:
 
 html = "<html><head></head><body>" + str(category[4]) + "</body> </html>"
 with open("todayindex.html", "w") as output:
+    output.write(html)'''
+nepse = requests.get("https://nepalstockinfo.com")
+soup = bs4.BeautifulSoup(nepse.text, "html5lib")
+
+category = soup.find_all(class_="col-md-6")
+html = "<html><head></head><body>" + str(category[2]) + "</body> </html>"
+with open("marketsummary.html", "w") as output:
     output.write(html)
