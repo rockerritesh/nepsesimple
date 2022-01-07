@@ -1,4 +1,80 @@
-<html><head></head><body><div class="panel-body">
+<html><head>NEPSE SIMPLE</head><header>
+		
+	<!-- Top header menu containing
+		logo and Navigation bar -->
+	<div id="top-header">
+			
+		<!-- Logo -->
+		<div id="logo">
+			<a href="https://sumityadav.com.np">
+			<img src= https://rockerritesh.github.io/nepsesimple/android-chrome-192x192.png>	
+			</a>	
+		</div>
+				
+		<!-- Navigation Menu -->
+		<nav>
+			<ul>
+				<li class="active"><a href="https://rockerritesh.github.io/nepsesimple/index.html">Home</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/stock.html">stock</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/ipo.html">IPO</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/todaysummary.html">Today Summary</a></li> 
+				<li><a href="https://rockerritesh.github.io/nepsesimple/marketsummary.html">Summary</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/marketdata.html">Top Value Data</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/todayindex.html">Indices</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- Image menu in Header to contain an Image and
+		a sample text over that image -->
+	<div id="header-image-menu">
+
+	</div>
+</header>
+
+<script button.addEventListener('click', () => {
+  document.body.classList.toggle('dark')
+  localStorage.setItem(
+    'theme',
+    document.body.classList.contains('dark') ? 'dark' : 'light'
+  )
+})
+if (localStorage.getItem('theme') === 'dark') {
+  document.body.classList.add('dark')
+}></script>
+     
+    <style>
+        body{
+        padding:10% 3% 10% 3%;
+        text-align:center;
+        }
+        img{
+            height:140px;
+                width:140px;
+        }
+        h1{
+        color: #32a852;
+        }
+        .mode {
+            float:right;
+        }
+        .change {
+            cursor: pointer;
+            border: 1px solid #555;
+            border-radius: 40%;
+            width: 20px;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+        }
+        .dark{
+            background-color: #000;
+            color: #fff;
+        }
+	 
+    </style>
+
+<body><div class="panel-body">
        <div class="row" id="market_info">
         <div class="metadata col-xs-12 col-md-12 col-sm-12 col-lg-12">
           <div class="top_marketinfo">

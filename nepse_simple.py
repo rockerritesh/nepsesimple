@@ -1,5 +1,5 @@
 # /bin/env python
-asadas="""<html><head>NEPSE SIMPLE</head><header>
+asadas = """<html><head>NEPSE SIMPLE</head><header>
 		
 	<!-- Top header menu containing
 		logo and Navigation bar -->
