@@ -1,5 +1,81 @@
 # /bin/env python
+asadas="""<html><head>NEPSE SIMPLE</head><header>
+		
+	<!-- Top header menu containing
+		logo and Navigation bar -->
+	<div id="top-header">
+			
+		<!-- Logo -->
+		<div id="logo">
+			<a href="https://sumityadav.com.np">
+			<img src= https://rockerritesh.github.io/nepsesimple/android-chrome-192x192.png>	
+			</a>	
+		</div>
+				
+		<!-- Navigation Menu -->
+		<nav>
+			<ul>
+				<li class="active"><a href="https://rockerritesh.github.io/nepsesimple/index.html">Home</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/stock.html">stock</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/ipo.html">IPO</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/todaysummary.html">Today Summary</a></li> 
+				<li><a href="https://rockerritesh.github.io/nepsesimple/marketsummary.html">Summary</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/marketdata.html">Top Value Data</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/todayindex.html">Indices</a></li>
+			</ul>
+		</nav>
+	</div>
 
+	<!-- Image menu in Header to contain an Image and
+		a sample text over that image -->
+	<div id="header-image-menu">
+
+	</div>
+</header>
+
+<script button.addEventListener('click', () => {
+  document.body.classList.toggle('dark')
+  localStorage.setItem(
+    'theme',
+    document.body.classList.contains('dark') ? 'dark' : 'light'
+  )
+})
+if (localStorage.getItem('theme') === 'dark') {
+  document.body.classList.add('dark')
+}></script>
+     
+    <style>
+        body{
+        padding:10% 3% 10% 3%;
+        text-align:center;
+        }
+        img{
+            height:140px;
+                width:140px;
+        }
+        h1{
+        color: #32a852;
+        }
+        .mode {
+            float:right;
+        }
+        .change {
+            cursor: pointer;
+            border: 1px solid #555;
+            border-radius: 40%;
+            width: 20px;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+        }
+        .dark{
+            background-color: #000;
+            color: #fff;
+        }
+	 
+    </style>
+
+<body>"""
 # -*- coding: utf-8 -*-
 """Untitled24.ipynb
 
@@ -85,7 +161,7 @@ htmlstock = requests.get(urlstock).content
 df_list_stock = pd.read_html(htmlstock)
 
 df_stock = df_list_stock[3]
-df_stock.to_html("stock.html")
+df_stock.to_csv("stock.csv")
 
 # FOR IPO
 
@@ -95,7 +171,7 @@ htmlshare = requests.get(urlshare).content
 df_list_share = pd.read_html(htmlshare)
 
 df_share = df_list_share[2]
-df_share.to_html("ipo.html")
+df_share.to_csv("ipo.csv")
 
 # new way direct from nepalstock.com
 
@@ -103,15 +179,15 @@ nepse = requests.get("http://nepalstock.com")
 soup = bs4.BeautifulSoup(nepse.text, "html5lib")
 category = soup.find_all(class_="panel-body")
 
-html = "<html><head></head><body>" + str(category[3]) + "</body> </html>"
+html = asadas + str(category[3]) + "</body> </html>"
 with open("marketsummary.html", "w") as output:
     output.write(html)
 
-html = "<html><head></head><body>" + str(category[2]) + "</body> </html>"
+html = asadas + str(category[2]) + "</body> </html>"
 with open("marketdata.html", "w") as output:
     output.write(html)
 
-html = "<html><head></head><body>" + str(category[4]) + "</body> </html>"
+html = asadas + str(category[4]) + "</body> </html>"
 with open("todayindex.html", "w") as output:
     output.write(html)
 """
