@@ -16,8 +16,6 @@ asadas = """<html><head>NEPSE SIMPLE</head><header>
 		<nav>
 			<ul>
 				<li class="active"><a href="https://rockerritesh.github.io/nepsesimple/index.html">Home</a></li>
-				<li><a href="https://rockerritesh.github.io/nepsesimple/stock.html">stock</a></li>
-				<li><a href="https://rockerritesh.github.io/nepsesimple/ipo.html">IPO</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/todaysummary.html">Today Summary</a></li> 
 				<li><a href="https://rockerritesh.github.io/nepsesimple/marketsummary.html">Summary</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/marketdata.html">Top Value Data</a></li>
