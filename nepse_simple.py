@@ -173,6 +173,7 @@ df_list_share = pd.read_html(htmlshare)
 
 df_share = df_list_share[2]
 df_share.to_csv("ipo.csv")
+df_share.to_html("ipo.html")
 
 # new way direct from nepalstock.com
 
