@@ -205,9 +205,9 @@ html = "<html><head></head><body>" + str(category[2]) + "</body> </html>"
 with open("marketsummary.html", "w") as output:
     output.write(html)
 """
-df=pd.read_json('https://nepalstockapi.herokuapp.com/allprice.php')
+df = pd.read_json("https://nepalstockapi.herokuapp.com/allprice.php")
 df1 = df.sort_values(by=["nooftransaction"])
-html=df1.to_html()
+html = df1.to_html()
 html = asadas + html + "</body> </html>"
 with open("index.html", "w") as output:
     output.write(html)
