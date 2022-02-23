@@ -31,7 +31,7 @@ asadas = """<html><head>NEPSE SIMPLE</head><header>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/marketdata">Top Value Data</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/ipo">IPO</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/todayindex">Indices</a></li>
-				[![Update file(s)](https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml/badge.svg)](https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml)
+				<p dir="auto"><a href="https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml"><img src="https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml/badge.svg" alt="Update file(s)" style="max-width: 100%;"></a></p>
 			</ul>
 		</nav>
 	</div>
