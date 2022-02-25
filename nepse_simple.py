@@ -113,7 +113,7 @@ loc = "nepse_simple.xlsx"
 
 df[0].to_csv("mydata.csv")
 
-df.to_html("todaysummary.html")
+df[0].to_html("todaysummary.html")
 
 df[0].to_excel(loc)
 
