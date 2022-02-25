@@ -99,25 +99,15 @@ import matplotlib.pyplot as plt
 import bs4
 import html5lib
 
-url = "https://www.nepalipaisa.com/Market-Mover.aspx"
+url = "https://nepalstockinfo.com/stocklive"
 html = requests.get(url).content
-df_list = pd.read_html(html)
-df = df_list[-1]
+df = pd.read_html(html)
 
-df1 = df.sort_values(by=["Closing Price"])
-df1.pop("Symbols")
-
-slice_ = ["% Change"]
-
-
-def highlight_max(s, props=""):
-    return np.where(s <= 0, props, "")
-
-
-df2 = df1.style.apply(
-    highlight_max, props="color:red;", axis=0, subset=slice_
-).set_properties(subset=slice_)
-
+df[0]
+df[0] = df[0].sort_values(by=["Previous Closing"])
+df[0].pop("#")
+df[0].pop("S.N.")
+df[0]
 
 loc = "nepse_simple.xlsx"
 
@@ -147,7 +137,7 @@ for col, value in dims.items():
 oxl.save(loc)
 
 
-url2 = "https://www.nepalipaisa.com/Indices.aspx"
+'''url2 = "https://www.nepalipaisa.com/Indices.aspx"
 html2 = requests.get(url2).content
 df_list2 = pd.read_html(html2)
 df22 = df_list2[-1]
@@ -158,7 +148,7 @@ plot = data2[0 : data2.shape[0], 2]
 
 plt.figure(figsize=(40, 25))
 plt.plot(plot, "go--")
-plt.savefig("graph.png")
+plt.savefig("graph.png")'''
 
 # FOR STOCK
 
