@@ -111,11 +111,11 @@ df[0]
 
 loc = "nepse_simple.xlsx"
 
-df1.to_csv("mydata.csv")
+df[0].to_csv("mydata.csv")
 
-df1.to_html("todaysummary.html")
+df.to_html("todaysummary.html")
 
-df2.to_excel(loc)
+df[0].to_excel(loc)
 
 oxl = openpyxl.load_workbook(loc)
 oxl.sheetnames
