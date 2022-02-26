@@ -98,6 +98,7 @@ import openpyxl
 import matplotlib.pyplot as plt
 import bs4
 import html5lib
+
 """
 url = "https://nepalstockinfo.com/stocklive"
 html = requests.get(url).content
