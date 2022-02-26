@@ -98,7 +98,7 @@ import openpyxl
 import matplotlib.pyplot as plt
 import bs4
 import html5lib
-
+"""
 url = "https://nepalstockinfo.com/stocklive"
 html = requests.get(url).content
 df = pd.read_html(html)
@@ -137,7 +137,7 @@ for col, value in dims.items():
 oxl.save(loc)
 
 
-"""url2 = "https://www.nepalipaisa.com/Indices.aspx"
+url2 = "https://www.nepalipaisa.com/Indices.aspx"
 html2 = requests.get(url2).content
 df_list2 = pd.read_html(html2)
 df22 = df_list2[-1]
