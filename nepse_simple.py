@@ -206,8 +206,8 @@ with open("index.html", "w") as output:
     output.write(html)
 
 
-#all company status each
+# all company status each
 html = df.to_html()
 html = asadas + html + "</body> </html>"
 with open("each_company.html", "w") as output:
-    output.write(html)    
+    output.write(html)
