@@ -207,8 +207,8 @@ with open("index.html", "w") as output:
 
 
 # all company status each
-df = pd.read_json("https://api-nepse.herokuapp.com/todays_price")
-html = df.to_html()
-html = asadas + html + "</body> </html>"
+dfall = pd.read_json("https://api-nepse.herokuapp.com/todays_price")
+htm = dfall.to_html()
+htm = asadas + htm + "</body> </html>"
 with open("each_company.html", "w") as output:
-    output.write(html)
+    output.write(htm)
