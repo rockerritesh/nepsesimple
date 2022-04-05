@@ -31,11 +31,12 @@ asadas = """<html><head>NEPSE SIMPLE</head><header>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/marketdata">Top Value Data</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/ipo">IPO</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/todayindex">Indices</a></li>
+        <li><a href="https://rockerritesh.github.io/nepsesimple/each_company">Each Company</a></li>
 				<p dir="auto"><a href="https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml"><img src="https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml/badge.svg" alt="Update file(s)" style="max-width: 100%;"></a></p>
 			</ul>
 		</nav>
 	</div>
-
+  <p><img class="lazyautosizes lazyloaded" src="https://github.com/rockerritesh/nepsesimple/raw/main/graph.png" data-src="https://github.com/rockerritesh/nepsesimple/raw/main/graph.png" data-srcset="https://github.com/rockerritesh/nepsesimple/raw/main/graph.png, https://github.com/rockerritesh/nepsesimple/raw/main/graph.png 1.5x, https://github.com/rockerritesh/nepsesimple/raw/main/graph.png 2x" data-sizes="auto" alt="https://github.com/rockerritesh/nepsesimple/raw/main/graph.png" title="Graph" sizes="800px" srcset="https://github.com/rockerritesh/nepsesimple/raw/main/graph.png, https://github.com/rockerritesh/nepsesimple/raw/main/graph.png 1.5x, https://github.com/rockerritesh/nepsesimple/raw/main/graph.png 2x"></p>
 	<!-- Image menu in Header to contain an Image and
 		a sample text over that image -->
 	<div id="header-image-menu">
@@ -137,7 +138,7 @@ for col, value in dims.items():
 
 oxl.save(loc)
 
-
+"""
 url2 = "https://www.nepalipaisa.com/Indices.aspx"
 html2 = requests.get(url2).content
 df_list2 = pd.read_html(html2)
@@ -149,7 +150,7 @@ plot = data2[0 : data2.shape[0], 2]
 
 plt.figure(figsize=(40, 25))
 plt.plot(plot, "go--")
-plt.savefig("graph.png")"""
+plt.savefig("graph.png")
 
 # FOR STOCK
 
@@ -203,3 +204,10 @@ html = df1.to_html()
 html = asadas + html + "</body> </html>"
 with open("index.html", "w") as output:
     output.write(html)
+
+
+#all company status each
+html = df.to_html()
+html = asadas + html + "</body> </html>"
+with open("each_company.html", "w") as output:
+    output.write(html)    
