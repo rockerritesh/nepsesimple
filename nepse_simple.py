@@ -213,7 +213,7 @@ htm = asadas + htm + "</body> </html>"
 with open("each_company.html", "w") as output:
     output.write(htm)
 
-#json file nepssimpleeapi
-df=pd.read_html('http://www.nepalstock.com/todaysprice/export')
-df=df[-1].T
-df.to_json('nepsesimple.json')
+# json file nepssimpleeapi
+df = pd.read_html("http://www.nepalstock.com/todaysprice/export")
+df = df[-1].T
+df.to_json("nepsesimple.json")
