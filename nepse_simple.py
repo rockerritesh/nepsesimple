@@ -217,3 +217,16 @@ with open("each_company.html", "w") as output:
 df = pd.read_html("http://www.nepalstock.com/todaysprice/export")
 df = df[-1].T
 df.to_json("nepsesimple.json")
+
+'''
+# FOR PLOT
+for i in range(df.shape[1]):
+  closing_price=df[i][4]
+  #a0=np.load(f'{i}.npy')
+  a0=1
+  #closing_price=(1,2,3,4,5)
+  aaa=np.append(a0,(closing_price))
+  np.save(f'{i}',aaa)
+  #a=np.load('1.npy')
+  #plt.plot(a)
+  '''
