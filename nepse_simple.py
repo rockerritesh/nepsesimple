@@ -218,7 +218,7 @@ df = pd.read_html("http://www.nepalstock.com/todaysprice/export")
 df = df[-1].T
 df.to_json("nepsesimple.json")
 
-'''
+"""
 # FOR PLOT
 for i in range(df.shape[1]):
   closing_price=df[i][4]
@@ -229,4 +229,4 @@ for i in range(df.shape[1]):
   np.save(f'{i}',aaa)
   #a=np.load('1.npy')
   #plt.plot(a)
-  '''
+  """
