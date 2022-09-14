@@ -198,7 +198,8 @@ html = "<html><head></head><body>" + str(category[2]) + "</body> </html>"
 with open("marketsummary.html", "w") as output:
     output.write(html)
 """
-df = pd.read_json("https://nepalstock-api.herokuapp.com/market-summary")
+"""
+df = pd.read_json("https://nepalstock-api.herokuapp.com/nepse-index")
 df1 = df.sort_values(by=["nooftransaction"])
 html = df1.to_html()
 html = asadas + html + "</body> </html>"
@@ -207,11 +208,12 @@ with open("index.html", "w") as output:
 
 
 # all company status each
-dfall = pd.read_json("https://nepalstock-api.herokuapp.com/market-summary")
+dfall = pd.read_json("https://nepalstock-api.herokuapp.com/nepse-index")
 htm = dfall.to_html()
 htm = asadas + htm + "</body> </html>"
 with open("each_company.html", "w") as output:
     output.write(htm)
+"""
 
 # json file nepssimpleeapi
 df = pd.read_html("http://www.nepalstock.com/todaysprice/export")
