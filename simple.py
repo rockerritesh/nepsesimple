@@ -93,7 +93,8 @@ if (localStorage.getItem('theme') === 'dark') {
 import requests
 import pandas as pd
 import numpy as np
-#import openpyxl
+
+# import openpyxl
 import matplotlib.pyplot as plt
 import bs4
 import html5lib
@@ -110,47 +111,47 @@ df_list2 = pd.read_html(html2)
 # In[144]:
 
 
-#df_list2[0]
+# df_list2[0]
 
 
 # In[145]:
 
 
-#df_list2[1][1:5]
+# df_list2[1][1:5]
 
 
 # In[146]:
 
 
-#df_list2[1].shape
+# df_list2[1].shape
 
 
 # In[147]:
 
 
-#df_list2[1]['Date'][1:6]
+# df_list2[1]['Date'][1:6]
 
 
 # In[148]:
 
 
-#plt.figure(figsize=(40, 25))
-#plt.plot(df_list2[1]['Absolute Change'])
-#plt.plot(df_list2[1]['Percent Change'])
-#plt.plot( df_list2[1]['Date'],df_list2[1]['Nepse Index Value'], "go--")
+# plt.figure(figsize=(40, 25))
+# plt.plot(df_list2[1]['Absolute Change'])
+# plt.plot(df_list2[1]['Percent Change'])
+# plt.plot( df_list2[1]['Date'],df_list2[1]['Nepse Index Value'], "go--")
 
 
 # In[149]:
 
 
-x = np.linspace(1,58,58).reshape(-1,1)
+x = np.linspace(1, 58, 58).reshape(-1, 1)
 x.shape
 
 
 # In[150]:
 
 
-y = np.array(df_list2[1]['Nepse Index Value'])
+y = np.array(df_list2[1]["Nepse Index Value"])
 y.shape
 
 
@@ -158,20 +159,18 @@ y.shape
 
 
 from sklearn import linear_model
+
 reg = linear_model.LinearRegression()
-reg.fit(x,y)
+reg.fit(x, y)
 
 
 # In[ ]:
 
 
-
-
-
 # In[152]:
 
 
-pred = np.array(58).reshape(1,1)
+pred = np.array(58).reshape(1, 1)
 
 
 # In[153]:
@@ -186,19 +185,19 @@ reg.predict(pred)
 from datetime import date
 
 today = date.today()
-#today
+# today
 Str = date.isoformat(today)
-#Str
+# Str
 
 
 # In[155]:
 
 
 plt.figure(figsize=(40, 25))
-#plt.plot(df_list2[1]['Absolute Change'])
-#plt.plot(df_list2[1]['Percent Change'])
-plt.plot(Str,reg.predict(pred), "go--")
-plt.plot( df_list2[1]['Date'],df_list2[1]['Nepse Index Value'], "go--")
+# plt.plot(df_list2[1]['Absolute Change'])
+# plt.plot(df_list2[1]['Percent Change'])
+plt.plot(Str, reg.predict(pred), "go--")
+plt.plot(df_list2[1]["Date"], df_list2[1]["Nepse Index Value"], "go--")
 plt.savefig("graph.png")
 
 
@@ -219,61 +218,61 @@ df_stock.to_html("stock.html")
 # In[157]:
 
 
-df_list_stock[-2].to_html('toptransactions.html')
+df_list_stock[-2].to_html("toptransactions.html")
 
 
 # In[158]:
 
 
-df_list_stock[-3].to_html('topvolume.html')
+df_list_stock[-3].to_html("topvolume.html")
 
 
 # In[159]:
 
 
-#df_list_stock[-4]
+# df_list_stock[-4]
 
 
 # In[160]:
 
 
-#df_list_stock[-5]
+# df_list_stock[-5]
 
 
 # In[161]:
 
 
-#df_list_stock[-6]
+# df_list_stock[-6]
 
 
 # In[162]:
 
 
-df_list_stock[-7].to_html('gold.html')
+df_list_stock[-7].to_html("gold.html")
 
 
 # In[163]:
 
 
-df_list_stock[-8].to_html('compare.html')
+df_list_stock[-8].to_html("compare.html")
 
 
 # In[164]:
 
 
-#df_list_stock[-9]
+# df_list_stock[-9]
 
 
 # In[165]:
 
 
-#df_list_stock[-10]
+# df_list_stock[-10]
 
 
 # In[166]:
 
 
-#df_list_stock[-11]
+# df_list_stock[-11]
 
 
 # In[167]:
@@ -297,49 +296,49 @@ df_share.to_html("ipo.html")
 # In[169]:
 
 
-df_list_share[1].to_html('bonous.html')
+df_list_share[1].to_html("bonous.html")
 
 
 # In[170]:
 
 
-#df_list_share[3]
+# df_list_share[3]
 
 
 # In[171]:
 
 
-df_list_share[4].to_html('newsofbank.html')
+df_list_share[4].to_html("newsofbank.html")
 
 
 # In[172]:
 
 
-df_list_share[5].to_html('stock.html')
+df_list_share[5].to_html("stock.html")
 
 
 # In[173]:
 
 
-df_list_share[6].to_html('gradeofcompany.html')
+df_list_share[6].to_html("gradeofcompany.html")
 
 
 # In[174]:
 
 
-df_list_share[7].to_html('companymerged.html')
+df_list_share[7].to_html("companymerged.html")
 
 
 # In[175]:
 
 
-df_list_share[0].to_html('bookclosure.html')
+df_list_share[0].to_html("bookclosure.html")
 
 
 # In[176]:
 
 
-'''# new way direct from nepalstock.com
+"""# new way direct from nepalstock.com
 
 nepse = requests.get("http://nepalstock.com")
 soup = bs4.BeautifulSoup(nepse.text, "html5lib")
@@ -355,7 +354,7 @@ with open("marketdata.html", "w") as output:
 
 html = asadas + str(category[4]) + "</body> </html>"
 with open("todayindex.html", "w") as output:
-    output.write(html)'''
+    output.write(html)"""
 
 
 # In[177]:
@@ -370,7 +369,7 @@ df.to_json("nepsesimple.json")
 # In[178]:
 
 
-#df.T
+# df.T
 
 
 # In[179]:
@@ -383,7 +382,3 @@ with open("index.html", "w") as output:
 
 
 # In[ ]:
-
-
-
-
