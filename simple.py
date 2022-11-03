@@ -21,11 +21,17 @@ asadas = """<html><head>NEPSE SIMPLE</head><header>
 		<nav>
 			<ul>
 				<li class="active"><a href="https://rockerritesh.github.io/nepsesimple/index">Home</a></li>
-				<li><a href="https://rockerritesh.github.io/nepsesimple/todaysummary">Today Summary</a></li> 
+				<li><a href="https://rockerritesh.github.io/nepsesimple/each_company">Today Summary</a></li> 
 				<li><a href="https://rockerritesh.github.io/nepsesimple/marketsummary">Summary</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/marketdata">Top Value Data</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/ipo">IPO</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/todayindex">Indices</a></li>
+				
+				<li><a href="https://rockerritesh.github.io/nepsesimple/topvolume">Today TOP VOLUME</a></li> 
+				<li><a href="https://rockerritesh.github.io/nepsesimple/toptransactions">Top Transactions</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/gradeofcompany">Grade Of Company</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/compare">Compare Company</a></li>
+				
         <li><a href="https://rockerritesh.github.io/nepsesimple/each_company">Each Company</a></li>
 				<p dir="auto"><a href="https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml"><img src="https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml/badge.svg" alt="Update file(s)" style="max-width: 100%;"></a></p>
 			</ul>
