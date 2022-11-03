@@ -24,10 +24,10 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
  
     - name: Format code
-      run: black nepse_simple.py
+      run: black simple.py
  
     - name: Fetch data and update the file(s)
-      run: python nepse_simple.py
+      run: python simple.py
  
     - name: Commit updated file(s) back to this repository
       run: |
