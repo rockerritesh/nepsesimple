@@ -150,8 +150,8 @@ df_list2 = pd.read_html(html2)
 # In[149]:
 
 
-x = np.linspace(1, 57, len(y)).reshape(-1, 1)
-x.shape
+#x = np.linspace(1, 57, len(y)).reshape(-1, 1)
+#x.shape
 
 
 # In[150]:
@@ -160,6 +160,9 @@ x.shape
 y = np.array(df_list2[1]["Nepse Index Value"])
 y.shape
 
+
+x = np.linspace(1, 57, len(y)).reshape(-1, 1)
+x.shape
 
 # In[151]:
 
