@@ -150,7 +150,7 @@ df_list2 = pd.read_html(html2)
 # In[149]:
 
 
-x = np.linspace(1, 57, 57).reshape(-1, 1)
+x = np.linspace(1, 57, len(y)).reshape(-1, 1)
 x.shape
 
 
