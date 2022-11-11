@@ -370,7 +370,7 @@ with open("todayindex.html", "w") as output:
 
 
 # json file nepssimpleeapi
-df = pd.read_html("http://www.nepalstock.com/todaysprice/export")
+df = pd.read_html("https://www.sharesansar.com/today-share-price")
 df = df[-1].T
 df.to_json("nepsesimple.json")
 

@@ -1,4 +1,5 @@
 ,Sub Index,Turnover,Close,Point,% Change
+<<<<<<< HEAD
 0,Banking SubIndex,174932756.7,1346.3,-14.04,-1.03
 1,Development Bank Index,126640389.4,3378.85,-110.97,-3.18
 2,Finance Index,127023572.7,1566.0,-77.68,-4.73
@@ -12,3 +13,18 @@
 10,Non Life Insurance,35777576.1,7634.0,-144.36,-1.86
 11,Others Index,68169653.3,1437.47,-34.55,-2.35
 12,Trading Index,5144331.0,1843.76,-17.68,-0.95
+=======
+0,Banking SubIndex,206765550.0,1356.88,-11.36,-0.83
+1,Development Bank Index,85558311.2,3445.6,-41.59,-1.19
+2,Finance Index,78857040.3,1585.85,-19.45,-1.21
+3,Hotels And Tourism,4756872.8,2669.39,-20.93,-0.78
+4,HydroPower Index,208277572.9,1990.57,-27.65,-1.37
+5,Investment,29739441.3,57.96,-0.37,-0.64
+6,Life Insurance,37893885.7,8939.98,1.4,0.02
+7,Manufacturing And Processing,60760853.7,5014.84,-13.13,-0.26
+8,Microfinance Index,78768112.8,4286.74,-47.23,-1.09
+9,Mutual Fund,2785130.28,13.57,-0.11,-0.77
+10,Non Life Insurance,23894379.1,7701.67,0.62,0.01
+11,Others Index,37571385.5,1400.3,-17.32,-1.22
+12,Trading Index,1735907.6,1823.44,-19.96,-1.08
+>>>>>>> 0b3bf24 (v2.2)
