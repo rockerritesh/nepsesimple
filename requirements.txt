@@ -8,3 +8,4 @@ openpyxl
 pandas
 requests
 scikit-learn
+python-telegram-bot
