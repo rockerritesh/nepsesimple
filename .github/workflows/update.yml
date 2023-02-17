@@ -27,7 +27,7 @@ jobs:
       run: black simple.py
  
     - name: Fetch data and update the file(s)
-      run: python simple.py
+      run: python simple.py nepse_bot.py
  
     - name: Commit updated file(s) back to this repository
       run: |
