@@ -1,7 +1,7 @@
 # nepsesimple
 NEPSE COMPANY TODAY GROWTH 
 
-use our (telegram bot)[https://t.me/rocker_file_bot
+use our (telegram bot)[https://t.me/rocker_file_bot], to use our bot , First send messages to bot and then get chat_id and send that chat_id to me.
 
 [![Update file(s)](https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml/badge.svg)](https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml)
 
