@@ -17,14 +17,14 @@ import bs4
 import html5lib
 
 # ----MY----
-#BOT_TOKEN = ""
-#CHAT_ID = ""
+# BOT_TOKEN = ""
+# CHAT_ID = ""
 
 import telegram
 from telegram import InputFile
 
 # Create a bot instance
-#bot = telegram.Bot(token=BOT_TOKEN)
+# bot = telegram.Bot(token=BOT_TOKEN)
 # In[143]:
 
 
@@ -65,7 +65,7 @@ plt.savefig("graph.png")
 
 
 # Send the image to the chat using the chat ID
-#with open("graph.png", "rb") as f:
+# with open("graph.png", "rb") as f:
 #    bot.send_photo(chat_id=CHAT_ID, photo=InputFile(f))
 
 # FOR STOCK
@@ -85,24 +85,24 @@ df_stock.to_html("stock.html")
 df_list_stock[-2].to_html("toptransactions.html")
 
 # Send a message to the chat using the chat ID
-#bot.send_message(
+# bot.send_message(
 #    chat_id=CHAT_ID, text="```" + "\n" + df_list_stock[-2].to_csv() + "\n" + "```"
-#)
+# )
 
 df_list_stock[-3].to_html("topvolume.html")
 
 # Send a message to the chat using the chat ID
-#bot.send_message(
+# bot.send_message(
 #    chat_id=CHAT_ID, text="```" + "\n" + df_list_stock[-3].to_csv() + "\n" + "```"
-#)
+# )
 
 df_list_stock[-7].to_html("gold.html")
 df_list_stock[-8].to_html("compare.html")
 
 # Send a message to the chat using the chat ID
-#bot.send_message(
+# bot.send_message(
 #    chat_id=CHAT_ID, text="```" + "\n" + df_list_stock[-8].to_csv() + "\n" + "```"
-#)
+# )
 
 index = df_list_stock[-12].to_html()
 urlshare = "https://www.sharesansar.com/?show=home"
@@ -112,7 +112,7 @@ df_share = df_list_share[2]
 df_share.to_csv("ipo.csv")
 
 # Send a message to the chat using the chat ID
-#bot.send_message(chat_id=CHAT_ID, text="```" + "\n" + df_share.to_csv() + "\n" + "```")
+# bot.send_message(chat_id=CHAT_ID, text="```" + "\n" + df_share.to_csv() + "\n" + "```")
 
 df_share.to_html("ipo.html")
 df_list_share[1].to_html("bonous.html")
@@ -121,9 +121,9 @@ df_list_share[5].to_html("stock.html")
 df_list_share[6].to_html("gradeofcompany.html")
 
 # Send a message to the chat using the chat ID
-#bot.send_message(
+# bot.send_message(
 #    chat_id=CHAT_ID, text="```" + "\n" + df_list_share[6].to_csv() + "\n" + "```"
-#)
+# )
 
 df_list_share[7].to_html("companymerged.html")
 df_list_share[0].to_html("bookclosure.html")
