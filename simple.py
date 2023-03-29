@@ -29,7 +29,7 @@ from telegram import InputFile
 
 
 url2 = "https://www.nepalipaisa.com/Indices.aspx"
-html2 = requests.get(url2,verify = False).content
+html2 = requests.get(url2, verify=False).content
 df_list2 = pd.read_html(html2)
 
 
