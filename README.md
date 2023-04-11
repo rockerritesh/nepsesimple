@@ -11,4 +11,4 @@ use our [Telegram Channel](https://t.me/nepsebot]).
 
 ## API
 
-api created by this website(update at every 5 mins):- https://rockerritesh.github.io/api-nepse/nepse-api.json
+~~api created by this website(update at every 5 mins):- https://rockerritesh.github.io/api-nepse/nepse-api.json~~
