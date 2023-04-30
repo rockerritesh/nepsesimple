@@ -45,7 +45,7 @@ reg = LinearRegression()
 reg.fit(x, y)
 
 # Predict the next data point using the linear regression model
-next_index = reg.predict(np.array(len(y)+1).reshape(1, -1))[0]
+next_index = reg.predict(np.array(len(y) + 1).reshape(1, -1))[0]
 
 # Get today's date
 today = date.today()
@@ -57,12 +57,21 @@ plt.plot(df["Date (AD)"], df["Index Value"], "bo-", label="Index Value")
 plt.plot(date_str, next_index, "ro", label="Predicted Next Index Value")
 
 # Add annotations
-plt.annotate(f"Predicted: {next_index:.2f}", xy=(date_str, next_index),
-             xytext=(-50, 30), textcoords="offset points",
-             arrowprops=dict(arrowstyle="->", color="red"))
-plt.annotate(f"Regression Line: {reg.coef_[0]:.2f}x + {reg.intercept_:.2f}", 
-             xy=(0.05, 0.95), xycoords="axes fraction",
-             fontsize=12, ha="left", va="top")
+plt.annotate(
+    f"Predicted: {next_index:.2f}",
+    xy=(date_str, next_index),
+    xytext=(-50, 30),
+    textcoords="offset points",
+    arrowprops=dict(arrowstyle="->", color="red"),
+)
+plt.annotate(
+    f"Regression Line: {reg.coef_[0]:.2f}x + {reg.intercept_:.2f}",
+    xy=(0.05, 0.95),
+    xycoords="axes fraction",
+    fontsize=12,
+    ha="left",
+    va="top",
+)
 
 # Add regression line
 plt.plot(df["Date (AD)"], reg.predict(x), "g--", label="Regression Line")
@@ -83,7 +92,6 @@ plt.savefig("graph.png")
 # Send the image to the chat using the chat ID
 # with open("graph.png", "rb") as f:
 #    bot.send_photo(chat_id=CHAT_ID, photo=InputFile(f))
-
 
 
 # FOR STOCK
