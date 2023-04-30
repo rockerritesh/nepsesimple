@@ -11,6 +11,7 @@ import requests
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
+from datetime import date
 
 # import openpyxl
 import matplotlib.pyplot as plt
