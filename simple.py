@@ -27,7 +27,7 @@ from telegram import InputFile
 # bot = telegram.Bot(token=BOT_TOKEN)
 # In[143]:
 
-'''
+"""
 url2 = "https://www.nepalipaisa.com/Indices.aspx"
 html2 = requests.get(url2, verify=False).content
 df_list2 = pd.read_html(html2)
@@ -68,7 +68,7 @@ plt.savefig("graph.png")
 # with open("graph.png", "rb") as f:
 #    bot.send_photo(chat_id=CHAT_ID, photo=InputFile(f))
 
-'''
+"""
 
 # FOR STOCK
 
