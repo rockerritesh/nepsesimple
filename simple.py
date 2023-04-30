@@ -27,40 +27,38 @@ from telegram import InputFile
 # bot = telegram.Bot(token=BOT_TOKEN)
 # In[143]:
 
-"""
-url2 = "https://www.nepalipaisa.com/Indices.aspx"
-html2 = requests.get(url2, verify=False).content
-df_list2 = pd.read_html(html2)
 
+# Load data from the URL
+url = "https://merolagani.com/Indices.aspx"
+df = pd.read_html(url)[0]
+df = df.iloc[::-1].reset_index(drop=True)
+print(df)
+# Create X and Y arrays for regression analysis
+y = np.array(df["Index Value"])
+x = np.linspace(1, len(y), len(y)).reshape(-1, 1)
 
-y = np.array(df_list2[1]["Nepse Index Value"])
-y.shape
-
-
-x = np.linspace(1, 57, len(y)).reshape(-1, 1)
-x.shape
-
-# In[151]:
-
-
-from sklearn import linear_model
-
-reg = linear_model.LinearRegression()
+# Perform linear regression on the data
+reg = LinearRegression()
 reg.fit(x, y)
-pred = np.array(58).reshape(1, 1)
-reg.predict(pred)
 
+# Predict the next data point using the linear regression model
+next_index = reg.predict(np.array(len(y)+1).reshape(1, -1))[0]
 
-from datetime import date
-
+# Get today's date
 today = date.today()
-# today
-Str = date.isoformat(today)
-plt.figure(figsize=(40, 25))
-# plt.plot(df_list2[1]['Absolute Change'])
-# plt.plot(df_list2[1]['Percent Change'])
-plt.plot(Str, reg.predict(pred), "go--")
-plt.plot(df_list2[1]["Date"], df_list2[1]["Nepse Index Value"], "go--")
+date_str = date.isoformat(today)
+
+# Plot the data and regression line
+plt.figure(figsize=(16, 8))
+plt.plot(df["Date (AD)"], df["Index Value"], "bo-", label="Index Value")
+plt.plot(date_str, next_index, "ro", label="Predicted Next Index Value")
+plt.plot(df["Date (AD)"], reg.predict(x), "g--", label="Regression Line")
+plt.xlabel("Date")
+plt.ylabel("Index Value")
+plt.title("Nepal Stock Exchange NEPSE Index Value")
+plt.legend()
+plt.grid()
+plt.show()
 plt.savefig("graph.png")
 
 
@@ -68,7 +66,7 @@ plt.savefig("graph.png")
 # with open("graph.png", "rb") as f:
 #    bot.send_photo(chat_id=CHAT_ID, photo=InputFile(f))
 
-"""
+
 
 # FOR STOCK
 
