@@ -89,8 +89,8 @@ df_list_stock = pd.read_html(htmlstock)
 df_stock = df_list_stock[3]
 df_stock.to_csv("stock.csv")
 stok_html = df_stock.to_html()
-#df_stock.to_html("stock.html")
-#df_stock
+# df_stock.to_html("stock.html")
+# df_stock
 
 # make stock.html by appending asadas and stok_html
 stok_html = asadas + stok_html + "</body> </html>"
@@ -107,15 +107,11 @@ with open("toptransactions.html", "w") as output:
     output.write(html)
 
 
-
-
 top_volum = df_list_stock[-3].to_html()
 # append asadas with top_volum and save as topvolume.html
 html = asadas + str(top_volum) + "</body> </html>"
 with open("topvolume.html", "w") as output:
     output.write(html)
-
-
 
 
 gold = df_list_stock[-7].to_html()
@@ -125,13 +121,11 @@ with open("gold.html", "w") as output:
     output.write(html)
 
 
-
 compare = df_list_stock[-8].to_html("compare.html")
 # append asadas with compare and save as compare.html
 html = asadas + str(compare) + "</body> </html>"
 with open("compare.html", "w") as output:
     output.write(html)
-
 
 
 index = df_list_stock[-12].to_html()
@@ -140,7 +134,7 @@ htmlshare = requests.get(urlshare).content
 df_list_share = pd.read_html(htmlshare)
 df_share = df_list_share[2]
 
-#df_share.to_html("ipo.html")
+# df_share.to_html("ipo.html")
 # df_list_share[1].to_html("bonous.html")
 # df_list_share[4].to_html("newsofbank.html")
 # df_list_share[5].to_html("stock.html")
@@ -149,10 +143,26 @@ df_share = df_list_share[2]
 # df_list_share[0].to_html("bookclosure.html")
 
 # merge df_list_share[7] to df_list_share[0] and save as details.html with appropriate html tags
-html = asadas + str("<h2> Share </h2>") + str(df_share.to_html()) + str("<h2> Bonous </h2>") + str(df_list_share[1].to_html()) + str("<h2> News of Bank </h2>") + str(df_list_share[4].to_html()) + str("<h2> Stock </h2>") + str(df_list_share[5].to_html()) + str("<h2> Grade of Company </h2>") + str(df_list_share[6].to_html()) + str("<h2> Company Merged </h2>") + str(df_list_share[7].to_html()) + str("<h2> Book Closure </h2>") + str(df_list_share[0].to_html()) + "</body> </html>"
+html = (
+    asadas
+    + str("<h2> Share </h2>")
+    + str(df_share.to_html())
+    + str("<h2> Bonous </h2>")
+    + str(df_list_share[1].to_html())
+    + str("<h2> News of Bank </h2>")
+    + str(df_list_share[4].to_html())
+    + str("<h2> Stock </h2>")
+    + str(df_list_share[5].to_html())
+    + str("<h2> Grade of Company </h2>")
+    + str(df_list_share[6].to_html())
+    + str("<h2> Company Merged </h2>")
+    + str(df_list_share[7].to_html())
+    + str("<h2> Book Closure </h2>")
+    + str(df_list_share[0].to_html())
+    + "</body> </html>"
+)
 with open("details.html", "w") as output:
     output.write(html)
-
 
 
 # json file nepssimpleeapi
