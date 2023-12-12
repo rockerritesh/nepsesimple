@@ -117,7 +117,41 @@
           margin-bottom: 10px;
         }
       }
+
+      /* Dark mode styles */
+      body.dark-mode {
+        background-color: #333;
+        color: #fff;
+      }
+
     </style>
+
+    <!-- Add this script for dark mode toggle -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const body = document.body;
+        const modeButton = document.getElementById('darkModeToggle');
+
+        // Check user preference from localStorage
+        const darkModeEnabled = localStorage.getItem('darkModeEnabled') === 'true';
+
+        // Apply dark mode if enabled
+        if (darkModeEnabled) {
+          body.classList.add('dark-mode');
+        }
+
+        // Toggle dark mode on button click
+        modeButton.addEventListener('click', function () {
+          body.classList.toggle('dark-mode');
+          const isDarkMode = body.classList.contains('dark-mode');
+
+          // Save user preference to localStorage
+          localStorage.setItem('darkModeEnabled', isDarkMode);
+        });
+      });
+    </script>
+
+
   </head>
   <body>
     <header>
@@ -128,24 +162,30 @@
         <nav>
           <ul class="nav">
             <li><a href="https://rockerritesh.github.io/nepsesimple/index">Home</a></li>
-            <li><a href"https://rockerritesh.github.io/nepsesimple/each_company">Today Summary</a></li>
-				<li><a href="https://rockerritesh.github.io/nepsesimple/marketsummary">Summary</a></li>
-				<li><a href="https://rockerritesh.github.io/nepsesimple/marketdata">Top Value Data</a></li>
-				<li><a href="https://rockerritesh.github.io/nepsesimple/ipo">IPO</a></li>
-				<li><a href="https://rockerritesh.github.io/nepsesimple/todayindex">Indices</a></li>
-
+            <li><a href"https://rockerritesh.github.io/nepsesimple/details">Today Summary</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/stock">Stock</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/details">Top Value Data</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/details">IPO</a></li>
+				<li><a href="https://rockerritesh.github.io/nepsesimple/details">Indices</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/topvolume">Today TOP VOLUME</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/toptransactions">Top Transactions</a></li>
-				<li><a href="https://rockerritesh.github.io/nepsesimple/gradeofcompany">Grade Of Company</a></li>
 				<li><a href="https://rockerritesh.github.io/nepsesimple/compare">Compare Company</a></li>
 
-        <li><a href="https://rockerritesh.github.io/nepsesimple/each_company">Each Company</a></li>
+        <li><a href="https://rockerritesh.github.io/nepsesimple/gold">Gold</a></li>
 				<p dir="auto"><a href="https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml"><img src="https://github.com/rockerritesh/nepsesimple/actions/workflows/update.yml/badge.svg" alt="Update file(s)" style="max-width: 100%;"></a></p>
 <span style="border: 1px solid rgb(219, 219, 219);  padding: 1px 0px 0px 6px; border-radius:3px; height:20px; background-color: rgba(234, 234, 234, 0.5); width:310px; display:block;">
 <iframe scrolling="no" border="0" frameborder="0" marginwidth="0" marginheight="0" allowtransparency="true" src="https://www.ashesh.com.np/linknepali-time.php?time_only=no&font_color=666666&aj_time=yes&font_size=12&line_brake=0&bikram_sambat=0&api=711288n597" width="305" height="22"></iframe></span>
 			</ul>
 		</nav>
 	</div>
+
+  <!-- Dark mode toggle button -->
+      <div class="mode">
+        <button id="darkModeToggle" class="change" aria-label="Toggle Dark Mode">
+          <i class="fas fa-adjust"></i>
+        </button>
+      </div>
+
 </header>
 </body>
 

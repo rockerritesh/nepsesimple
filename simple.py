@@ -18,17 +18,8 @@ import matplotlib.pyplot as plt
 import bs4
 import html5lib
 
-
-# ----MY----
-# BOT_TOKEN = ""
-# CHAT_ID = ""
-
-import telegram
-from telegram import InputFile
-
-# Create a bot instance
-# bot = telegram.Bot(token=BOT_TOKEN)
-# In[143]:
+# import telegram
+# from telegram import InputFile
 
 
 # Load data from the URL
@@ -89,11 +80,6 @@ plt.savefig("graph.png")
 plt.show()
 
 
-# Send the image to the chat using the chat ID
-# with open("graph.png", "rb") as f:
-#    bot.send_photo(chat_id=CHAT_ID, photo=InputFile(f))
-
-
 # FOR STOCK
 
 urlstock = "https://www.sharesansar.com/market"
@@ -102,74 +88,72 @@ df_list_stock = pd.read_html(htmlstock)
 
 df_stock = df_list_stock[3]
 df_stock.to_csv("stock.csv")
-df_stock.to_html("stock.html")
+stok_html = df_stock.to_html()
+#df_stock.to_html("stock.html")
+#df_stock
+
+# make stock.html by appending asadas and stok_html
+stok_html = asadas + stok_html + "</body> </html>"
+
+# save stock.html
+with open("stock.html", "w") as output:
+    output.write(stok_html)
 
 
-# In[157]:
+top_trans = df_list_stock[-2].to_html()
+# append asadas with top_trans and save as toptransactions.html
+html = asadas + str(top_trans) + "</body> </html>"
+with open("toptransactions.html", "w") as output:
+    output.write(html)
 
 
-df_list_stock[-2].to_html("toptransactions.html")
 
-# Send a message to the chat using the chat ID
-# bot.send_message(
-#    chat_id=CHAT_ID, text="```" + "\n" + df_list_stock[-2].to_csv() + "\n" + "```"
-# )
 
-df_list_stock[-3].to_html("topvolume.html")
+top_volum = df_list_stock[-3].to_html()
+# append asadas with top_volum and save as topvolume.html
+html = asadas + str(top_volum) + "</body> </html>"
+with open("topvolume.html", "w") as output:
+    output.write(html)
 
-# Send a message to the chat using the chat ID
-# bot.send_message(
-#    chat_id=CHAT_ID, text="```" + "\n" + df_list_stock[-3].to_csv() + "\n" + "```"
-# )
 
-df_list_stock[-7].to_html("gold.html")
-df_list_stock[-8].to_html("compare.html")
 
-# Send a message to the chat using the chat ID
-# bot.send_message(
-#    chat_id=CHAT_ID, text="```" + "\n" + df_list_stock[-8].to_csv() + "\n" + "```"
-# )
+
+gold = df_list_stock[-7].to_html()
+# append asadas with gold and save as gold.html
+html = asadas + str(gold) + "</body> </html>"
+with open("gold.html", "w") as output:
+    output.write(html)
+
+
+
+compare = df_list_stock[-8].to_html("compare.html")
+# append asadas with compare and save as compare.html
+html = asadas + str(compare) + "</body> </html>"
+with open("compare.html", "w") as output:
+    output.write(html)
+
+
 
 index = df_list_stock[-12].to_html()
 urlshare = "https://www.sharesansar.com/?show=home"
 htmlshare = requests.get(urlshare).content
 df_list_share = pd.read_html(htmlshare)
 df_share = df_list_share[2]
-df_share.to_csv("ipo.csv")
 
-# Send a message to the chat using the chat ID
-# bot.send_message(chat_id=CHAT_ID, text="```" + "\n" + df_share.to_csv() + "\n" + "```")
+#df_share.to_html("ipo.html")
+# df_list_share[1].to_html("bonous.html")
+# df_list_share[4].to_html("newsofbank.html")
+# df_list_share[5].to_html("stock.html")
+# df_list_share[6].to_html("gradeofcompany.html")
+# df_list_share[7].to_html("companymerged.html")
+# df_list_share[0].to_html("bookclosure.html")
 
-df_share.to_html("ipo.html")
-df_list_share[1].to_html("bonous.html")
-df_list_share[4].to_html("newsofbank.html")
-df_list_share[5].to_html("stock.html")
-df_list_share[6].to_html("gradeofcompany.html")
-
-# Send a message to the chat using the chat ID
-# bot.send_message(
-#    chat_id=CHAT_ID, text="```" + "\n" + df_list_share[6].to_csv() + "\n" + "```"
-# )
-
-df_list_share[7].to_html("companymerged.html")
-df_list_share[0].to_html("bookclosure.html")
-"""# new way direct from nepalstock.com
-
-nepse = requests.get("http://nepalstock.com")
-soup = bs4.BeautifulSoup(nepse.text, "html5lib")
-category = soup.find_all(class_="panel-body")
-
-html = asadas + str(category[3]) + "</body> </html>"
-with open("marketsummary.html", "w") as output:
+# merge df_list_share[7] to df_list_share[0] and save as details.html with appropriate html tags
+html = asadas + str("<h2> Share </h2>") + str(df_share.to_html()) + str("<h2> Bonous </h2>") + str(df_list_share[1].to_html()) + str("<h2> News of Bank </h2>") + str(df_list_share[4].to_html()) + str("<h2> Stock </h2>") + str(df_list_share[5].to_html()) + str("<h2> Grade of Company </h2>") + str(df_list_share[6].to_html()) + str("<h2> Company Merged </h2>") + str(df_list_share[7].to_html()) + str("<h2> Book Closure </h2>") + str(df_list_share[0].to_html()) + "</body> </html>"
+with open("details.html", "w") as output:
     output.write(html)
 
-html = asadas + str(category[2]) + "</body> </html>"
-with open("marketdata.html", "w") as output:
-    output.write(html)
 
-html = asadas + str(category[4]) + "</body> </html>"
-with open("todayindex.html", "w") as output:
-    output.write(html)"""
 
 # json file nepssimpleeapi
 df = pd.read_html("https://www.sharesansar.com/today-share-price")
