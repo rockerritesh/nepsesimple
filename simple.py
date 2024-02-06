@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 # Open the file in read mode
-with open("html.txt", "r") as f:
+with open("docs/html.txt", "r") as f:
     # Read the contents of the file
     asadas = f.read()
 
@@ -76,7 +76,7 @@ plt.ylabel("Index Value")
 plt.title("Nepal Stock Exchange NEPSE Index Value")
 plt.legend()
 plt.grid()
-plt.savefig("graph.png")
+plt.savefig("docs/graph.png")
 plt.show()
 
 
@@ -87,7 +87,7 @@ htmlstock = requests.get(urlstock).content
 df_list_stock = pd.read_html(htmlstock)
 
 df_stock = df_list_stock[3]
-df_stock.to_csv("stock.csv")
+df_stock.to_csv("docs/stock.csv")
 stok_html = df_stock.to_html()
 # df_stock.to_html("stock.html")
 # df_stock
@@ -96,35 +96,35 @@ stok_html = df_stock.to_html()
 stok_html = asadas + stok_html + "</body> </html>"
 
 # save stock.html
-with open("stock.html", "w") as output:
+with open("docs/stock.html", "w") as output:
     output.write(stok_html)
 
 
 top_trans = df_list_stock[-2].to_html()
 # append asadas with top_trans and save as toptransactions.html
 html = asadas + str(top_trans) + "</body> </html>"
-with open("toptransactions.html", "w") as output:
+with open("docs/toptransactions.html", "w") as output:
     output.write(html)
 
 
 top_volum = df_list_stock[-3].to_html()
 # append asadas with top_volum and save as topvolume.html
 html = asadas + str(top_volum) + "</body> </html>"
-with open("topvolume.html", "w") as output:
+with open("docs/topvolume.html", "w") as output:
     output.write(html)
 
 
 gold = df_list_stock[-7].to_html()
 # append asadas with gold and save as gold.html
 html = asadas + str(gold) + "</body> </html>"
-with open("gold.html", "w") as output:
+with open("docs/gold.html", "w") as output:
     output.write(html)
 
 
 compare = df_list_stock[-8].to_html("compare.html")
 # append asadas with compare and save as compare.html
 html = asadas + str(compare) + "</body> </html>"
-with open("compare.html", "w") as output:
+with open("docs/compare.html", "w") as output:
     output.write(html)
 
 
@@ -161,7 +161,7 @@ html = (
     + str(df_list_share[0].to_html())
     + "</body> </html>"
 )
-with open("details.html", "w") as output:
+with open("docs/details.html", "w") as output:
     output.write(html)
 
 
@@ -171,8 +171,8 @@ df = df[-1].T
 # Send a message to the chat using the chat ID
 # bot.send_message(chat_id=CHAT_ID, text=df.to_csv())
 
-df.to_json("nepsesimple.json")
+df.to_json("docs/nepsesimple.json")
 html = df.T.to_html()
 html = asadas + index + html + "</body> </html>"
-with open("index.html", "w") as output:
+with open("docs/index.html", "w") as output:
     output.write(html)
