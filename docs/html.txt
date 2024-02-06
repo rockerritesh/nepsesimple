@@ -157,7 +157,7 @@
     <header>
       <div class="container">
         <div class="logo">
-          <a href="https://sumityadav.com.np"><img src="https://rockerritesh.github.io/nepsesimple/android-chrome-192x192.png" alt="Logo"  /></a>
+          <a href="https://sumityadav.com.np"><img src="https://github.com/rockerritesh/nepsesimple/raw/main/docs/android-chrome-192x192.png" alt="Logo"  /></a>
         </div>
         <nav>
           <ul class="nav">
@@ -193,14 +193,14 @@
 
   <p>
   <img class="lazyautosizes lazyloaded"
-         src="https://github.com/rockerritesh/nepsesimple/raw/main/graph.png"
-         data-src="https://github.com/rockerritesh/nepsesimple/raw/main/graph.png"
-         data-srcset="https://github.com/rockerritesh/nepsesimple/raw/main/graph.png, https://github.com/rockerritesh/nepsesimple/raw/main/graph.png 1.5x, https://github.com/rockerritesh/nepsesimple/raw/main/graph.png 2x"
+         src="https://github.com/rockerritesh/nepsesimple/raw/main/docs/graph.png"
+         data-src="https://github.com/rockerritesh/nepsesimple/raw/main/docs/graph.png"
+         data-srcset="https://github.com/rockerritesh/nepsesimple/raw/main/docs/graph.png, https://github.com/rockerritesh/nepsesimple/raw/main/docs/graph.png 1.5x, https://github.com/rockerritesh/nepsesimple/raw/main/docs/graph.png 2x"
          data-sizes="auto"
-         alt="https://github.com/rockerritesh/nepsesimple/raw/main/graph.png"
+         alt="https://github.com/rockerritesh/nepsesimple/raw/main/docs/graph.png"
          title="Graph"
          sizes="auto"
-         srcset="https://github.com/rockerritesh/nepsesimple/raw/main/graph.png, https://github.com/rockerritesh/nepsesimple/raw/main/graph.png 1.5x, https://github.com/rockerritesh/nepsesimple/raw/main/graph.png 2x">
+         srcset="hhttps://github.com/rockerritesh/nepsesimple/raw/main/docs/graph.png, https://github.com/rockerritesh/nepsesimple/raw/main/docs/graph.png 1.5x, https://github.com/rockerritesh/nepsesimple/raw/main/docs/graph.png 2x">
     </p>
 	</div>
 

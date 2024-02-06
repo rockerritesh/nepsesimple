@@ -9,7 +9,7 @@ use our [Telegram Channel](https://t.me/nepsebot]).
 
 ## Graph
 
-![Graph](https://github.com/rockerritesh/nepsesimple/docs/raw/main/graph.png)
+![Graph](blob:https://github.com/0de7d063-40f9-4356-8c50-fc00f9f1e04b)
 
 ## API
 
