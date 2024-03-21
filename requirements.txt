@@ -1,11 +1,4 @@
-beautifulsoup4
-html5lib
-jinja2
-lxml
-matplotlib
-numpy
-openpyxl
-pandas
-requests
-scikit-learn
-python-telegram-bot
+matplotlib                    3.7.1
+pandas                        2.0.2
+requests                      2.28.1
+streamlit                     1.23.1
