@@ -7,7 +7,7 @@ import csv
 import datetime
 import matplotlib.pyplot as plt
 
-def runcmd(cmd, verbose=False):
+def runcmd(cmd, verbose=True):
     process = subprocess.Popen(
         cmd,
         stdout=subprocess.PIPE,
@@ -20,38 +20,39 @@ def runcmd(cmd, verbose=False):
         st.write(std_out.strip(), std_err)
     return std_out.strip()
 
-def csv_json(csv_file, json_file):
-    with open(csv_file, 'r') as file:
-        reader = csv.reader(file)
-        data = list(reader)
-        
-        # check the length of each row
-        length = []
-        for row in data:
-            length.append(len(row))
-        #print(length)
-        
-        # append to make pandas dataframe
-        df = pd.DataFrame(data)
-        df.columns = df.iloc[0]
-        df = df[1:]
-        # drop None columns
-        df = df.drop(columns=[None])
-        # add a cloumn percentage change which does calculation like (close-open)/open*100
-        df['CLOSE_PRICE'] = pd.to_numeric(df['CLOSE_PRICE'], errors='coerce')
-        df['PREVIOUS_DAY_CLOSE_PRICE'] = pd.to_numeric(df['PREVIOUS_DAY_CLOSE_PRICE'], errors='coerce')
-        df['MARKET_CAPITALIZATION'] = pd.to_numeric(df['MARKET_CAPITALIZATION'], errors='coerce')
-        df['TOTAL_TRADED_VALUE'] = pd.to_numeric(df['TOTAL_TRADED_VALUE'], errors='coerce')
-        df['TOTAL_TRADED_QUANTITY'] = pd.to_numeric(df['TOTAL_TRADED_QUANTITY'], errors='coerce')
+def csv_json(csv_file):
+    # with open(csv_file, 'r') as file:
+    reader = csv.reader(csv_file)
+    reader = csv.reader(csv_file.splitlines())
+    data = list(reader)
+    
+    # check the length of each row
+    length = []
+    for row in data:
+        length.append(len(row))
+    #print(length)
+    
+    # append to make pandas dataframe
+    df = pd.DataFrame(data)
+    df.columns = df.iloc[0]
+    df = df[1:]
+    # drop None columns
+    df = df.drop(columns=[None])
+    # add a cloumn percentage change which does calculation like (close-open)/open*100
+    df['CLOSE_PRICE'] = pd.to_numeric(df['CLOSE_PRICE'], errors='coerce')
+    df['PREVIOUS_DAY_CLOSE_PRICE'] = pd.to_numeric(df['PREVIOUS_DAY_CLOSE_PRICE'], errors='coerce')
+    df['MARKET_CAPITALIZATION'] = pd.to_numeric(df['MARKET_CAPITALIZATION'], errors='coerce')
+    df['TOTAL_TRADED_VALUE'] = pd.to_numeric(df['TOTAL_TRADED_VALUE'], errors='coerce')
+    df['TOTAL_TRADED_QUANTITY'] = pd.to_numeric(df['TOTAL_TRADED_QUANTITY'], errors='coerce')
 
-        df['PERCENTAGE_CHANGE'] = (df['CLOSE_PRICE'] - df['PREVIOUS_DAY_CLOSE_PRICE']) / df['PREVIOUS_DAY_CLOSE_PRICE'] * 100
+    df['PERCENTAGE_CHANGE'] = (df['CLOSE_PRICE'] - df['PREVIOUS_DAY_CLOSE_PRICE']) / df['PREVIOUS_DAY_CLOSE_PRICE'] * 100
 
-        df = df.sort_values(by='PERCENTAGE_CHANGE', ascending=False)
-        
-        df.to_json(json_file, orient='records')
-        # json_respons  = df.to_json(orient='records')
-        
-        return df
+    df = df.sort_values(by='PERCENTAGE_CHANGE', ascending=False)
+    
+    # df.to_json(json_file, orient='records')
+    # json_respons  = df.to_json(orient='records')
+    
+    return df
 
 
 def display_details(stock):
@@ -146,9 +147,10 @@ def main():
     today = datetime.date.today().strftime("%Y-%m-%d")
     
     # Download the CSV file
-    runcmd(f'wget -O today.csv --no-check-certificate https://www.nepalstock.com.np/api/nots/market/export/todays-price/{today}', verbose=False)
+    df_out = runcmd(f'cat {today} || wget --no-check-certificate https://www.nepalstock.com.np/api/nots/market/export/todays-price/{today}', verbose=False)
+    #print(df_out)
     
-    df = csv_json('today.csv', 'today.json')
+    df = csv_json(df_out)
     
     # write the summary of the data in container with markdown
     
