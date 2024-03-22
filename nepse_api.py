@@ -4,10 +4,11 @@ import requests
 import subprocess
 import pandas as pd
 import csv
+import asyncio
 import datetime
 import matplotlib.pyplot as plt
 
-def runcmd(cmd, verbose=True):
+async def runcmd(cmd, verbose=True):
     process = subprocess.Popen(
         cmd,
         stdout=subprocess.PIPE,
@@ -19,6 +20,35 @@ def runcmd(cmd, verbose=True):
     if verbose:
         st.write(std_out.strip(), std_err)
     return std_out.strip()
+
+async def download_data():
+    today = datetime.date.today().strftime("%Y-%m-%d")
+    yesterday = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+    past_date = datetime.date.today() - datetime.timedelta(days=2)
+    
+    while True:
+        # Check if today's file is empty
+        df_data = await runcmd(f'cat {today} || wget --no-check-certificate https://www.nepalstock.com.np/api/nots/market/export/todays-price/{today}', verbose=False)
+        # print(today)
+        if df_data.strip() == '':
+            # Today's file is empty, let's try yesterday
+            df_data = await runcmd(f'cat {yesterday} || wget --no-check-certificate https://www.nepalstock.com.np/api/nots/market/export/todays-price/{yesterday}', verbose=False)
+            # print(yesterday)
+            if df_data.strip() == '':
+                # Yesterday's file is also empty, fetch past day's data
+                past_date_str = past_date.strftime("%Y-%m-%d")
+                df_data = await runcmd(f'cat {past_date_str} || wget --no-check-certificate https://www.nepalstock.com.np/api/nots/market/export/todays-price/{past_date_str}', verbose=False)
+                # Update past_date for next iteration
+                past_date -= datetime.timedelta(days=1)
+                # print(past_date)
+                # Sleep for some time to avoid flooding requests
+                await asyncio.sleep(5)  # Adjust sleep time as needed
+            else:
+                break  # Exit loop if yesterday's data is found
+        else:
+            break  # Exit loop if today's data is found
+    # print(df_data)
+    return df_data
 
 def csv_json(csv_file):
     # with open(csv_file, 'r') as file:
@@ -102,7 +132,7 @@ def plot_index_value_over_time(df):
     # Display plot in Streamlit
     st.pyplot(plt)
     
-@st.cache_data
+# @st.cache_data
 def get_ipo_message(url):
     # Fetch HTML content from the URL
     html = requests.get(url).content
@@ -143,12 +173,14 @@ def get_ipo_message(url):
 def main():
     st.title("Nepal Stock Market Data")
 
-    # Get today's date in YEAR-MONTH-DAY format
-    today = datetime.date.today().strftime("%Y-%m-%d")
+    # # Get today's date in YEAR-MONTH-DAY format
+    # today = datetime.date.today().strftime("%Y-%m-%d")
     
-    # Download the CSV file
-    df_out = runcmd(f'cat {today} || wget --no-check-certificate https://www.nepalstock.com.np/api/nots/market/export/todays-price/{today}', verbose=False)
-    #print(df_out)
+    # # Download the CSV file
+    # df_out = runcmd(f'cat {today} || wget --no-check-certificate https://www.nepalstock.com.np/api/nots/market/export/todays-price/{today}', verbose=False)
+    # #print(df_out)
+    
+    df_out = asyncio.run(download_data())
     
     df = csv_json(df_out)
     
@@ -159,7 +191,7 @@ def main():
     c.markdown(f'''
             :red[Total Stocks]: {len(df)} 
             
-            :blue[Date]: {today} 
+            :blue[Date]: {df['BUSINESS_DATE'].iloc[0]} 
             
             :green[Total Market Capitalization]: {df['MARKET_CAPITALIZATION'].sum()} 
             
@@ -211,23 +243,6 @@ def main():
     top_market_capitalization = top_market_capitalization.drop(columns=['BUSINESS_DATE','S.N','SECURITY_ID'])
     st.dataframe(top_market_capitalization)
     
-    
-    
-    
-             
-    # Display buttons for each stock
-    
-    # for index, row in df.iterrows():
-    #     if st.button(row['SYMBOL'], help=row['SECURITY_NAME']):
-    #         st.title(f"Details for {row['SYMBOL']}")
-    #         #with st.expander("Click to view details"):
-    #         display_details(row)
-    
-    # Display buttons for each stock in folder grid view
-    # with st.container():
-    #     for index, row in df.iterrows():
-    #         st.button(row['SYMBOL'], key=row['SYMBOL'], help=row['SECURITY_NAME'], on_click=display_details(row))
-
 
 if __name__ == "__main__":
     main()
