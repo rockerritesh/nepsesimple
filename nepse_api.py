@@ -29,12 +29,12 @@ async def download_data():
     while True:
         # Check if today's file is empty
         df_data = await runcmd(f'cat {today} || wget --no-check-certificate https://www.nepalstock.com.np/api/nots/market/export/todays-price/{today}', verbose=False)
-        await asyncio.sleep(5)  # Adjust sleep time as needed
+        # await asyncio.sleep(5)  # Adjust sleep time as needed
         # print(today)
         if df_data.strip() == '':
             # Today's file is empty, let's try yesterday
             df_data = await runcmd(f'cat {yesterday} || wget --no-check-certificate https://www.nepalstock.com.np/api/nots/market/export/todays-price/{yesterday}', verbose=False)
-            await asyncio.sleep(5)  # Adjust sleep time as needed
+            # await asyncio.sleep(5)  # Adjust sleep time as needed
             # print(yesterday)
             if df_data.strip() == '':
                 # Yesterday's file is also empty, fetch past day's data
@@ -44,7 +44,7 @@ async def download_data():
                 past_date -= datetime.timedelta(days=1)
                 # print(past_date)
                 # Sleep for some time to avoid flooding requests
-                await asyncio.sleep(5)  # Adjust sleep time as needed
+                # await asyncio.sleep(5)  # Adjust sleep time as needed
             else:
                 break  # Exit loop if yesterday's data is found
         else:
