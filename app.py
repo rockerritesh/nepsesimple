@@ -117,29 +117,41 @@ def display_details(stock):
     else:
         st.write(f"**Percentage Change:** <span style='color:red'>{stock['PERCENTAGE_CHANGE']}</span>", unsafe_allow_html=True)
         
+# def plot_index_value_over_time(df):
+#     # Convert 'Date (AD)' column to datetime format
+#     df['Date (AD)'] = pd.to_datetime(df['Date (AD)'])
+
+#     # Plotting
+#     plt.figure(figsize=(10, 6))
+#     plt.plot(df['Date (AD)'], df['Index Value'], marker='o', linestyle='-', color='b', label='Index Value')
+#     plt.xlabel('Date')
+#     plt.ylabel('Index Value')
+#     plt.title('Index Value Over Time')
+#     plt.xticks(rotation=45)
+#     plt.grid(True)
+
+#     # Adding secondary y-axis for absolute change
+#     plt.twinx()
+#     plt.plot(df['Date (AD)'], df['Absolute Change'], marker='s', linestyle='-', color='r', label='Absolute Change')
+#     plt.ylabel('Absolute Change')
+#     plt.legend(loc='upper left')
+
+#     plt.tight_layout()
+    
+#     # Display plot in Streamlit
+#     st.pyplot(plt)
+    
 def plot_index_value_over_time(df):
     # Convert 'Date (AD)' column to datetime format
     df['Date (AD)'] = pd.to_datetime(df['Date (AD)'])
 
-    # Plotting
-    plt.figure(figsize=(10, 6))
-    plt.plot(df['Date (AD)'], df['Index Value'], marker='o', linestyle='-', color='b', label='Index Value')
-    plt.xlabel('Date')
-    plt.ylabel('Index Value')
-    plt.title('Index Value Over Time')
-    plt.xticks(rotation=45)
-    plt.grid(True)
 
-    # Adding secondary y-axis for absolute change
-    plt.twinx()
-    plt.plot(df['Date (AD)'], df['Absolute Change'], marker='s', linestyle='-', color='r', label='Absolute Change')
-    plt.ylabel('Absolute Change')
-    plt.legend(loc='upper left')
+    # Line plot for Index Value
+    st.line_chart(df.set_index('Date (AD)')['Index Value'], use_container_width=True)
 
-    plt.tight_layout()
-    
-    # Display plot in Streamlit
-    st.pyplot(plt)
+    # Bar chart for Absolute Change
+    st.bar_chart(df.set_index('Date (AD)')['Absolute Change'], use_container_width=True)
+
     
 # @st.cache_data
 def get_ipo_message(url):
@@ -181,6 +193,69 @@ def get_ipo_message(url):
 
 
 
+# def get_stock_details(stock_name):
+#     # Fetch the JSON data
+#     json_out = requests.get(f'https://the-value-crew.github.io/nepse-api/data/company/{stock_name}.json')
+    
+#     json_out = json_out.json()
+    
+#     # Convert JSON data into a DataFrame
+#     df = pd.DataFrame(json_out).T
+
+#     # Convert the nested 'price' dictionaries into separate columns
+#     price_df = df['price'].apply(pd.Series)
+
+#     # Concatenate the original DataFrame with the new 'price' DataFrame
+#     df = pd.concat([df.drop('price', axis=1), price_df], axis=1)
+    
+#     # first column name is the date
+#     df.index.name = 'Date'
+    
+#     # Display the DataFrame
+#     st.write(df)
+
+#     # Display box plots
+#     st.title('Trade Data Box Plots')
+#     fig, axs = plt.subplots(2, 1, figsize=(10, 8))
+
+#     # Close Price Box Plot
+#     axs[0].boxplot(df['close'])
+#     axs[0].set_title('Close Price Box Plot')
+#     axs[0].set_xticklabels(['Close'])
+
+#     # Traded Shares Box Plot
+#     axs[1].boxplot(df['tradedShares'])
+#     axs[1].set_title('Traded Shares Box Plot')
+#     axs[1].set_xticklabels(['Traded Shares'])
+
+#     plt.tight_layout()
+#     st.pyplot(fig)
+    
+    # # Display subplots
+    # st.title('Trade Data Subplots')
+    # fig, axs = plt.subplots(2, 1, figsize=(10, 8))
+
+    # # Traded Shares vs Date
+    # axs[0].plot(df.index, df['tradedShares'], marker='o', linestyle='-')
+    # axs[0].set_title('Traded Shares vs Date')
+    # axs[0].set_xlabel('Date')
+    # axs[0].set_ylabel('Traded Shares')
+
+    # # Close vs Date
+    # axs[1].plot(df.index, df['close'], marker='o', linestyle='-')
+    # axs[1].set_title('Close vs Date')
+    # axs[1].set_xlabel('Date')
+    # axs[1].set_ylabel('Close Price')
+
+    # # Rotate x-axis ticks for better readability
+    # for ax in axs:
+    #     ax.tick_params(axis='x', rotation=45)
+
+    # plt.tight_layout()
+    # st.pyplot(fig)
+    
+    # st.line_chart(df,x = df.index, y = ['close','tradedShares'])
+
 def get_stock_details(stock_name):
     # Fetch the JSON data
     json_out = requests.get(f'https://the-value-crew.github.io/nepse-api/data/company/{stock_name}.json')
@@ -202,45 +277,31 @@ def get_stock_details(stock_name):
     # Display the DataFrame
     st.write(df)
 
-    # Display box plots
-    st.title('Trade Data Box Plots')
-    fig, axs = plt.subplots(2, 1, figsize=(10, 8))
-
-    # Close Price Box Plot
-    axs[0].boxplot(df['close'])
-    axs[0].set_title('Close Price Box Plot')
-    axs[0].set_xticklabels(['Close'])
-
-    # Traded Shares Box Plot
-    axs[1].boxplot(df['tradedShares'])
-    axs[1].set_title('Traded Shares Box Plot')
-    axs[1].set_xticklabels(['Traded Shares'])
-
-    plt.tight_layout()
-    st.pyplot(fig)
-    
-    # Display subplots
-    st.title('Trade Data Subplots')
-    fig, axs = plt.subplots(2, 1, figsize=(10, 8))
+    # Display line plots
+    st.title('Trade Data Line Plots')
 
     # Traded Shares vs Date
-    axs[0].plot(df.index, df['tradedShares'], marker='o', linestyle='-')
-    axs[0].set_title('Traded Shares vs Date')
-    axs[0].set_xlabel('Date')
-    axs[0].set_ylabel('Traded Shares')
+    st.subheader('Traded Shares vs Date')
+    st.line_chart(df['tradedShares'])
 
     # Close vs Date
-    axs[1].plot(df.index, df['close'], marker='o', linestyle='-')
-    axs[1].set_title('Close vs Date')
-    axs[1].set_xlabel('Date')
-    axs[1].set_ylabel('Close Price')
+    st.subheader('Close Price vs Date')
+    st.line_chart(df['close'])
 
-    # Rotate x-axis ticks for better readability
-    for ax in axs:
-        ax.tick_params(axis='x', rotation=45)
+    # Display box plots
+    st.title('Trade Data Box Plots')
 
-    plt.tight_layout()
-    st.pyplot(fig)
+    # Close Price Box Plot
+    st.subheader('Close Price Box Plot')
+    st.bar_chart(df['close'])
+    
+    # Diff Box Plot
+    st.subheader('Diff Box Plot')
+    st.bar_chart(df['diff'])
+
+    # Traded Shares Box Plot
+    st.subheader('Traded Shares Box Plot')
+    st.bar_chart(df['tradedShares'])
 
 def main():
     st.title("Nepal Stock Market Data")
