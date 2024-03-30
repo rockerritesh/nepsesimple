@@ -292,15 +292,15 @@ def get_stock_details(stock_name):
     st.title('Trade Data Box Plots')
 
     # Close Price Box Plot
-    st.subheader('Close Price Box Plot')
+    st.subheader('Close Price Bar Plot')
     st.bar_chart(df['close'])
     
     # Diff Box Plot
-    st.subheader('Diff Box Plot')
+    st.subheader('Diff Bar Plot')
     st.bar_chart(df['diff'])
 
     # Traded Shares Box Plot
-    st.subheader('Traded Shares Box Plot')
+    st.subheader('Traded Shares Bar Plot')
     st.bar_chart(df['tradedShares'])
 
 def main():
