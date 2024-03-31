@@ -2,4 +2,5 @@ matplotlib
 pandas              
 requests               
 streamlit     
-lxml       
+lxml    
+plotly   

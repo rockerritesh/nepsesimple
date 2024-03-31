@@ -7,6 +7,9 @@ import csv
 import asyncio
 import datetime
 import matplotlib.pyplot as plt
+import plotly.graph_objects as go
+
+
 
 # async def runcmd(cmd, verbose=True):
 #     process = subprocess.Popen(
@@ -277,6 +280,12 @@ def get_stock_details(stock_name):
     # Display the DataFrame
     st.write(df)
 
+    # Display Candelstick plot
+    st.title('Trade Data Candlestick Plot')
+    fig = go.Figure()
+    fig.add_trace(go.Candlestick(x=df.index, open=df['open'], high=df['max'], low=df['min'], close=df['close']) )
+    st.plotly_chart(fig)
+    
     # Display line plots
     st.title('Trade Data Line Plots')
 
@@ -302,6 +311,9 @@ def get_stock_details(stock_name):
     # Traded Shares Box Plot
     st.subheader('Traded Shares Bar Plot')
     st.bar_chart(df['tradedShares'])
+    
+    
+    
 
 def main():
     st.title("Nepal Stock Market Data")
