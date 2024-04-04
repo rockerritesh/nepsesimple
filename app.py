@@ -58,6 +58,9 @@ def main():
                 high=df_plot['High'],
                 low=df_plot['Open'],
                 close=df_plot['Index Value'])])
+    # plot moving average
+    fig.add_trace(go.Scatter(x=df_plot['Date (AD)'], y=df_plot['Index Value'].rolling(window=5).mean(), mode='lines', name='Moving Average 5 Days'))
+
     st.plotly_chart(fig)
     
     # Call the function to display the plot

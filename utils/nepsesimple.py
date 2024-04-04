@@ -285,8 +285,11 @@ def get_stock_details(stock_name):
 
     # Display Candelstick plot
     st.title('Trade Data Candlestick Plot')
+    # Drop nan values according to the 'open' column
+    df_nan = df.dropna(subset=['open'])
+    
     fig = go.Figure()
-    fig.add_trace(go.Candlestick(x=df.index, open=df['open'], high=df['max'], low=df['min'], close=df['close']) )
+    fig.add_trace(go.Candlestick(x=df_nan.index, open=df_nan['open'], high=df_nan['max'], low=df_nan['min'], close=df_nan['close']) )
     st.plotly_chart(fig)
     
     # Display line plots
