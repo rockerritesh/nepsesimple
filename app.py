@@ -98,7 +98,7 @@ def main():
         st.title("Search Stock")
         stock_name = st.selectbox('Select Stock Symbol', df['Symbol'])
         # write footer "made with <3 by Sumit Yadav[sumityadav.com.np]"
-        st.markdown("Made with ❤️ by [Sumit Yadav](https://sumityadav.com.np)")
+        st.markdown("Made with ❤️ by [Sumit Yadav](https://sumityadav.com.np) Support me: [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J1TRQBI)")
     st.title(f"Search Results of {stock_name} Given Below:")
     get_stock_details(stock_name)
     
