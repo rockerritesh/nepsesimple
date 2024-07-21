@@ -291,6 +291,12 @@ def get_stock_details(stock_name):
     fig = go.Figure()
     fig.add_trace(go.Candlestick(x=df_nan.index, open=df_nan['open'], high=df_nan['max'], low=df_nan['min'], close=df_nan['close']) )
     st.plotly_chart(fig)
+
+    with st.sidebar:
+        # Predictions
+        predict_price(df)
+        st.title('Trade Data Candlestick Plot')
+        st.plotly_chart(fig)
     
     # Display line plots
     st.title('Trade Data Line Plots')
