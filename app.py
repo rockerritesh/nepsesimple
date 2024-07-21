@@ -93,10 +93,11 @@ def main():
     # top_market_capitalization = top_market_capitalization.drop(columns=['BUSINESS_DATE','S.N','SECURITY_ID'])
     st.dataframe(top_market_capitalization)
     
-    # make a search bar to search stock by columns name with dropdown of df['Symbol']
-    st.title("Search Stock")
-    stock_name = st.selectbox('Select Stock Symbol', df['Symbol'])
-    get_stock_details(stock_name)
+    with st.sidebar:
+        # make a search bar to search stock by columns name with dropdown of df['Symbol']
+        st.title("Search Stock")
+        stock_name = st.selectbox('Select Stock Symbol', df['Symbol'])
+        get_stock_details(stock_name)
     
 
 if __name__ == "__main__":
