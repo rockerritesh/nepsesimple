@@ -97,6 +97,7 @@ def main():
         # make a search bar to search stock by columns name with dropdown of df['Symbol']
         st.title("Search Stock")
         stock_name = st.selectbox('Select Stock Symbol', df['Symbol'])
+    st.title(f"Search Results of {stock_name} Given Below:")
     get_stock_details(stock_name)
     
 
