@@ -296,7 +296,7 @@ def get_stock_details(stock_name):
         # Predictions
         predict_price(df)
         st.title('Trade Data Candlestick Plot')
-        st.plotly_chart(fig)
+        st.plotly_chart(fig,key="sidebar")
     
     # Display line plots
     st.title('Trade Data Line Plots')
