@@ -260,23 +260,47 @@ def get_stock_details_pyplot(stock_name):
     st.line_chart(df,x = df.index, y = ['close','tradedShares'])
 
 def get_stock_details(stock_name):
-    # Fetch the JSON data
-    json_out = requests.get(f'https://the-value-crew.github.io/nepse-api/data/company/{stock_name}.json')
-    
-    json_out = json_out.json()
-    
-    # Convert JSON data into a DataFrame
-    df = pd.DataFrame(json_out).T
+    # Fetch the CSV data
+    url = f'https://raw.githubusercontent.com/Aabishkar2/nepse-data/refs/heads/main/data/company-wise/{stock_name}.csv'
+    try:
+        df = pd.read_csv(url)
+    except Exception as e:
+        st.error(f"Error fetching data for {stock_name}: {e}")
+        return
 
-    # Convert the nested 'price' dictionaries into separate columns
-    price_df = df['price'].apply(pd.Series)
+    # Rename columns to match existing structure
+    df = df.rename(columns={
+        'published_date': 'Date',
+        'high': 'max',
+        'low': 'min',
+        'traded_quantity': 'tradedShares',
+        'traded_amount': 'amount'
+    })
 
-    # Concatenate the original DataFrame with the new 'price' DataFrame
-    df = pd.concat([df.drop('price', axis=1), price_df], axis=1)
+    # Set index to Date
+    df['Date'] = pd.to_datetime(df['Date'])
+    df = df.set_index('Date')
     
-    # first column name is the date
-    df.index.name = 'Date'
+    # Sort by date ensures correct shift calculation
+    df = df.sort_index()
+
+    # Calculate missing columns
+    df['prevClose'] = df['close'].shift(1)
+    df['prevClose'] = df['prevClose'].fillna(df['open']) # Fallback for first row
     
+    # diff is usually close - prevClose, or close - open. User request mentions diff in context of boxplots.
+    # Original code had 'diff' likely from JSON. Let's calculate it as close - prevClose.
+    df['diff'] = df['close'] - df['prevClose']
+    
+    # Missing numTrans in CSV, fill with 0
+    df['numTrans'] = 0
+
+    # Ensure numeric types
+    numeric_cols = ['open', 'max', 'min', 'close', 'tradedShares', 'amount', 'numTrans', 'prevClose', 'diff']
+    for col in numeric_cols:
+         df[col] = pd.to_numeric(df[col], errors='coerce')
+
+
     # Display the DataFrame
     st.write(df)
     
