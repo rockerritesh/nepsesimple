@@ -4,7 +4,8 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: "0 */12 * * *" # run every 2 hours
+    - cron: "15 7 * * 0-4"  # 1:00 PM NPT (Sun-Thu)
+    - cron: "30 9 * * 0-4"  # 3:15 PM NPT (Sun-Thu)
  
 jobs:
   update:
