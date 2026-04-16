@@ -129,6 +129,94 @@ with open("docs/compare.html", "w") as output:
 
 
 index = df_list_stock[-12].to_html()
+
+# === JSON EXPORTS ===
+import json
+from datetime import date as _date
+
+_today = _date.today().isoformat()
+
+# Export index data as JSON
+# df_list_stock[-12] has columns: Index, Open, High, Low, Close, Point Change, % Change, Turnover
+_index_df = df_list_stock[-12]
+_index_records = []
+for _, row in _index_df.iterrows():
+    _index_records.append({
+        "name": str(row.get("Index", "")),
+        "open": float(row.get("Open", 0)),
+        "high": float(row.get("High", 0)),
+        "low": float(row.get("Low", 0)),
+        "current": float(row.get("Close", 0)),
+        "points_change": float(row.get("Point Change", 0)),
+        "pct_change": float(row.get("% Change", 0)),
+        "turnover": float(row.get("Turnover", 0)),
+    })
+
+# Sub-indices from table 3
+_sub_index_df = df_list_stock[3]
+_sub_records = []
+for _, row in _sub_index_df.iterrows():
+    _sub_records.append({
+        "name": str(row.iloc[0]) if len(row) > 0 else "",
+        "current": float(row.iloc[1]) if len(row) > 1 else 0,
+        "points_change": float(row.iloc[2]) if len(row) > 2 else 0,
+        "pct_change": float(row.iloc[3]) if len(row) > 3 else 0,
+    })
+
+_index_data = {
+    "date": _today,
+    "primary": _index_records,
+    "sub_indices": _sub_records,
+}
+with open("docs/index_data.json", "w") as f:
+    json.dump(_index_data, f, indent=2)
+
+# Export market summary (gainers, losers, turnover, volume) as JSON
+def _parse_gainer_loser(df):
+    records = []
+    for _, row in df.iterrows():
+        records.append({
+            "symbol": str(row.iloc[0]) if len(row) > 0 else "",
+            "ltp": float(row.iloc[1]) if len(row) > 1 else 0,
+            "point_change": float(row.iloc[2]) if len(row) > 2 else 0,
+            "pct_change": float(row.iloc[3]) if len(row) > 3 else 0,
+        })
+    return records
+
+def _parse_turnover(df):
+    records = []
+    for _, row in df.iterrows():
+        records.append({
+            "symbol": str(row.iloc[0]) if len(row) > 0 else "",
+            "turnover": float(row.iloc[1]) if len(row) > 1 else 0,
+            "ltp": float(row.iloc[2]) if len(row) > 2 else 0,
+        })
+    return records
+
+def _parse_volume(df):
+    records = []
+    for _, row in df.iterrows():
+        records.append({
+            "symbol": str(row.iloc[0]) if len(row) > 0 else "",
+            "volume": float(row.iloc[1]) if len(row) > 1 else 0,
+            "ltp": float(row.iloc[2]) if len(row) > 2 else 0,
+        })
+    return records
+
+_market_summary = {
+    "date": _today,
+    "top_gainers": _parse_gainer_loser(df_list_stock[-6]),
+    "top_losers": _parse_gainer_loser(df_list_stock[-5]),
+    "top_turnover": _parse_turnover(df_list_stock[-4]),
+    "top_volume": _parse_volume(df_list_stock[-3]),
+}
+with open("docs/market_summary.json", "w") as f:
+    json.dump(_market_summary, f, indent=2)
+
+print(f"[JSON] Exported index_data.json ({len(_index_records)} primary, {len(_sub_records)} sub-indices)")
+print(f"[JSON] Exported market_summary.json ({len(_market_summary['top_gainers'])} gainers, {len(_market_summary['top_losers'])} losers)")
+# === END JSON EXPORTS ===
+
 urlshare = "https://www.sharesansar.com/?show=home"
 htmlshare = requests.get(urlshare).content
 df_list_share = pd.read_html(htmlshare)
