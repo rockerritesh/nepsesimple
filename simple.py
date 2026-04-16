@@ -141,27 +141,31 @@ _today = _date.today().isoformat()
 _index_df = df_list_stock[-12]
 _index_records = []
 for _, row in _index_df.iterrows():
-    _index_records.append({
-        "name": str(row.get("Index", "")),
-        "open": float(row.get("Open", 0)),
-        "high": float(row.get("High", 0)),
-        "low": float(row.get("Low", 0)),
-        "current": float(row.get("Close", 0)),
-        "points_change": float(row.get("Point Change", 0)),
-        "pct_change": float(row.get("% Change", 0)),
-        "turnover": float(row.get("Turnover", 0)),
-    })
+    _index_records.append(
+        {
+            "name": str(row.get("Index", "")),
+            "open": float(row.get("Open", 0)),
+            "high": float(row.get("High", 0)),
+            "low": float(row.get("Low", 0)),
+            "current": float(row.get("Close", 0)),
+            "points_change": float(row.get("Point Change", 0)),
+            "pct_change": float(row.get("% Change", 0)),
+            "turnover": float(row.get("Turnover", 0)),
+        }
+    )
 
 # Sub-indices from table 3
 _sub_index_df = df_list_stock[3]
 _sub_records = []
 for _, row in _sub_index_df.iterrows():
-    _sub_records.append({
-        "name": str(row.iloc[0]) if len(row) > 0 else "",
-        "current": float(row.iloc[1]) if len(row) > 1 else 0,
-        "points_change": float(row.iloc[2]) if len(row) > 2 else 0,
-        "pct_change": float(row.iloc[3]) if len(row) > 3 else 0,
-    })
+    _sub_records.append(
+        {
+            "name": str(row.iloc[0]) if len(row) > 0 else "",
+            "current": float(row.iloc[1]) if len(row) > 1 else 0,
+            "points_change": float(row.iloc[2]) if len(row) > 2 else 0,
+            "pct_change": float(row.iloc[3]) if len(row) > 3 else 0,
+        }
+    )
 
 _index_data = {
     "date": _today,
@@ -171,37 +175,47 @@ _index_data = {
 with open("docs/index_data.json", "w") as f:
     json.dump(_index_data, f, indent=2)
 
+
 # Export market summary (gainers, losers, turnover, volume) as JSON
 def _parse_gainer_loser(df):
     records = []
     for _, row in df.iterrows():
-        records.append({
-            "symbol": str(row.iloc[0]) if len(row) > 0 else "",
-            "ltp": float(row.iloc[1]) if len(row) > 1 else 0,
-            "point_change": float(row.iloc[2]) if len(row) > 2 else 0,
-            "pct_change": float(row.iloc[3]) if len(row) > 3 else 0,
-        })
+        records.append(
+            {
+                "symbol": str(row.iloc[0]) if len(row) > 0 else "",
+                "ltp": float(row.iloc[1]) if len(row) > 1 else 0,
+                "point_change": float(row.iloc[2]) if len(row) > 2 else 0,
+                "pct_change": float(row.iloc[3]) if len(row) > 3 else 0,
+            }
+        )
     return records
+
 
 def _parse_turnover(df):
     records = []
     for _, row in df.iterrows():
-        records.append({
-            "symbol": str(row.iloc[0]) if len(row) > 0 else "",
-            "turnover": float(row.iloc[1]) if len(row) > 1 else 0,
-            "ltp": float(row.iloc[2]) if len(row) > 2 else 0,
-        })
+        records.append(
+            {
+                "symbol": str(row.iloc[0]) if len(row) > 0 else "",
+                "turnover": float(row.iloc[1]) if len(row) > 1 else 0,
+                "ltp": float(row.iloc[2]) if len(row) > 2 else 0,
+            }
+        )
     return records
+
 
 def _parse_volume(df):
     records = []
     for _, row in df.iterrows():
-        records.append({
-            "symbol": str(row.iloc[0]) if len(row) > 0 else "",
-            "volume": float(row.iloc[1]) if len(row) > 1 else 0,
-            "ltp": float(row.iloc[2]) if len(row) > 2 else 0,
-        })
+        records.append(
+            {
+                "symbol": str(row.iloc[0]) if len(row) > 0 else "",
+                "volume": float(row.iloc[1]) if len(row) > 1 else 0,
+                "ltp": float(row.iloc[2]) if len(row) > 2 else 0,
+            }
+        )
     return records
+
 
 _market_summary = {
     "date": _today,
@@ -213,8 +227,12 @@ _market_summary = {
 with open("docs/market_summary.json", "w") as f:
     json.dump(_market_summary, f, indent=2)
 
-print(f"[JSON] Exported index_data.json ({len(_index_records)} primary, {len(_sub_records)} sub-indices)")
-print(f"[JSON] Exported market_summary.json ({len(_market_summary['top_gainers'])} gainers, {len(_market_summary['top_losers'])} losers)")
+print(
+    f"[JSON] Exported index_data.json ({len(_index_records)} primary, {len(_sub_records)} sub-indices)"
+)
+print(
+    f"[JSON] Exported market_summary.json ({len(_market_summary['top_gainers'])} gainers, {len(_market_summary['top_losers'])} losers)"
+)
 # === END JSON EXPORTS ===
 
 urlshare = "https://www.sharesansar.com/?show=home"

@@ -1,0 +1,125 @@
+{
+  "date": "2026-04-16",
+  "primary": [
+    {
+      "name": "NEPSE Index",
+      "open": 2834.46,
+      "high": 2879.21,
+      "low": 2834.31,
+      "current": 2866.87,
+      "points_change": 33.27,
+      "pct_change": 1.17,
+      "turnover": 10537008796.56
+    },
+    {
+      "name": "Sensitive Index",
+      "open": 476.25,
+      "high": 483.73,
+      "low": 476.25,
+      "current": 481.87,
+      "points_change": 5.22,
+      "pct_change": 1.09,
+      "turnover": 3587908187.9
+    },
+    {
+      "name": "Float Index",
+      "open": 192.19,
+      "high": 195.13,
+      "low": 192.19,
+      "current": 194.28,
+      "points_change": 2.14,
+      "pct_change": 1.11,
+      "turnover": 10284854006.2
+    },
+    {
+      "name": "Sensitive Float Index",
+      "open": 161.31,
+      "high": 163.8,
+      "low": 161.31,
+      "current": 163.06,
+      "points_change": 1.65,
+      "pct_change": 1.02,
+      "turnover": 3587908187.9
+    }
+  ],
+  "sub_indices": [
+    {
+      "name": "Banking SubIndex",
+      "current": 1468.45,
+      "points_change": 1494.69,
+      "pct_change": 1468.45
+    },
+    {
+      "name": "Development Bank Index",
+      "current": 5999.85,
+      "points_change": 6094.61,
+      "pct_change": 5993.37
+    },
+    {
+      "name": "Finance Index",
+      "current": 2471.99,
+      "points_change": 2522.12,
+      "pct_change": 2471.81
+    },
+    {
+      "name": "Hotels And Tourism",
+      "current": 7969.66,
+      "points_change": 8273.13,
+      "pct_change": 7969.66
+    },
+    {
+      "name": "HydroPower Index",
+      "current": 4053.61,
+      "points_change": 4151.22,
+      "pct_change": 4052.81
+    },
+    {
+      "name": "Investment",
+      "current": 106.41,
+      "points_change": 108.5,
+      "pct_change": 106.41
+    },
+    {
+      "name": "Life Insurance",
+      "current": 12838.36,
+      "points_change": 12971.51,
+      "pct_change": 12812.58
+    },
+    {
+      "name": "Manufacturing And Processing",
+      "current": 11716.61,
+      "points_change": 11849.5,
+      "pct_change": 11660.89
+    },
+    {
+      "name": "Microfinance Index",
+      "current": 4935.2,
+      "points_change": 4997.29,
+      "pct_change": 4935.2
+    },
+    {
+      "name": "Mutual Fund",
+      "current": 21.94,
+      "points_change": 22.07,
+      "pct_change": 21.83
+    },
+    {
+      "name": "Non Life Insurance",
+      "current": 11271.59,
+      "points_change": 11327.04,
+      "pct_change": 11171.41
+    },
+    {
+      "name": "Others Index",
+      "current": 2112.45,
+      "points_change": 2129.85,
+      "pct_change": 2101.34
+    },
+    {
+      "name": "Trading Index",
+      "current": 3792.16,
+      "points_change": 3904.01,
+      "pct_change": 3792.16
+    }
+  ]
+}

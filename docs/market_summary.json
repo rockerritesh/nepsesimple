@@ -1,0 +1,121 @@
+{
+  "date": "2026-04-16",
+  "top_gainers": [
+    {
+      "symbol": "PCIL",
+      "ltp": 399.3,
+      "point_change": 36.3,
+      "pct_change": 10.0
+    },
+    {
+      "symbol": "HFIN",
+      "ltp": 906.6,
+      "point_change": 82.4,
+      "pct_change": 10.0
+    },
+    {
+      "symbol": "SINDU",
+      "ltp": 834.0,
+      "point_change": 75.8,
+      "pct_change": 10.0
+    },
+    {
+      "symbol": "RLEL",
+      "ltp": 1035.1,
+      "point_change": 94.1,
+      "pct_change": 10.0
+    },
+    {
+      "symbol": "SKHEL",
+      "ltp": 980.3,
+      "point_change": 89.1,
+      "pct_change": 10.0
+    }
+  ],
+  "top_losers": [
+    {
+      "symbol": "RSML",
+      "ltp": 4530.0,
+      "point_change": -269.0,
+      "pct_change": -5.61
+    },
+    {
+      "symbol": "ULBSL",
+      "ltp": 3144.0,
+      "point_change": -146.0,
+      "pct_change": -4.44
+    },
+    {
+      "symbol": "SBCF",
+      "ltp": 9.82,
+      "point_change": -0.28,
+      "pct_change": -2.77
+    },
+    {
+      "symbol": "MKHL",
+      "ltp": 722.0,
+      "point_change": -16.4,
+      "pct_change": -2.22
+    },
+    {
+      "symbol": "SABBL",
+      "ltp": 1575.0,
+      "point_change": -35.0,
+      "pct_change": -2.17
+    }
+  ],
+  "top_turnover": [
+    {
+      "symbol": "SHIVM",
+      "turnover": 580963438.2,
+      "ltp": 708.0
+    },
+    {
+      "symbol": "NHPC",
+      "turnover": 571122020.2,
+      "ltp": 324.9
+    },
+    {
+      "symbol": "RSML",
+      "turnover": 494192549.0,
+      "ltp": 4530.0
+    },
+    {
+      "symbol": "SOHL",
+      "turnover": 413214900.4,
+      "ltp": 817.0
+    },
+    {
+      "symbol": "RIDI",
+      "turnover": 376510179.1,
+      "ltp": 375.1
+    }
+  ],
+  "top_volume": [
+    {
+      "symbol": "NHPC",
+      "volume": 1728398.0,
+      "ltp": 324.9
+    },
+    {
+      "symbol": "HDHPC",
+      "volume": 1172317.0,
+      "ltp": 250.0
+    },
+    {
+      "symbol": "KBL",
+      "volume": 1164921.0,
+      "ltp": 233.0
+    },
+    {
+      "symbol": "SSHL",
+      "volume": 1024815.0,
+      "ltp": 235.2
+    },
+    {
+      "symbol": "HIDCLP",
+      "volume": 1008444.0,
+      "ltp": 216.6
+    }
+  ]
+}
