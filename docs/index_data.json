@@ -3,123 +3,123 @@
   "primary": [
     {
       "name": "NEPSE Index",
-      "open": 2831.8,
-      "high": 2846.39,
-      "low": 2813.24,
-      "current": 2825.23,
-      "points_change": -13.17,
-      "pct_change": -0.46,
-      "turnover": 5434240276.3
+      "open": 2838.06,
+      "high": 2838.59,
+      "low": 2796.92,
+      "current": 2807.12,
+      "points_change": -18.1,
+      "pct_change": -0.64,
+      "turnover": 5774317879.28
     },
     {
       "name": "Sensitive Index",
-      "open": 475.39,
-      "high": 478.88,
-      "low": 472.72,
-      "current": 473.71,
-      "points_change": -3.21,
-      "pct_change": -0.67,
-      "turnover": 1389236207.6
+      "open": 476.15,
+      "high": 476.8,
+      "low": 470.0,
+      "current": 470.56,
+      "points_change": -3.15,
+      "pct_change": -0.66,
+      "turnover": 1505131286.9
     },
     {
       "name": "Float Index",
-      "open": 191.11,
-      "high": 192.55,
-      "low": 190.24,
-      "current": 190.77,
-      "points_change": -1.19,
-      "pct_change": -0.62,
-      "turnover": 5365129714.5
+      "open": 191.79,
+      "high": 191.81,
+      "low": 189.14,
+      "current": 189.65,
+      "points_change": -1.12,
+      "pct_change": -0.59,
+      "turnover": 5660392970.3
     },
     {
       "name": "Sensitive Float Index",
-      "open": 160.33,
-      "high": 162.04,
-      "low": 159.73,
-      "current": 160.01,
-      "points_change": -1.23,
-      "pct_change": -0.76,
-      "turnover": 1389236207.6
+      "open": 160.74,
+      "high": 161.05,
+      "low": 158.75,
+      "current": 158.98,
+      "points_change": -1.03,
+      "pct_change": -0.64,
+      "turnover": 1505131286.9
     }
   ],
   "sub_indices": [
     {
       "name": "Banking SubIndex",
-      "current": 1444.03,
-      "points_change": 1480.05,
-      "pct_change": 1443.39
+      "current": 1471.82,
+      "points_change": 1473.25,
+      "pct_change": 1451.0
     },
     {
       "name": "Development Bank Index",
-      "current": 6035.39,
-      "points_change": 6035.79,
-      "pct_change": 5957.06
+      "current": 5962.36,
+      "points_change": 6035.17,
+      "pct_change": 5943.14
     },
     {
       "name": "Finance Index",
-      "current": 2456.91,
-      "points_change": 2484.06,
-      "pct_change": 2421.58
+      "current": 2467.07,
+      "points_change": 2467.07,
+      "pct_change": 2399.0
     },
     {
       "name": "Hotels And Tourism",
-      "current": 8394.04,
-      "points_change": 8454.29,
-      "pct_change": 8265.28
+      "current": 8399.56,
+      "points_change": 8564.26,
+      "pct_change": 8335.51
     },
     {
       "name": "HydroPower Index",
-      "current": 4124.44,
-      "points_change": 4135.63,
-      "pct_change": 4053.06
+      "current": 4093.23,
+      "points_change": 4116.63,
+      "pct_change": 4015.87
     },
     {
       "name": "Investment",
-      "current": 106.21,
-      "points_change": 106.42,
-      "pct_change": 105.08
+      "current": 105.43,
+      "points_change": 105.67,
+      "pct_change": 104.5
     },
     {
       "name": "Life Insurance",
-      "current": 12869.72,
-      "points_change": 12879.01,
-      "pct_change": 12642.71
+      "current": 12973.53,
+      "points_change": 12973.53,
+      "pct_change": 12621.69
     },
     {
       "name": "Manufacturing And Processing",
-      "current": 11789.83,
-      "points_change": 11789.83,
-      "pct_change": 11569.21
+      "current": 11611.95,
+      "points_change": 11735.03,
+      "pct_change": 11457.89
     },
     {
       "name": "Microfinance Index",
-      "current": 4918.96,
-      "points_change": 4930.33,
-      "pct_change": 4883.63
+      "current": 4916.03,
+      "points_change": 4918.78,
+      "pct_change": 4859.3
     },
     {
       "name": "Mutual Fund",
-      "current": 21.98,
-      "points_change": 21.99,
-      "pct_change": 21.72
+      "current": 21.99,
+      "points_change": 22.01,
+      "pct_change": 21.76
     },
     {
       "name": "Non Life Insurance",
-      "current": 11121.08,
-      "points_change": 11165.82,
-      "pct_change": 11029.84
+      "current": 11138.07,
+      "points_change": 11138.07,
+      "pct_change": 10956.06
     },
     {
       "name": "Others Index",
-      "current": 2052.04,
-      "points_change": 2093.86,
-      "pct_change": 2046.88
+      "current": 2065.7,
+      "points_change": 2086.27,
+      "pct_change": 2047.04
     },
     {
       "name": "Trading Index",
-      "current": 3843.03,
-      "points_change": 3892.29,
-      "pct_change": 3747.38
+      "current": 3862.49,
+      "points_change": 3866.38,
+      "pct_change": 3746.66
     }
   ]
 }
