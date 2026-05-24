@@ -1,121 +1,121 @@
 {
-  "date": "2026-05-21",
+  "date": "2026-05-24",
   "top_gainers": [
     {
+      "symbol": "CREST",
+      "ltp": 1318.0,
+      "point_change": 170.0,
+      "pct_change": 14.81
+    },
+    {
+      "symbol": "MABEL",
+      "ltp": 760.0,
+      "point_change": 65.0,
+      "pct_change": 9.35
+    },
+    {
       "symbol": "BUNGAL",
-      "ltp": 746.0,
-      "point_change": 63.2,
-      "pct_change": 9.26
+      "ltp": 814.0,
+      "point_change": 68.0,
+      "pct_change": 9.12
     },
     {
-      "symbol": "PBLD87",
-      "ltp": 1112.0,
-      "point_change": 69.0,
-      "pct_change": 6.62
+      "symbol": "AKJCL",
+      "ltp": 402.0,
+      "point_change": 27.0,
+      "pct_change": 7.2
     },
     {
-      "symbol": "LBLD86",
-      "ltp": 1175.0,
-      "point_change": 64.0,
-      "pct_change": 5.76
-    },
-    {
-      "symbol": "MBLD2085",
-      "ltp": 1235.0,
-      "point_change": 51.0,
-      "pct_change": 4.31
-    },
-    {
-      "symbol": "EBLD85",
-      "ltp": 1200.0,
-      "point_change": 45.0,
-      "pct_change": 3.9
+      "symbol": "SKHL",
+      "ltp": 950.0,
+      "point_change": 60.0,
+      "pct_change": 6.74
     }
   ],
   "top_losers": [
     {
-      "symbol": "ULHC",
-      "ltp": 477.3,
-      "point_change": -83.9,
-      "pct_change": -14.95
+      "symbol": "RBCLPO",
+      "ltp": 11800.0,
+      "point_change": -336.4,
+      "pct_change": -2.77
     },
     {
-      "symbol": "JHAPA",
-      "ltp": 1405.0,
-      "point_change": -124.0,
-      "pct_change": -8.11
+      "symbol": "NICBF",
+      "ltp": 9.4,
+      "point_change": -0.25,
+      "pct_change": -2.59
     },
     {
-      "symbol": "MHNL",
-      "ltp": 270.4,
-      "point_change": -21.6,
-      "pct_change": -7.4
+      "symbol": "GBIMESY2",
+      "ltp": 9.31,
+      "point_change": -0.24,
+      "pct_change": -2.51
     },
     {
-      "symbol": "NBLD85",
-      "ltp": 1038.0,
-      "point_change": -46.0,
-      "pct_change": -4.24
+      "symbol": "SBLD2091",
+      "ltp": 1061.3,
+      "point_change": -24.7,
+      "pct_change": -2.27
     },
     {
-      "symbol": "CITY",
-      "ltp": 374.9,
-      "point_change": -14.8,
-      "pct_change": -3.8
+      "symbol": "SAND2085",
+      "ltp": 1124.0,
+      "point_change": -26.0,
+      "pct_change": -2.26
     }
   ],
   "top_turnover": [
     {
       "symbol": "AKJCL",
-      "turnover": 177257568.2,
-      "ltp": 375.0
+      "turnover": 439586175.6,
+      "ltp": 402.0
     },
     {
       "symbol": "RIDI",
-      "turnover": 150739881.4,
-      "ltp": 357.0
+      "turnover": 245455154.7,
+      "ltp": 366.7
+    },
+    {
+      "symbol": "NHPC",
+      "turnover": 161615682.9,
+      "ltp": 295.0
+    },
+    {
+      "symbol": "API",
+      "turnover": 160158689.6,
+      "ltp": 357.2
     },
     {
       "symbol": "BUNGAL",
-      "turnover": 135920486.3,
-      "ltp": 746.0
-    },
-    {
-      "symbol": "NRN",
-      "turnover": 133985406.1,
-      "ltp": 1375.0
-    },
-    {
-      "symbol": "FMDBL",
-      "turnover": 117549338.8,
-      "ltp": 792.0
+      "turnover": 104640151.3,
+      "ltp": 814.0
     }
   ],
   "top_volume": [
     {
-      "symbol": "KBL",
-      "volume": 516129.0,
-      "ltp": 216.7
-    },
-    {
       "symbol": "AKJCL",
-      "volume": 480462.0,
-      "ltp": 375.0
+      "volume": 1123916.0,
+      "ltp": 402.0
     },
     {
       "symbol": "RIDI",
-      "volume": 424901.0,
-      "ltp": 357.0
+      "volume": 672478.0,
+      "ltp": 366.7
     },
     {
-      "symbol": "NIMB",
-      "volume": 387677.0,
-      "ltp": 195.5
+      "symbol": "PRSF",
+      "volume": 617150.0,
+      "ltp": 12.95
     },
     {
-      "symbol": "SBI",
-      "volume": 283308.0,
-      "ltp": 398.5
+      "symbol": "NHPC",
+      "volume": 550729.0,
+      "ltp": 295.0
+    },
+    {
+      "symbol": "API",
+      "volume": 450813.0,
+      "ltp": 357.2
     }
   ]
 }
