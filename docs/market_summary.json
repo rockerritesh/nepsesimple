@@ -2,120 +2,120 @@
   "date": "2026-07-14",
   "top_gainers": [
     {
-      "symbol": "SLBSL",
-      "ltp": 1197.0,
-      "point_change": 61.0,
-      "pct_change": 5.37
+      "symbol": "KSBBLD87",
+      "ltp": 1229.0,
+      "point_change": 114.0,
+      "pct_change": 10.22
     },
     {
-      "symbol": "CIZBD86",
-      "ltp": 1190.0,
-      "point_change": 60.0,
-      "pct_change": 5.31
+      "symbol": "SDBD87",
+      "ltp": 1241.0,
+      "point_change": 111.0,
+      "pct_change": 9.82
     },
     {
-      "symbol": "ANLB",
-      "ltp": 6736.8,
-      "point_change": 320.8,
-      "pct_change": 5.0
+      "symbol": "ULBSL",
+      "ltp": 3100.0,
+      "point_change": 261.0,
+      "pct_change": 9.19
     },
     {
-      "symbol": "PBLD87",
-      "ltp": 1140.0,
-      "point_change": 50.0,
-      "pct_change": 4.59
+      "symbol": "PBLD86",
+      "ltp": 1289.0,
+      "point_change": 106.0,
+      "pct_change": 8.96
     },
     {
-      "symbol": "NABILD2089",
-      "ltp": 1140.0,
-      "point_change": 49.7,
-      "pct_change": 4.56
+      "symbol": "KBLD86",
+      "ltp": 1302.0,
+      "point_change": 107.0,
+      "pct_change": 8.95
     }
   ],
   "top_losers": [
     {
-      "symbol": "ULBSL",
-      "ltp": 2839.0,
-      "point_change": -361.0,
-      "pct_change": -11.28
+      "symbol": "SLBSL",
+      "ltp": 1100.0,
+      "point_change": -97.0,
+      "pct_change": -8.1
     },
     {
-      "symbol": "BNHC",
-      "ltp": 275.0,
-      "point_change": -22.2,
-      "pct_change": -7.47
+      "symbol": "SBID2090",
+      "ltp": 1084.0,
+      "point_change": -82.0,
+      "pct_change": -7.03
     },
     {
-      "symbol": "DHPL",
-      "ltp": 257.1,
-      "point_change": -17.9,
-      "pct_change": -6.51
+      "symbol": "SWBBL",
+      "ltp": 630.5,
+      "point_change": -29.5,
+      "pct_change": -4.47
     },
     {
-      "symbol": "HIMSTAR",
-      "ltp": 627.0,
-      "point_change": -43.0,
-      "pct_change": -6.42
+      "symbol": "SBID89",
+      "ltp": 1185.0,
+      "point_change": -45.0,
+      "pct_change": -3.66
     },
     {
-      "symbol": "TPKHL",
-      "ltp": 493.0,
-      "point_change": -32.8,
-      "pct_change": -6.24
+      "symbol": "SKHL",
+      "ltp": 807.0,
+      "point_change": -30.6,
+      "pct_change": -3.65
     }
   ],
   "top_turnover": [
     {
-      "symbol": "NMBD87/88",
-      "turnover": 484654204.0,
-      "ltp": 1135.0
+      "symbol": "KBLD90",
+      "turnover": 527183262.0,
+      "ltp": 1250.0
     },
     {
-      "symbol": "NICAD85/86",
-      "turnover": 466584600.0,
-      "ltp": 1154.0
+      "symbol": "NIMBD90",
+      "turnover": 391641792.0,
+      "ltp": 1250.0
+    },
+    {
+      "symbol": "SBID2090",
+      "turnover": 375116830.5,
+      "ltp": 1084.0
     },
     {
       "symbol": "EBLD91",
-      "turnover": 371014521.0,
-      "ltp": 1119.0
+      "turnover": 360713852.0,
+      "ltp": 1082.0
     },
     {
-      "symbol": "SAND2085",
-      "turnover": 279726525.0,
-      "ltp": 1139.0
-    },
-    {
-      "symbol": "NMBD89/90",
-      "turnover": 266759718.0,
-      "ltp": 1305.0
+      "symbol": "ADBLD83",
+      "turnover": 281269420.7,
+      "ltp": 1085.0
     }
   ],
   "top_volume": [
     {
-      "symbol": "NMBHF2",
-      "volume": 10001600.0,
-      "ltp": 9.51
-    },
-    {
-      "symbol": "NIBSF2",
-      "volume": 3702321.0,
-      "ltp": 8.46
-    },
-    {
-      "symbol": "NICSF",
-      "volume": 3062450.0,
-      "ltp": 9.2
-    },
-    {
-      "symbol": "SBCF",
-      "volume": 3015900.0,
-      "ltp": 9.6
-    },
-    {
       "symbol": "RBBF40",
-      "volume": 2652000.0,
-      "ltp": 9.15
+      "volume": 2451040.0,
+      "ltp": 9.3
+    },
+    {
+      "symbol": "RMF1",
+      "volume": 1127140.0,
+      "ltp": 9.69
+    },
+    {
+      "symbol": "MMF1",
+      "volume": 584880.0,
+      "ltp": 9.8
+    },
+    {
+      "symbol": "SIGS3",
+      "volume": 505100.0,
+      "ltp": 10.49
+    },
+    {
+      "symbol": "AKJCL",
+      "volume": 496164.0,
+      "ltp": 340.0
     }
   ]
 }
