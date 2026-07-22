@@ -62,14 +62,23 @@ a:hover { color: #fff; }
 }
 .tickerbar .brand {
   flex: 0 0 auto;
+  position: relative; z-index: 2;
   padding: 0 14px; height: 100%;
   display: flex; align-items: center; gap: 8px;
   font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  white-space: nowrap;
   border-right: 1px solid var(--line-2);
   background: #0a0a0a;
 }
+/* viewport clips the moving track so it can never paint over the brand */
+.ticker-viewport {
+  position: relative; z-index: 1;
+  flex: 1 1 auto; min-width: 0; height: 100%;
+  overflow: hidden;
+}
 .ticker-track {
-  display: flex; align-items: center; gap: 26px;
+  display: flex; align-items: center; gap: 26px; height: 100%;
+  width: max-content;
   animation: ticker 60s linear infinite;
   padding-left: 26px;
 }

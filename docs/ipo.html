@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div class="tickerbar"><div class="brand">◆ NEPSE&nbsp;SIMPLE</div><div class="ticker-track" id="ticker"></div></div>
+<div class="tickerbar"><div class="brand">◆ NEPSE&nbsp;SIMPLE</div><div class="ticker-viewport"><div class="ticker-track" id="ticker"></div></div></div>
 <nav class="topnav">
   <a class="navlink" href="index.html"><span class="k">1:</span>OVERVIEW</a>
   <a class="navlink" href="terminal.html"><span class="k">2:</span>TERMINAL</a>
@@ -53,18 +53,24 @@ function statusPill(v){
     if(!rows || !rows.length) throw new Error('No IPO data');
     const cols = Object.keys(rows[0]);
     const statusCol = cols.find(c=>/status/i.test(c));
+    const money = v => {
+      const n = typeof v==='number'?v:parseFloat(String(v).replace(/,/g,''));
+      return Number.isFinite(n) ? n.toLocaleString('en-US') : v;
+    };
+    const numeric = c => /unit|price|amount|qty|kitta/i.test(c);
     const t=document.getElementById('ipo');
     t.innerHTML = `<thead><tr>${cols.map(c=>`<th class="${c===cols[0]?'':'num'}">${c}</th>`).join('')}</tr></thead>`
       + `<tbody>${rows.map(r=>`<tr>${cols.map(c=>{
-          const v=r[c];
-          const cell = c===statusCol ? statusPill(v) : (v===null||v===undefined?'—':v);
+          let v=r[c];
+          if(numeric(c)) v=money(v);
+          const cell = c===statusCol ? statusPill(v) : (v===null||v===undefined||v===''?'—':v);
           return `<td class="${c===cols[0]?'sym':'num mono-num'}">${cell}</td>`;
         }).join('')}</tr>`).join('')}</tbody>`;
     document.getElementById('ipo-badge').textContent = rows.length+' issues';
     document.getElementById('statustext').textContent='LIVE';
   }catch(e){
-    document.getElementById('ipo').innerHTML=`<tbody><tr><td class="err">No current IPO data: ${e.message}. Check back after the next pipeline run.</td></tr></tbody>`;
-    document.getElementById('statustext').textContent='OFFLINE'; document.getElementById('statusdot').style.background='var(--down)';
+    document.getElementById('ipo').innerHTML=`<tbody><tr><td class="loading">No IPO issues to show right now. This refreshes automatically after the next pipeline run.</td></tr></tbody>`;
+    document.getElementById('statustext').textContent='NO DATA'; document.getElementById('statusdot').style.background='var(--amber)';
   }
 })();
 </script>
