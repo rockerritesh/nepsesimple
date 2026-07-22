@@ -70,7 +70,9 @@ a:hover { color: #fff; }
   border-right: 1px solid var(--line-2);
   background: #0a0a0a;
 }
-.brandlogo { height: 18px; width: 18px; border-radius: 3px; object-fit: cover; display: block; }
+.brandhome { display: inline-flex; align-items: center; line-height: 0; }
+.brandlogo { height: 18px; width: 18px; border-radius: 3px; object-fit: cover; display: block; transition: transform .15s, box-shadow .15s; }
+.brandhome:hover .brandlogo { transform: scale(1.08); box-shadow: 0 0 0 2px rgba(217,164,65,.5); }
 /* viewport clips the moving track so it can never paint over the brand */
 .ticker-viewport {
   position: relative; z-index: 1;
