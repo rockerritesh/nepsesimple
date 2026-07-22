@@ -1,32 +1,33 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "nepse_index_forecast": {
-    "next_value": null,
-    "method": "n/a (client seed)"
+    "next_value": 2658.13,
+    "trend_slope": -1.6823,
+    "method": "linear regression on merolagani index history"
   },
   "alpha_candidates": [
     {
       "symbol": "RIDI",
       "combined_score": 1.888,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {
       "symbol": "AKJCL",
       "combined_score": 1.671,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {
       "symbol": "NHPC",
       "combined_score": 1.541,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {
@@ -41,32 +42,32 @@
       "symbol": "SANIMA",
       "combined_score": 1.419,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {
       "symbol": "KBL",
       "combined_score": 1.41,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {
       "symbol": "SHIVM",
       "combined_score": 1.383,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {
       "symbol": "HDL",
       "combined_score": 1.332,
       "signal_types": [
-        "momentum",
         "liquidity",
+        "momentum",
         "value_bounce"
       ]
     },
@@ -74,16 +75,16 @@
       "symbol": "SSHL",
       "combined_score": 1.315,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {
       "symbol": "GBIME",
       "combined_score": 1.289,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {
@@ -98,24 +99,24 @@
       "symbol": "NRN",
       "combined_score": 1.253,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {
       "symbol": "GBBL",
       "combined_score": 1.214,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {
       "symbol": "HBL",
       "combined_score": 1.209,
       "signal_types": [
-        "momentum",
         "liquidity",
+        "momentum",
         "value_bounce"
       ]
     },
@@ -123,8 +124,8 @@
       "symbol": "HIDCL",
       "combined_score": 1.197,
       "signal_types": [
-        "momentum",
         "liquidity",
+        "momentum",
         "value_bounce"
       ]
     },
@@ -132,16 +133,16 @@
       "symbol": "UHEWA",
       "combined_score": 1.159,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {
       "symbol": "KSBBL",
       "combined_score": 1.154,
       "signal_types": [
-        "momentum",
-        "liquidity"
+        "liquidity",
+        "momentum"
       ]
     },
     {

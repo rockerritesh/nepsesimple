@@ -310,8 +310,7 @@ def _enrich_from_official_api(records):
     try:
         _d = _date.today().isoformat()
         _url = (
-            "https://www.nepalstock.com.np/api/nots/market/export/"
-            f"todays-price/{_d}"
+            "https://www.nepalstock.com.np/api/nots/market/export/" f"todays-price/{_d}"
         )
         _resp = requests.get(
             _url,
@@ -330,8 +329,13 @@ def _enrich_from_official_api(records):
         if not _sym_col:
             return records
         _by_sym = {str(r[_sym_col]).strip(): r for _, r in _api.iterrows()}
-        _extra = ["MARKET_CAPITALIZATION", "TOTAL_TRADES", "FIFTY_TWO_WEEKS_HIGH",
-                  "FIFTY_TWO_WEEKS_LOW", "AVERAGE_TRADED_PRICE"]
+        _extra = [
+            "MARKET_CAPITALIZATION",
+            "TOTAL_TRADES",
+            "FIFTY_TWO_WEEKS_HIGH",
+            "FIFTY_TWO_WEEKS_LOW",
+            "AVERAGE_TRADED_PRICE",
+        ]
         _hits = 0
         for rec in records:
             _m = _by_sym.get(str(rec.get("Symbol", "")).strip())
@@ -363,18 +367,20 @@ def _compute_predictions(records):
     """Momentum / liquidity / value-bounce scanners over the universe."""
     stocks = []
     for r in records:
-        stocks.append({
-            "symbol": r.get("Symbol"),
-            "ltp": _num(r.get("LTP")),
-            "diffPct": _num(r.get("Diff %")),
-            "vol": _num(r.get("Vol")),
-            "turnover": _num(r.get("Turnover")),
-            "trans": _num(r.get("Trans.")),
-            "d120": _num(r.get("120 Days")),
-            "d180": _num(r.get("180 Days")),
-            "w52h": _num(r.get("52 Weeks High")),
-            "w52l": _num(r.get("52 Weeks Low")),
-        })
+        stocks.append(
+            {
+                "symbol": r.get("Symbol"),
+                "ltp": _num(r.get("LTP")),
+                "diffPct": _num(r.get("Diff %")),
+                "vol": _num(r.get("Vol")),
+                "turnover": _num(r.get("Turnover")),
+                "trans": _num(r.get("Trans.")),
+                "d120": _num(r.get("120 Days")),
+                "d180": _num(r.get("180 Days")),
+                "w52h": _num(r.get("52 Weeks High")),
+                "w52l": _num(r.get("52 Weeks Low")),
+            }
+        )
 
     def clamp01(x):
         return max(0.0, min(1.0, x))
@@ -394,12 +400,25 @@ def _compute_predictions(records):
         if s["w52h"] and s["w52l"] and s["w52h"] > s["w52l"]:
             comp += (s["ltp"] - s["w52l"]) / (s["w52h"] - s["w52l"]) * 0.5
         comp += min(s["diffPct"], 10.0) / 20.0
-        signals.append((s["symbol"], "momentum",
-                        clamp01(comp / 2), 1.0 if s["d180"] and s["w52h"] else 0.7))
+        signals.append(
+            (
+                s["symbol"],
+                "momentum",
+                clamp01(comp / 2),
+                1.0 if s["d180"] and s["w52h"] else 0.7,
+            )
+        )
     # liquidity (top 20% by combined pct-rank)
-    liq = [s for s in stocks if s["symbol"] and s["turnover"] is not None
-           and s["vol"] is not None and s["trans"] is not None]
+    liq = [
+        s
+        for s in stocks
+        if s["symbol"]
+        and s["turnover"] is not None
+        and s["vol"] is not None
+        and s["trans"] is not None
+    ]
     if liq:
+
         def prank(vals):
             n = len(vals)
             order = sorted(range(n), key=lambda i: vals[i])
@@ -407,12 +426,14 @@ def _compute_predictions(records):
             for rank, idx in enumerate(order):
                 out[idx] = rank / max(n - 1, 1)
             return out
+
         tr = prank([s["turnover"] or 0 for s in liq])
         vr = prank([s["vol"] or 0 for s in liq])
         nr = prank([s["trans"] or 0 for s in liq])
         scored = sorted(
             [(liq[i]["symbol"], (tr[i] + vr[i] + nr[i]) / 3) for i in range(len(liq))],
-            key=lambda x: -x[1])
+            key=lambda x: -x[1],
+        )
         for sym, sc in scored[: max(1, int(len(scored) * 0.2))]:
             signals.append((sym, "liquidity", sc, 1.0))
     # value bounce
@@ -427,9 +448,16 @@ def _compute_predictions(records):
             continue
         upside = (s["w52h"] - s["ltp"]) / s["ltp"]
         proximity = clamp01(1 - (s["ltp"] - s["w52l"]) / max(s["w52l"] * 0.10, 1e-9))
-        signals.append((s["symbol"], "value_bounce",
-                        clamp01(proximity * 0.5 + min(s["diffPct"], 10) / 20
-                                + min(upside, 2) / 4), 0.8))
+        signals.append(
+            (
+                s["symbol"],
+                "value_bounce",
+                clamp01(
+                    proximity * 0.5 + min(s["diffPct"], 10) / 20 + min(upside, 2) / 4
+                ),
+                0.8,
+            )
+        )
 
     by_sym = {}
     for sym, typ, strength, conf in signals:
@@ -440,8 +468,9 @@ def _compute_predictions(records):
         types = sorted({t for t, _ in sigs})
         if len(types) >= 2:
             combined *= 1.2
-        candidates.append({"symbol": sym, "combined_score": round(combined, 3),
-                           "signal_types": types})
+        candidates.append(
+            {"symbol": sym, "combined_score": round(combined, 3), "signal_types": types}
+        )
     candidates.sort(key=lambda c: -c["combined_score"])
     return candidates[:25]
 
@@ -462,7 +491,9 @@ try:
     }
     with open("docs/predictions.json", "w") as f:
         json.dump(_predictions, f, indent=2)
-    print(f"[JSON] Exported predictions.json ({len(_predictions['alpha_candidates'])} candidates)")
+    print(
+        f"[JSON] Exported predictions.json ({len(_predictions['alpha_candidates'])} candidates)"
+    )
 except Exception as _e:
     print(f"[JSON] predictions skipped: {_e}")
 
@@ -496,8 +527,11 @@ try:
     _lines += ["", "## Top Losers"]
     for g in _mkt["top_losers"][:5]:
         _lines.append(f"- {g['symbol']}: {g['ltp']} ({g['pct_change']:+.2f}%)")
-    _lines += ["", f"_Auto-generated. NEPSE index forecast (next session): "
-                   f"{next_index:.2f}. Not investment advice._"]
+    _lines += [
+        "",
+        f"_Auto-generated. NEPSE index forecast (next session): "
+        f"{next_index:.2f}. Not investment advice._",
+    ]
     with open("docs/report.md", "w") as f:
         f.write("\n".join(_lines))
     print("[REPORT] Exported report.md")

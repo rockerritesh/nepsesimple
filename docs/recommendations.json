@@ -1,25 +1,25 @@
 {
-  "market_summary": "343 scrips traded on 2026-07-21. Ranked by the quantitative screen (momentum / liquidity / value-bounce).",
+  "market_summary": "343 scrips traded on 2026-07-22. Ranked by the quantitative screen (momentum / liquidity / value-bounce).",
   "recommendations": [
     {
       "symbol": "RIDI",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.888 from momentum, liquidity; LTP 378.9 vs 120d 331.88.",
+      "rationale": "Quant score 1.888 from liquidity, momentum; LTP 378.9 vs 120d 331.88.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
       "symbol": "AKJCL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.671 from momentum, liquidity; LTP 385.0 vs 120d 369.28.",
+      "rationale": "Quant score 1.671 from liquidity, momentum; LTP 385.0 vs 120d 369.28.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
       "symbol": "NHPC",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.541 from momentum, liquidity; LTP 282.9 vs 120d 268.28.",
+      "rationale": "Quant score 1.541 from liquidity, momentum; LTP 282.9 vs 120d 268.28.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
@@ -33,33 +33,33 @@
       "symbol": "SANIMA",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.419 from momentum, liquidity; LTP 368.0 vs 120d 351.17.",
+      "rationale": "Quant score 1.419 from liquidity, momentum; LTP 368.0 vs 120d 351.17.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
       "symbol": "KBL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.41 from momentum, liquidity; LTP 220.9 vs 120d 211.62.",
+      "rationale": "Quant score 1.41 from liquidity, momentum; LTP 220.9 vs 120d 211.62.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
       "symbol": "SHIVM",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Quant score 1.383 from momentum, liquidity; LTP 663.1 vs 120d 653.33.",
+      "rationale": "Quant score 1.383 from liquidity, momentum; LTP 663.1 vs 120d 653.33.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
       "symbol": "HDL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Quant score 1.332 from momentum, liquidity, value_bounce; LTP 1188.5 vs 120d 1161.9.",
+      "rationale": "Quant score 1.332 from liquidity, momentum, value_bounce; LTP 1188.5 vs 120d 1161.9.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     }
   ],
   "outlook": "Watch breadth and turnover leaders into the next session.",
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "generated_by": "quant-fallback",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
