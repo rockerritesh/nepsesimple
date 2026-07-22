@@ -28,8 +28,13 @@ jobs:
       run: black simple.py
  
     - name: Fetch data and update the file(s)
-      run: python simple.py 
- 
+      run: python simple.py
+
+    - name: Publish daily brief to job summary
+      if: always()
+      run: |
+          if [ -f docs/report.md ]; then cat docs/report.md >> "$GITHUB_STEP_SUMMARY"; fi
+
     - name: Commit updated file(s) back to this repository
       run: |
           git config user.name github-actions

@@ -155,15 +155,33 @@ for _, row in _index_df.iterrows():
     )
 
 # Sub-indices from table 3
+# Columns: Sub Index, Open, High, Low, Close, Point, % Change, Turnover
 _sub_index_df = df_list_stock[3]
+
+
+def _cell(row, *names, default=0.0):
+    """Fetch the first present column by name, else fall back to 0."""
+    for n in names:
+        if n in row.index:
+            try:
+                return float(row[n])
+            except (TypeError, ValueError):
+                return default
+    return default
+
+
 _sub_records = []
 for _, row in _sub_index_df.iterrows():
     _sub_records.append(
         {
             "name": str(row.iloc[0]) if len(row) > 0 else "",
-            "current": float(row.iloc[1]) if len(row) > 1 else 0,
-            "points_change": float(row.iloc[2]) if len(row) > 2 else 0,
-            "pct_change": float(row.iloc[3]) if len(row) > 3 else 0,
+            "open": _cell(row, "Open"),
+            "high": _cell(row, "High"),
+            "low": _cell(row, "Low"),
+            "current": _cell(row, "Close"),
+            "points_change": _cell(row, "Point", "Point Change"),
+            "pct_change": _cell(row, "% Change", "Change %"),
+            "turnover": _cell(row, "Turnover"),
         }
     )
 
@@ -271,14 +289,217 @@ with open("docs/details.html", "w") as output:
     output.write(html)
 
 
-# json file nepssimpleeapi
-df = pd.read_html("https://www.sharesansar.com/today-share-price")
-df = df[-1].T
-# Send a message to the chat using the chat ID
-# bot.send_message(chat_id=CHAT_ID, text=df.to_csv())
+# === Per-stock trading universe (JSON API + legacy data table) ===
+# NOTE: docs/index.html is now the static terminal UI (assets/terminal.*).
+# The full pandas table lives at docs/data_table.html so CI never clobbers the UI.
+_stock_df = pd.read_html("https://www.sharesansar.com/today-share-price")[-1]
 
-df.to_json("docs/nepsesimple.json")
-html = df.T.to_html()
-html = asadas + index + html + "</body> </html>"
-with open("docs/index.html", "w") as output:
-    output.write(html)
+# Back-compatible JSON keyed by row index -> {field: value} (consumed by the terminal)
+_stock_df.T.to_json("docs/nepsesimple.json")
+
+# Legacy raw table page (kept for reference / API consumers)
+_table_html = asadas + index + _stock_df.to_html(index=False) + "</body> </html>"
+with open("docs/data_table.html", "w") as output:
+    output.write(_table_html)
+
+
+# === Optional enrichment from the official NEPSE API (best-effort) ===
+# The streamlit branch pulls the official export; we mirror it here so the
+# universe can carry MARKET_CAPITALIZATION / TOTAL_TRADES when reachable.
+def _enrich_from_official_api(records):
+    try:
+        _d = _date.today().isoformat()
+        _url = (
+            "https://www.nepalstock.com.np/api/nots/market/export/"
+            f"todays-price/{_d}"
+        )
+        _resp = requests.get(
+            _url,
+            headers={"User-Agent": "Mozilla/5.0", "Accept": "text/csv"},
+            timeout=20,
+            verify=False,
+        )
+        if _resp.status_code != 200 or not _resp.text.strip():
+            print("[API] official NEPSE export unavailable — skipping enrichment")
+            return records
+        import io
+
+        _api = pd.read_csv(io.StringIO(_resp.text))
+        _api.columns = [str(c).strip().upper().replace(" ", "_") for c in _api.columns]
+        _sym_col = next((c for c in _api.columns if "SYMBOL" in c), None)
+        if not _sym_col:
+            return records
+        _by_sym = {str(r[_sym_col]).strip(): r for _, r in _api.iterrows()}
+        _extra = ["MARKET_CAPITALIZATION", "TOTAL_TRADES", "FIFTY_TWO_WEEKS_HIGH",
+                  "FIFTY_TWO_WEEKS_LOW", "AVERAGE_TRADED_PRICE"]
+        _hits = 0
+        for rec in records:
+            _m = _by_sym.get(str(rec.get("Symbol", "")).strip())
+            if _m is None:
+                continue
+            _hits += 1
+            for k in _extra:
+                if k in _api.columns:
+                    try:
+                        rec[k.title().replace("_", " ")] = float(_m[k])
+                    except (TypeError, ValueError):
+                        pass
+        print(f"[API] enriched {_hits} stocks from official NEPSE export")
+    except Exception as _e:  # never break CI on the optional source
+        print(f"[API] enrichment skipped: {_e}")
+    return records
+
+
+# === Alpha signal scanners + predictions (ported from my-agents) ===
+def _num(v):
+    try:
+        f = float(v)
+        return f if f == f else None  # drop NaN
+    except (TypeError, ValueError):
+        return None
+
+
+def _compute_predictions(records):
+    """Momentum / liquidity / value-bounce scanners over the universe."""
+    stocks = []
+    for r in records:
+        stocks.append({
+            "symbol": r.get("Symbol"),
+            "ltp": _num(r.get("LTP")),
+            "diffPct": _num(r.get("Diff %")),
+            "vol": _num(r.get("Vol")),
+            "turnover": _num(r.get("Turnover")),
+            "trans": _num(r.get("Trans.")),
+            "d120": _num(r.get("120 Days")),
+            "d180": _num(r.get("180 Days")),
+            "w52h": _num(r.get("52 Weeks High")),
+            "w52l": _num(r.get("52 Weeks Low")),
+        })
+
+    def clamp01(x):
+        return max(0.0, min(1.0, x))
+
+    signals = []
+    # momentum
+    for s in stocks:
+        if not s["symbol"] or not s["ltp"] or s["ltp"] <= 0:
+            continue
+        if s["diffPct"] is None or s["diffPct"] <= 0 or not s["vol"] or s["vol"] <= 0:
+            continue
+        if not s["d120"] or s["d120"] <= 0 or s["ltp"] <= s["d120"]:
+            continue
+        comp = s["ltp"] / s["d120"] - 1
+        if s["d180"] and s["d180"] > 0:
+            comp += s["ltp"] / s["d180"] - 1
+        if s["w52h"] and s["w52l"] and s["w52h"] > s["w52l"]:
+            comp += (s["ltp"] - s["w52l"]) / (s["w52h"] - s["w52l"]) * 0.5
+        comp += min(s["diffPct"], 10.0) / 20.0
+        signals.append((s["symbol"], "momentum",
+                        clamp01(comp / 2), 1.0 if s["d180"] and s["w52h"] else 0.7))
+    # liquidity (top 20% by combined pct-rank)
+    liq = [s for s in stocks if s["symbol"] and s["turnover"] is not None
+           and s["vol"] is not None and s["trans"] is not None]
+    if liq:
+        def prank(vals):
+            n = len(vals)
+            order = sorted(range(n), key=lambda i: vals[i])
+            out = [0.0] * n
+            for rank, idx in enumerate(order):
+                out[idx] = rank / max(n - 1, 1)
+            return out
+        tr = prank([s["turnover"] or 0 for s in liq])
+        vr = prank([s["vol"] or 0 for s in liq])
+        nr = prank([s["trans"] or 0 for s in liq])
+        scored = sorted(
+            [(liq[i]["symbol"], (tr[i] + vr[i] + nr[i]) / 3) for i in range(len(liq))],
+            key=lambda x: -x[1])
+        for sym, sc in scored[: max(1, int(len(scored) * 0.2))]:
+            signals.append((sym, "liquidity", sc, 1.0))
+    # value bounce
+    for s in stocks:
+        if not s["symbol"] or not s["ltp"] or s["ltp"] <= 0:
+            continue
+        if s["diffPct"] is None or s["diffPct"] <= 0:
+            continue
+        if not s["w52l"] or s["w52l"] <= 0 or not s["w52h"] or s["w52h"] <= 0:
+            continue
+        if s["ltp"] > s["w52l"] * 1.10:
+            continue
+        upside = (s["w52h"] - s["ltp"]) / s["ltp"]
+        proximity = clamp01(1 - (s["ltp"] - s["w52l"]) / max(s["w52l"] * 0.10, 1e-9))
+        signals.append((s["symbol"], "value_bounce",
+                        clamp01(proximity * 0.5 + min(s["diffPct"], 10) / 20
+                                + min(upside, 2) / 4), 0.8))
+
+    by_sym = {}
+    for sym, typ, strength, conf in signals:
+        by_sym.setdefault(sym, []).append((typ, strength * conf))
+    candidates = []
+    for sym, sigs in by_sym.items():
+        combined = sum(sc for _, sc in sigs)
+        types = sorted({t for t, _ in sigs})
+        if len(types) >= 2:
+            combined *= 1.2
+        candidates.append({"symbol": sym, "combined_score": round(combined, 3),
+                           "signal_types": types})
+    candidates.sort(key=lambda c: -c["combined_score"])
+    return candidates[:25]
+
+
+try:
+    _records = list(_stock_df.to_dict(orient="records"))
+    _records = _enrich_from_official_api(_records)
+    # re-write the universe JSON including any enrichment fields
+    pd.DataFrame(_records).T.to_json("docs/nepsesimple.json")
+    _predictions = {
+        "date": _today,
+        "nepse_index_forecast": {
+            "next_value": round(float(next_index), 2),
+            "trend_slope": round(float(reg.coef_[0]), 4),
+            "method": "linear regression on merolagani index history",
+        },
+        "alpha_candidates": _compute_predictions(_records),
+    }
+    with open("docs/predictions.json", "w") as f:
+        json.dump(_predictions, f, indent=2)
+    print(f"[JSON] Exported predictions.json ({len(_predictions['alpha_candidates'])} candidates)")
+except Exception as _e:
+    print(f"[JSON] predictions skipped: {_e}")
+
+
+# === IPO JSON export (for the styled IPO page) ===
+try:
+    _ipo_df = df_list_share[2]
+    _ipo_df.to_json("docs/ipo.json", orient="records")
+    print(f"[JSON] Exported ipo.json ({len(_ipo_df)} rows)")
+except Exception as _e:
+    print(f"[JSON] ipo.json skipped: {_e}")
+
+
+# === Human-readable daily brief (markdown, for README / Telegram) ===
+try:
+    _nepse_row = _index_records[0] if _index_records else {}
+    _mkt = _market_summary
+    _lines = [
+        f"# NEPSE Daily Brief — {_today}",
+        "",
+        f"**{_nepse_row.get('name','NEPSE Index')}**: "
+        f"{_nepse_row.get('current','?')} "
+        f"({_nepse_row.get('points_change',0):+.2f}, "
+        f"{_nepse_row.get('pct_change',0):+.2f}%) · "
+        f"turnover {_nepse_row.get('turnover',0):,.0f}",
+        "",
+        "## Top Gainers",
+    ]
+    for g in _mkt["top_gainers"][:5]:
+        _lines.append(f"- {g['symbol']}: {g['ltp']} ({g['pct_change']:+.2f}%)")
+    _lines += ["", "## Top Losers"]
+    for g in _mkt["top_losers"][:5]:
+        _lines.append(f"- {g['symbol']}: {g['ltp']} ({g['pct_change']:+.2f}%)")
+    _lines += ["", f"_Auto-generated. NEPSE index forecast (next session): "
+                   f"{next_index:.2f}. Not investment advice._"]
+    with open("docs/report.md", "w") as f:
+        f.write("\n".join(_lines))
+    print("[REPORT] Exported report.md")
+except Exception as _e:
+    print(f"[REPORT] report.md skipped: {_e}")

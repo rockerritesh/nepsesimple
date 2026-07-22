@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NEPSE Simple — Daily Brief</title>
+<meta name="description" content="Auto-generated NEPSE daily market brief — breadth, index moves, standout movers, sector tilt and the day's top quantitative candidates." />
+<link rel="icon" href="android-chrome-192x192.png" />
+<link rel="stylesheet" href="assets/terminal.css" />
+<style>
+  .report { max-width: 980px; margin: 0 auto; padding: 14px; }
+  .report h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--accent);
+    border-bottom: 1px solid var(--line); padding-bottom: 6px; margin: 26px 0 12px; }
+  .report p { color: var(--ink); line-height: 1.7; }
+  .report .lead { font-size: 15px; line-height: 1.7; }
+  .report ul { padding-left: 18px; }
+  .report li { margin: 5px 0; }
+</style>
+</head>
+<body>
+
+<div class="tickerbar"><div class="brand">◆ NEPSE&nbsp;SIMPLE</div><div class="ticker-track" id="ticker"></div></div>
+<nav class="topnav">
+  <a class="navlink" href="index.html"><span class="k">1:</span>OVERVIEW</a>
+  <a class="navlink" href="terminal.html"><span class="k">2:</span>TERMINAL</a>
+  <a class="navlink active" href="report.html"><span class="k">3:</span>REPORT</a>
+  <a class="navlink" href="ipo.html"><span class="k">4:</span>IPO</a>
+  <span class="spacer"></span>
+  <span class="meta" id="clock">—</span>
+  <a class="cta" href="https://ko-fi.com/J3J1TRQBI" target="_blank" rel="noopener">☕ SUPPORT</a>
+</nav>
+
+<div class="report" id="report"><div class="loading">Compiling brief…</div></div>
+
+<footer class="statusbar">
+  <span><span class="dot" id="statusdot"></span><span id="statustext">CONNECTING</span></span>
+  <span class="spacer"></span>
+  <span id="s-date">—</span>
+  <span>AUTO-GENERATED · NOT INVESTMENT ADVICE</span>
+</footer>
+
+<script src="assets/terminal.js"></script>
+<script>
+const { fmt, cls, computeSignals } = NQT;
+function clock(){ const o={timeZone:'Asia/Kathmandu',hour:'2-digit',minute:'2-digit',hour12:false};
+  document.getElementById('clock').textContent=new Date().toLocaleTimeString('en-GB',o)+' NPT'; }
+function renderTicker(stocks){
+  const top=[...stocks].filter(s=>s.diffPct!==null).sort((a,b)=>Math.abs(b.diffPct)-Math.abs(a.diffPct)).slice(0,24);
+  const one=top.map(s=>`<span class="tick"><span class="sym">${s.symbol}</span><span class="px mono-num">${fmt.n(s.ltp)}</span><span class="${cls(s.diffPct)} mono-num">${s.diffPct>0?'▲':'▼'} ${fmt.pct(s.diffPct)}</span></span>`).join('');
+  document.getElementById('ticker').innerHTML=one+one;
+}
+
+(async function(){
+  clock(); setInterval(clock,1000);
+  try{
+    const {stocks, indexData} = await NQT.loadAll();
+    if(!stocks.length) throw new Error('No data');
+    renderTicker(stocks);
+    const date=(indexData&&indexData.date)||'';
+    document.getElementById('s-date').textContent=date;
+    document.getElementById('statustext').textContent='LIVE';
+
+    const primary=(indexData&&indexData.primary)||[];
+    const nepse=primary.find(p=>/nepse/i.test(p.name))||primary[0]||{};
+    const adv=stocks.filter(s=>s.diffPct>0).length, dec=stocks.filter(s=>s.diffPct<0).length, unc=stocks.filter(s=>s.diffPct===0).length;
+    const turnover=stocks.reduce((a,s)=>a+(s.turnover||0),0);
+    const breadth=(adv+dec)?(adv/(adv+dec)*100):0;
+    const gainers=[...stocks].filter(s=>s.diffPct!==null).sort((a,b)=>b.diffPct-a.diffPct).slice(0,5);
+    const losers =[...stocks].filter(s=>s.diffPct!==null).sort((a,b)=>a.diffPct-b.diffPct).slice(0,5);
+    const byTurn =[...stocks].filter(s=>s.turnover).sort((a,b)=>b.turnover-a.turnover).slice(0,5);
+    const {candidates}=computeSignals(stocks);
+    const dir = nepse.points_change>0?'advanced':nepse.points_change<0?'declined':'closed flat';
+    const tone = breadth>=60?'broadly positive':breadth>=45?'mixed':'defensive';
+
+    const li=arr=>arr.map(s=>`<li><b>${s.symbol}</b> — ${fmt.n(s.ltp)} <span class="${cls(s.diffPct)}">(${fmt.pct(s.diffPct)})</span></li>`).join('');
+
+    document.getElementById('report').innerHTML = `
+      <h2>NEPSE Daily Brief — ${date}</h2>
+      <p class="lead">The NEPSE index ${dir} to <b class="${cls(nepse.points_change)}">${fmt.n(nepse.current)}</b>
+        (${fmt.signPts(nepse.points_change)}, ${fmt.pct(nepse.pct_change)}) on turnover of
+        <b class="amber">${fmt.money(turnover)}</b> across ${stocks.length} scrips. Market breadth was
+        <b class="${breadth>=50?'up':'down'}">${breadth.toFixed(0)}% advancing</b> (${adv} up / ${dec} down / ${unc} unchanged),
+        a <b>${tone}</b> session.</p>
+
+      <h2>Index Snapshot</h2>
+      <ul>${primary.map(p=>`<li><b>${p.name}</b>: ${fmt.n(p.current)} <span class="${cls(p.points_change)}">${fmt.signPts(p.points_change)} (${fmt.pct(p.pct_change)})</span> · range ${fmt.n(p.low)}–${fmt.n(p.high)}</li>`).join('')}</ul>
+
+      <h2>Standout Movers</h2>
+      <p><b class="up">Leaders</b></p><ul>${li(gainers)}</ul>
+      <p><b class="down">Laggards</b></p><ul>${li(losers)}</ul>
+
+      <h2>Where the Money Went</h2>
+      <p>Turnover concentrated in:</p>
+      <ul>${byTurn.map(s=>`<li><b>${s.symbol}</b> — ${fmt.money(s.turnover)} on ${fmt.vol(s.vol)} shares (LTP ${fmt.n(s.ltp)}, ${fmt.pct(s.diffPct)})</li>`).join('')}</ul>
+
+      <h2>Quant Candidates</h2>
+      <p>Top-ranked names from the momentum / liquidity / value-bounce screen:</p>
+      <ul>${candidates.slice(0,8).map(c=>{const s=stocks.find(x=>x.symbol===c.symbol)||{};
+        return `<li><b>${c.symbol}</b> <span class="amber">score ${c.combined.toFixed(2)}</span> [${c.types.join(', ')}] — ${c.reasonings[0]||''}</li>`;}).join('')}</ul>
+
+      <p class="dim" style="margin-top:26px;font-size:11px">Generated automatically from public NEPSE data (sharesansar / nepalstock.com.np). This is a quantitative summary, not investment advice. Do your own research.</p>
+    `;
+  }catch(e){
+    document.getElementById('report').innerHTML=`<div class="err">Could not compile brief: ${e.message}</div>`;
+    document.getElementById('statustext').textContent='OFFLINE'; document.getElementById('statusdot').style.background='var(--down)';
+  }
+})();
+</script>
+</body>
+</html>

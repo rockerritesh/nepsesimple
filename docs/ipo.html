@@ -1,78 +1,72 @@
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>S.N.</th>
-      <th>Symbol</th>
-      <th>Company</th>
-      <th>Units</th>
-      <th>Price</th>
-      <th>Opening Date</th>
-      <th>Closing Date</th>
-      <th>Status</th>
-      <th>View</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>HRL</td>
-      <td>Himalayan Reinsurance Limited</td>
-      <td>24900000.0</td>
-      <td>206.0</td>
-      <td>2023-12-13</td>
-      <td>2023-12-17</td>
-      <td>Coming Soon</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>NWCL</td>
-      <td>Nepal Warehousing Company Limited</td>
-      <td>1141250.0</td>
-      <td>100.0</td>
-      <td>2023-11-26</td>
-      <td>2023-11-29</td>
-      <td>Closed</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>MKCL</td>
-      <td>Muktinath Krishi Company Limited</td>
-      <td>1148000.0</td>
-      <td>100.0</td>
-      <td>2023-11-24</td>
-      <td>2023-11-28</td>
-      <td>Closed</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>VLCL</td>
-      <td>Vision Lumbini Urja Company Limited</td>
-      <td>2075285.0</td>
-      <td>100.0</td>
-      <td>2023-11-02</td>
-      <td>2023-11-06</td>
-      <td>Closed</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>CHPL</td>
-      <td>Chirkhwa Hydro Power Limited</td>
-      <td>859300.0</td>
-      <td>100.0</td>
-      <td>2023-10-10</td>
-      <td>2023-10-13</td>
-      <td>Closed</td>
-      <td>NaN</td>
-    </tr>
-  </tbody>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NEPSE Simple — IPO / Issues</title>
+<meta name="description" content="Open, upcoming and recent IPO / FPO / rights issues on the Nepal Stock Exchange." />
+<link rel="icon" href="android-chrome-192x192.png" />
+<link rel="stylesheet" href="assets/terminal.css" />
+</head>
+<body>
+
+<div class="tickerbar"><div class="brand">◆ NEPSE&nbsp;SIMPLE</div><div class="ticker-track" id="ticker"></div></div>
+<nav class="topnav">
+  <a class="navlink" href="index.html"><span class="k">1:</span>OVERVIEW</a>
+  <a class="navlink" href="terminal.html"><span class="k">2:</span>TERMINAL</a>
+  <a class="navlink" href="report.html"><span class="k">3:</span>REPORT</a>
+  <a class="navlink active" href="ipo.html"><span class="k">4:</span>IPO</a>
+  <span class="spacer"></span>
+  <span class="meta" id="clock">—</span>
+  <a class="cta" href="https://ko-fi.com/J3J1TRQBI" target="_blank" rel="noopener">☕ SUPPORT</a>
+</nav>
+
+<div class="grid">
+  <section class="panel">
+    <div class="panel-head"><span class="caret">▾</span><span class="title">IPO · FPO · Rights — Issues</span><span class="badge" id="ipo-badge"></span></div>
+    <div class="panel-body scroll-y" style="--maxh:640px"><table class="t" id="ipo"></table></div>
+  </section>
+</div>
+
+<footer class="statusbar">
+  <span><span class="dot" id="statusdot"></span><span id="statustext">CONNECTING</span></span>
+  <span class="spacer"></span>
+  <span>SOURCE: sharesansar</span>
+</footer>
+
+<script src="assets/terminal.js"></script>
+<script>
+const { fmt } = NQT;
+function clock(){ const o={timeZone:'Asia/Kathmandu',hour:'2-digit',minute:'2-digit',hour12:false};
+  document.getElementById('clock').textContent=new Date().toLocaleTimeString('en-GB',o)+' NPT'; }
+function statusPill(v){
+  const s=String(v||'').toLowerCase();
+  if(s.includes('open')) return `<span class="up">● ${v}</span>`;
+  if(s.includes('coming')) return `<span class="amber">◐ ${v}</span>`;
+  if(s.includes('close')) return `<span class="dim">○ ${v}</span>`;
+  return v||'—';
+}
+(async function(){
+  clock(); setInterval(clock,1000);
+  try{
+    const rows = await NQT.getJSON('/ipo.json');
+    if(!rows || !rows.length) throw new Error('No IPO data');
+    const cols = Object.keys(rows[0]);
+    const statusCol = cols.find(c=>/status/i.test(c));
+    const t=document.getElementById('ipo');
+    t.innerHTML = `<thead><tr>${cols.map(c=>`<th class="${c===cols[0]?'':'num'}">${c}</th>`).join('')}</tr></thead>`
+      + `<tbody>${rows.map(r=>`<tr>${cols.map(c=>{
+          const v=r[c];
+          const cell = c===statusCol ? statusPill(v) : (v===null||v===undefined?'—':v);
+          return `<td class="${c===cols[0]?'sym':'num mono-num'}">${cell}</td>`;
+        }).join('')}</tr>`).join('')}</tbody>`;
+    document.getElementById('ipo-badge').textContent = rows.length+' issues';
+    document.getElementById('statustext').textContent='LIVE';
+  }catch(e){
+    document.getElementById('ipo').innerHTML=`<tbody><tr><td class="err">No current IPO data: ${e.message}. Check back after the next pipeline run.</td></tr></tbody>`;
+    document.getElementById('statustext').textContent='OFFLINE'; document.getElementById('statusdot').style.background='var(--down)';
+  }
+})();
+</script>
+</body>
+</html>

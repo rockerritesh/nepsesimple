@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NEPSE Simple — Security Lookup</title>
+<meta name="description" content="Deep technical view of any NEPSE security — OHLCV, VWAP, 120/180-day averages, 52-week range, alpha signals, and a quantitative next-close estimate. Full sortable trading universe." />
+<link rel="icon" href="android-chrome-192x192.png" />
+<link rel="stylesheet" href="assets/terminal.css" />
+</head>
+<body>
+
+<div class="tickerbar">
+  <div class="brand">◆ NEPSE&nbsp;SIMPLE</div>
+  <div class="ticker-track" id="ticker"></div>
+</div>
+
+<nav class="topnav">
+  <a class="navlink" href="index.html"><span class="k">1:</span>OVERVIEW</a>
+  <a class="navlink active" href="terminal.html"><span class="k">2:</span>TERMINAL</a>
+  <a class="navlink" href="report.html"><span class="k">3:</span>REPORT</a>
+  <a class="navlink" href="ipo.html"><span class="k">4:</span>IPO</a>
+  <span class="spacer"></span>
+  <span class="meta" id="clock">—</span>
+  <a class="cta" href="https://ko-fi.com/J3J1TRQBI" target="_blank" rel="noopener">☕ SUPPORT</a>
+</nav>
+
+<div class="searchrow">
+  <span class="lbl">Lookup</span>
+  <input class="lookup" id="lookup" list="symlist" placeholder="SYMBOL" autocomplete="off" />
+  <datalist id="symlist"></datalist>
+  <span class="lbl" style="margin-left:14px">Universe sort</span>
+  <select id="sortsel">
+    <option value="turnover">Turnover</option>
+    <option value="vol">Volume</option>
+    <option value="diffPct">% Change</option>
+    <option value="trans">Transactions</option>
+    <option value="ltp">LTP</option>
+    <option value="symbol">Symbol</option>
+  </select>
+  <input id="filter" placeholder="filter symbol…" autocomplete="off" style="width:150px" />
+  <span class="spacer" style="flex:1"></span>
+  <span class="lbl" id="uni-count"></span>
+</div>
+
+<!-- selected security header -->
+<div class="stathead" id="sechead"><div class="loading">Type a symbol above, or pick from the universe below.</div></div>
+
+<div class="grid split-lg">
+  <!-- snapshot + range + prediction -->
+  <section class="panel">
+    <div class="panel-head"><span class="caret">▾</span><span class="title">Market Snapshot</span><span class="badge" id="snap-badge"></span></div>
+    <div class="tiles" id="snaptiles"></div>
+    <div class="panel-body pad">
+      <div class="dim" style="font-size:10px;text-transform:uppercase;letter-spacing:.07em">52-Week Range</div>
+      <div class="rangebar" id="rangebar"><div class="marker" id="rangemarker" style="left:0%"></div></div>
+      <div class="rangelabels"><span id="r-low">—</span><span id="r-pos" class="amber">—</span><span id="r-high">—</span></div>
+    </div>
+  </section>
+
+  <!-- prediction + signals -->
+  <section class="panel">
+    <div class="panel-head"><span class="caret">▾</span><span class="title">Quant Model</span><span class="badge">next-close estimate · alpha signals</span></div>
+    <div class="panel-body pad" id="modelbox">
+      <div class="dim">Select a security to run the model.</div>
+    </div>
+  </section>
+</div>
+
+<!-- peers -->
+<div class="grid split-lg">
+  <section class="panel">
+    <div class="panel-head"><span class="caret">▾</span><span class="title">Price-Band Peers</span><span class="badge" id="peer-badge"></span></div>
+    <div class="panel-body scroll-y" style="--maxh:320px"><table class="t" id="peers"></table></div>
+  </section>
+  <section class="panel">
+    <div class="panel-head"><span class="caret">▾</span><span class="title">OHLCV — Selected</span><span class="badge">daily</span></div>
+    <div class="panel-body scroll-y" style="--maxh:320px"><table class="t" id="ohlc"></table></div>
+  </section>
+</div>
+
+<!-- full universe -->
+<div class="grid">
+  <section class="panel">
+    <div class="panel-head"><span class="caret">▾</span><span class="title">Full Trading Universe</span><span class="badge">click a header to sort · click a symbol to load</span></div>
+    <div class="panel-body scroll-y" style="--maxh:600px"><table class="t" id="universe"></table></div>
+  </section>
+</div>
+
+<footer class="statusbar">
+  <span><span class="dot" id="statusdot"></span><span id="statustext">CONNECTING</span></span>
+  <span>SELECTED <span id="s-sel" class="amber">—</span></span>
+  <span class="spacer"></span>
+  <span id="s-date">—</span>
+  <span>DATA: sharesansar · nepalstock.com.np</span>
+</footer>
+
+<script src="assets/terminal.js"></script>
+<script>
+const { fmt, cls, computeSignals, scanMomentum, scanLiquidity, scanValueBounce, predictNextClose } = NQT;
+let STOCKS = [], DATE = '', sortKey='turnover', sortDir=-1, filterText='';
+
+function tile(lbl, val, extraClass=''){ return `<div class="tile"><div class="lbl">${lbl}</div><div class="val sm ${extraClass}">${val}</div></div>`; }
+
+function selectSymbol(sym){
+  const s = STOCKS.find(x=>x.symbol===sym);
+  if(!s){ return; }
+  document.getElementById('lookup').value = s.symbol;
+  document.getElementById('s-sel').textContent = s.symbol;
+  history.replaceState(null,'','?s='+s.symbol);
+
+  const c=cls(s.diffPct);
+  const arrow = s.diffPct>0?'▲':s.diffPct<0?'▼':'=';
+  document.getElementById('sechead').innerHTML = `
+    <div><div class="name">${s.symbol}</div><div class="sub">Last trading session · ${DATE}</div></div>
+    <div class="big ${c}">${fmt.n(s.ltp)}</div>
+    <div class="chg ${c}">${arrow} ${fmt.signPts(s.diff)} (${fmt.pct(s.diffPct)})</div>
+    <div class="kv"><span class="lbl">52W H/L</span><span class="val mono-num">${fmt.n(s.w52h)} / ${fmt.n(s.w52l)}</span></div>
+    <div class="kv"><span class="lbl">VWAP</span><span class="val mono-num">${fmt.n(s.vwap)}</span></div>
+    <div class="kv"><span class="lbl">Turnover</span><span class="val mono-num amber">${fmt.money(s.turnover)}</span></div>
+    <div class="kv"><span class="lbl">Volume</span><span class="val mono-num">${fmt.vol(s.vol)}</span></div>`;
+
+  // snapshot tiles
+  document.getElementById('snaptiles').innerHTML =
+    tile('Open', fmt.n(s.open)) + tile('High', fmt.n(s.high),'up') + tile('Low', fmt.n(s.low),'down') +
+    tile('Prev Close', fmt.n(s.prevClose)) + tile('VWAP', fmt.n(s.vwap)) +
+    tile('Day Range', fmt.n(s.range)+' ('+fmt.pct(s.rangePct,false)+')') +
+    tile('120-Day Avg', fmt.n(s.d120)) + tile('180-Day Avg', fmt.n(s.d180)) +
+    tile('Transactions', fmt.int(s.trans)) + tile('VWAP Δ', fmt.pct(s.vwapPct), cls(s.vwapPct));
+  document.getElementById('snap-badge').textContent = s.symbol;
+
+  // 52w range bar
+  if(s.w52h && s.w52l && s.w52h>s.w52l){
+    const pos = Math.max(0, Math.min(100, ((s.ltp - s.w52l)/(s.w52h - s.w52l))*100));
+    document.getElementById('rangemarker').style.left = pos+'%';
+    document.getElementById('r-low').textContent = fmt.n(s.w52l);
+    document.getElementById('r-high').textContent = fmt.n(s.w52h);
+    document.getElementById('r-pos').textContent = pos.toFixed(0)+'% of range';
+  }
+
+  // quant model
+  const pred = predictNextClose(s);
+  const sigs = [...scanMomentum([s]), ...scanValueBounce([s])].filter(x=>x.symbol===s.symbol);
+  const liq = scanLiquidity(STOCKS).find(x=>x.symbol===s.symbol);
+  if(liq) sigs.push(liq);
+  let modelHtml='';
+  if(pred){
+    const pc=cls(pred.drift);
+    modelHtml += `<div class="tiles" style="padding:0 0 10px 0">
+      ${tile('Est. Next Close', fmt.n(pred.value), pc)}
+      ${tile('Implied Drift', fmt.pct(pred.drift), pc)}
+      ${tile('Model Confidence', (pred.confidence*100).toFixed(0)+'%', 'amber')}
+    </div>
+    <div class="dim" style="font-size:11px;margin-bottom:10px">Mean-reversion + trend blend over VWAP and the 120/180-day averages. A rough directional prior — not a forecast.</div>`;
+  }
+  if(sigs.length){
+    modelHtml += `<div class="dim" style="font-size:10px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:6px">Alpha Signals</div>`;
+    modelHtml += sigs.map(sg=>`<div style="margin-bottom:7px">
+      <span class="pill ${sg.type}">${sg.type.replace('_',' ')}</span>
+      <span class="amber mono-num" style="margin:0 6px">str ${sg.strength.toFixed(2)}</span>
+      <span class="dim">${sg.reasoning}</span></div>`).join('');
+  } else {
+    modelHtml += `<div class="dim">No active alpha signals for this security today.</div>`;
+  }
+  document.getElementById('modelbox').innerHTML = modelHtml;
+
+  // OHLC (single session — we only have today's snapshot client-side)
+  document.getElementById('ohlc').innerHTML =
+    `<thead><tr><th>DATE</th><th class="num">OPEN</th><th class="num">HIGH</th><th class="num">LOW</th><th class="num">CLOSE</th><th class="num">VWAP</th><th class="num">VOL</th></tr></thead>`
+    + `<tbody><tr><td>${DATE}</td><td class="num mono-num">${fmt.n(s.open)}</td><td class="num mono-num">${fmt.n(s.high)}</td><td class="num mono-num">${fmt.n(s.low)}</td><td class="num mono-num ${cls(s.diffPct)}">${fmt.n(s.close)}</td><td class="num mono-num">${fmt.n(s.vwap)}</td><td class="num mono-num">${fmt.vol(s.vol)}</td></tr></tbody>`;
+
+  // peers by price band (±20%)
+  const lo=s.ltp*0.8, hi=s.ltp*1.2;
+  const peers=STOCKS.filter(x=>x.symbol!==s.symbol && x.ltp>=lo && x.ltp<=hi)
+    .sort((a,b)=>Math.abs(a.ltp-s.ltp)-Math.abs(b.ltp-s.ltp)).slice(0,20);
+  document.getElementById('peers').innerHTML =
+    `<thead><tr><th>SYM</th><th class="num">LTP</th><th class="num">CHG%</th><th class="num">VWAP</th><th class="num">TURNOVER</th></tr></thead>`
+    + `<tbody>${peers.map(p=>`<tr>
+        <td><a class="sym" data-sym="${p.symbol}">${p.symbol}</a></td>
+        <td class="num mono-num">${fmt.n(p.ltp)}</td>
+        <td class="num mono-num ${cls(p.diffPct)}">${fmt.pct(p.diffPct)}</td>
+        <td class="num mono-num dim">${fmt.n(p.vwap)}</td>
+        <td class="num mono-num dim">${fmt.money(p.turnover)}</td></tr>`).join('')}</tbody>`;
+  document.getElementById('peer-badge').textContent = peers.length+' near '+fmt.n(s.ltp);
+}
+
+const COLS=[
+  {k:'symbol',l:'SYM',fmt:s=>`<a class="sym" data-sym="${s.symbol}">${s.symbol}</a>`,num:false},
+  {k:'ltp',l:'LTP',fmt:s=>fmt.n(s.ltp)},
+  {k:'diffPct',l:'CHG%',fmt:s=>`<span class="${cls(s.diffPct)}">${fmt.pct(s.diffPct)}</span>`},
+  {k:'open',l:'OPEN',fmt:s=>fmt.n(s.open)},
+  {k:'high',l:'HIGH',fmt:s=>fmt.n(s.high)},
+  {k:'low',l:'LOW',fmt:s=>fmt.n(s.low)},
+  {k:'vwap',l:'VWAP',fmt:s=>fmt.n(s.vwap)},
+  {k:'vol',l:'VOL',fmt:s=>fmt.vol(s.vol)},
+  {k:'turnover',l:'TURNOVER',fmt:s=>fmt.money(s.turnover)},
+  {k:'trans',l:'TRANS',fmt:s=>fmt.int(s.trans)},
+  {k:'w52h',l:'52W H',fmt:s=>fmt.n(s.w52h)},
+  {k:'w52l',l:'52W L',fmt:s=>fmt.n(s.w52l)},
+];
+
+function renderUniverse(){
+  let rows=STOCKS.filter(s=>!filterText || s.symbol.includes(filterText));
+  rows.sort((a,b)=>{
+    const av=a[sortKey], bv=b[sortKey];
+    if(sortKey==='symbol') return sortDir*String(av).localeCompare(String(bv));
+    return sortDir*(((bv??-Infinity)-(av??-Infinity)));
+  });
+  const t=document.getElementById('universe');
+  t.innerHTML = `<thead><tr>${COLS.map(c=>{
+    const arr = c.k===sortKey ? `<span class="arrow">${sortDir<0?'▼':'▲'}</span>` : '';
+    return `<th class="${c.num===false?'':'num'}" data-k="${c.k}">${c.l} ${arr}</th>`;}).join('')}</tr></thead>`
+    + `<tbody>${rows.map(s=>`<tr>${COLS.map(c=>`<td class="${c.num===false?'':'num'} ${c.num===false?'':'mono-num'}">${c.fmt(s)}</td>`).join('')}</tr>`).join('')}</tbody>`;
+  document.getElementById('uni-count').textContent = rows.length+' securities';
+  t.querySelectorAll('th').forEach(th=>th.onclick=()=>{
+    const k=th.dataset.k;
+    if(k===sortKey) sortDir*=-1; else { sortKey=k; sortDir = k==='symbol'?1:-1; }
+    document.getElementById('sortsel').value = k;
+    renderUniverse();
+  });
+}
+
+function renderTicker(stocks){
+  const top=[...stocks].filter(s=>s.diffPct!==null).sort((a,b)=>Math.abs(b.diffPct)-Math.abs(a.diffPct)).slice(0,24);
+  const one=top.map(s=>`<span class="tick"><span class="sym">${s.symbol}</span><span class="px mono-num">${fmt.n(s.ltp)}</span><span class="${cls(s.diffPct)} mono-num">${s.diffPct>0?'▲':'▼'} ${fmt.pct(s.diffPct)}</span></span>`).join('');
+  document.getElementById('ticker').innerHTML = one+one;
+}
+
+function clock(){
+  const opts={timeZone:'Asia/Kathmandu',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false};
+  document.getElementById('clock').textContent=new Date().toLocaleTimeString('en-GB',opts)+' NPT';
+}
+
+// delegated click for dynamically-added symbol links
+document.addEventListener('click',e=>{
+  const a=e.target.closest('a[data-sym]');
+  if(a){ e.preventDefault(); selectSymbol(a.dataset.sym); window.scrollTo({top:0,behavior:'smooth'}); }
+});
+
+(async function(){
+  clock(); setInterval(clock,1000);
+  try{
+    const {stocks, indexData} = await NQT.loadAll();
+    if(!stocks.length) throw new Error('No stock data');
+    STOCKS=stocks; DATE=(indexData&&indexData.date)||'';
+    document.getElementById('s-date').textContent=DATE;
+    document.getElementById('symlist').innerHTML = stocks.map(s=>`<option value="${s.symbol}">`).join('');
+    renderTicker(stocks);
+    renderUniverse();
+    document.getElementById('statustext').textContent='LIVE · '+stocks.length+' SCRIPS';
+
+    document.getElementById('lookup').addEventListener('change',e=>selectSymbol(e.target.value.trim().toUpperCase()));
+    document.getElementById('lookup').addEventListener('keydown',e=>{ if(e.key==='Enter') selectSymbol(e.target.value.trim().toUpperCase()); });
+    document.getElementById('sortsel').addEventListener('change',e=>{ sortKey=e.target.value; sortDir = sortKey==='symbol'?1:-1; renderUniverse(); });
+    document.getElementById('filter').addEventListener('input',e=>{ filterText=e.target.value.trim().toUpperCase(); renderUniverse(); });
+
+    const q=new URLSearchParams(location.search).get('s');
+    if(q) selectSymbol(q.trim().toUpperCase());
+  }catch(e){
+    document.getElementById('sechead').innerHTML=`<div class="err">Failed to load data: ${e.message}.</div>`;
+    document.getElementById('statustext').textContent='OFFLINE';
+    document.getElementById('statusdot').style.background='var(--down)';
+  }
+})();
+</script>
+</body>
+</html>
