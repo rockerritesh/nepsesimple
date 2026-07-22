@@ -1,65 +1,79 @@
 {
-  "market_summary": "343 scrips traded on 2026-07-22. Ranked by the quantitative screen (momentum / liquidity / value-bounce).",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.26%, driven by positive movement in some sectors, though the Sensitive Index edged lower. Overall market breadth appears mixed, with significant turnover indicating investor participation.",
   "recommendations": [
     {
       "symbol": "RIDI",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.888 from liquidity, momentum; LTP 378.9 vs 120d 331.88.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "conviction": "medium",
+      "rationale": "Trading at 378.9, 5.34% higher today, RIDI is above its 120-day (331.88) and 180-day (296.14) averages, with strong turnover of 557.75M and showing momentum signals.",
+      "risk": "Approaching 52-week high."
     },
     {
       "symbol": "AKJCL",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.671 from liquidity, momentum; LTP 385.0 vs 120d 369.28.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "conviction": "medium",
+      "rationale": "At 385.0, up 2.83%, AKJCL is trading above its 120-day (369.28) and 180-day (309.29) averages, supported by liquidity and momentum signals.",
+      "risk": "Still below 52-week high."
     },
     {
       "symbol": "NHPC",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.541 from liquidity, momentum; LTP 282.9 vs 120d 268.28.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
-    },
-    {
-      "symbol": "SMH",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.439 from liquidity, value_bounce; LTP 521.9 vs 120d 619.45.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "conviction": "medium",
+      "rationale": "With a current price of 282.9, up 1.04%, NHPC is comfortably above its 120-day (268.28) and 180-day (242.22) averages, indicating positive momentum.",
+      "risk": "Limited upside from 52-week high."
     },
     {
       "symbol": "SANIMA",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.419 from liquidity, momentum; LTP 368.0 vs 120d 351.17.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Trading at 368.0, up 1.52%, SANIMA is above its 120-day (351.17) and 180-day (338.73) averages, showing positive momentum and good liquidity.",
+      "risk": "Near 52-week high, limited immediate upside."
     },
     {
       "symbol": "KBL",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.41 from liquidity, momentum; LTP 220.9 vs 120d 211.62.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "At 220.9, up 0.41%, KBL is trading above its 120-day (211.62) and 180-day (201.71) averages, with liquidity and momentum signals.",
+      "risk": "Price is relatively close to its 52-week high."
     },
     {
       "symbol": "SHIVM",
       "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Quant score 1.383 from liquidity, momentum; LTP 663.1 vs 120d 653.33.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "conviction": "low",
+      "rationale": "Slightly up at 663.1, SHIVM is trading above its 120-day (653.33) and 180-day (633.08) averages, showing momentum signals with good liquidity.",
+      "risk": "Minimal daily price change."
     },
     {
       "symbol": "HDL",
       "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Quant score 1.332 from liquidity, momentum, value_bounce; LTP 1188.5 vs 120d 1161.9.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "conviction": "low",
+      "rationale": "Trading at 1188.5, up 0.73%, HDL is above its 120-day (1161.9) and 180-day (1174.82) averages, with liquidity and a value bounce signal.",
+      "risk": "Significant gap from 52-week high."
+    },
+    {
+      "symbol": "SMH",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Currently at 521.9, up 1.7%, SMH is below its 120-day (619.45) and 180-day (668.06) averages, indicating a value bounce opportunity but not yet confirmed momentum.",
+      "risk": "Trading below longer-term averages."
+    },
+    {
+      "symbol": "NIMB",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "At 198.5, up 0.25%, NIMB is trading near its 120-day (199.57) and 180-day (198.02) averages, showing a value bounce signal but lacking strong upward momentum.",
+      "risk": "Stagnant price action."
+    },
+    {
+      "symbol": "NRN",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at 1495.0, up 1.7%, NRN is above its 120-day (1482.29) average but below its 180-day (1544.58), with momentum signals but a wide 52-week range.",
+      "risk": "High volatility and wide trading range."
     }
   ],
-  "outlook": "Watch breadth and turnover leaders into the next session.",
+  "outlook": "Investors will watch for sustained strength in the NEPSE Index and increased breadth in tomorrow's trading session.",
   "date": "2026-07-22",
-  "generated_by": "quant-fallback",
+  "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
