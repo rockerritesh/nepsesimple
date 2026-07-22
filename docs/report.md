@@ -16,4 +16,4 @@
 - BJHL: 771.0 (-4.58%)
 - CKHL: 620.1 (-4.44%)
 
-_Auto-generated. NEPSE index forecast (next session): 2658.13. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2654.83. Not investment advice._
