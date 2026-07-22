@@ -30,6 +30,13 @@ jobs:
     - name: Fetch data and update the file(s)
       run: python simple.py
 
+    - name: Generate recommendations (Gemini, same key as my-agents)
+      if: always()
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        GEMINI_MODEL_NAME: ${{ secrets.GEMINI_MODEL_NAME }}
+      run: python recommend.py
+
     - name: Publish daily brief to job summary
       if: always()
       run: |

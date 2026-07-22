@@ -46,6 +46,24 @@
 <!-- selected security header -->
 <div class="stathead" id="sechead"><div class="loading">Type a symbol above, or pick from the universe below.</div></div>
 
+<!-- price chart -->
+<div class="grid">
+  <section class="panel">
+    <div class="panel-head">
+      <span class="caret">▾</span><span class="title" id="chart-title">Price Chart</span>
+      <span class="tfbar" id="tfbar">
+        <button class="tfbtn" data-tf="22">1M</button>
+        <button class="tfbtn" data-tf="66">3M</button>
+        <button class="tfbtn" data-tf="132">6M</button>
+        <button class="tfbtn active" data-tf="250">1Y</button>
+        <button class="tfbtn" data-tf="0">ALL</button>
+      </span>
+      <span class="badge">candles + 20-MA + volume · source: nepse-data</span>
+    </div>
+    <div class="panel-body pad"><div id="chart"><div class="loading">Select a security to load its price history.</div></div></div>
+  </section>
+</div>
+
 <div class="grid split-lg">
   <!-- snapshot + range + prediction -->
   <section class="panel">
@@ -99,6 +117,32 @@
 <script>
 const { fmt, cls, computeSignals, scanMomentum, scanLiquidity, scanValueBounce, predictNextClose } = NQT;
 let STOCKS = [], DATE = '', sortKey='turnover', sortDir=-1, filterText='';
+let HIST = [], TF = 250, CURSYM = '';
+
+function drawTF(){
+  const box=document.getElementById('chart');
+  if(!HIST.length){ box.innerHTML='<div class="loading">No price history for '+CURSYM+'.</div>'; return; }
+  const bars = TF>0 ? HIST.slice(-TF) : HIST;
+  NQT.drawChart(box, bars);
+}
+
+async function loadHistoryFor(sym){
+  const box=document.getElementById('chart');
+  box.innerHTML='<div class="loading">Loading price history for '+sym+'…</div>';
+  document.getElementById('chart-title').textContent = sym+' — Price Chart';
+  try{
+    HIST = await NQT.loadHistory(sym);
+    drawTF();
+    // OHLCV table = most recent sessions from history
+    const recent=[...HIST].slice(-20).reverse();
+    document.getElementById('ohlc').innerHTML =
+      `<thead><tr><th>DATE</th><th class="num">OPEN</th><th class="num">HIGH</th><th class="num">LOW</th><th class="num">CLOSE</th><th class="num">VOL</th></tr></thead>`
+      + `<tbody>${recent.map((b,i)=>{const prev=recent[i+1];const up=prev?b.c>=prev.c:b.c>=b.o;
+        return `<tr><td>${b.date}</td><td class="num mono-num">${fmt.n(b.o)}</td><td class="num mono-num">${fmt.n(b.h)}</td><td class="num mono-num">${fmt.n(b.l)}</td><td class="num mono-num ${up?'up':'down'}">${fmt.n(b.c)}</td><td class="num mono-num dim">${fmt.vol(b.vol)}</td></tr>`;}).join('')}</tbody>`;
+  }catch(e){
+    HIST=[]; box.innerHTML='<div class="loading">No historical series published for '+sym+' ('+e.message+'). Today\'s snapshot is shown in the tables below.</div>';
+  }
+}
 
 function tile(lbl, val, extraClass=''){ return `<div class="tile"><div class="lbl">${lbl}</div><div class="val sm ${extraClass}">${val}</div></div>`; }
 
@@ -182,6 +226,9 @@ function selectSymbol(sym){
         <td class="num mono-num dim">${fmt.n(p.vwap)}</td>
         <td class="num mono-num dim">${fmt.money(p.turnover)}</td></tr>`).join('')}</tbody>`;
   document.getElementById('peer-badge').textContent = peers.length+' near '+fmt.n(s.ltp);
+
+  CURSYM = s.symbol;
+  loadHistoryFor(s.symbol);
 }
 
 const COLS=[
@@ -253,6 +300,11 @@ document.addEventListener('click',e=>{
     document.getElementById('lookup').addEventListener('keydown',e=>{ if(e.key==='Enter') selectSymbol(e.target.value.trim().toUpperCase()); });
     document.getElementById('sortsel').addEventListener('change',e=>{ sortKey=e.target.value; sortDir = sortKey==='symbol'?1:-1; renderUniverse(); });
     document.getElementById('filter').addEventListener('input',e=>{ filterText=e.target.value.trim().toUpperCase(); renderUniverse(); });
+    document.getElementById('tfbar').addEventListener('click',e=>{
+      const b=e.target.closest('.tfbtn'); if(!b) return;
+      document.querySelectorAll('.tfbtn').forEach(x=>x.classList.remove('active'));
+      b.classList.add('active'); TF=parseInt(b.dataset.tf,10); drawTF();
+    });
 
     const q=new URLSearchParams(location.search).get('s');
     if(q) selectSymbol(q.trim().toUpperCase());

@@ -15,6 +15,20 @@
   .report .lead { font-size: 15px; line-height: 1.7; }
   .report ul { padding-left: 18px; }
   .report li { margin: 5px 0; }
+  .recs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  @media (max-width: 760px){ .recs { grid-template-columns: 1fr; } }
+  .rec { border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px; background: var(--panel); }
+  .rec .top { display: flex; align-items: center; gap: 8px; }
+  .rec .sym { font-weight: 700; font-size: 14px; color: #fff; }
+  .rec .rationale { color: var(--ink); margin: 6px 0 3px; line-height: 1.55; }
+  .rec .risk { color: var(--ink-faint); font-size: 11px; }
+  .act { padding: 1px 7px; border-radius: 2px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+  .act.BUY, .act.ACCUMULATE { color: #000; background: var(--up); }
+  .act.WATCH { color: var(--amber); border: 1px solid var(--amber); }
+  .act.AVOID { color: #000; background: var(--down); }
+  .conv { font-size: 10px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .05em; margin-left: auto; }
+  .genby { font-size: 10px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .06em; }
+  .idxchart { width: 100%; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); margin: 4px 0; }
 </style>
 </head>
 <body>
@@ -74,8 +88,28 @@ function renderTicker(stocks){
 
     const li=arr=>arr.map(s=>`<li><b>${s.symbol}</b> — ${fmt.n(s.ltp)} <span class="${cls(s.diffPct)}">(${fmt.pct(s.diffPct)})</span></li>`).join('');
 
-    document.getElementById('report').innerHTML = `
+    // Recommendations (Gemini via CI; falls back to quant list). Optional file.
+    const recs = await NQT.getJSON('/recommendations.json').catch(()=>null);
+    let recsHtml='';
+    if(recs && Array.isArray(recs.recommendations) && recs.recommendations.length){
+      const gen = /gemini/i.test(recs.generated_by||'') ? 'Gemini '+String(recs.generated_by).split(':')[1] : 'quant screen';
+      recsHtml = `
+        <h2>Analyst Recommendations <span class="genby">· ${gen}</span></h2>
+        <p class="lead">${recs.market_summary||''}</p>
+        <div class="recs">${recs.recommendations.map(r=>`
+          <div class="rec">
+            <div class="top"><span class="sym">${r.symbol}</span>
+              <span class="act ${String(r.action||'WATCH').toUpperCase()}">${r.action||'WATCH'}</span>
+              <span class="conv">${r.conviction||''}</span></div>
+            <div class="rationale">${r.rationale||''}</div>
+            <div class="risk">Risk: ${r.risk||'—'}</div>
+          </div>`).join('')}</div>
+        ${recs.outlook?`<p style="margin-top:12px"><b>Outlook:</b> ${recs.outlook}</p>`:''}`;
+    }
+
+    document.getElementById('report').innerHTML = recsHtml + `
       <h2>NEPSE Daily Brief — ${date}</h2>
+      <img class="idxchart" src="graph.png" alt="NEPSE index history with regression forecast" onerror="this.style.display='none'"/>
       <p class="lead">The NEPSE index ${dir} to <b class="${cls(nepse.points_change)}">${fmt.n(nepse.current)}</b>
         (${fmt.signPts(nepse.points_change)}, ${fmt.pct(nepse.pct_change)}) on turnover of
         <b class="amber">${fmt.money(turnover)}</b> across ${stocks.length} scrips. Market breadth was

@@ -190,10 +190,106 @@
     return { value, drift, confidence };
   }
 
+  /* ---- per-company history + charts ------------------------------------ */
+  const HIST_BASE = "https://raw.githubusercontent.com/Aabishkar2/nepse-data/refs/heads/main/data/company-wise/";
+
+  function parseCSV(text) {
+    const lines = text.trim().split(/\r?\n/);
+    const head = lines[0].split(",").map((h) => h.trim());
+    return lines.slice(1).map((ln) => {
+      const cells = ln.split(",");
+      const o = {}; head.forEach((h, i) => { o[h] = cells[i]; });
+      return o;
+    });
+  }
+
+  async function loadHistory(symbol) {
+    const res = await fetch(`${HIST_BASE}${encodeURIComponent(symbol)}.csv`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`history HTTP ${res.status}`);
+    const rows = parseCSV(await res.text());
+    return rows.map((r) => ({
+      date: r.published_date,
+      o: num(r.open), h: num(r.high), l: num(r.low), c: num(r.close),
+      vol: num(r.traded_quantity),
+    })).filter((b) => b.c !== null && b.o !== null).sort((a, b) => a.date < b.date ? -1 : 1);
+  }
+
+  function sma(bars, period) {
+    const out = new Array(bars.length).fill(null);
+    let sum = 0;
+    for (let i = 0; i < bars.length; i++) {
+      sum += bars[i].c;
+      if (i >= period) sum -= bars[i - period].c;
+      if (i >= period - 1) out[i] = sum / period;
+    }
+    return out;
+  }
+
+  // Dependency-free SVG candlestick + volume chart.
+  function drawChart(container, bars, opts = {}) {
+    if (!bars || !bars.length) { container.innerHTML = '<div class="loading">No history available.</div>'; return; }
+    const W = 1000, H = 420, padR = 54, padL = 6, priceH = 300, volTop = 330, volH = 78;
+    const n = bars.length;
+    const useCandles = n <= 260;
+    const lo = Math.min(...bars.map((b) => b.l ?? b.c));
+    const hi = Math.max(...bars.map((b) => b.h ?? b.c));
+    const pad = (hi - lo) * 0.06 || 1;
+    const yMin = lo - pad, yMax = hi + pad;
+    const maxVol = Math.max(...bars.map((b) => b.vol || 0), 1);
+    const x = (i) => padL + (i / Math.max(n - 1, 1)) * (W - padL - padR);
+    const y = (v) => 8 + (1 - (v - yMin) / (yMax - yMin)) * priceH;
+    const yv = (v) => volTop + (1 - v / maxVol) * volH;
+    const bw = Math.max(1, ((W - padL - padR) / n) * 0.62);
+    const up = "#29d17c", down = "#ff5b5b", amber = "#d9a441";
+
+    let svg = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" style="width:100%;height:${H}px;display:block">`;
+    // grid + price labels
+    for (let g = 0; g <= 4; g++) {
+      const v = yMin + (g / 4) * (yMax - yMin), yy = y(v);
+      svg += `<line x1="${padL}" y1="${yy}" x2="${W - padR}" y2="${yy}" stroke="#181818"/>`;
+      svg += `<text x="${W - padR + 4}" y="${yy + 3}" fill="#5a5a5a" font-size="10" font-family="monospace">${fmt.n(v)}</text>`;
+    }
+    if (useCandles) {
+      bars.forEach((b, i) => {
+        const cx = x(i), col = b.c >= b.o ? up : down;
+        svg += `<line x1="${cx}" y1="${y(b.h)}" x2="${cx}" y2="${y(b.l)}" stroke="${col}" stroke-width="1"/>`;
+        const y1 = y(Math.max(b.o, b.c)), y2 = y(Math.min(b.o, b.c));
+        svg += `<rect x="${cx - bw / 2}" y="${y1}" width="${bw}" height="${Math.max(1, y2 - y1)}" fill="${col}"/>`;
+      });
+    } else {
+      // area + line for long ranges
+      const pts = bars.map((b, i) => `${x(i)},${y(b.c)}`).join(" ");
+      svg += `<polyline points="${pts}" fill="none" stroke="${amber}" stroke-width="1.4"/>`;
+      svg += `<polygon points="${padL},${y(yMin)} ${pts} ${x(n - 1)},${y(yMin)}" fill="rgba(217,164,65,.08)"/>`;
+    }
+    // moving average
+    const ma = sma(bars, Math.min(20, Math.max(5, Math.floor(n / 6))));
+    const mapts = ma.map((v, i) => v == null ? null : `${x(i)},${y(v)}`).filter(Boolean).join(" ");
+    if (mapts) svg += `<polyline points="${mapts}" fill="none" stroke="#5aa9e6" stroke-width="1.2" stroke-dasharray="3 3"/>`;
+    // last price line
+    const last = bars[n - 1].c;
+    svg += `<line x1="${padL}" y1="${y(last)}" x2="${W - padR}" y2="${y(last)}" stroke="${amber}" stroke-width=".6" stroke-dasharray="2 3"/>`;
+    // volume
+    bars.forEach((b, i) => {
+      const col = b.c >= b.o ? "rgba(41,209,124,.4)" : "rgba(255,91,91,.4)";
+      const vy = yv(b.vol || 0);
+      svg += `<rect x="${x(i) - bw / 2}" y="${vy}" width="${bw}" height="${volTop + volH - vy}" fill="${col}"/>`;
+    });
+    // x date labels
+    const ticks = 5;
+    for (let t = 0; t <= ticks; t++) {
+      const i = Math.round((t / ticks) * (n - 1));
+      svg += `<text x="${x(i)}" y="${H - 4}" fill="#5a5a5a" font-size="10" font-family="monospace" text-anchor="middle">${bars[i].date}</text>`;
+    }
+    svg += `</svg>`;
+    container.innerHTML = svg;
+  }
+
   /* ---- expose ----------------------------------------------------------- */
   global.NQT = {
     getJSON, normalizeStocks, num, fmt, cls,
     computeSignals, scanMomentum, scanLiquidity, scanValueBounce, predictNextClose,
+    loadHistory, drawChart, sma,
     async loadAll() {
       const [stocksRaw, indexData, marketSummary] = await Promise.all([
         getJSON("/nepsesimple.json").catch(() => null),
