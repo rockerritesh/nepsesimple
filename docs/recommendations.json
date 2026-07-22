@@ -1,65 +1,72 @@
 {
-  "market_summary": "343 scrips traded on 2026-07-22. Ranked by the quantitative screen (momentum / liquidity / value-bounce).",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.26%, driven by positive movement in the Float Index, while the Sensitive Index experienced a slight dip. Breadth appears mixed with notable gainers and losers.",
   "recommendations": [
     {
       "symbol": "RIDI",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.888 from liquidity, momentum; LTP 378.9 vs 120d 331.88.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "conviction": "medium",
+      "rationale": "Trading 5.34% higher today, RIDI is above its 120-day (331.88) and 180-day (296.14) averages, with significant turnover (557.75M) and a strong quant score (1.888).",
+      "risk": "Approaching 52-week high."
     },
     {
       "symbol": "AKJCL",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.671 from liquidity, momentum; LTP 385.0 vs 120d 369.28.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "conviction": "medium",
+      "rationale": "Gained 2.83% today, trading above its 120-day (369.28) and 180-day (309.29) averages, supported by good turnover (313.74M) and a quant score of 1.671.",
+      "risk": "Still below 52-week high."
     },
     {
       "symbol": "NHPC",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.541 from liquidity, momentum; LTP 282.9 vs 120d 268.28.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
-    },
-    {
-      "symbol": "SMH",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.439 from liquidity, value_bounce; LTP 521.9 vs 120d 619.45.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "conviction": "low",
+      "rationale": "Showed a 1.04% increase today, trading above its 120-day (268.28) and 180-day (242.22) averages with solid turnover (186.19M) and a quant score of 1.541.",
+      "risk": "Limited upside from 52-week high."
     },
     {
       "symbol": "SANIMA",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.419 from liquidity, momentum; LTP 368.0 vs 120d 351.17.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "conviction": "low",
+      "rationale": "Up 1.52% today, trading above its 120-day (351.17) and 180-day (338.73) averages, with decent turnover (41.26M) and a quant score of 1.419.",
+      "risk": "Near 52-week high."
     },
     {
       "symbol": "KBL",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.41 from liquidity, momentum; LTP 220.9 vs 120d 211.62.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "A modest 0.41% gain today, KBL is trading above its 120-day (211.62) and 180-day (201.71) averages with good volume and a quant score of 1.41.",
+      "risk": "Below 52-week high."
     },
     {
       "symbol": "SHIVM",
       "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Quant score 1.383 from liquidity, momentum; LTP 663.1 vs 120d 653.33.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "conviction": "low",
+      "rationale": "Slightly up 0.02% today, SHIVM is trading above its 120-day (653.33) and 180-day (633.08) averages with good liquidity and a quant score of 1.383.",
+      "risk": "Trading below 52-week high."
     },
     {
       "symbol": "HDL",
       "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Quant score 1.332 from liquidity, momentum, value_bounce; LTP 1188.5 vs 120d 1161.9.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
+      "conviction": "low",
+      "rationale": "Posted a 0.73% gain today, trading above its 120-day (1161.9) and 180-day (1174.82) averages, with a quant score of 1.332.",
+      "risk": "Significant distance from 52-week high."
+    },
+    {
+      "symbol": "SMH",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Up 1.7% today, SMH is showing a 'value_bounce' signal but is trading significantly below its 120-day (619.45) and 180-day (668.06) averages.",
+      "risk": "Extended move from averages."
+    },
+    {
+      "symbol": "NIMB",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "A small 0.25% increase today, NIMB is trading below its 120-day (199.57) average, though it shows a 'value_bounce' signal.",
+      "risk": "Below key moving averages."
     }
   ],
-  "outlook": "Watch breadth and turnover leaders into the next session.",
-  "date": "2026-07-22",
-  "generated_by": "quant-fallback",
+  "outlook": "Watch for continued strength in the NEPSE Index and increased breadth in the next session.",
+  "date": "2026-07-21",
+  "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }

@@ -15,9 +15,29 @@ import os
 import re
 from datetime import date
 
+
+def _load_dotenv(path=".env"):
+    """Minimal .env loader (no dependency) so local runs can read the key.
+    CI passes the key via GitHub Actions secrets, so this is a local convenience.
+    """
+    try:
+        with open(path) as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+    except FileNotFoundError:
+        pass
+
+
+_load_dotenv()
+
 DOCS = "docs"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL_NAME", "gemini-2.5-flash")
+# Cheapest Gemini flash tier by default; override with GEMINI_MODEL_NAME.
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL_NAME", "gemini-2.5-flash-lite")
 
 SYSTEM_PROMPT = """You are a disciplined NEPSE (Nepal Stock Exchange) buy-side analyst.
 You are given today's market snapshot and a list of quantitatively-screened
