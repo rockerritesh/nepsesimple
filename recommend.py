@@ -162,6 +162,13 @@ def quant_fallback(context):
 
 
 def main():
+    # When no key is available (e.g. CI without the secret), keep the last
+    # committed recommendations.json instead of clobbering it with the quant
+    # fallback — so a locally-generated Gemini file survives scheduled runs.
+    if not GEMINI_API_KEY and os.path.exists(f"{DOCS}/recommendations.json"):
+        print("[recommend] no GEMINI_API_KEY; keeping existing recommendations.json")
+        return
+
     context = build_context()
     used = "gemini:" + GEMINI_MODEL
     try:
