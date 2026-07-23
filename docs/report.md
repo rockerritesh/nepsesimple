@@ -1,19 +1,19 @@
 # NEPSE Daily Brief — 2026-07-23
 
-**NEPSE Index**: 2712.54 (-13.95, -0.51%) · turnover 5,187,467,074
+**NEPSE Index**: 2726.72 (+14.17, +0.52%) · turnover 4,693,449,371
 
 ## Top Gainers
-- ECL: 492.4 (+14.99%)
-- BUNGAL: 705.0 (+10.50%)
-- SABBL: 1074.0 (+5.92%)
-- PURE: 885.0 (+5.23%)
-- SAIL: 1083.8 (+4.32%)
+- ECL: 566.2 (+14.99%)
+- SNORL: 995.0 (+13.71%)
+- APHL: 930.0 (+11.04%)
+- SIPD: 745.0 (+8.46%)
+- HFIN: 760.0 (+7.51%)
 
 ## Top Losers
-- NCCD86: 1206.0 (-7.16%)
-- NIBD84: 1040.0 (-5.63%)
-- NBBD2085: 1065.0 (-4.48%)
-- GMLI: 1200.0 (-3.92%)
-- DHPL: 296.5 (-3.67%)
+- KBSH: 1045.5 (-15.00%)
+- BUNGAL: 635.0 (-9.93%)
+- RSML: 3516.0 (-4.48%)
+- BOKD86KA: 1100.0 (-3.00%)
+- SBLD83: 1038.0 (-2.99%)
 
 _Auto-generated. NEPSE index forecast (next session): 2651.48. Not investment advice._
