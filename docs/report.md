@@ -1,4 +1,4 @@
-# NEPSE Daily Brief — 2026-07-22
+# NEPSE Daily Brief — 2026-07-23
 
 **NEPSE Index**: 2712.54 (-13.95, -0.51%) · turnover 5,187,467,074
 
@@ -16,4 +16,4 @@
 - GMLI: 1200.0 (-3.92%)
 - DHPL: 296.5 (-3.67%)
 
-_Auto-generated. NEPSE index forecast (next session): 2654.83. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2651.48. Not investment advice._
