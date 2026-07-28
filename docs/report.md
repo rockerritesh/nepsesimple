@@ -1,6 +1,6 @@
-# NEPSE Daily Brief — 2026-07-27
+# NEPSE Daily Brief — 2026-07-28
 
-**NEPSE Index**: 2701.32 (-33.28, -1.21%) · turnover 6,080,863,355
+**NEPSE Index**: 2696.67 (-4.64, -0.17%) · turnover 4,427,298,447
 
 ## Top Gainers
 - ECL: 748.7 (+14.99%)
@@ -16,4 +16,4 @@
 - CCBD88: 1215.4 (-8.34%)
 - NMBD87/88: 1110.0 (-8.34%)
 
-_Auto-generated. NEPSE index forecast (next session): 2644.43. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2640.41. Not investment advice._
