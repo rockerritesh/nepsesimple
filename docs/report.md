@@ -1,4 +1,4 @@
-# NEPSE Daily Brief — 2026-07-28
+# NEPSE Daily Brief — 2026-07-29
 
 **NEPSE Index**: 2696.67 (-4.64, -0.17%) · turnover 4,427,298,447
 
@@ -16,4 +16,4 @@
 - DLBS: 1215.0 (-3.42%)
 - RBBF40: 9.0 (-3.12%)
 
-_Auto-generated. NEPSE index forecast (next session): 2640.41. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2636.18. Not investment advice._
