@@ -1,19 +1,19 @@
 # NEPSE Daily Brief — 2026-07-30
 
-**NEPSE Index**: 2688.88 (-7.79, -0.28%) · turnover 4,029,457,701
+**NEPSE Index**: 2672.58 (-16.29, -0.60%) · turnover 3,381,318,248
 
 ## Top Gainers
-- ECL: 990.1 (+14.99%)
-- KHPL: 1061.0 (+12.39%)
-- SNORL: 971.4 (+4.90%)
-- NBF3: 10.09 (+3.91%)
-- KKHC: 295.0 (+3.62%)
+- ECL: 1138.6 (+15.00%)
+- CFCL: 660.1 (+2.74%)
+- SPL: 664.0 (+2.15%)
+- TRH: 785.9 (+2.01%)
+- NMBHF2: 9.75 (+1.77%)
 
 ## Top Losers
-- CBLD88: 1221.0 (-7.08%)
-- GSY: 9.77 (-6.60%)
-- GBIMEP: 120.8 (-4.96%)
-- MATRI: 820.0 (-4.54%)
-- CORBL: 1317.0 (-4.42%)
+- KHPL: 902.0 (-14.99%)
+- CORBL: 1155.0 (-12.30%)
+- GBIMEP: 111.4 (-7.78%)
+- SOHL: 571.0 (-3.82%)
+- GBIMESY2: 9.04 (-3.73%)
 
 _Auto-generated. NEPSE index forecast (next session): 2631.66. Not investment advice._
