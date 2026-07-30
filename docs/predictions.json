@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "nepse_index_forecast": {
-    "next_value": 2636.18,
-    "trend_slope": -2.2051,
+    "next_value": 2631.66,
+    "trend_slope": -2.2942,
     "method": "linear regression on merolagani index history"
   },
   "alpha_candidates": [

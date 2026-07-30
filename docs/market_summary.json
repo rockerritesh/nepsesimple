@@ -1,11 +1,17 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "top_gainers": [
     {
       "symbol": "ECL",
       "ltp": 990.1,
       "point_change": 129.1,
       "pct_change": 14.99
+    },
+    {
+      "symbol": "KHPL",
+      "ltp": 1061.0,
+      "point_change": 117.0,
+      "pct_change": 12.39
     },
     {
       "symbol": "SNORL",
@@ -24,26 +30,20 @@
       "ltp": 295.0,
       "point_change": 10.3,
       "pct_change": 3.62
-    },
-    {
-      "symbol": "HPPL",
-      "ltp": 394.7,
-      "point_change": 12.8,
-      "pct_change": 3.35
     }
   ],
   "top_losers": [
+    {
+      "symbol": "CBLD88",
+      "ltp": 1221.0,
+      "point_change": -93.0,
+      "pct_change": -7.08
+    },
     {
       "symbol": "GSY",
       "ltp": 9.77,
       "point_change": -0.69,
       "pct_change": -6.6
-    },
-    {
-      "symbol": "CBLD88",
-      "ltp": 1235.0,
-      "point_change": -79.0,
-      "pct_change": -6.01
     },
     {
       "symbol": "GBIMEP",
@@ -78,7 +78,7 @@
     {
       "symbol": "RSML",
       "turnover": 179134488.7,
-      "ltp": 3117.0
+      "ltp": 3118.0
     },
     {
       "symbol": "CORBL",
@@ -88,7 +88,7 @@
     {
       "symbol": "CFCL",
       "turnover": 167322312.2,
-      "ltp": 648.4
+      "ltp": 642.5
     }
   ],
   "top_volume": [
