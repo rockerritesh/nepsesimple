@@ -1,19 +1,19 @@
-# NEPSE Daily Brief — 2026-08-05
+# NEPSE Daily Brief — 2026-08-06
 
-**NEPSE Index**: 2667.97 (+4.79, +0.18%) · turnover 4,409,872,058
+**NEPSE Index**: 2654.15 (-13.82, -0.51%) · turnover 4,622,777,442
 
 ## Top Gainers
-- SOHL: 672.7 (+14.99%)
-- SIPD: 699.0 (+5.91%)
-- RIDI: 384.0 (+5.79%)
-- GWFD83: 1085.0 (+5.32%)
-- BNHC: 291.0 (+4.68%)
+- ULHC: 407.2 (+15.00%)
+- KAHL: 554.5 (+4.62%)
+- NIBSF2: 9.0 (+4.05%)
+- NIBLSTF: 8.79 (+2.81%)
+- SGHL: 525.6 (+2.46%)
 
 ## Top Losers
-- ECL: 1575.0 (-9.03%)
-- KSBBLD87: 1087.7 (-8.77%)
-- MFLD85: 1116.0 (-6.02%)
-- NBLD82: 1024.0 (-5.71%)
-- PBLD84: 1057.2 (-5.60%)
+- LSH12: 9.35 (-6.50%)
+- MMF1: 8.75 (-5.61%)
+- LVF2: 9.3 (-5.10%)
+- SAEF2: 9.5 (-5.00%)
+- SNORL: 881.6 (-5.00%)
 
-_Auto-generated. NEPSE index forecast (next session): 2625.39. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2623.48. Not investment advice._
