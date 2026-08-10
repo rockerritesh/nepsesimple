@@ -1,19 +1,19 @@
 # NEPSE Daily Brief — 2026-08-10
 
-**NEPSE Index**: 2650.09 (-4.05, -0.15%) · turnover 3,774,361,541
+**NEPSE Index**: 2641.06 (-9.02, -0.34%) · turnover 3,674,419,766
 
 ## Top Gainers
-- ANLB: 5999.0 (+8.60%)
-- CBLD88: 1230.0 (+6.96%)
-- HLICF: 8.94 (+5.18%)
-- NICBF: 9.57 (+5.16%)
-- NICSF: 8.9 (+3.97%)
+- CORBL: 1155.2 (+8.47%)
+- DHEL: 620.0 (+6.00%)
+- FMDBL: 817.0 (+4.61%)
+- UHEWA: 608.0 (+4.47%)
+- KMCDB: 807.9 (+3.98%)
 
 ## Top Losers
-- ULHC: 379.0 (-6.93%)
-- EBLD85: 1060.0 (-4.80%)
-- AKJCL: 362.1 (-3.18%)
-- BOKD86KA: 1111.1 (-2.99%)
-- PBD84: 1069.0 (-2.99%)
+- RSY2: 9.03 (-9.70%)
+- ANLB: 5467.0 (-8.87%)
+- LUK: 10.06 (-5.89%)
+- RBBD2088: 994.1 (-5.86%)
+- ECL: 1584.0 (-4.86%)
 
-_Auto-generated. NEPSE index forecast (next session): 2621.59. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2618.92. Not investment advice._
