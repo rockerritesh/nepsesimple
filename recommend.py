@@ -35,9 +35,10 @@ def _load_dotenv(path=".env"):
 _load_dotenv()
 
 DOCS = "docs"
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 # Cheapest Gemini flash tier by default; override with GEMINI_MODEL_NAME.
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL_NAME", "gemini-2.5-flash-lite")
+# `or` guards against the secret being present-but-empty in CI.
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL_NAME", "").strip() or "gemini-2.5-flash-lite"
 
 SYSTEM_PROMPT = """You are a disciplined NEPSE (Nepal Stock Exchange) buy-side analyst.
 You are given today's market snapshot and a list of quantitatively-screened
