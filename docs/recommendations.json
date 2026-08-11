@@ -1,79 +1,72 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.26%, driven by positive movement in some sectors, though the Sensitive Index edged lower. Overall market breadth appears mixed, with significant turnover indicating investor participation.",
+  "market_summary": "The NEPSE Index closed slightly higher, up 0.03%, with a modest turnover of NPR 4.11 billion. Breadth appears mixed as the index eked out a gain despite a negative forecast trend.",
   "recommendations": [
     {
-      "symbol": "RIDI",
-      "action": "BUY",
+      "symbol": "UHEWA",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Trading at 378.9, 5.34% higher today, RIDI is above its 120-day (331.88) and 180-day (296.14) averages, with strong turnover of 557.75M and showing momentum signals.",
-      "risk": "Approaching 52-week high."
+      "rationale": "Showed strong positive momentum today with a 3.6% gain, trading above its 120-day (588.35) and 180-day (585.77) averages on high turnover.",
+      "risk": "Approaching 52-week high (692.6)."
     },
     {
-      "symbol": "AKJCL",
-      "action": "BUY",
+      "symbol": "MEN",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "At 385.0, up 2.83%, AKJCL is trading above its 120-day (369.28) and 180-day (309.29) averages, supported by liquidity and momentum signals.",
-      "risk": "Still below 52-week high."
+      "rationale": "Experienced a 1.63% increase, trading above its 120-day (595.14) and 180-day (595.56) averages with significant turnover.",
+      "risk": "Already trading near its 52-week high (683.4)."
     },
     {
-      "symbol": "NHPC",
-      "action": "BUY",
+      "symbol": "SBL",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "With a current price of 282.9, up 1.04%, NHPC is comfortably above its 120-day (268.28) and 180-day (242.22) averages, indicating positive momentum.",
-      "risk": "Limited upside from 52-week high."
+      "rationale": "Gained 1.21% today, trading above its 120-day (395.46) and 180-day (384.77) averages with good volume.",
+      "risk": "Still below its 52-week high (424.7)."
     },
     {
-      "symbol": "SANIMA",
-      "action": "ACCUMULATE",
+      "symbol": "MKHC",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Trading at 368.0, up 1.52%, SANIMA is above its 120-day (351.17) and 180-day (338.73) averages, showing positive momentum and good liquidity.",
-      "risk": "Near 52-week high, limited immediate upside."
+      "rationale": "Showed a 0.66% gain and is trading above its 120-day (318.33) and 180-day (334.98) averages, with a 'value_bounce' signal.",
+      "risk": "Below its 52-week high (483.0) and 120-day average."
     },
     {
-      "symbol": "KBL",
-      "action": "ACCUMULATE",
+      "symbol": "CFCL",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "At 220.9, up 0.41%, KBL is trading above its 120-day (211.62) and 180-day (201.71) averages, with liquidity and momentum signals.",
-      "risk": "Price is relatively close to its 52-week high."
+      "rationale": "Up 0.23% today, trading above its 120-day (571.03) and 180-day (548.25) averages with strong turnover and a 'momentum' signal.",
+      "risk": "Trading below its 52-week high (699.0)."
     },
     {
-      "symbol": "SHIVM",
-      "action": "ACCUMULATE",
+      "symbol": "SAHAS",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Slightly up at 663.1, SHIVM is trading above its 120-day (653.33) and 180-day (633.08) averages, showing momentum signals with good liquidity.",
-      "risk": "Minimal daily price change."
+      "rationale": "Posted a 0.61% gain, trading above its 120-day (634.68) and 180-day (614.26) averages with good liquidity.",
+      "risk": "Below its 52-week high (716.6)."
     },
     {
-      "symbol": "HDL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading at 1188.5, up 0.73%, HDL is above its 120-day (1161.9) and 180-day (1174.82) averages, with liquidity and a value bounce signal.",
-      "risk": "Significant gap from 52-week high."
-    },
-    {
-      "symbol": "SMH",
+      "symbol": "PRVU",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Currently at 521.9, up 1.7%, SMH is below its 120-day (619.45) and 180-day (668.06) averages, indicating a value bounce opportunity but not yet confirmed momentum.",
-      "risk": "Trading below longer-term averages."
+      "rationale": "Showed a 0.8% gain, trading near its 120-day (198.39) and 180-day (194.59) averages with a 'value_bounce' signal.",
+      "risk": "Still trading below its 120-day and 180-day averages."
     },
     {
       "symbol": "NIMB",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "At 198.5, up 0.25%, NIMB is trading near its 120-day (199.57) and 180-day (198.02) averages, showing a value bounce signal but lacking strong upward momentum.",
-      "risk": "Stagnant price action."
+      "rationale": "Slightly up 0.21%, trading below its 120-day (200.08) and 180-day (197.85) averages, but shows a 'value_bounce' signal.",
+      "risk": "Below key moving averages."
     },
     {
-      "symbol": "NRN",
+      "symbol": "HRL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 1495.0, up 1.7%, NRN is above its 120-day (1482.29) average but below its 180-day (1544.58), with momentum signals but a wide 52-week range.",
-      "risk": "High volatility and wide trading range."
+      "rationale": "Trading 0.17% higher, but remains below its 120-day (695.4) and 180-day (743.06) averages, despite a 'value_bounce' signal.",
+      "risk": "Significant distance from key moving averages."
     }
   ],
-  "outlook": "Investors will watch for sustained strength in the NEPSE Index and increased breadth in tomorrow's trading session.",
-  "date": "2026-07-22",
+  "outlook": "Monitor if the NEPSE Index can sustain gains above the 2640 level, watching for increased volume and broader market participation.",
+  "date": "2026-08-11",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
