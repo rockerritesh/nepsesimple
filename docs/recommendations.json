@@ -1,71 +1,71 @@
 {
-  "market_summary": "The NEPSE index saw a marginal gain of 0.03%, closing at 2641.85 with a turnover of over 4.11 billion. Market breadth was slightly positive, with a few top gainers showing significant upward movement.",
+  "market_summary": "The NEPSE Index saw a marginal gain of 0.02%, closing at 2642.4, with moderate turnover. Breadth appears mixed, as indicated by the slight positive movement in the primary indices.",
   "recommendations": [
     {
-      "symbol": "UHEWA",
+      "symbol": "HIDCL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showed strong momentum with a 3.6% gain today, trading above its 120-day (588.35) and 180-day (585.77) averages, and has high turnover.",
-      "risk": "Approaching 52-week high."
+      "rationale": "The stock gained 4.95% today on decent turnover, trading above its 120-day (267.52) and 180-day (266.52) averages, indicating positive momentum and a potential value bounce.",
+      "risk": "Pullback from recent gains."
     },
     {
-      "symbol": "CFCL",
+      "symbol": "KKHC",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Exhibits positive momentum with a 0.23% gain, trading above its 120-day (571.03) and 180-day (548.25) averages, supported by significant turnover.",
-      "risk": "Slightly extended from 52-week low."
+      "rationale": "Showed a 2.05% increase today with significant turnover, trading above its 120-day (274.46) and 180-day (261.51) averages, supported by liquidity and momentum signals.",
+      "risk": "Potential resistance near 52-week high."
+    },
+    {
+      "symbol": "KBL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Price rose 1.39% on good turnover, trading above its 120-day (216.08) and 180-day (204.85) averages, aligning with liquidity and momentum signals.",
+      "risk": "Slightly extended from current trading range."
+    },
+    {
+      "symbol": "NIFRA",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Gained 3.44% today with good liquidity, showing signs of a value bounce, although it's currently trading slightly below its 120-day (262.07) and 180-day (264.12) averages.",
+      "risk": "Needs to break above moving averages."
+    },
+    {
+      "symbol": "HBL",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Experienced a 0.52% gain on decent turnover, showing a value bounce signal, but is trading below its 120-day (202.49) and 180-day (198.49) averages.",
+      "risk": "Sustained upward move required."
     },
     {
       "symbol": "MEN",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Posted a 1.63% gain, trading above its 120-day (595.14) and 180-day (595.56) averages, indicating positive momentum on high volume.",
-      "risk": "Near the upper end of its 52-week range."
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Traded 0.52% higher on solid turnover, above its 120-day (595.41) and 180-day (595.41) averages, indicating momentum.",
+      "risk": "Trading near the lower end of its 52-week range."
     },
     {
       "symbol": "SBL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Demonstrated momentum with a 1.21% increase, trading above its 120-day (395.46) and 180-day (384.77) averages with good liquidity.",
-      "risk": "Approaching 52-week high."
-    },
-    {
-      "symbol": "MKHC",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Showed a 0.66% gain and is trading near its 52-week low (266.0) with signals of a value bounce and good liquidity.",
-      "risk": "Still trading below 120-day (318.33) and 180-day (334.98) averages."
-    },
-    {
-      "symbol": "HRL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Shows a slight positive trend (0.17%) and signals a value bounce, trading above its 52-week low (545.0) but below longer-term averages.",
-      "risk": "Significantly below 120-day (695.4) and 180-day (743.06) averages."
-    },
-    {
-      "symbol": "PRVU",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading near its 52-week low (179.9) with a 0.8% gain today and signals of a value bounce.",
-      "risk": "Below 120-day (198.39) and 180-day (194.59) averages."
-    },
-    {
-      "symbol": "NIMB",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading flat with a 0.21% gain, near its 52-week low (183.3) and showing value bounce signals, but below longer-term averages.",
-      "risk": "Still below 120-day (200.08) and 180-day (197.85) averages."
+      "rationale": "Showed a slight 0.22% gain with good liquidity, trading above its 120-day (395.77) and 180-day (385.19) averages, with momentum signals.",
+      "risk": "Limited upside potential currently."
     },
     {
-      "symbol": "SOHL",
+      "symbol": "HDL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Slightly up 0.34% on moderate turnover, trading just above its 120-day (1164.26) and 180-day (1160.2) averages, with momentum and value bounce signals.",
+      "risk": "High 52-week range, could be extended."
+    },
+    {
+      "symbol": "CFCL",
       "action": "AVOID",
       "conviction": "low",
-      "rationale": "Experienced a significant 2.25% drop today despite high turnover, and is well below its 52-week high.",
-      "risk": "Negative momentum and significant price drop."
+      "rationale": "Declined 1.22% on high turnover, trading below its 120-day (571.92) and 180-day (549.13) averages, despite strong liquidity.",
+      "risk": "Negative price trend."
     }
   ],
-  "outlook": "Watch for continued momentum in select stocks and any significant shifts in the overall market trend, especially concerning the NEPSE forecast of a slight decline.",
+  "outlook": "Monitor if the NEPSE Index can hold above the 2640 level and if broader market breadth improves in the next session.",
   "date": "2026-08-12",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
