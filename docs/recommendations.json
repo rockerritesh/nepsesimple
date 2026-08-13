@@ -1,78 +1,71 @@
 {
-  "market_summary": "The NEPSE Index saw a marginal gain of 0.02%, closing at 2642.4, with a total turnover of NPR 3.53 billion. Market breadth was slightly positive, but the overall sentiment remains cautious as the index hovers near its recent highs.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.33%, closing at 2651.21 with a significant turnover of over 3.72 billion. Breadth appears mixed as top gainers showed strong momentum while top losers also experienced notable declines.",
   "recommendations": [
     {
-      "symbol": "HIDCL",
+      "symbol": "GHL",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading at 265.0, it's currently below its 120-day (267.52) and 180-day (266.52) averages, indicating potential for a bounce, and experienced a 4.95% price increase today on significant turnover.",
-      "risk": "Pullback from recent gains"
+      "conviction": "high",
+      "rationale": "Showed strong upward momentum with a 11.9% gain today, trading above its 120-day (239.17) and 180-day (232.32) averages on high turnover.",
+      "risk": "Potential for profit-taking after a sharp rise."
     },
     {
-      "symbol": "KKHC",
-      "action": "BUY",
+      "symbol": "UHEWA",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Showed a 2.05% gain to 324.0 with strong turnover (109.99M NPR), trading above its 120-day (274.46) and 180-day (261.51) averages, suggesting positive momentum.",
-      "risk": "Extended price action"
+      "rationale": "Posted a 3.77% gain, trading above its 120-day (589.52) and 180-day (586.37) averages with good liquidity.",
+      "risk": "Price is still below its 52-week high of 692.6."
     },
     {
-      "symbol": "KBL",
-      "action": "BUY",
+      "symbol": "SANIMA",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Gained 1.39% to 219.0, trading above its 120-day (216.08) and 180-day (204.85) averages, with substantial turnover (86.41M NPR) indicating buying interest.",
-      "risk": "Approaching 52-week high"
+      "rationale": "Gained 1.58% and is trading above its 120-day (356.26) and 180-day (344.24) averages, indicating positive sentiment.",
+      "risk": "Close to its 52-week high of 390.6."
     },
     {
-      "symbol": "NIFRA",
+      "symbol": "SAHAS",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Registered a 0.45% gain and trades above its 120-day (636.7) and 180-day (614.43) averages, showing sustained buying interest.",
+      "risk": "Price is approaching its 52-week high of 716.6."
+    },
+    {
+      "symbol": "GBIME",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Price at 252.4 is below its 120-day (262.07) and 180-day (264.12) averages, but today's 3.44% gain on decent turnover suggests a potential value bounce.",
-      "risk": "Still below key moving averages"
-    },
-    {
-      "symbol": "HBL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading at 195.0, slightly below its 120-day (202.49) and 180-day (198.49) averages, but showed a 0.52% increase today with good liquidity.",
-      "risk": "Lackluster price performance"
-    },
-    {
-      "symbol": "MEN",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Price at 614.0 is above its 120-day (595.41) and 180-day (595.41) averages and saw a 0.52% gain, but is nearing its 52-week high of 683.4.",
-      "risk": "Potential resistance near 52-week high"
+      "rationale": "Showed a 0.64% increase, trading above its 120-day (240.32) and 180-day (235.84) averages with decent turnover.",
+      "risk": "Price is nearing its 52-week high of 270.6."
     },
     {
       "symbol": "SBL",
-      "action": "WATCH",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Trading at 410.9, above its 120-day (395.77) and 180-day (385.19) averages, with a small gain today, but is close to its 52-week high of 424.7.",
-      "risk": "Limited upside before resistance"
+      "rationale": "Up 0.63% and trading above its 120-day (396.1) and 180-day (385.65) averages, suggesting a steady upward trend.",
+      "risk": "Limited upside from 52-week high of 424.7."
     },
     {
-      "symbol": "HDL",
+      "symbol": "NIMB",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Price at 1166.0 is trading just above its 120-day (1164.26) and 180-day (1160.2) averages, with a slight gain today, indicating consolidation.",
-      "risk": "Sideways movement"
+      "rationale": "Gained 1.19% and is trading above its 120-day (200.14) and 180-day (197.81) averages, showing signs of recovery.",
+      "risk": "Still trading below its 52-week high of 232.5."
     },
     {
-      "symbol": "BPCL",
+      "symbol": "MEL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Current price of 655.0 is below its 120-day (687.09) and 180-day (704.23) averages, showing a 1.24% gain today, suggesting a potential short-term bounce but still in a downtrend.",
-      "risk": "Below key moving averages"
+      "rationale": "Experienced a 1.87% gain, but is currently trading below its 120-day (249.61) and 180-day (260.22) averages.",
+      "risk": "Price weakness relative to moving averages."
     },
     {
-      "symbol": "SOHL",
-      "action": "AVOID",
+      "symbol": "HRL",
+      "action": "WATCH",
       "conviction": "low",
-      "rationale": "Despite high turnover, the price at 690.0 is below its 52-week high (875.5) and shows a 0.72% decline today, with no historical moving average data provided for comparison.",
-      "risk": "Downtrend and lack of clear technical support"
+      "rationale": "Showed minimal gain of 0.34% and is trading below its 120-day (690.98) and 180-day (740.62) averages.",
+      "risk": "Significant distance from its 52-week high of 1074.8."
     }
   ],
-  "outlook": "Investors should monitor the NEPSE Index's ability to break above recent resistance levels and watch for continued strength in high-turnover stocks.",
+  "outlook": "Investors will be watching for continued strength in the NEPSE Index and sustained momentum in leading stocks in the next session.",
   "date": "2026-08-13",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
