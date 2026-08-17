@@ -1,64 +1,78 @@
 {
-  "market_summary": "The NEPSE Index closed lower by 0.27%, indicating a slightly bearish session. Breadth appears weak with more stocks declining than advancing.",
+  "market_summary": "The NEPSE index saw a slight decline of 0.07%, with a relatively low turnover of 5.52 billion. Breadth appears weak as indices moved downwards.",
   "recommendations": [
     {
-      "symbol": "KKHC",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showed strong upward momentum with a 10.09% increase, trading above its VWAP of 325.64 and within its 52-week range. High turnover suggests significant investor interest.",
-      "risk": "Potential for profit-taking after a sharp rise."
-    },
-    {
-      "symbol": "FMDBL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Experienced a significant gain of 6.96% on high turnover, trading above its 120-day average of 798.71 and showing positive momentum signals.",
-      "risk": "May be approaching its 52-week high of 982.0."
-    },
-    {
-      "symbol": "LEC",
+      "symbol": "BHCL",
       "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Posted a 2.76% gain with high volume, trading slightly above its 120-day average of 227.15 and showing momentum.",
-      "risk": "Price is still below its 52-week high of 276.0."
-    },
-    {
-      "symbol": "NTC",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Showed positive momentum with a 2.08% increase, trading above its 120-day average of 868.32 and exhibiting good liquidity.",
-      "risk": "Price is nearing its 52-week high of 942.5."
-    },
-    {
-      "symbol": "MAKAR",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading near its 52-week low of 408.0, with a small gain of 2.19% on moderate turnover. It presents a potential value bounce opportunity.",
-      "risk": "Still trading below its 120-day average of 493.76."
-    },
-    {
-      "symbol": "CORBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Showed a slight gain of 0.27% and is trading near its 52-week low of 965.0. It has value bounce signals but is significantly below its 120-day average of 1771.9.",
-      "risk": "Price is substantially below its longer-term averages."
+      "conviction": "medium",
+      "rationale": "Showing strong momentum with a 6.11% day gain, trading above its 120-day (544.04) and 180-day (540.11) averages, and has significant turnover (121.67M).",
+      "risk": "Potential for profit-taking."
     },
     {
       "symbol": "SAHAS",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Positive momentum with a 1.03% gain, trading above its 120-day (638.75) and 180-day (614.57) averages, with good turnover (77.19M).",
+      "risk": "Approaching 52-week high (716.6)."
+    },
+    {
+      "symbol": "NBL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Demonstrates momentum with a 2.45% gain, trading above its 120-day (267.42) and 180-day (259.01) averages, and has high turnover (111.25M).",
+      "risk": "Could face resistance near 52-week high (302.9)."
+    },
+    {
+      "symbol": "TAMOR",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Showing positive momentum with a 2.63% increase, trading above 120-day (445.47) and 180-day (449.76) averages, with substantial turnover (58.53M).",
+      "risk": "Near the upper end of its trading range."
+    },
+    {
+      "symbol": "NABIL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Slightly up 0.3% on decent turnover, trading above its 120-day average of 637.7 and showing momentum. Price is within its 52-week range.",
-      "risk": "Momentum appears to be stabilizing rather than accelerating."
+      "rationale": "Trading near its 52-week high (568.0) with a modest 0.29% gain, but has good liquidity and is above its 120-day (531.18) and 180-day (520.42) averages.",
+      "risk": "Extended price action, potential for consolidation."
+    },
+    {
+      "symbol": "NTC",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showing moderate momentum with a 1.36% gain, trading above its 120-day (868.71) and 180-day (867.5) averages, but is near its 52-week high (942.5).",
+      "risk": "Could face resistance at higher levels."
+    },
+    {
+      "symbol": "PCBL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading near its 120-day (241.62) and 180-day (243.08) averages with a 1.12% gain, indicating potential value bounce, but is below its 52-week high (275.9).",
+      "risk": "Needs stronger upward momentum to confirm trend."
     },
     {
       "symbol": "HDL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "A small gain of 0.77% on good turnover, trading above its 120-day average of 1164.84. It shows momentum and value bounce signals.",
-      "risk": "Price is still below its 52-week high of 1474.0."
+      "rationale": "Slightly positive (0.34%) and trading above its 120-day (1165.18) and 180-day (1160.47) averages, showing signs of value bounce, but is well below its 52-week high (1474.0).",
+      "risk": "Lacks strong conviction in current price action."
+    },
+    {
+      "symbol": "SGHC",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at its 52-week low (296.0) with a small gain (0.33%), suggesting a potential value bounce, but needs to break above its 120-day average (367.71).",
+      "risk": "Still trading significantly below its 52-week high (487.6)."
+    },
+    {
+      "symbol": "RSML",
+      "action": "AVOID",
+      "conviction": "low",
+      "rationale": "While a top gainer today (+11.17%), its price (2841.6) is below its 120-day average (2986.04) and it has a very large turnover, suggesting potential for a sharp reversal.",
+      "risk": "Extreme volatility and potential for a sharp decline."
     }
   ],
-  "outlook": "Watch for a sustained move above the 2650 level on the NEPSE Index, or continued weakness, to determine the next short-term trend.",
+  "outlook": "Watch for any sustained upward movement in the NEPSE index and increased breadth in the next session.",
   "date": "2026-08-17",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
