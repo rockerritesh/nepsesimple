@@ -1,65 +1,65 @@
 {
-  "market_summary": "The NEPSE Index saw a slight decline of 0.27%, closing at 2643.83 points, with a total turnover of over 4.27 billion NPR. Market breadth appeared weak, with a majority of stocks likely trading in the red.",
+  "market_summary": "The NEPSE Index closed lower by 0.27%, indicating a slightly bearish session. Breadth appears weak with more stocks declining than advancing.",
   "recommendations": [
     {
       "symbol": "KKHC",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Showed strong upward momentum with a 10.09% day gain, trading above its 120-day (275.02) and 180-day (262.52) averages, and considerable turnover (179.8M NPR).",
+      "conviction": "medium",
+      "rationale": "Showed strong upward momentum with a 10.09% increase, trading above its VWAP of 325.64 and within its 52-week range. High turnover suggests significant investor interest.",
       "risk": "Potential for profit-taking after a sharp rise."
     },
     {
       "symbol": "FMDBL",
-      "action": "ACCUMULATE",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "As a top gainer with a 6.96% increase, it is trading above its 120-day (798.71) and 180-day (802.02) averages, indicating positive momentum.",
-      "risk": "May face resistance near its 52-week high of 982.0."
+      "rationale": "Experienced a significant gain of 6.96% on high turnover, trading above its 120-day average of 798.71 and showing positive momentum signals.",
+      "risk": "May be approaching its 52-week high of 982.0."
     },
     {
       "symbol": "LEC",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Experienced a 2.76% gain, trading above its 120-day (227.15) and 180-day (218.92) averages with significant liquidity (165.6M NPR turnover).",
-      "risk": "Could be affected by broader market weakness."
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Posted a 2.76% gain with high volume, trading slightly above its 120-day average of 227.15 and showing momentum.",
+      "risk": "Price is still below its 52-week high of 276.0."
     },
     {
-      "symbol": "HDL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Posted a modest 0.77% gain and is trading slightly above its 120-day (1164.84) and 180-day (1160.32) averages, with good turnover (36.6M NPR).",
-      "risk": "The 52-week high of 1474.0 is a significant resistance level."
-    },
-    {
-      "symbol": "SAHAS",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showed positive momentum with a 0.3% gain, trading above its 120-day (637.7) and 180-day (614.46) averages, supported by decent turnover (32.1M NPR).",
-      "risk": "Close to its 52-week high of 716.6, suggesting limited upside."
+      "symbol": "NTC",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Showed positive momentum with a 2.08% increase, trading above its 120-day average of 868.32 and exhibiting good liquidity.",
+      "risk": "Price is nearing its 52-week high of 942.5."
     },
     {
       "symbol": "MAKAR",
-      "action": "ACCUMULATE",
+      "action": "WATCH",
       "conviction": "low",
-      "rationale": "Traded up 2.19% and is showing signs of a potential bounce from its 52-week low of 408.0, though still below its 120-day (493.76) and 180-day (514.31) averages.",
-      "risk": "Still trading below key moving averages."
+      "rationale": "Trading near its 52-week low of 408.0, with a small gain of 2.19% on moderate turnover. It presents a potential value bounce opportunity.",
+      "risk": "Still trading below its 120-day average of 493.76."
     },
     {
       "symbol": "CORBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a small gain of 0.27% but is trading significantly below its 120-day (1771.9) and 180-day (1744.67) averages, indicating a downtrend.",
-      "risk": "Strong downtrend and far from moving averages."
+      "rationale": "Showed a slight gain of 0.27% and is trading near its 52-week low of 965.0. It has value bounce signals but is significantly below its 120-day average of 1771.9.",
+      "risk": "Price is substantially below its longer-term averages."
     },
     {
-      "symbol": "MEPDL",
+      "symbol": "SAHAS",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Was a top gainer with a 15.0% increase, but without more data on its trading range and averages, it's difficult to assess sustainability.",
-      "risk": "Potential for a sharp reversal after a large single-day gain."
+      "rationale": "Slightly up 0.3% on decent turnover, trading above its 120-day average of 637.7 and showing momentum. Price is within its 52-week range.",
+      "risk": "Momentum appears to be stabilizing rather than accelerating."
+    },
+    {
+      "symbol": "HDL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "A small gain of 0.77% on good turnover, trading above its 120-day average of 1164.84. It shows momentum and value bounce signals.",
+      "risk": "Price is still below its 52-week high of 1474.0."
     }
   ],
-  "outlook": "Watch for the NEPSE Index to hold above the 2600 level; a break below could signal further downside.",
-  "date": "2026-08-16",
+  "outlook": "Watch for a sustained move above the 2650 level on the NEPSE Index, or continued weakness, to determine the next short-term trend.",
+  "date": "2026-08-17",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
