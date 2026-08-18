@@ -1,71 +1,64 @@
 {
-  "market_summary": "The NEPSE Index closed slightly down by 0.07% on low volume, indicating a cautious market sentiment. Breadth appears weak with more stocks declining than advancing.",
+  "market_summary": "The NEPSE Index declined by 0.73% on a turnover of over 5 billion NPR, with breadth appearing weak as most indices closed lower. The market seems to be consolidating after recent gains.",
   "recommendations": [
     {
-      "symbol": "BHCL",
+      "symbol": "SGHC",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Shows strong momentum with a 6.11% day change, trading above its 120-day (544.04) and 180-day (540.11) averages, and has high turnover.",
-      "risk": "Pullback from recent gains"
+      "conviction": "low",
+      "rationale": "Trading at 302.0, slightly above its 52-week low of 296.0 and showing a positive day change of 0.67%. Its quant score of 1.52 and 'value_bounce' signal suggest potential for a short-term recovery.",
+      "risk": "Proximity to 52-week low."
     },
     {
       "symbol": "SAHAS",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading with positive momentum (1.03% day change) and is well above its 120-day (638.75) and 180-day (614.57) averages, with significant turnover.",
-      "risk": "Approaching 52-week high"
+      "conviction": "low",
+      "rationale": "Current price of 684.6 is well within its 52-week range (535.3-716.6) and shows a slight positive day change of 0.09%. With a high turnover and 'momentum' signal, it appears to be holding steady.",
+      "risk": "Slightly extended from its 120-day average."
     },
     {
-      "symbol": "NBL",
+      "symbol": "UMHL",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Demonstrates momentum with a 2.45% day change, trading above its 120-day (267.42) and 180-day (259.01) averages, and shows high liquidity.",
-      "risk": "Potential resistance near 52-week high"
+      "conviction": "low",
+      "rationale": "Trading at 602.5 with a positive day change of 2.33%, approaching its 120-day average of 594.74. High turnover and a 'momentum' signal are positive indicators.",
+      "risk": "Still below its 52-week high."
     },
     {
-      "symbol": "TAMOR",
+      "symbol": "MEN",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Shows positive momentum (2.63% day change) and is trading above its 120-day (445.47) and 180-day (449.76) averages with good liquidity.",
-      "risk": "Slightly extended from averages"
-    },
-    {
-      "symbol": "PCBL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Exhibits momentum and value bounce signals, trading near its 120-day (241.62) and 180-day (243.08) averages with decent turnover.",
-      "risk": "Consolidation expected"
+      "conviction": "low",
+      "rationale": "Price of 619.6 shows a positive day change of 0.68% and is above its 120-day average (596.65). Good liquidity and a 'momentum' signal are supportive.",
+      "risk": "Below its 52-week high."
     },
     {
       "symbol": "HDL",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "At 1180.9, it's trading near its 120-day average (1165.54) with a positive day change of 0.16%. The 'value_bounce' signal and good liquidity are encouraging.",
+      "risk": "Further from 52-week low than high."
+    },
+    {
+      "symbol": "GBBL",
       "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Shows momentum and value bounce signals, trading above its 120-day (1165.18) and 180-day (1160.47) averages with consistent turnover.",
-      "risk": "Below 52-week high"
+      "conviction": "low",
+      "rationale": "Price of 424.5 shows a positive day change of 0.35% and is trading above its 120-day average (413.51). Consistent positive momentum is observed.",
+      "risk": "Trading near the upper end of its 52-week range."
     },
     {
-      "symbol": "NABIL",
+      "symbol": "KKHC",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading flat (0.29% day change) but above its 120-day (531.18) and 180-day (520.42) averages, indicating potential for further upside if momentum resumes.",
-      "risk": "Lack of strong immediate catalyst"
+      "rationale": "Experienced a significant drop of 9.67% to 299.0, but it's still trading above its 120-day average (275.19) and 52-week low (208.0). High turnover suggests investor interest despite the fall.",
+      "risk": "Sharp intraday decline."
     },
     {
-      "symbol": "SGHC",
+      "symbol": "SOHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showing a value bounce signal and trading at its 52-week low (296.0), but today's gain is minimal (0.33%) and turnover is low.",
-      "risk": "Still near the bottom of its range"
-    },
-    {
-      "symbol": "HRL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading above its 120-day (686.65) and 180-day (738.25) averages but is significantly below its 52-week high (1074.8), suggesting potential value but lacking immediate momentum.",
-      "risk": "Below historical highs"
+      "rationale": "Down 2.99% to 687.8, but it has very high turnover, indicating significant trading activity. It's well above its 52-week low (300.0).",
+      "risk": "Significant intraday loss on high volume."
     }
   ],
-  "outlook": "Watch for increased volume and breadth expansion to confirm any sustainable upward trend in the next session.",
+  "outlook": "Watch for a potential bounce back in the broader market indices or continued consolidation, with attention on stocks showing resilience or reversal signs.",
   "date": "2026-08-18",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
