@@ -1,65 +1,65 @@
 {
-  "market_summary": "The NEPSE Index declined by 0.73% on a turnover of over 5 billion NPR, with breadth appearing weak as most indices closed lower. The market seems to be consolidating after recent gains.",
+  "market_summary": "The NEPSE index saw a decline of 0.73%, closing at 2622.48, with a broad market weakness indicated by most indices trading in the red. Turnover was significant at over 5 billion.",
   "recommendations": [
     {
       "symbol": "SGHC",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "Trading at 302.0, slightly above its 52-week low of 296.0 and showing a positive day change of 0.67%. Its quant score of 1.52 and 'value_bounce' signal suggest potential for a short-term recovery.",
+      "conviction": "medium",
+      "rationale": "Trading at 302.0, it's near its 52-week low of 296.0 and showing a positive day change of 0.67% on good liquidity.",
       "risk": "Proximity to 52-week low."
     },
     {
       "symbol": "SAHAS",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "Current price of 684.6 is well within its 52-week range (535.3-716.6) and shows a slight positive day change of 0.09%. With a high turnover and 'momentum' signal, it appears to be holding steady.",
-      "risk": "Slightly extended from its 120-day average."
+      "conviction": "medium",
+      "rationale": "The stock is trading at 684.6, which is close to its 52-week high of 716.6, and shows a positive day change of 0.09% with strong turnover.",
+      "risk": "Near 52-week high."
     },
     {
       "symbol": "UMHL",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "Trading at 602.5 with a positive day change of 2.33%, approaching its 120-day average of 594.74. High turnover and a 'momentum' signal are positive indicators.",
-      "risk": "Still below its 52-week high."
+      "conviction": "medium",
+      "rationale": "Trading at 602.5 with a positive day change of 2.33% and high turnover, it's well above its 52-week low of 495.0.",
+      "risk": "Slightly extended from VWAP."
     },
     {
       "symbol": "MEN",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "Price of 619.6 shows a positive day change of 0.68% and is above its 120-day average (596.65). Good liquidity and a 'momentum' signal are supportive.",
-      "risk": "Below its 52-week high."
+      "conviction": "medium",
+      "rationale": "At 619.6, it has a positive day change of 0.68% and is trading above its 120-day average of 596.65, with significant turnover.",
+      "risk": "Close to 52-week high."
     },
     {
       "symbol": "HDL",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "At 1180.9, it's trading near its 120-day average (1165.54) with a positive day change of 0.16%. The 'value_bounce' signal and good liquidity are encouraging.",
-      "risk": "Further from 52-week low than high."
+      "conviction": "medium",
+      "rationale": "Trading at 1180.9, it shows a slight positive day change of 0.16% and is above its 120-day average of 1165.54, with decent turnover.",
+      "risk": "Below 52-week high."
     },
     {
       "symbol": "GBBL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Price of 424.5 shows a positive day change of 0.35% and is trading above its 120-day average (413.51). Consistent positive momentum is observed.",
-      "risk": "Trading near the upper end of its 52-week range."
-    },
-    {
-      "symbol": "KKHC",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Experienced a significant drop of 9.67% to 299.0, but it's still trading above its 120-day average (275.19) and 52-week low (208.0). High turnover suggests investor interest despite the fall.",
-      "risk": "Sharp intraday decline."
+      "rationale": "Showing a modest gain of 0.35% to 424.5, it's trading above its 120-day average of 413.51 and its 52-week low of 367.4.",
+      "risk": "Limited upside potential."
     },
     {
       "symbol": "SOHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Down 2.99% to 687.8, but it has very high turnover, indicating significant trading activity. It's well above its 52-week low (300.0).",
-      "risk": "Significant intraday loss on high volume."
+      "rationale": "Experienced a significant drop of 2.99% to 687.8 on high turnover, it's still well above its 52-week low of 300.0.",
+      "risk": "Recent sharp decline."
+    },
+    {
+      "symbol": "KKHC",
+      "action": "AVOID",
+      "conviction": "low",
+      "rationale": "Down 9.67% to 299.0 on high turnover, it's a top loser and trading below its 120-day average of 275.19.",
+      "risk": "Significant price weakness."
     }
   ],
-  "outlook": "Watch for a potential bounce back in the broader market indices or continued consolidation, with attention on stocks showing resilience or reversal signs.",
-  "date": "2026-08-18",
+  "outlook": "Watch for a potential bounce in the broader market or continued weakness in the next session.",
+  "date": "2026-08-19",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
