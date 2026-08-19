@@ -1,191 +1,72 @@
 {
   "date": "2026-08-19",
   "nepse_index_forecast": {
-    "next_value": 2619.09,
-    "trend_slope": -2.0211,
+    "next_value": 2619.85,
+    "trend_slope": -1.9411,
     "method": "linear regression on merolagani index history"
   },
   "alpha_candidates": [
     {
-      "symbol": "SGHC",
-      "combined_score": 1.52,
-      "signal_types": [
-        "liquidity",
-        "value_bounce"
-      ]
-    },
-    {
-      "symbol": "SAHAS",
-      "combined_score": 1.479,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "UMHL",
-      "combined_score": 1.397,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "MEN",
-      "combined_score": 1.343,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "HDL",
-      "combined_score": 1.264,
-      "signal_types": [
-        "liquidity",
-        "momentum",
-        "value_bounce"
-      ]
-    },
-    {
-      "symbol": "GBBL",
-      "combined_score": 1.225,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "SOHL",
-      "combined_score": 0.995,
+      "symbol": "ADBLB87",
+      "combined_score": 0.958,
       "signal_types": [
         "liquidity"
       ]
     },
     {
-      "symbol": "KKHC",
-      "combined_score": 0.993,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "RIDI",
-      "combined_score": 0.982,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "AKJCL",
-      "combined_score": 0.976,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "SGHL",
-      "combined_score": 0.972,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "PRVU",
-      "combined_score": 0.97,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "GHL",
-      "combined_score": 0.961,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "BHCL",
-      "combined_score": 0.957,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "KBL",
-      "combined_score": 0.956,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "CFCL",
-      "combined_score": 0.953,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "GBIME",
-      "combined_score": 0.951,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "NHPC",
-      "combined_score": 0.946,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "RSML",
-      "combined_score": 0.944,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "SAPDBL",
-      "combined_score": 0.94,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "KAHL",
+      "symbol": "SIGS2",
       "combined_score": 0.938,
       "signal_types": [
         "liquidity"
       ]
     },
     {
-      "symbol": "NIMB",
-      "combined_score": 0.927,
+      "symbol": "SLBBLP",
+      "combined_score": 0.833,
       "signal_types": [
         "liquidity"
       ]
     },
     {
-      "symbol": "TAMOR",
-      "combined_score": 0.927,
+      "symbol": "NBLD85",
+      "combined_score": 0.419,
       "signal_types": [
-        "liquidity"
+        "value_bounce"
       ]
     },
     {
-      "symbol": "NGPL",
-      "combined_score": 0.921,
+      "symbol": "NIFRAUR85/86",
+      "combined_score": 0.415,
       "signal_types": [
-        "liquidity"
+        "value_bounce"
       ]
     },
     {
-      "symbol": "TPKHL",
-      "combined_score": 0.921,
+      "symbol": "SBLD84",
+      "combined_score": 0.365,
       "signal_types": [
-        "liquidity"
+        "value_bounce"
+      ]
+    },
+    {
+      "symbol": "SBLD89",
+      "combined_score": 0.291,
+      "signal_types": [
+        "value_bounce"
+      ]
+    },
+    {
+      "symbol": "CIZBD86",
+      "combined_score": 0.149,
+      "signal_types": [
+        "value_bounce"
+      ]
+    },
+    {
+      "symbol": "SHINED",
+      "combined_score": 0.093,
+      "signal_types": [
+        "value_bounce"
       ]
     }
   ]

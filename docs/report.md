@@ -1,6 +1,6 @@
 # NEPSE Daily Brief — 2026-08-19
 
-**NEPSE Index**: 2622.48 (-19.34, -0.73%) · turnover 5,073,518,663
+**NEPSE Index**: 2622.22 (-0.26, +0.00%) · turnover 3,298,019,571
 
 ## Top Gainers
 - SAPIL: 524.6 (+14.99%)
@@ -16,4 +16,4 @@
 - SAPDBL: 730.0 (-6.65%)
 - LUK: 9.99 (-5.75%)
 
-_Auto-generated. NEPSE index forecast (next session): 2619.09. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2619.85. Not investment advice._
