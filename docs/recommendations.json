@@ -1,72 +1,65 @@
 {
-  "market_summary": "The NEPSE Index closed nearly flat, with a slight decrease of 0.26 points on a turnover of NPR 3.3 billion. Market breadth was weak, with a majority of the traded scrips experiencing declines.",
+  "market_summary": "The NEPSE index closed nearly flat, with a slight decline of 0.26 points on moderate turnover. Breadth appears weak as only a few gainers and losers were notable.",
   "recommendations": [
     {
-      "symbol": "ADBLB87",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "This bond shows high liquidity with significant turnover (506.8M NPR) and a quant score of 0.958. Its current price (1012.0) is just above its 52-week low (1000.0).",
-      "risk": "Interest rate sensitivity"
-    },
-    {
-      "symbol": "SIGS2",
+      "symbol": "SAHAS",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "With a quant score of 0.938 and liquidity signal, SIGS2 is trading at 10.53, which is closer to its 52-week low of 8.9 than its high of 11.7.",
-      "risk": "Limited trading history"
+      "rationale": "Shows strong upward momentum, trading 9.35% above its 120-day average (641.02) and 14.01% above its 180-day average (614.85), with significant turnover of 175M.",
+      "risk": "Approaching 52-week high."
     },
     {
-      "symbol": "SLBBLP",
+      "symbol": "BHCL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Trading 4.47% above its 120-day average (543.69) and 4.91% above its 180-day average (541.41) with a positive day change of 2.9% and good volume.",
+      "risk": "Still significantly below 52-week high."
+    },
+    {
+      "symbol": "RIDI",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Demonstrates positive momentum, trading 3.14% above its 120-day average (350.31) and 15.35% above its 180-day average (313.23), with a decent day's gain of 0.47%.",
+      "risk": "Below 120-day average."
+    },
+    {
+      "symbol": "MEN",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Trading 4.66% above its 120-day average (597.08) and 5.35% above its 180-day average (595.04), with a day's gain of 1.18%.",
+      "risk": "Price is still below 52-week high."
+    },
+    {
+      "symbol": "GHL",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Shows momentum, trading 0.02% above its 120-day average (238.86) and 2.58% above its 180-day average (232.98), with a daily increase of 1.44%.",
+      "risk": "Barely above 120-day average."
+    },
+    {
+      "symbol": "PRVU",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "This bond has a quant score of 0.833 and liquidity, but is currently trading at its 52-week high of 463.0 (LTP 443.0, no change today).",
-      "risk": "Potential for retracement"
+      "rationale": "Trading near its 52-week low (179.9) at 182.0, suggesting a potential value bounce, though it's below its 120-day (198.52) and 180-day (194.44) averages.",
+      "risk": "Below key moving averages."
     },
     {
-      "symbol": "NBLD85",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Showing a 'value_bounce' signal and a quant score of 0.419, NBLD85 is trading at 1051.0, well below its 52-week high of 1187.0.",
-      "risk": "Low turnover"
-    },
-    {
-      "symbol": "NIFRAUR85/86",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "This bond has a 'value_bounce' signal and a quant score of 0.415. It's trading at 1030.0, significantly off its 52-week high of 1128.0.",
-      "risk": "Low turnover"
-    },
-    {
-      "symbol": "SBLD84",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "With a quant score of 0.365 and a 'value_bounce' signal, SBLD84 is trading at 1055.0, below its 52-week high of 1201.0.",
-      "risk": "Low turnover"
-    },
-    {
-      "symbol": "SBLD89",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "This bond shows a 'value_bounce' signal and a quant score of 0.291. It's trading at 1266.0, well within its 52-week range of 1190.0 to 1450.0.",
-      "risk": "Low turnover"
-    },
-    {
-      "symbol": "CIZBD86",
+      "symbol": "CORBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 1214.9 with a 'value_bounce' signal, this bond is near its 52-week low of 1112.3, but has very low turnover (10.0 vol).",
-      "risk": "Extremely low liquidity"
+      "rationale": "Currently trading significantly below its 120-day (1756.79) and 180-day (1733.38) averages, indicating potential value but also weakness.",
+      "risk": "Extended downside from averages."
     },
     {
-      "symbol": "SHINED",
+      "symbol": "NIMB",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "This security has a 'value_bounce' signal and is trading at 1090.0, near its 52-week low of 1000.0, but exhibits very low turnover (25.0 vol).",
-      "risk": "Extremely low liquidity"
+      "rationale": "Trading below its 120-day (200.14) and 180-day (197.72) averages, but showing a positive day change of 0.53%.",
+      "risk": "Below key moving averages."
     }
   ],
-  "outlook": "Watch for any signs of broader market participation or a significant shift in index movement in the next session.",
-  "date": "2026-08-19",
+  "outlook": "Watch for a sustained move above the NEPSE's 2620 level and increased breadth in the next session.",
+  "date": "2026-08-20",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
