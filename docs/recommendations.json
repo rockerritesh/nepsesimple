@@ -1,64 +1,64 @@
 {
-  "market_summary": "The NEPSE index closed nearly flat, with a slight decline of 0.26 points on moderate turnover. Breadth appears weak as only a few gainers and losers were notable.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.27%, closing at 2629.4 with a total turnover of over 4.4 billion. Market breadth was positive, with a majority of stocks trading higher.",
   "recommendations": [
     {
-      "symbol": "SAHAS",
+      "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Shows strong upward momentum, trading 9.35% above its 120-day average (641.02) and 14.01% above its 180-day average (614.85), with significant turnover of 175M.",
+      "rationale": "Shows strong upward momentum with a 4.85% day change and significant turnover, trading above its 120-day average of 446.6.",
       "risk": "Approaching 52-week high."
-    },
-    {
-      "symbol": "BHCL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading 4.47% above its 120-day average (543.69) and 4.91% above its 180-day average (541.41) with a positive day change of 2.9% and good volume.",
-      "risk": "Still significantly below 52-week high."
-    },
-    {
-      "symbol": "RIDI",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Demonstrates positive momentum, trading 3.14% above its 120-day average (350.31) and 15.35% above its 180-day average (313.23), with a decent day's gain of 0.47%.",
-      "risk": "Below 120-day average."
     },
     {
       "symbol": "MEN",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "Trading 4.66% above its 120-day average (597.08) and 5.35% above its 180-day average (595.04), with a day's gain of 1.18%.",
-      "risk": "Price is still below 52-week high."
+      "conviction": "medium",
+      "rationale": "Demonstrates positive momentum with a 1.93% increase and trades above its 120-day (597.66) and 180-day (595.02) averages.",
+      "risk": "Price is below 52-week high."
     },
     {
-      "symbol": "GHL",
-      "action": "BUY",
+      "symbol": "SAHAS",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Trading near its 52-week high of 716.6 and showing positive momentum with a 1.14% gain, while trading above its 120-day average of 642.32.",
+      "risk": "Slightly extended from recent price action."
+    },
+    {
+      "symbol": "SHPC",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Shows momentum, trading 0.02% above its 120-day average (238.86) and 2.58% above its 180-day average (232.98), with a daily increase of 1.44%.",
-      "risk": "Barely above 120-day average."
+      "rationale": "Experienced a significant 4.05% jump today, nearing its 120-day average of 517.88, suggesting a potential reversal.",
+      "risk": "Still below its 120-day and 180-day averages."
+    },
+    {
+      "symbol": "SMHL",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Showed strong positive momentum with a 4.16% increase today and is trading above its 120-day average of 496.56.",
+      "risk": "Significantly below its 52-week high."
+    },
+    {
+      "symbol": "MAKAR",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "A 3.22% gain today is encouraging, but it's trading below its 120-day (489.25) and 180-day (511.09) averages.",
+      "risk": "Below key moving averages."
+    },
+    {
+      "symbol": "SGHC",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showed a modest 0.54% gain and is trading near its 52-week low of 296.0, indicating potential value but lacking strong momentum.",
+      "risk": "Weak momentum, near 52-week low."
     },
     {
       "symbol": "PRVU",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading near its 52-week low (179.9) at 182.0, suggesting a potential value bounce, though it's below its 120-day (198.52) and 180-day (194.44) averages.",
-      "risk": "Below key moving averages."
-    },
-    {
-      "symbol": "CORBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Currently trading significantly below its 120-day (1756.79) and 180-day (1733.38) averages, indicating potential value but also weakness.",
-      "risk": "Extended downside from averages."
-    },
-    {
-      "symbol": "NIMB",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading below its 120-day (200.14) and 180-day (197.72) averages, but showing a positive day change of 0.53%.",
-      "risk": "Below key moving averages."
+      "rationale": "Trading near its 52-week low (179.9) with a small 0.55% gain, suggesting a potential bottom but requires confirmation.",
+      "risk": "Still below 120-day and 180-day averages."
     }
   ],
-  "outlook": "Watch for a sustained move above the NEPSE's 2620 level and increased breadth in the next session.",
+  "outlook": "Monitor if the NEPSE Index can sustain above the 2630 level and if positive momentum continues in broader market segments.",
   "date": "2026-08-20",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
