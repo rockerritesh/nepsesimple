@@ -1,19 +1,19 @@
 # NEPSE Daily Brief — 2026-08-24
 
-**NEPSE Index**: 2618.72 (-10.67, -0.40%) · turnover 4,167,618,882
+**NEPSE Index**: 2599.58 (-19.13, -0.73%) · turnover 3,239,760,550
 
 ## Top Gainers
-- SAPIL: 797.6 (+14.99%)
-- PMHPL: 345.9 (+13.86%)
-- RHGCL: 268.0 (+5.51%)
-- HATHY: 610.0 (+4.99%)
-- NSY: 9.52 (+4.62%)
+- SAPIL: 917.2 (+14.99%)
+- DLBS: 1150.0 (+11.98%)
+- CYCL: 1600.0 (+9.14%)
+- SPHL: 561.0 (+6.27%)
+- HATHY: 630.3 (+3.33%)
 
 ## Top Losers
-- DLBS: 1027.0 (-5.26%)
-- LVF2: 9.08 (-5.22%)
-- SKHEL: 910.0 (-5.21%)
-- ICFCD83: 887.5 (-5.00%)
-- MKCL: 920.0 (-4.17%)
+- PMHPL: 311.9 (-9.83%)
+- WNLB: 1169.0 (-8.67%)
+- NSIF2: 10.1 (-8.27%)
+- MEPDL: 713.9 (-7.76%)
+- NSY: 9.0 (-5.46%)
 
-_Auto-generated. NEPSE index forecast (next session): 2618.16. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2616.45. Not investment advice._
