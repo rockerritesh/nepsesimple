@@ -1,79 +1,79 @@
 {
-  "market_summary": "The NEPSE index declined by 0.4% on a higher turnover, indicating selling pressure as the market closed below its opening and forecast levels. Breadth appears weak with more stocks declining than advancing.",
+  "market_summary": "The NEPSE Index experienced a slight decline of 0.4%, closing at 2618.72, with mixed breadth. Turnover was substantial at over 4.16 billion NPR.",
   "recommendations": [
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 484.7, it is above its 120-day (447.2) and 180-day (449.74) averages, with strong turnover of 130.5M and positive liquidity and momentum signals.",
-      "risk": "Potential for profit-taking if the broader market weakens."
+      "rationale": "Trading 4.19% above its 120-day average of 447.2 and showing positive momentum signals with a turnover of 130.5 million NPR.",
+      "risk": "Potential for profit-taking after recent gains."
     },
     {
       "symbol": "SHPC",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "At 527.2, it shows a 2.57% gain today, trading above its 120-day (517.89) and 180-day (522.98) averages, with significant turnover (184.1M) and momentum signals.",
-      "risk": "Could be overextended in the short term."
+      "rationale": "Up 2.57% today, trading above its 120-day average of 517.89, with strong liquidity and momentum signals, and a high turnover of 184.1 million NPR.",
+      "risk": "Approaching 52-week high of 588.0."
     },
     {
       "symbol": "SBL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Currently at 414.0, it's above its 120-day (397.98) and 180-day (388.43) averages, with a 0.61% daily gain and strong liquidity/momentum signals.",
-      "risk": "Recent price action approaching 52-week high."
+      "rationale": "Trading 4.02% above its 120-day average of 397.98, with positive momentum and liquidity signals, and a turnover of 47.7 million NPR.",
+      "risk": "52-week high of 424.7 is near."
     },
     {
       "symbol": "CFCL",
       "action": "BUY",
       "conviction": "low",
-      "rationale": "Trading at 599.0, it has gained 1.51% today and is above its 120-day (576.43) and 180-day (554.23) averages, supported by liquidity and momentum.",
-      "risk": "52-week high is still significantly higher."
+      "rationale": "Showing positive momentum and liquidity, trading 3.91% above its 120-day average of 576.43, with decent turnover.",
+      "risk": "Still 16.78% below its 52-week high of 699.0."
     },
     {
       "symbol": "NICA",
-      "action": "ACCUMULATE",
+      "action": "WATCH",
       "conviction": "low",
-      "rationale": "At 314.0, it shows a slight gain today and is below its 120-day (347.23) and 180-day (341.02) averages, but has value bounce and liquidity signals.",
-      "risk": "Still trading below key moving averages."
+      "rationale": "Trading 9.44% below its 120-day average of 347.23, but showing value bounce signals with moderate liquidity.",
+      "risk": "Below key moving averages."
     },
     {
       "symbol": "AHPC",
-      "action": "ACCUMULATE",
+      "action": "WATCH",
       "conviction": "low",
-      "rationale": "Currently at 260.9, it is below its 120-day (279.02) and 180-day (277.53) averages, but shows a small gain today and value bounce signals.",
-      "risk": "Price is near the lower end of its 52-week range."
+      "rationale": "Trading 6.82% below its 120-day average of 279.02, showing value bounce signals with decent liquidity and turnover.",
+      "risk": "Below key moving averages."
     },
     {
       "symbol": "MBJC",
-      "action": "ACCUMULATE",
+      "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 267.4, it has a 1.29% gain today but remains below its 120-day (285.0) and 180-day (285.38) averages, with value bounce signals.",
-      "risk": "Needs to break above moving averages to confirm trend."
+      "rationale": "Trading 6.32% below its 120-day average of 285.0, showing value bounce signals with moderate liquidity.",
+      "risk": "Below key moving averages."
     },
     {
       "symbol": "BPCL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "At 660.0, it shows a 0.76% gain today but is below its 120-day (683.5) and 180-day (701.35) averages, with value bounce signals.",
-      "risk": "Significant room to move up to 52-week high."
-    },
-    {
-      "symbol": "SOHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Despite a -1.86% daily drop, it has high turnover (245.3M) and liquidity signals, and is significantly above its 52-week low (300.0).",
-      "risk": "Recent downward price action and lack of moving average data."
+      "rationale": "Trading 3.18% below its 120-day average of 683.5, showing value bounce signals with good liquidity.",
+      "risk": "Below key moving averages."
     },
     {
-      "symbol": "RIDI",
+      "symbol": "CITY",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Down 1.34% today, but shows high turnover (186.7M) and is above its 120-day (351.47) and 180-day (314.72) averages.",
-      "risk": "Trading below its 52-week high."
+      "rationale": "Trading 14.32% below its 120-day average of 421.37, but showing value bounce signals with moderate liquidity.",
+      "risk": "Significantly below key moving averages."
+    },
+    {
+      "symbol": "EBL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading 4.92% above its 120-day average of 705.51, showing momentum signals with decent liquidity.",
+      "risk": "Below its 52-week high of 780.6."
     }
   ],
-  "outlook": "Watch for the NEPSE index to hold above the 2600 level and for renewed buying interest in fundamentally sound stocks.",
-  "date": "2026-08-23",
+  "outlook": "Watch for the NEPSE Index to hold above the 2600 level and for increased buying interest in fundamentally sound stocks.",
+  "date": "2026-08-24",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
