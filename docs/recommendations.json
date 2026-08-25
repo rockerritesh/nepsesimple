@@ -1,65 +1,65 @@
 {
-  "market_summary": "The NEPSE Index declined by 0.73% to 2599.58, with significant selling pressure across most sectors. Breadth was weak, with more stocks declining than advancing.",
+  "market_summary": "The NEPSE Index declined by 0.73% on a turnover of NPR 3.24 billion, indicating a bearish sentiment. Breadth appears weak with notable losers in the market.",
   "recommendations": [
     {
       "symbol": "CYCL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Showed strong upward momentum with a 9.14% gain today, trading above its 120-day (1470.13) and 180-day (1495.54) averages. Turnover of 42.8M indicates good liquidity.",
-      "risk": "Potential for profit-taking after a sharp rise."
-    },
-    {
-      "symbol": "SHL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Gained 1.94% today, trading above its 120-day (501.34) and 180-day (498.68) averages. Turnover of 26.8M supports liquidity.",
-      "risk": "Market weakness could pull it back towards averages."
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Showed strong positive momentum with a 9.14% gain and high turnover of NPR 42.85 million, trading above its 120-day (1470.13) and 180-day (1495.54) averages.",
+      "risk": "Potential for profit-taking after sharp rise."
     },
     {
       "symbol": "KKHC",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Experienced a positive 3.33% move today, trading above its 120-day (275.32) and 180-day (264.1) averages. High turnover of 45.7M signals strong interest.",
-      "risk": "Could face resistance near its 52-week high of 362.0."
+      "rationale": "Exhibits positive momentum with a 3.33% gain and significant turnover (NPR 45.74 million), trading above its 120-day (275.32) and 180-day (264.1) averages.",
+      "risk": "Slightly extended from 52-week low."
+    },
+    {
+      "symbol": "SHL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Posted a 1.94% gain on good turnover (NPR 26.81 million), with its current price (509.9) above 120-day (501.34) and 180-day (498.68) averages.",
+      "risk": "Price is nearing its 52-week high."
+    },
+    {
+      "symbol": "EDBL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Trading near its 120-day (583.83) and 180-day (586.47) averages with a slight 1.04% gain and substantial turnover (NPR 75.67 million).",
+      "risk": "Limited upside potential from current levels."
     },
     {
       "symbol": "CFCL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Slightly up 0.1% today, holding above its 120-day (576.96) and 180-day (554.91) averages. Turnover of 25.4M shows decent liquidity.",
-      "risk": "Momentum is mild; could drift lower in a weak market."
+      "rationale": "Shows positive momentum with a 0.1% gain and above-average turnover (NPR 25.41 million), trading above its 120-day (576.96) and 180-day (554.91) averages.",
+      "risk": "Momentum is weak despite positive signals."
     },
     {
       "symbol": "MEHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a small gain of 0.41% but is trading significantly below its 120-day (371.95) and 180-day (396.85) averages, suggesting a potential value bounce from oversold conditions.",
-      "risk": "Still in a downtrend relative to longer-term averages."
-    },
-    {
-      "symbol": "EDBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Up 1.04% today and trading near its 120-day (583.83) and 180-day (586.47) averages. High turnover of 75.6M indicates significant trading volume.",
-      "risk": "Price is currently consolidating, lacking strong directional conviction."
-    },
-    {
-      "symbol": "SAPIL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "A top gainer, up 14.99%, but without historical price averages provided, it's difficult to assess its position relative to trends. High gain warrants observation.",
-      "risk": "Rapid gains can reverse quickly; lack of trend data."
+      "rationale": "Showed a small 0.41% gain with decent turnover (NPR 14.08 million), but is significantly below its 120-day (371.95) and 180-day (396.85) averages.",
+      "risk": "Still in a downtrend from longer-term averages."
     },
     {
       "symbol": "MEPDL",
-      "action": "AVOID",
+      "action": "WATCH",
       "conviction": "low",
-      "rationale": "Down 7.76% today, indicating weakness. Its price is significantly below its 52-week high (855.0) and lacks longer-term average data for context.",
-      "risk": "Sharp decline suggests potential further downside."
+      "rationale": "Experienced a significant 7.76% drop today on high turnover (NPR 55.90 million), indicating potential selling pressure. It is currently below its 52-week high.",
+      "risk": "Sharp decline today warrants caution."
+    },
+    {
+      "symbol": "SOHL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Declined 1.03% on very high turnover (NPR 118.84 million), suggesting active trading but a lack of immediate upward conviction. Data for 120 and 180 day averages are missing.",
+      "risk": "Unclear trend due to missing historical data."
     }
   ],
-  "outlook": "Watch for a potential bounce or continuation of the downtrend in the NEPSE Index, focusing on key support and resistance levels.",
-  "date": "2026-08-24",
+  "outlook": "Investors will be watching to see if the NEPSE Index can hold the 2590 level or if further downside is expected in the next session.",
+  "date": "2026-08-25",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
