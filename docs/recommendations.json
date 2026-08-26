@@ -1,78 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a slight decline of 0.2%, closing at 2594.27, with a broad market that experienced more losers than gainers. Turnover remained robust at over 4.1 billion.",
+  "market_summary": "The NEPSE index saw a significant decline of 1.38%, closing at 2558.35, with broad weakness across most sectors. Turnover remained substantial at over 4.77 billion.",
   "recommendations": [
     {
-      "symbol": "CREST",
+      "symbol": "UHEWA",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Showed strong upward momentum with a 14.95% gain on significant turnover, trading above its 120-day average of 1241.1.",
+      "conviction": "medium",
+      "rationale": "Showed strong upward momentum with a 10.43% gain, trading above its 120-day (594.17) and 180-day (588.12) averages, and has good liquidity.",
       "risk": "Potential for profit-taking after a sharp rise."
     },
     {
-      "symbol": "SMHL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Experienced a 2.3% increase on high turnover, trading above its 120-day average of 498.07 and showing positive momentum.",
-      "risk": "Price is still significantly below its 52-week high."
+      "symbol": "SOHL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at 663.9, it is below its 52-week high of 875.5 but shows consistent liquidity, indicating potential for recovery.",
+      "risk": "Lack of 120/180 day averages makes trend assessment difficult."
     },
     {
       "symbol": "SAHAS",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showed positive price movement of 0.15% on good liquidity, trading above its 120-day average of 645.57.",
-      "risk": "Close to its 52-week high, indicating limited upside."
-    },
-    {
-      "symbol": "SANIMA",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Posted a 0.19% gain on substantial turnover, trading above its 120-day average of 358.81 with positive momentum.",
-      "risk": "Approaching its 52-week high."
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at 681.9, it is near its 52-week high (716.6) and above its 120-day (646.54) and 180-day (615.8) averages, with good liquidity.",
+      "risk": "Slightly extended and could see a pullback."
     },
     {
       "symbol": "TAMOR",
-      "action": "BUY",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at 480.0, it is above its 120-day (448.82) and 180-day (449.88) averages, with significant turnover and liquidity.",
+      "risk": "Slightly below its 52-week high of 525.0, suggesting caution."
+    },
+    {
+      "symbol": "SMHL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at 518.0, it is above its 120-day (498.54) average and shows substantial turnover, indicating investor interest.",
+      "risk": "Currently below its 180-day average (529.82) and significantly below its 52-week high (978.0)."
+    },
+    {
+      "symbol": "CHCL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at 427.0, it is below its 120-day (486.63) and 180-day (484.87) averages, but has high turnover and is near its 52-week low (410.0).",
+      "risk": "Negative trend and recent significant price drop (-10.12%)."
+    },
+    {
+      "symbol": "RHPL",
+      "action": "AVOID",
       "conviction": "medium",
-      "rationale": "Increased by 0.5% on healthy turnover, trading above its 120-day average of 448.27 and showing momentum.",
-      "risk": "Price is trading below its 52-week high."
+      "rationale": "Experienced a sharp 15.0% decline, trading at its 52-week low of 205.2, and is well below its 120-day (275.07) and 180-day (276.25) averages.",
+      "risk": "Continued downward momentum."
     },
     {
-      "symbol": "BHCL",
-      "action": "ACCUMULATE",
+      "symbol": "SJCL",
+      "action": "AVOID",
       "conviction": "medium",
-      "rationale": "Showed a 1.99% rise on good volume, trading above its 120-day average of 542.79, indicating positive momentum.",
-      "risk": "Still significantly below its 52-week high."
-    },
-    {
-      "symbol": "MEN",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Slightly up 0.15% on decent liquidity, trading above its 120-day average of 598.75.",
-      "risk": "Price is below its 52-week high."
-    },
-    {
-      "symbol": "NIFRA",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading slightly up 0.33% but still below its 120-day average of 261.01, suggesting a potential value bounce.",
-      "risk": "Needs to break above its 120-day average for stronger confirmation."
-    },
-    {
-      "symbol": "HBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Showed a 0.11% gain on moderate volume, but trading below its 120-day average of 202.8, suggesting a potential value bounce.",
-      "risk": "Requires a sustained move above its 120-day average."
-    },
-    {
-      "symbol": "MAKAR",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Experienced a significant 4.8% price jump on very high turnover, but still trading below its 120-day average of 486.66.",
-      "risk": "High turnover with price below averages warrants caution."
+      "rationale": "Suffered a 11.18% loss, trading at 231.9, which is near its 52-week low of 222.0 and significantly below its 120-day (295.08) and 180-day (294.31) averages.",
+      "risk": "Weak technicals and negative price action."
     }
   ],
-  "outlook": "Watch for the NEPSE Index to test its 52-week high or retest the 2580 support level in the next session.",
+  "outlook": "Investors will be watching for any signs of stabilization in the NEPSE index and a potential shift in market sentiment in the next session.",
   "date": "2026-08-26",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
