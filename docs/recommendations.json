@@ -1,72 +1,79 @@
 {
-  "market_summary": "The NEPSE Index experienced a slight decline of 0.2%, closing at 2594.27, with a broad market participation showing more declining stocks than advancing ones. Turnover was substantial at over 4.1 billion.",
+  "market_summary": "The NEPSE Index saw a slight decline of 0.2%, closing at 2594.27, with a broad market that experienced more losers than gainers. Turnover remained robust at over 4.1 billion.",
   "recommendations": [
     {
       "symbol": "CREST",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Despite a 14.95% jump today on significant turnover, the stock is still trading below its 52-week high of 1588.0 and its 120-day average of 1241.1, indicating potential for further upside.",
-      "risk": "Overextended after a sharp gain"
-    },
-    {
-      "symbol": "SAHAS",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showed a 0.15% gain today on healthy turnover, trading above its 120-day (645.57) and 180-day (615.14) averages, with its current price below its 52-week high.",
-      "risk": "Slightly below VWAP"
+      "rationale": "Showed strong upward momentum with a 14.95% gain on significant turnover, trading above its 120-day average of 1241.1.",
+      "risk": "Potential for profit-taking after a sharp rise."
     },
     {
       "symbol": "SMHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Experienced a significant 2.3% increase today on high turnover, and its current price of 524.8 is above its 120-day average of 498.07, though below its 52-week high.",
-      "risk": "Well below 52-week high"
+      "rationale": "Experienced a 2.3% increase on high turnover, trading above its 120-day average of 498.07 and showing positive momentum.",
+      "risk": "Price is still significantly below its 52-week high."
+    },
+    {
+      "symbol": "SAHAS",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Showed positive price movement of 0.15% on good liquidity, trading above its 120-day average of 645.57.",
+      "risk": "Close to its 52-week high, indicating limited upside."
+    },
+    {
+      "symbol": "SANIMA",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Posted a 0.19% gain on substantial turnover, trading above its 120-day average of 358.81 with positive momentum.",
+      "risk": "Approaching its 52-week high."
     },
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Gained 0.5% today with strong volume, trading above its 120-day (448.27) and 180-day (449.84) averages and is positioned well within its 52-week range.",
-      "risk": "Below VWAP"
+      "rationale": "Increased by 0.5% on healthy turnover, trading above its 120-day average of 448.27 and showing momentum.",
+      "risk": "Price is trading below its 52-week high."
     },
     {
       "symbol": "BHCL",
-      "action": "BUY",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Rose 1.99% today on substantial turnover, with its current price of 553.0 above both its 120-day (542.79) and 180-day (543.24) averages.",
-      "risk": "Below 52-week high"
+      "rationale": "Showed a 1.99% rise on good volume, trading above its 120-day average of 542.79, indicating positive momentum.",
+      "risk": "Still significantly below its 52-week high."
     },
     {
-      "symbol": "SANIMA",
+      "symbol": "MEN",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Showed a 0.19% gain on good volume, trading above its 120-day (358.81) and 180-day (347.33) averages, and is approaching its 52-week high.",
-      "risk": "Near 52-week high"
-    },
-    {
-      "symbol": "MAKAR",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Spiked 4.8% on exceptionally high turnover, but its current price is below its 120-day (486.66) and 180-day (508.82) averages, suggesting a potential bounce from oversold levels.",
-      "risk": "Below key moving averages"
-    },
-    {
-      "symbol": "HBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Slightly up 0.11% on moderate volume, but trading below its 120-day (202.8) and 180-day (198.65) averages, showing signs of a potential value bounce.",
-      "risk": "Below key moving averages"
+      "rationale": "Slightly up 0.15% on decent liquidity, trading above its 120-day average of 598.75.",
+      "risk": "Price is below its 52-week high."
     },
     {
       "symbol": "NIFRA",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Posted a 0.33% gain on decent turnover, but is trading below its 120-day (261.01) and 180-day (262.88) averages, indicating it might be finding support.",
-      "risk": "Below key moving averages"
+      "rationale": "Trading slightly up 0.33% but still below its 120-day average of 261.01, suggesting a potential value bounce.",
+      "risk": "Needs to break above its 120-day average for stronger confirmation."
+    },
+    {
+      "symbol": "HBL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showed a 0.11% gain on moderate volume, but trading below its 120-day average of 202.8, suggesting a potential value bounce.",
+      "risk": "Requires a sustained move above its 120-day average."
+    },
+    {
+      "symbol": "MAKAR",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Experienced a significant 4.8% price jump on very high turnover, but still trading below its 120-day average of 486.66.",
+      "risk": "High turnover with price below averages warrants caution."
     }
   ],
-  "outlook": "The market will likely be influenced by broader index movements and investor sentiment, with a close watch on whether the NEPSE Index can reclaim the 2600 level.",
-  "date": "2026-08-25",
+  "outlook": "Watch for the NEPSE Index to test its 52-week high or retest the 2580 support level in the next session.",
+  "date": "2026-08-26",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }

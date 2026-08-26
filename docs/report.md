@@ -1,4 +1,4 @@
-# NEPSE Daily Brief — 2026-08-25
+# NEPSE Daily Brief — 2026-08-26
 
 **NEPSE Index**: 2594.27 (-5.30, -0.20%) · turnover 4,109,751,730
 
