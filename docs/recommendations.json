@@ -1,65 +1,79 @@
 {
-  "market_summary": "The NEPSE index saw a significant decline of 1.38%, closing at 2558.35, with broad weakness across most sectors. Turnover remained substantial at over 4.77 billion.",
+  "market_summary": "The NEPSE Index saw a slight decline of 0.04%, closing at 2557.31 with a turnover of over 3.78 billion NPR. Market breadth was negative, with more stocks declining than advancing.",
   "recommendations": [
     {
-      "symbol": "UHEWA",
+      "symbol": "SONA",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showed strong upward momentum with a 10.43% gain, trading above its 120-day (594.17) and 180-day (588.12) averages, and has good liquidity.",
-      "risk": "Potential for profit-taking after a sharp rise."
+      "rationale": "Showed a strong 5.05% gain today, reaching 408.0. Its current price is below its 120-day (433.56) and 180-day (431.94) averages, and its 52-week high is 510.0, indicating potential upside. High turnover of 62.7 million NPR suggests good liquidity.",
+      "risk": "Price approaching 52-week low"
     },
     {
-      "symbol": "SOHL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading at 663.9, it is below its 52-week high of 875.5 but shows consistent liquidity, indicating potential for recovery.",
-      "risk": "Lack of 120/180 day averages makes trend assessment difficult."
+      "symbol": "SAPDBL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Experienced a significant 3.75% increase to 720.0. The current price is below its 120-day (824.48) and 180-day (828.86) averages, and its 52-week high is 1065.7. Turnover of 19 million NPR indicates decent trading volume.",
+      "risk": "Still significantly below 52-week high"
     },
     {
-      "symbol": "SAHAS",
-      "action": "WATCH",
+      "symbol": "CORBL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Gained 2.06% to 902.2, trading above its 52-week low of 850.0. However, it is substantially below its 120-day (1722.89) and 180-day (1706.23) averages, and its 52-week high of 3183.0, suggesting room for recovery. Turnover of 18.2 million NPR is good.",
+      "risk": "Very far from 52-week high"
+    },
+    {
+      "symbol": "MEHL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Rose 2.13% to 234.6, trading just above its 52-week low of 220.0. It is well below its 120-day (366.87) and 180-day (393.71) averages, and its 52-week high of 519.0, presenting a potential value opportunity. Turnover of 11.8 million NPR is adequate.",
+      "risk": "Near 52-week low, weak trend"
+    },
+    {
+      "symbol": "SARBTM",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Trading at 681.9, it is near its 52-week high (716.6) and above its 120-day (646.54) and 180-day (615.8) averages, with good liquidity.",
-      "risk": "Slightly extended and could see a pullback."
+      "rationale": "Showed a 1.8% increase to 793.0, with good turnover of 37.4 million NPR. While its current price is below its 120-day (835.38) and 180-day (849.33) averages, it is trading within its 52-week range (750.0 - 942.4), indicating a potential bounce.",
+      "risk": "Price is not significantly below averages"
+    },
+    {
+      "symbol": "NIMB",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Increased by 0.93% to 185.0, with a turnover of 15.9 million NPR. The current price is below its 120-day (200.09) and 180-day (197.51) averages, and its 52-week high is 232.5, suggesting some room for upward movement.",
+      "risk": "Trading near 52-week low"
+    },
+    {
+      "symbol": "SANIMA",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Gained 0.96% to 369.0 on a turnover of 35.1 million NPR. It is trading above its 120-day (359.36) and 180-day (348.03) averages, and its 52-week high is 390.6, indicating a potentially stable upward trend.",
+      "risk": "Momentum signal, but price is not deeply oversold"
     },
     {
       "symbol": "TAMOR",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 480.0, it is above its 120-day (448.82) and 180-day (449.88) averages, with significant turnover and liquidity.",
-      "risk": "Slightly below its 52-week high of 525.0, suggesting caution."
+      "rationale": "Slightly up 0.42% to 482.0 with high turnover (59.1 million NPR). It is above its 120-day (449.36) and 180-day (449.92) averages and its 52-week high is 525.0, suggesting it is consolidating near its recent highs.",
+      "risk": "Not showing strong downward momentum for a bounce"
     },
     {
-      "symbol": "SMHL",
+      "symbol": "SAHAS",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 518.0, it is above its 120-day (498.54) average and shows substantial turnover, indicating investor interest.",
-      "risk": "Currently below its 180-day average (529.82) and significantly below its 52-week high (978.0)."
+      "rationale": "Showed minimal change at 682.0, with high turnover (64 million NPR). It is trading above its 120-day (647.39) and 180-day (616.38) averages, and its 52-week high is 716.6. The momentum signal suggests it may continue its trend.",
+      "risk": "Price is close to 52-week high, less room for immediate gains"
     },
     {
-      "symbol": "CHCL",
+      "symbol": "BHCL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 427.0, it is below its 120-day (486.63) and 180-day (484.87) averages, but has high turnover and is near its 52-week low (410.0).",
-      "risk": "Negative trend and recent significant price drop (-10.12%)."
-    },
-    {
-      "symbol": "RHPL",
-      "action": "AVOID",
-      "conviction": "medium",
-      "rationale": "Experienced a sharp 15.0% decline, trading at its 52-week low of 205.2, and is well below its 120-day (275.07) and 180-day (276.25) averages.",
-      "risk": "Continued downward momentum."
-    },
-    {
-      "symbol": "SJCL",
-      "action": "AVOID",
-      "conviction": "medium",
-      "rationale": "Suffered a 11.18% loss, trading at 231.9, which is near its 52-week low of 222.0 and significantly below its 120-day (295.08) and 180-day (294.31) averages.",
-      "risk": "Weak technicals and negative price action."
+      "rationale": "Posted a 0.4% gain to 555.0 on significant turnover (57.4 million NPR). It is trading above its 120-day (542.33) and 180-day (544.08) averages, with a 52-week high of 699.0. The momentum signal indicates a sustained upward trend.",
+      "risk": "Price is not oversold, momentum may be slowing"
     }
   ],
-  "outlook": "Investors will be watching for any signs of stabilization in the NEPSE index and a potential shift in market sentiment in the next session.",
-  "date": "2026-08-26",
+  "outlook": "Monitor if the NEPSE Index can hold above the 2550 level and watch for increased buying volume in fundamentally sound, undervalued stocks.",
+  "date": "2026-08-27",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
