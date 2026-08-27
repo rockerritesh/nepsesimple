@@ -1,78 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a slight decline of 0.04%, closing at 2557.31 with a turnover of over 3.78 billion NPR. Market breadth was negative, with more stocks declining than advancing.",
+  "market_summary": "The NEPSE Index saw a slight decline of 0.04%, closing at 2557.31 with a turnover of NPR 3.79 billion. Market breadth was negative, with more stocks declining than advancing.",
   "recommendations": [
     {
       "symbol": "SONA",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showed a strong 5.05% gain today, reaching 408.0. Its current price is below its 120-day (433.56) and 180-day (431.94) averages, and its 52-week high is 510.0, indicating potential upside. High turnover of 62.7 million NPR suggests good liquidity.",
-      "risk": "Price approaching 52-week low"
+      "rationale": "Showed a strong 5.05% gain today on significant turnover (NPR 62.79 million), trading above its 120-day (433.56) and 180-day (431.94) averages, indicating positive momentum.",
+      "risk": "Potential for profit-taking after the rally."
     },
     {
       "symbol": "SAPDBL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Experienced a significant 3.75% increase to 720.0. The current price is below its 120-day (824.48) and 180-day (828.86) averages, and its 52-week high is 1065.7. Turnover of 19 million NPR indicates decent trading volume.",
-      "risk": "Still significantly below 52-week high"
+      "rationale": "Experienced a notable 3.75% increase on a turnover of NPR 19.00 million, with its current price (720.0) significantly below its 52-week high (1065.7) and above its 52-week low (660.0).",
+      "risk": "Still trading below longer-term averages (120-day: 824.48)."
     },
     {
       "symbol": "CORBL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Gained 2.06% to 902.2, trading above its 52-week low of 850.0. However, it is substantially below its 120-day (1722.89) and 180-day (1706.23) averages, and its 52-week high of 3183.0, suggesting room for recovery. Turnover of 18.2 million NPR is good.",
-      "risk": "Very far from 52-week high"
+      "rationale": "Gained 2.06% on a turnover of NPR 18.28 million. Its current price (902.2) is near its 52-week low (850.0), suggesting potential value, but is far below its 120-day (1722.89) and 180-day (1706.23) averages.",
+      "risk": "Significant gap between current price and longer-term moving averages."
     },
     {
-      "symbol": "MEHL",
+      "symbol": "SAHAS",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Rose 2.13% to 234.6, trading just above its 52-week low of 220.0. It is well below its 120-day (366.87) and 180-day (393.71) averages, and its 52-week high of 519.0, presenting a potential value opportunity. Turnover of 11.8 million NPR is adequate.",
-      "risk": "Near 52-week low, weak trend"
+      "rationale": "Showed slight upward momentum with a 0.01% gain on high turnover (NPR 64.06 million). Its price (682.0) is trading within its 52-week range (535.3 - 716.6) and above its 120-day (647.39) and 180-day (616.38) averages.",
+      "risk": "Momentum is weak despite high liquidity."
     },
     {
-      "symbol": "SARBTM",
+      "symbol": "TAMOR",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Showed a 1.8% increase to 793.0, with good turnover of 37.4 million NPR. While its current price is below its 120-day (835.38) and 180-day (849.33) averages, it is trading within its 52-week range (750.0 - 942.4), indicating a potential bounce.",
-      "risk": "Price is not significantly below averages"
-    },
-    {
-      "symbol": "NIMB",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Increased by 0.93% to 185.0, with a turnover of 15.9 million NPR. The current price is below its 120-day (200.09) and 180-day (197.51) averages, and its 52-week high is 232.5, suggesting some room for upward movement.",
-      "risk": "Trading near 52-week low"
+      "rationale": "Traded up 0.42% on substantial turnover (NPR 59.12 million). Its price (482.0) is above its 120-day (449.36) and 180-day (449.92) averages and within its 52-week range (396.4 - 525.0).",
+      "risk": "Price is approaching its 52-week high, potentially limiting upside."
     },
     {
       "symbol": "SANIMA",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Gained 0.96% to 369.0 on a turnover of 35.1 million NPR. It is trading above its 120-day (359.36) and 180-day (348.03) averages, and its 52-week high is 390.6, indicating a potentially stable upward trend.",
-      "risk": "Momentum signal, but price is not deeply oversold"
-    },
-    {
-      "symbol": "TAMOR",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Slightly up 0.42% to 482.0 with high turnover (59.1 million NPR). It is above its 120-day (449.36) and 180-day (449.92) averages and its 52-week high is 525.0, suggesting it is consolidating near its recent highs.",
-      "risk": "Not showing strong downward momentum for a bounce"
-    },
-    {
-      "symbol": "SAHAS",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Showed minimal change at 682.0, with high turnover (64 million NPR). It is trading above its 120-day (647.39) and 180-day (616.38) averages, and its 52-week high is 716.6. The momentum signal suggests it may continue its trend.",
-      "risk": "Price is close to 52-week high, less room for immediate gains"
+      "rationale": "Posted a 0.96% gain on a turnover of NPR 35.15 million. Its current price (369.0) is above its 120-day (359.36) and 180-day (348.03) averages and within its 52-week range (295.0 - 390.6).",
+      "risk": "Trading near the upper end of its 52-week range."
     },
     {
       "symbol": "BHCL",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Showed a 0.40% increase on high turnover (NPR 57.46 million). Its price (555.0) is above its 120-day (542.33) and 180-day (544.08) averages, indicating some upward trend.",
+      "risk": "Price is relatively close to its 52-week high (699.0)."
+    },
+    {
+      "symbol": "MEHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Posted a 0.4% gain to 555.0 on significant turnover (57.4 million NPR). It is trading above its 120-day (542.33) and 180-day (544.08) averages, with a 52-week high of 699.0. The momentum signal indicates a sustained upward trend.",
-      "risk": "Price is not oversold, momentum may be slowing"
+      "rationale": "Gained 2.13% on a turnover of NPR 11.86 million. While showing positive day movement, its current price (234.6) is significantly below its 120-day (366.87) and 180-day (393.71) averages, and close to its 52-week low (220.0).",
+      "risk": "Strong downtrend indicated by moving averages."
     }
   ],
-  "outlook": "Monitor if the NEPSE Index can hold above the 2550 level and watch for increased buying volume in fundamentally sound, undervalued stocks.",
+  "outlook": "Monitor if the NEPSE Index can hold above the 2550 level and observe volume trends in leading sectors.",
   "date": "2026-08-27",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
