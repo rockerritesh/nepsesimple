@@ -1,78 +1,64 @@
 {
-  "market_summary": "The NEPSE Index closed marginally lower, down 0.04%, with a broad market decline indicated by negative Sensitive and Float indices. Turnover was moderate at NPR 3.79 billion.",
+  "market_summary": "The NEPSE Index saw a slight decline of 0.04%, closing at 2557.31, with a turnover of NPR 3.79 billion. Breadth appears weak as the index moved lower despite some individual stock strength.",
   "recommendations": [
     {
       "symbol": "SONA",
-      "action": "ACCUMULATE",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showed strong upward momentum with a 5.05% gain today, trading above its 120-day (433.56) and 180-day (431.94) averages, and has significant turnover.",
-      "risk": "Price is near its 52-week high (510.0)."
+      "rationale": "Showed strong upward momentum with a 5.05% gain today, trading above its 120-day (433.56) and 180-day (431.94) averages, and has significant turnover of NPR 62.79 million.",
+      "risk": "Potential for profit-taking."
     },
     {
       "symbol": "SAPDBL",
-      "action": "ACCUMULATE",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Experienced a notable 3.75% increase today on good turnover, and its current price (720.0) is below its 120-day (824.48) and 180-day (828.86) averages, suggesting potential for mean reversion.",
-      "risk": "Still significantly below its 52-week high (1065.7)."
+      "rationale": "Gained 3.75% today, trading above its 120-day (824.48) and 180-day (828.86) averages, with good liquidity and a quant score of 1.312.",
+      "risk": "Extended from its 52-week low."
     },
     {
       "symbol": "CORBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Showed a 2.06% gain today with good liquidity, but its current price (902.2) is well below its 120-day (1722.89) and 180-day (1706.23) averages.",
-      "risk": "Significant price gap from moving averages."
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Showed a 2.06% increase, trading above its 120-day (1722.89) and 180-day (1706.23) averages, with a quant score of 1.749 and 'value_bounce' signal.",
+      "risk": "Still significantly below its 52-week high."
     },
     {
       "symbol": "SAHAS",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Traded flat today but has strong liquidity and momentum signals, with its current price (682.0) above its 120-day (647.39) average.",
-      "risk": "Price is approaching its 52-week high (716.6)."
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Traded flat but remains near its 52-week high (716.6) with strong turnover (NPR 64.07 million) and a 'momentum' signal.",
+      "risk": "Could be nearing a short-term peak."
     },
     {
       "symbol": "TAMOR",
-      "action": "WATCH",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Posted a 0.42% gain on high turnover, trading above its 120-day (449.36) and 180-day (449.92) averages.",
-      "risk": "Price is below its 52-week high (525.0)."
+      "rationale": "Showed a 0.42% gain, trading above its 120-day (449.36) and 180-day (449.92) averages, with good turnover and a 'momentum' signal.",
+      "risk": "Price is close to its 52-week high."
     },
     {
       "symbol": "SANIMA",
-      "action": "WATCH",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Gained 0.96% today with solid turnover, and its current price (369.0) is above its 120-day (359.36) average.",
-      "risk": "Price is approaching its 52-week high (390.6)."
+      "rationale": "Increased by 0.96% and is trading above its 120-day (359.36) and 180-day (348.03) averages, with a 'momentum' signal.",
+      "risk": "Price is approaching its 52-week high."
     },
     {
       "symbol": "BHCL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a modest 0.40% gain on high turnover, trading above its 120-day (542.33) and 180-day (544.08) averages.",
-      "risk": "Price is below its 52-week high (699.0)."
+      "rationale": "Showed a small gain (0.4%) while trading above its 120-day (542.33) and 180-day (544.08) averages, with a 'momentum' signal and good turnover.",
+      "risk": "Price is below its 52-week high, but momentum signals are present."
     },
     {
       "symbol": "MEHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Experienced a 2.13% increase today with decent liquidity, but its current price (234.6) is significantly below its 120-day (366.87) and 180-day (393.71) averages.",
-      "risk": "Large gap from moving averages."
-    },
-    {
-      "symbol": "NIMB",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Closed up 0.93% on good volume, with its current price (185.0) slightly below its 120-day (200.09) and 180-day (197.51) averages.",
-      "risk": "Price is near its 52-week low (181.0)."
-    },
-    {
-      "symbol": "AHPC",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Posted a small 0.48% gain on decent turnover, but its current price (252.7) remains below its 120-day (278.31) and 180-day (276.96) averages.",
-      "risk": "Price is near its 52-week low (246.5)."
+      "rationale": "Gained 2.13% and shows a 'value_bounce' signal, trading above its 120-day (366.87) and 180-day (393.71) averages.",
+      "risk": "Still far from its 52-week high."
     }
   ],
-  "outlook": "Watch for a sustained move above the 2560 level on the NEPSE Index, with increased breadth supporting any upside.",
+  "outlook": "Watch for follow-through buying in individual stocks and any shift in the overall market breadth in the next session.",
   "date": "2026-08-30",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
