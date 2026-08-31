@@ -1,71 +1,78 @@
 {
-  "market_summary": "The NEPSE Index saw a significant decline of 1.71%, driven by broad-based selling pressure. Breadth was weak, with a majority of scrips closing in the red.",
+  "market_summary": "The NEPSE Index saw a significant decline of 1.71%, closing at 2513.42, with broad market weakness indicated by a substantial drop in turnover. The majority of stocks traded in the red, reflecting a bearish sentiment.",
   "recommendations": [
     {
       "symbol": "GCIL",
-      "action": "ACCUMULATE",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "The stock is up 7.57% today on good liquidity, trading above its 120-day average of 396.25. Its quant score is strong at 1.528.",
+      "rationale": "Showing strong upward momentum with a 7.57% gain today, trading above its 120-day average of 396.25 and exhibiting good liquidity.",
       "risk": "Potential for profit-taking after a sharp rise."
     },
     {
       "symbol": "SHIVM",
-      "action": "ACCUMULATE",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showed positive momentum with a 2.15% gain on high turnover, trading above its 120-day average of 658.42. Quant score is 1.493.",
-      "risk": "Market-wide weakness could drag it down."
-    },
-    {
-      "symbol": "SONA",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Trading at 416.9, it is close to its 120-day average of 433.4 and showing positive momentum (+2.18%). Quant score is 1.415.",
-      "risk": "Still trading below its 52-week high."
+      "rationale": "A 2.15% gain today, with its current price of 664.0 trading above its 120-day average of 658.42 and solid turnover.",
+      "risk": "May face resistance near its 52-week high of 730.0."
     },
     {
       "symbol": "SARBTM",
-      "action": "ACCUMULATE",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Showed a positive uptick of 2.64% on decent turnover, and its current price is within range of its 120-day average (834.75). Quant score is 1.251.",
-      "risk": "Below its 52-week high and facing a generally weak market."
+      "rationale": "Posted a 2.64% gain and is trading near its 120-day average of 834.75, indicating potential for a bounce.",
+      "risk": "Still below its 52-week high, suggesting a longer recovery path."
+    },
+    {
+      "symbol": "SONA",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "A 2.18% gain today, but its current price of 416.9 is slightly below its 120-day average of 433.4.",
+      "risk": "Needs to break above its moving average for sustained upward movement."
+    },
+    {
+      "symbol": "SYPNL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Gained 3.91% on decent turnover, but its current price of 1393.0 is significantly below its 52-week high of 2255.9.",
+      "risk": "Long way from its peak, recovery might be slow."
+    },
+    {
+      "symbol": "PCIL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showed a 4.03% gain today on good turnover, but lacks historical moving average data to assess trend.",
+      "risk": "Uncertainty due to missing historical data for trend analysis."
     },
     {
       "symbol": "NIFRA",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 240.1, it is slightly below its 120-day average of 260.4 but shows a positive day change of 0.46%. Quant score is 1.478.",
-      "risk": "Needs to break above its moving averages for stronger conviction."
+      "rationale": "Slightly up 0.46% on moderate turnover, but trading below its 120-day average of 260.4.",
+      "risk": "Needs to reclaim its short-term moving average for positive sentiment."
     },
     {
       "symbol": "MEHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading near its 52-week low of 220.0 with a small positive gain of 0.13%. Quant score is 1.499, suggesting potential value.",
-      "risk": "Still well below its 120-day average of 365.12."
-    },
-    {
-      "symbol": "SJCL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Showed a modest gain of 1.81% but is trading significantly below its 120-day average of 293.87. Quant score is 1.284.",
-      "risk": "Requires sustained upward momentum to overcome its longer-term averages."
+      "rationale": "Minimal gain of 0.13% on the day, trading well below its 120-day average of 365.12.",
+      "risk": "Significant overhead resistance from its moving average."
     },
     {
       "symbol": "CHCL",
       "action": "AVOID",
-      "conviction": "low",
-      "rationale": "Experienced a sharp decline of 10.49%, closing below its 52-week low of 360.0. High volume indicates selling pressure.",
-      "risk": "Continued downside risk in a weak market."
+      "conviction": "medium",
+      "rationale": "Experienced a sharp decline of 10.49% today, trading below its 120-day average of 485.11 and showing weak price action.",
+      "risk": "Continued downside pressure is likely."
     },
     {
       "symbol": "RHPL",
       "action": "AVOID",
-      "conviction": "low",
-      "rationale": "Down 11.76% on high volume, nearing its 52-week low of 163.9. This indicates significant selling pressure.",
-      "risk": "Likely to face further downward pressure."
+      "conviction": "medium",
+      "rationale": "Suffered a significant 11.76% loss today, trading below its 120-day average of 273.23 and indicating strong bearish momentum.",
+      "risk": "Bearish trend is clearly established."
     }
   ],
-  "outlook": "Watch for any signs of stabilization in the NEPSE Index and a potential bounce from oversold levels in the next session.",
+  "outlook": "Watch for a potential short-covering rally or further downside as the market digests today's losses.",
   "date": "2026-08-31",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
