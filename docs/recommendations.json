@@ -1,65 +1,72 @@
 {
-  "market_summary": "The NEPSE Index saw a slight decline of 0.04%, closing at 2557.31, with a turnover of NPR 3.79 billion. Breadth appears weak as the index moved lower despite some individual stock strength.",
+  "market_summary": "The NEPSE Index saw a significant decline of 1.71%, driven by broad-based selling pressure. Breadth was weak, with a majority of scrips closing in the red.",
   "recommendations": [
     {
+      "symbol": "GCIL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "The stock is up 7.57% today on good liquidity, trading above its 120-day average of 396.25. Its quant score is strong at 1.528.",
+      "risk": "Potential for profit-taking after a sharp rise."
+    },
+    {
+      "symbol": "SHIVM",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Showed positive momentum with a 2.15% gain on high turnover, trading above its 120-day average of 658.42. Quant score is 1.493.",
+      "risk": "Market-wide weakness could drag it down."
+    },
+    {
       "symbol": "SONA",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showed strong upward momentum with a 5.05% gain today, trading above its 120-day (433.56) and 180-day (431.94) averages, and has significant turnover of NPR 62.79 million.",
-      "risk": "Potential for profit-taking."
-    },
-    {
-      "symbol": "SAPDBL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Gained 3.75% today, trading above its 120-day (824.48) and 180-day (828.86) averages, with good liquidity and a quant score of 1.312.",
-      "risk": "Extended from its 52-week low."
-    },
-    {
-      "symbol": "CORBL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Showed a 2.06% increase, trading above its 120-day (1722.89) and 180-day (1706.23) averages, with a quant score of 1.749 and 'value_bounce' signal.",
-      "risk": "Still significantly below its 52-week high."
+      "rationale": "Trading at 416.9, it is close to its 120-day average of 433.4 and showing positive momentum (+2.18%). Quant score is 1.415.",
+      "risk": "Still trading below its 52-week high."
     },
     {
-      "symbol": "SAHAS",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Traded flat but remains near its 52-week high (716.6) with strong turnover (NPR 64.07 million) and a 'momentum' signal.",
-      "risk": "Could be nearing a short-term peak."
-    },
-    {
-      "symbol": "TAMOR",
+      "symbol": "SARBTM",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Showed a 0.42% gain, trading above its 120-day (449.36) and 180-day (449.92) averages, with good turnover and a 'momentum' signal.",
-      "risk": "Price is close to its 52-week high."
+      "rationale": "Showed a positive uptick of 2.64% on decent turnover, and its current price is within range of its 120-day average (834.75). Quant score is 1.251.",
+      "risk": "Below its 52-week high and facing a generally weak market."
     },
     {
-      "symbol": "SANIMA",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Increased by 0.96% and is trading above its 120-day (359.36) and 180-day (348.03) averages, with a 'momentum' signal.",
-      "risk": "Price is approaching its 52-week high."
-    },
-    {
-      "symbol": "BHCL",
+      "symbol": "NIFRA",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a small gain (0.4%) while trading above its 120-day (542.33) and 180-day (544.08) averages, with a 'momentum' signal and good turnover.",
-      "risk": "Price is below its 52-week high, but momentum signals are present."
+      "rationale": "Trading at 240.1, it is slightly below its 120-day average of 260.4 but shows a positive day change of 0.46%. Quant score is 1.478.",
+      "risk": "Needs to break above its moving averages for stronger conviction."
     },
     {
       "symbol": "MEHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Gained 2.13% and shows a 'value_bounce' signal, trading above its 120-day (366.87) and 180-day (393.71) averages.",
-      "risk": "Still far from its 52-week high."
+      "rationale": "Trading near its 52-week low of 220.0 with a small positive gain of 0.13%. Quant score is 1.499, suggesting potential value.",
+      "risk": "Still well below its 120-day average of 365.12."
+    },
+    {
+      "symbol": "SJCL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showed a modest gain of 1.81% but is trading significantly below its 120-day average of 293.87. Quant score is 1.284.",
+      "risk": "Requires sustained upward momentum to overcome its longer-term averages."
+    },
+    {
+      "symbol": "CHCL",
+      "action": "AVOID",
+      "conviction": "low",
+      "rationale": "Experienced a sharp decline of 10.49%, closing below its 52-week low of 360.0. High volume indicates selling pressure.",
+      "risk": "Continued downside risk in a weak market."
+    },
+    {
+      "symbol": "RHPL",
+      "action": "AVOID",
+      "conviction": "low",
+      "rationale": "Down 11.76% on high volume, nearing its 52-week low of 163.9. This indicates significant selling pressure.",
+      "risk": "Likely to face further downward pressure."
     }
   ],
-  "outlook": "Watch for follow-through buying in individual stocks and any shift in the overall market breadth in the next session.",
-  "date": "2026-08-30",
+  "outlook": "Watch for any signs of stabilization in the NEPSE Index and a potential bounce from oversold levels in the next session.",
+  "date": "2026-08-31",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }

@@ -1,19 +1,19 @@
-# NEPSE Daily Brief — 2026-08-30
+# NEPSE Daily Brief — 2026-08-31
 
-**NEPSE Index**: 2557.31 (-1.04, -0.04%) · turnover 3,786,454,594
+**NEPSE Index**: 2513.42 (-43.89, -1.71%) · turnover 3,648,609,878
 
 ## Top Gainers
-- SAPIL: 1394.8 (+15.00%)
-- GCIL: 370.0 (+8.19%)
-- SONA: 408.0 (+5.05%)
-- BGWT: 513.0 (+4.72%)
-- PCIL: 621.0 (+4.53%)
+- ULBSL: 2725.0 (+13.16%)
+- GCIL: 398.0 (+7.57%)
+- NICAD2091: 1094.0 (+6.01%)
+- PCIL: 646.0 (+4.03%)
+- NABILD2089: 1100.0 (+3.97%)
 
 ## Top Losers
-- UHEWA: 604.0 (-9.45%)
-- TVCL: 354.0 (-9.23%)
-- HEIP: 309.3 (-8.68%)
-- ENL: 764.0 (-8.38%)
-- RHPL: 188.0 (-8.38%)
+- MKJC: 276.3 (-14.98%)
+- RHPL: 165.9 (-11.76%)
+- MBLEF: 8.5 (-10.62%)
+- CHCL: 362.5 (-10.49%)
+- SIGS3: 9.91 (-9.83%)
 
-_Auto-generated. NEPSE index forecast (next session): 2602.04. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2595.48. Not investment advice._
