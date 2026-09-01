@@ -1,79 +1,79 @@
 {
-  "market_summary": "The NEPSE Index saw a significant decline of 1.71%, closing at 2513.42, with broad market weakness indicated by a substantial drop in turnover. The majority of stocks traded in the red, reflecting a bearish sentiment.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.36% on decent turnover, with breadth appearing slightly positive given the number of advancing stocks. However, a few significant losers indicate potential pockets of weakness.",
   "recommendations": [
     {
-      "symbol": "GCIL",
+      "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showing strong upward momentum with a 7.57% gain today, trading above its 120-day average of 396.25 and exhibiting good liquidity.",
-      "risk": "Potential for profit-taking after a sharp rise."
+      "rationale": "Showing strong momentum with a 3.13% day increase and high turnover, trading above its 120-day (450.19) and 180-day (450.02) averages, nearing its 52-week high of 510.0.",
+      "risk": "Potential for profit-taking near 52-week high."
     },
     {
-      "symbol": "SHIVM",
+      "symbol": "SAHAS",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "A 2.15% gain today, with its current price of 664.0 trading above its 120-day average of 658.42 and solid turnover.",
-      "risk": "May face resistance near its 52-week high of 730.0."
-    },
-    {
-      "symbol": "SARBTM",
-      "action": "BUY",
-      "conviction": "low",
-      "rationale": "Posted a 2.64% gain and is trading near its 120-day average of 834.75, indicating potential for a bounce.",
-      "risk": "Still below its 52-week high, suggesting a longer recovery path."
-    },
-    {
-      "symbol": "SONA",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "A 2.18% gain today, but its current price of 416.9 is slightly below its 120-day average of 433.4.",
-      "risk": "Needs to break above its moving average for sustained upward movement."
-    },
-    {
-      "symbol": "SYPNL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Gained 3.91% on decent turnover, but its current price of 1393.0 is significantly below its 52-week high of 2255.9.",
-      "risk": "Long way from its peak, recovery might be slow."
-    },
-    {
-      "symbol": "PCIL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Showed a 4.03% gain today on good turnover, but lacks historical moving average data to assess trend.",
-      "risk": "Uncertainty due to missing historical data for trend analysis."
-    },
-    {
-      "symbol": "NIFRA",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Slightly up 0.46% on moderate turnover, but trading below its 120-day average of 260.4.",
-      "risk": "Needs to reclaim its short-term moving average for positive sentiment."
-    },
-    {
-      "symbol": "MEHL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Minimal gain of 0.13% on the day, trading well below its 120-day average of 365.12.",
-      "risk": "Significant overhead resistance from its moving average."
+      "rationale": "Demonstrates positive momentum with a 2.1% rise and good turnover, trading above its 120-day (648.58) and 180-day (617.61) averages, with room to its 52-week high of 716.6.",
+      "risk": "Extended from recent lows, could face resistance."
     },
     {
       "symbol": "CHCL",
-      "action": "AVOID",
-      "conviction": "medium",
-      "rationale": "Experienced a sharp decline of 10.49% today, trading below its 120-day average of 485.11 and showing weak price action.",
-      "risk": "Continued downside pressure is likely."
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Experienced a 2.62% price increase on significant turnover, trading above its 120-day (483.97) and 180-day (482.84) averages, and is still below its 52-week high of 525.0.",
+      "risk": "Still trading below longer-term averages."
     },
     {
       "symbol": "RHPL",
-      "action": "AVOID",
-      "conviction": "medium",
-      "rationale": "Suffered a significant 11.76% loss today, trading below its 120-day average of 273.23 and indicating strong bearish momentum.",
-      "risk": "Bearish trend is clearly established."
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Gained 1.69% on substantial volume, with its current price of 168.7 approaching its 120-day (272.01) and 180-day (274.67) averages, and is near its 52-week low of 156.0.",
+      "risk": "Significant distance from longer-term averages and 52-week high."
+    },
+    {
+      "symbol": "NRIC",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showed a small gain of 0.25% on decent turnover, but is trading significantly below its 120-day (989.81) and 180-day (1085.21) averages, near its 52-week low of 780.0.",
+      "risk": "Still deeply oversold relative to historical averages."
+    },
+    {
+      "symbol": "HRL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Slightly up 0.19% on good turnover, but trading below its 120-day (661.97) and 180-day (723.65) averages, and near its 52-week low of 504.0.",
+      "risk": "Needs to break above longer-term averages to confirm trend change."
+    },
+    {
+      "symbol": "CITY",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "A minor 0.29% gain on good volume, but price is well below its 120-day (414.39) and 180-day (439.52) averages, and closer to its 52-week low of 327.8.",
+      "risk": "Price is still in a downtrend relative to averages."
+    },
+    {
+      "symbol": "MAKAR",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showed a 1.74% increase on moderate turnover, but remains below its 120-day (481.86) and 180-day (505.2) averages, trading near its 52-week low of 389.0.",
+      "risk": "Requires sustained upward movement to challenge averages."
+    },
+    {
+      "symbol": "SGIC",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Posted a 1.32% gain on lower turnover, but is trading below its 120-day (473.73) and 180-day (475.35) averages, near its 52-week low of 373.5.",
+      "risk": "Volume and price action are not yet convincing."
+    },
+    {
+      "symbol": "PRVU",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "A modest 0.74% increase on decent volume, but price is below its 120-day (197.96) and 180-day (194.02) averages, and near its 52-week low of 169.7.",
+      "risk": "Needs to reclaim longer-term averages for a stronger signal."
     }
   ],
-  "outlook": "Watch for a potential short-covering rally or further downside as the market digests today's losses.",
-  "date": "2026-08-31",
+  "outlook": "Monitor if the NEPSE Index can sustain its gains and break through resistance levels, while keeping an eye on the broader market breadth for signs of a more robust rally.",
+  "date": "2026-09-01",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
