@@ -1,78 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.36% on decent turnover, with breadth appearing slightly positive given the number of advancing stocks. However, a few significant losers indicate potential pockets of weakness.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.36%, with turnover above average at 2.9 billion. Breadth was mixed, as indicated by the mixed performance of float indices and notable losers.",
   "recommendations": [
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showing strong momentum with a 3.13% day increase and high turnover, trading above its 120-day (450.19) and 180-day (450.02) averages, nearing its 52-week high of 510.0.",
-      "risk": "Potential for profit-taking near 52-week high."
+      "rationale": "Trading at 495.0, it's near its 52-week high of 510.0, with a strong daily gain of 3.13% on high turnover of 90.8 million, indicating positive momentum.",
+      "risk": "Potential for profit-taking after a strong run."
     },
     {
       "symbol": "SAHAS",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Demonstrates positive momentum with a 2.1% rise and good turnover, trading above its 120-day (648.58) and 180-day (617.61) averages, with room to its 52-week high of 716.6.",
-      "risk": "Extended from recent lows, could face resistance."
+      "rationale": "Currently at 685.0, up 2.1% on the day with significant turnover (55.4 million). It's also showing momentum with its price above its 120-day (648.58) and 180-day (617.61) averages.",
+      "risk": "Approaching 52-week high (716.6)."
     },
     {
       "symbol": "CHCL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Experienced a 2.62% price increase on significant turnover, trading above its 120-day (483.97) and 180-day (482.84) averages, and is still below its 52-week high of 525.0.",
-      "risk": "Still trading below longer-term averages."
+      "rationale": "Trading at 372.0, up 2.62% with high turnover (73.4 million). The price is below its 120-day (483.97) and 180-day (482.84) averages, suggesting potential for recovery.",
+      "risk": "Still significantly below its 52-week high (525.0)."
     },
     {
       "symbol": "RHPL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Gained 1.69% on substantial volume, with its current price of 168.7 approaching its 120-day (272.01) and 180-day (274.67) averages, and is near its 52-week low of 156.0.",
-      "risk": "Significant distance from longer-term averages and 52-week high."
+      "rationale": "At 168.7, up 1.69% on high turnover (44.9 million). It's trading near its 52-week low (156.0) and below its 120-day (272.01) and 180-day (274.67) averages, offering value potential.",
+      "risk": "Long-term downtrend."
     },
     {
       "symbol": "NRIC",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a small gain of 0.25% on decent turnover, but is trading significantly below its 120-day (989.81) and 180-day (1085.21) averages, near its 52-week low of 780.0.",
-      "risk": "Still deeply oversold relative to historical averages."
+      "rationale": "Trading at 795.0, slightly up 0.25% on decent turnover (31.9 million). It's very close to its 52-week low of 780.0, suggesting it might be finding a bottom.",
+      "risk": "Still trading well below its 120-day (989.81) and 180-day (1085.21) averages."
     },
     {
       "symbol": "HRL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Slightly up 0.19% on good turnover, but trading below its 120-day (661.97) and 180-day (723.65) averages, and near its 52-week low of 504.0.",
-      "risk": "Needs to break above longer-term averages to confirm trend change."
-    },
-    {
-      "symbol": "CITY",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "A minor 0.29% gain on good volume, but price is well below its 120-day (414.39) and 180-day (439.52) averages, and closer to its 52-week low of 327.8.",
-      "risk": "Price is still in a downtrend relative to averages."
+      "rationale": "At 516.0, up 0.19% on good turnover (28.4 million). It is trading very close to its 52-week low of 504.0 and below its 120-day (661.97) and 180-day (723.65) averages.",
+      "risk": "Price is significantly below its 52-week high (1033.0)."
     },
     {
       "symbol": "MAKAR",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a 1.74% increase on moderate turnover, but remains below its 120-day (481.86) and 180-day (505.2) averages, trading near its 52-week low of 389.0.",
-      "risk": "Requires sustained upward movement to challenge averages."
+      "rationale": "Trading at 397.0, up 1.74% on moderate turnover (20.4 million). It is near its 52-week low of 389.0 and below its longer-term averages (d120: 481.86, d180: 505.2).",
+      "risk": "Extended decline from its 52-week high (629.3)."
     },
     {
-      "symbol": "SGIC",
+      "symbol": "CITY",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Posted a 1.32% gain on lower turnover, but is trading below its 120-day (473.73) and 180-day (475.35) averages, near its 52-week low of 373.5.",
-      "risk": "Volume and price action are not yet convincing."
-    },
-    {
-      "symbol": "PRVU",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "A modest 0.74% increase on decent volume, but price is below its 120-day (197.96) and 180-day (194.02) averages, and near its 52-week low of 169.7.",
-      "risk": "Needs to reclaim longer-term averages for a stronger signal."
+      "rationale": "Currently at 340.0, up 0.29% on decent turnover (26.6 million). It's trading near its 52-week low (327.8) and below its 120-day (414.39) and 180-day (439.52) averages.",
+      "risk": "Still well off its 52-week high (649.0)."
     }
   ],
-  "outlook": "Monitor if the NEPSE Index can sustain its gains and break through resistance levels, while keeping an eye on the broader market breadth for signs of a more robust rally.",
+  "outlook": "Watch for continued strength in momentum names and any signs of stabilization in the beaten-down value plays.",
   "date": "2026-09-01",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
