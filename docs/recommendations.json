@@ -1,65 +1,79 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.36%, with turnover above average at 2.9 billion. Breadth was mixed, as indicated by the mixed performance of float indices and notable losers.",
+  "market_summary": "The NEPSE Index saw a positive opening and closed higher, gaining 0.61% on a turnover of NPR 2.94 billion. Breadth appears positive with notable gains across several sectors.",
   "recommendations": [
+    {
+      "symbol": "CFCL",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Closed up 9.11% at NPR 635, significantly above its 120-day average of NPR 579.51 and 180-day average of NPR 558.51, with strong turnover.",
+      "risk": "Potential for short-term profit-taking."
+    },
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 495.0, it's near its 52-week high of 510.0, with a strong daily gain of 3.13% on high turnover of 90.8 million, indicating positive momentum.",
-      "risk": "Potential for profit-taking after a strong run."
+      "rationale": "Gained 1.82% to NPR 504, trading above its 120-day (NPR 450.73) and 180-day (NPR 450.11) averages with good liquidity.",
+      "risk": "Approaching 52-week high of NPR 510."
+    },
+    {
+      "symbol": "GBIME",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Showed a 4.13% gain to NPR 249.9, trading above its 120-day (NPR 242.17) and 180-day (NPR 237.25) averages with significant turnover.",
+      "risk": "Still below its 52-week high of NPR 270.6."
+    },
+    {
+      "symbol": "MKHC",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Rose 5.93% to NPR 250, trading above its 120-day (NPR 309.82) and 180-day (NPR 324.42) averages, indicating a potential bounce.",
+      "risk": "Currently below its longer-term averages."
     },
     {
       "symbol": "SAHAS",
-      "action": "BUY",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Currently at 685.0, up 2.1% on the day with significant turnover (55.4 million). It's also showing momentum with its price above its 120-day (648.58) and 180-day (617.61) averages.",
-      "risk": "Approaching 52-week high (716.6)."
-    },
-    {
-      "symbol": "CHCL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading at 372.0, up 2.62% with high turnover (73.4 million). The price is below its 120-day (483.97) and 180-day (482.84) averages, suggesting potential for recovery.",
-      "risk": "Still significantly below its 52-week high (525.0)."
-    },
-    {
-      "symbol": "RHPL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "At 168.7, up 1.69% on high turnover (44.9 million). It's trading near its 52-week low (156.0) and below its 120-day (272.01) and 180-day (274.67) averages, offering value potential.",
-      "risk": "Long-term downtrend."
-    },
-    {
-      "symbol": "NRIC",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading at 795.0, slightly up 0.25% on decent turnover (31.9 million). It's very close to its 52-week low of 780.0, suggesting it might be finding a bottom.",
-      "risk": "Still trading well below its 120-day (989.81) and 180-day (1085.21) averages."
-    },
-    {
-      "symbol": "HRL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "At 516.0, up 0.19% on good turnover (28.4 million). It is trading very close to its 52-week low of 504.0 and below its 120-day (661.97) and 180-day (723.65) averages.",
-      "risk": "Price is significantly below its 52-week high (1033.0)."
+      "rationale": "Closed up 0.48% at NPR 688.3, trading above its 120-day (NPR 649.1) and 180-day (NPR 618.29) averages with solid liquidity.",
+      "risk": "Momentum is moderate, near 52-week high."
     },
     {
       "symbol": "MAKAR",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 397.0, up 1.74% on moderate turnover (20.4 million). It is near its 52-week low of 389.0 and below its longer-term averages (d120: 481.86, d180: 505.2).",
-      "risk": "Extended decline from its 52-week high (629.3)."
+      "rationale": "Gained 1.79% to NPR 404.1, showing signs of a value bounce, but still well below its 120-day (NPR 480.6) and 180-day (NPR 504.29) averages.",
+      "risk": "Significant overhead resistance."
     },
     {
-      "symbol": "CITY",
+      "symbol": "MEHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Currently at 340.0, up 0.29% on decent turnover (26.6 million). It's trading near its 52-week low (327.8) and below its 120-day (414.39) and 180-day (439.52) averages.",
-      "risk": "Still well off its 52-week high (649.0)."
+      "rationale": "Closed up 0.44% at NPR 230, near its 52-week low of NPR 220.0 and below its longer-term averages.",
+      "risk": "Still trading significantly below its 120-day and 180-day averages."
+    },
+    {
+      "symbol": "NIMB",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Posted a 0.44% gain to NPR 183, trading near its 52-week low of NPR 181.0 and below its 120-day (NPR 199.5) and 180-day (NPR 197.25) averages.",
+      "risk": "Weakness relative to longer-term averages."
+    },
+    {
+      "symbol": "HRL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Up 0.58% to NPR 519, but trading substantially below its 120-day (NPR 658.75) and 180-day (NPR 721.7) averages.",
+      "risk": "Significant distance from longer-term moving averages."
+    },
+    {
+      "symbol": "HBL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Closed up 0.37% at NPR 187.5, trading near its 52-week low of NPR 183.0 and below its 120-day (NPR 202.29) and 180-day (NPR 198.5) averages.",
+      "risk": "Bearish positioning relative to longer-term averages."
     }
   ],
-  "outlook": "Watch for continued strength in momentum names and any signs of stabilization in the beaten-down value plays.",
-  "date": "2026-09-01",
+  "outlook": "Monitor if the NEPSE Index can sustain its upward momentum and break through immediate resistance levels.",
+  "date": "2026-09-02",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
