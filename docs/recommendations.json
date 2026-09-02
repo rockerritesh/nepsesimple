@@ -1,78 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a positive opening and closed higher, gaining 0.61% on a turnover of NPR 2.94 billion. Breadth appears positive with notable gains across several sectors.",
+  "market_summary": "The NEPSE Index saw a positive uptick, closing up 0.61% on decent turnover. Breadth appears positive with several gainers, though the overall market sentiment remains cautious.",
   "recommendations": [
     {
       "symbol": "CFCL",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Closed up 9.11% at NPR 635, significantly above its 120-day average of NPR 579.51 and 180-day average of NPR 558.51, with strong turnover.",
-      "risk": "Potential for short-term profit-taking."
+      "conviction": "medium",
+      "rationale": "Strong day gain of 9.11% on high turnover, surpassing its 120-day average (VWAP 579.6 vs LTP 635.0).",
+      "risk": "Potential for profit-taking after sharp rise."
     },
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Gained 1.82% to NPR 504, trading above its 120-day (NPR 450.73) and 180-day (NPR 450.11) averages with good liquidity.",
-      "risk": "Approaching 52-week high of NPR 510."
+      "rationale": "Showed a 1.82% gain on significant turnover, trading above its 120-day average (VWAP 501.53 vs LTP 504.0) and near its 52-week high.",
+      "risk": "May face resistance near its 52-week high of 510.0."
     },
     {
       "symbol": "GBIME",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Showed a 4.13% gain to NPR 249.9, trading above its 120-day (NPR 242.17) and 180-day (NPR 237.25) averages with significant turnover.",
-      "risk": "Still below its 52-week high of NPR 270.6."
+      "rationale": "Posted a 4.13% gain with high volume, trading above its 120-day average (VWAP 247.25 vs LTP 249.9) and showing upward momentum.",
+      "risk": "Slightly below its 52-week high, could consolidate."
     },
     {
       "symbol": "MKHC",
       "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Rose 5.93% to NPR 250, trading above its 120-day (NPR 309.82) and 180-day (NPR 324.42) averages, indicating a potential bounce.",
-      "risk": "Currently below its longer-term averages."
+      "conviction": "low",
+      "rationale": "Experienced a 5.93% increase on notable turnover, trading above its 120-day average (VWAP 246.88 vs LTP 250.0).",
+      "risk": "Lower volume compared to other top performers, potential for volatility."
     },
     {
       "symbol": "SAHAS",
       "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Closed up 0.48% at NPR 688.3, trading above its 120-day (NPR 649.1) and 180-day (NPR 618.29) averages with solid liquidity.",
-      "risk": "Momentum is moderate, near 52-week high."
+      "conviction": "low",
+      "rationale": "Gained 0.48% on high turnover, trading slightly above its 120-day average (VWAP 687.85 vs LTP 688.3) and showing consistent liquidity.",
+      "risk": "Relatively small day gain, momentum may be slowing."
     },
     {
       "symbol": "MAKAR",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Gained 1.79% to NPR 404.1, showing signs of a value bounce, but still well below its 120-day (NPR 480.6) and 180-day (NPR 504.29) averages.",
-      "risk": "Significant overhead resistance."
+      "rationale": "Showed a 1.79% gain, but its current price (404.1) is below its 120-day average (480.6), suggesting a potential value bounce.",
+      "risk": "Still trading significantly below its 52-week high, recovery is ongoing."
     },
     {
       "symbol": "MEHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Closed up 0.44% at NPR 230, near its 52-week low of NPR 220.0 and below its longer-term averages.",
-      "risk": "Still trading significantly below its 120-day and 180-day averages."
+      "rationale": "A small gain of 0.44% on low turnover, but its current price (230.0) is near its 52-week low (220.0) and well below its 120-day average.",
+      "risk": "Weak momentum and low trading volume."
     },
     {
       "symbol": "NIMB",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Posted a 0.44% gain to NPR 183, trading near its 52-week low of NPR 181.0 and below its 120-day (NPR 199.5) and 180-day (NPR 197.25) averages.",
-      "risk": "Weakness relative to longer-term averages."
-    },
-    {
-      "symbol": "HRL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Up 0.58% to NPR 519, but trading substantially below its 120-day (NPR 658.75) and 180-day (NPR 721.7) averages.",
-      "risk": "Significant distance from longer-term moving averages."
-    },
-    {
-      "symbol": "HBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Closed up 0.37% at NPR 187.5, trading near its 52-week low of NPR 183.0 and below its 120-day (NPR 202.29) and 180-day (NPR 198.5) averages.",
-      "risk": "Bearish positioning relative to longer-term averages."
+      "rationale": "Trading flat at 183.0, which is just above its 52-week low of 181.0 and below its 120-day average of 199.5.",
+      "risk": "Lack of strong buying interest despite being near lows."
     }
   ],
-  "outlook": "Monitor if the NEPSE Index can sustain its upward momentum and break through immediate resistance levels.",
+  "outlook": "Monitor if the NEPSE Index can sustain its gains and challenge the 2550-2560 level, with attention to volume supporting the move.",
   "date": "2026-09-02",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
