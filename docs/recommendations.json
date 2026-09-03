@@ -1,65 +1,79 @@
 {
-  "market_summary": "The NEPSE Index saw a positive uptick, closing up 0.61% on decent turnover. Breadth appears positive with several gainers, though the overall market sentiment remains cautious.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.18%, closing at 2542.77 with a turnover of over 3.46 billion NPR. Breadth appeared mixed, with top gainers showing strong upward momentum while some prominent names experienced significant pullbacks.",
   "recommendations": [
     {
-      "symbol": "CFCL",
+      "symbol": "GBBL",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Trading above its 120-day (415.09) and 180-day (407.47) averages, with a positive day change of 2.42% and strong liquidity signals.",
+      "risk": "Potential resistance near 52-week high."
+    },
+    {
+      "symbol": "MEN",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Strong day gain of 9.11% on high turnover, surpassing its 120-day average (VWAP 579.6 vs LTP 635.0).",
-      "risk": "Potential for profit-taking after sharp rise."
+      "rationale": "Shows positive momentum, trading above its 120-day (599.03) and 180-day (592.71) averages, with a 0.85% gain and significant turnover.",
+      "risk": "Approaching 52-week high."
     },
     {
-      "symbol": "TAMOR",
+      "symbol": "SHIVM",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showed a 1.82% gain on significant turnover, trading above its 120-day average (VWAP 501.53 vs LTP 504.0) and near its 52-week high.",
-      "risk": "May face resistance near its 52-week high of 510.0."
+      "rationale": "Consistently trading above its 120-day (658.2) and 180-day (641.65) averages, with a 0.46% gain and high liquidity.",
+      "risk": "Slightly extended from recent lows."
     },
     {
-      "symbol": "GBIME",
-      "action": "ACCUMULATE",
+      "symbol": "SBL",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Posted a 4.13% gain with high volume, trading above its 120-day average (VWAP 247.25 vs LTP 249.9) and showing upward momentum.",
-      "risk": "Slightly below its 52-week high, could consolidate."
+      "rationale": "Positive momentum indicated by trading above 120-day (399.59) and 180-day (391.63) averages, with a 0.81% gain and decent turnover.",
+      "risk": "Near 52-week high."
     },
     {
-      "symbol": "MKHC",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Experienced a 5.93% increase on notable turnover, trading above its 120-day average (VWAP 246.88 vs LTP 250.0).",
-      "risk": "Lower volume compared to other top performers, potential for volatility."
+      "symbol": "NBL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Exhibits positive momentum, trading above 120-day (269.89) and 180-day (261.19) averages, with a 0.66% increase and good volume.",
+      "risk": "Potential for profit-taking."
     },
     {
-      "symbol": "SAHAS",
+      "symbol": "CYCL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Gained 0.48% on high turnover, trading slightly above its 120-day average (VWAP 687.85 vs LTP 688.3) and showing consistent liquidity.",
-      "risk": "Relatively small day gain, momentum may be slowing."
+      "rationale": "Showing upward momentum, trading above its 120-day (1469.83) and 180-day (1499.11) averages, with a 1.59% gain.",
+      "risk": "Turnover is relatively low compared to some peers."
+    },
+    {
+      "symbol": "CIT",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Demonstrates a value bounce signal, trading above its 120-day (1746.44) and 180-day (1764.01) averages, with a strong 3.81% gain.",
+      "risk": "Turnover is on the lower side."
     },
     {
       "symbol": "MAKAR",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a 1.79% gain, but its current price (404.1) is below its 120-day average (480.6), suggesting a potential value bounce.",
-      "risk": "Still trading significantly below its 52-week high, recovery is ongoing."
+      "rationale": "Trading below its 120-day (479.31) and 180-day (503.45) averages, but shows a value bounce signal and decent liquidity.",
+      "risk": "Current price is below key moving averages."
     },
     {
-      "symbol": "MEHL",
+      "symbol": "HRL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "A small gain of 0.44% on low turnover, but its current price (230.0) is near its 52-week low (220.0) and well below its 120-day average.",
-      "risk": "Weak momentum and low trading volume."
+      "rationale": "Below its 120-day (655.7) and 180-day (719.82) averages, though it shows a value bounce signal and trades with liquidity.",
+      "risk": "Significant distance from moving averages."
     },
     {
-      "symbol": "NIMB",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading flat at 183.0, which is just above its 52-week low of 181.0 and below its 120-day average of 199.5.",
-      "risk": "Lack of strong buying interest despite being near lows."
+      "symbol": "PURE",
+      "action": "AVOID",
+      "conviction": "medium",
+      "rationale": "Experienced a sharp 13.33% decline today, indicating significant weakness and potential for further downside.",
+      "risk": "Strong selling pressure."
     }
   ],
-  "outlook": "Monitor if the NEPSE Index can sustain its gains and challenge the 2550-2560 level, with attention to volume supporting the move.",
-  "date": "2026-09-02",
+  "outlook": "Monitor if the NEPSE Index can sustain its gains and break above recent resistance levels, while watching for continued weakness in previously declining stocks.",
+  "date": "2026-09-03",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }

@@ -1,19 +1,19 @@
-# NEPSE Daily Brief — 2026-09-02
+# NEPSE Daily Brief — 2026-09-03
 
-**NEPSE Index**: 2538.11 (+15.44, +0.61%) · turnover 2,942,781,826
+**NEPSE Index**: 2542.77 (+4.66, +0.18%) · turnover 3,465,201,043
 
 ## Top Gainers
-- ULBSL: 2790.0 (+11.87%)
-- MMKJL: 381.4 (+10.23%)
-- ANLB: 5350.0 (+10.10%)
-- CFCL: 635.0 (+9.11%)
-- RHPL: 178.8 (+5.99%)
+- WNLB: 1055.0 (+8.76%)
+- CKHL: 615.0 (+8.56%)
+- ALBSL: 1190.0 (+8.29%)
+- MKHC: 269.6 (+7.84%)
+- MEPDL: 660.0 (+6.45%)
 
 ## Top Losers
-- NMBUR93/94: 941.0 (-5.81%)
-- EBLD85: 1090.0 (-4.97%)
-- RMF2: 9.28 (-4.33%)
-- KBSH: 791.0 (-3.65%)
-- MLBS: 994.3 (-3.28%)
+- PURE: 662.0 (-13.33%)
+- ANLB: 5023.5 (-6.10%)
+- CFCL: 598.4 (-5.76%)
+- SMFBS: 1333.0 (-4.38%)
+- SAGF: 9.63 (-3.70%)
 
-_Auto-generated. NEPSE index forecast (next session): 2584.98. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2581.93. Not investment advice._
