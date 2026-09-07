@@ -1,79 +1,72 @@
 {
-  "market_summary": "The NEPSE Index closed slightly higher, gaining 0.18% on a moderate turnover. Breadth appears mixed with a notable number of losers among the top performers.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.71%, driven by a strong performance in the Sensitive Index (+0.99%). Overall market breadth was positive, with a significant turnover of 3.83 billion NPR, indicating healthy trading activity.",
   "recommendations": [
     {
       "symbol": "GBBL",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading 2.42% above its VWAP with strong liquidity and momentum signals, GBBL is currently near its 52-week high of 445.9.",
-      "risk": "Potential for profit-taking near highs."
-    },
-    {
-      "symbol": "MEN",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showing positive momentum with a 0.85% gain above VWAP and good liquidity, MEN is trading within its 52-week range of 535.0 to 683.4.",
-      "risk": "Slightly extended from its 120-day average of 599.03."
-    },
-    {
-      "symbol": "SHIVM",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Exhibiting momentum with a 0.46% gain above VWAP and significant turnover, SHIVM is trading above its 120-day average of 658.2.",
-      "risk": "Closer to its 52-week high (730.0) than low (524.0)."
+      "conviction": "high",
+      "rationale": "Trading 0.29% above its VWAP of 445.71 and showing positive momentum signals, GBBL is also near its 52-week high of 450.0, with a substantial turnover of 178.8 million NPR.",
+      "risk": "Approaching 52-week high"
     },
     {
       "symbol": "SBL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading 0.81% above VWAP with momentum signals and good liquidity, SBL is showing strength within its 52-week range (320.5 to 424.7).",
-      "risk": "Approaching its 52-week high."
+      "rationale": "With a 2.31% gain and trading above its VWAP of 419.46, SBL exhibits positive momentum and is within 0.85% of its 52-week high of 424.7, supported by a turnover of 65 million NPR.",
+      "risk": "Near 52-week high"
+    },
+    {
+      "symbol": "NABIL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "NABIL is up 2.5% today, trading above its VWAP of 551.53, and showing momentum. Its current price of 552.5 is 2.65% below its 52-week high of 568.0, with a turnover of 69.7 million NPR.",
+      "risk": "Slightly extended from recent gains"
+    },
+    {
+      "symbol": "SAHAS",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "SAHAS is up 1.03% today and trading above its VWAP of 692.87, indicating positive momentum. It is trading 3.2% below its 52-week high of 716.6, with a turnover of 50 million NPR.",
+      "risk": "Close to 52-week high"
+    },
+    {
+      "symbol": "SHINE",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Showing strong upward momentum with a 2.69% gain and trading above its VWAP, SHINE also has value bounce signals and is trading 6.6% below its 52-week high of 449.7.",
+      "risk": "Requires further upside confirmation"
     },
     {
       "symbol": "NBL",
-      "action": "BUY",
-      "conviction": "low",
-      "rationale": "Trading 0.66% above VWAP with momentum signals and decent liquidity, NBL is above its 120-day average of 269.89.",
-      "risk": "Price is relatively close to its 52-week high of 302.9."
-    },
-    {
-      "symbol": "HDL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Showing strength with a 0.54% gain above VWAP and multiple positive signals, HDL is trading near its 120-day average of 1165.81.",
-      "risk": "52-week high is still a significant distance away."
+      "rationale": "NBL is up 1.12% and trading above its VWAP, exhibiting positive momentum. It is 7.9% below its 52-week high of 302.9, with a decent turnover of 36.8 million NPR.",
+      "risk": "Further from 52-week high"
     },
     {
-      "symbol": "CIT",
+      "symbol": "GBIME",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Experienced a strong 3.81% price increase on good turnover, trading above its 120-day average of 1746.44.",
-      "risk": "The significant intraday jump might lead to short-term consolidation."
+      "rationale": "Trading 0.3% above its VWAP and showing momentum signals, GBIME is 6.9% below its 52-week high of 270.6, with a turnover of 27.8 million NPR.",
+      "risk": "Moderate distance from 52-week high"
     },
     {
-      "symbol": "H8020",
+      "symbol": "NIMB",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading 3.27% higher on good volume and liquidity, H8020 is above its 120-day average of 11.81 and within its 52-week range (10.0 to 13.18).",
-      "risk": "Lower liquidity compared to other recommendations."
+      "rationale": "NIMB is up 0.99% and trading slightly above its VWAP, showing value bounce signals. However, it is 21.1% below its 52-week high of 232.5 and its 120-day average is higher than current price.",
+      "risk": "Significant gap from 52-week high"
     },
     {
-      "symbol": "MAKAR",
+      "symbol": "MEHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showing value bounce signals and decent liquidity, MAKAR is trading near its 52-week low of 389.0.",
-      "risk": "Currently trading below its 120-day average of 479.31, indicating a downtrend."
-    },
-    {
-      "symbol": "PURE",
-      "action": "AVOID",
-      "conviction": "low",
-      "rationale": "Suffered a significant 13.33% price drop on high volume, indicating strong selling pressure.",
-      "risk": "Continued downward momentum."
+      "rationale": "MEHL is up 0.44% but trading below its VWAP. It is significantly below its 52-week high (58.3%) and its 120-day average is substantially higher.",
+      "risk": "Extended downtrend"
     }
   ],
-  "outlook": "Watch for sustained buying pressure to confirm the index's upward trend and for key support/resistance levels to hold.",
-  "date": "2026-09-06",
+  "outlook": "Watch for continued strength in the NEPSE index and follow through on today's gainers, while monitoring for any signs of reversal in the broader market.",
+  "date": "2026-09-07",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
