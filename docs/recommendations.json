@@ -1,79 +1,79 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.71%, driven by strong performance in the Sensitive Index (+0.99%). Turnover was healthy at over 3.83 billion. Breadth appears positive with more gainers than losers among the top movers.",
+  "market_summary": "The NEPSE Index saw a moderate gain of 0.71%, driven by positive movement in the Sensitive and Float indices. Market breadth was mixed with significant downward pressure on some large-cap stocks.",
   "recommendations": [
     {
       "symbol": "GBBL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Trading 0.29% above its VWAP of 445.71 with a 2.45% day gain, and its price is near its 52-week high of 450.0. Strong liquidity and momentum signals.",
-      "risk": "Potential profit-taking near 52-week high."
+      "rationale": "Trading 0.26% above its VWAP and 0.92% above its 120-day average (415.31), with strong liquidity and momentum signals.",
+      "risk": "Approaching 52-week high."
     },
     {
       "symbol": "SBL",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Price is 0.50% above its VWAP of 419.46 with a 2.31% day gain, approaching its 52-week high of 424.7. Exhibits liquidity and momentum.",
-      "risk": "Slightly extended near 52-week high."
+      "conviction": "high",
+      "rationale": "Currently trading 0.51% above its VWAP and 5.43% above its 120-day average (399.79), supported by liquidity and momentum.",
+      "risk": "Slightly extended from 120-day average."
     },
     {
       "symbol": "NABIL",
-      "action": "BUY",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Posted a 2.5% gain, trading above its VWAP of 551.53, and showing positive momentum. Price is within 2.6% of its 52-week high.",
-      "risk": "Approaching resistance at 52-week high."
+      "rationale": "Showed a 2.5% gain today, trading above its VWAP and 120-day average (534.83) with good liquidity and momentum.",
+      "risk": "Near the upper end of its 52-week range."
     },
     {
       "symbol": "SAHAS",
-      "action": "BUY",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Current price of 694.0 is above its VWAP of 692.87 with a 1.03% day gain. Shows momentum and is within 3.1% of its 52-week high of 716.6.",
-      "risk": "Needs to break above recent highs."
+      "rationale": "Up 1.03% today, trading above its VWAP and 120-day average (650.35) with liquidity and momentum signals.",
+      "risk": "Below its 52-week high."
     },
     {
       "symbol": "SHINE",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Strong 2.69% day gain, trading above VWAP, and showing momentum and value bounce signals. Price is within 6.6% of its 52-week high.",
-      "risk": "Slightly extended, watch for pullbacks."
-    },
-    {
-      "symbol": "AHPC",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Price is 0.37% above its VWAP with a 2.05% day gain, but still 19.7% below its 52-week high. Value bounce signal present.",
-      "risk": "Significant distance from 52-week high."
-    },
-    {
-      "symbol": "HIDCL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading 0.29% above its VWAP with a 1.67% day gain, showing a value bounce signal. Price is 20.6% below its 52-week high.",
-      "risk": "Still below its 52-week high."
-    },
-    {
-      "symbol": "NBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Posted a 1.12% gain, trading above VWAP, and showing momentum. However, it's 7.9% below its 52-week high.",
-      "risk": "Needs to overcome recent resistance."
+      "rationale": "Gained 2.69% today, trading above its VWAP and 120-day average (411.72) with multiple positive signals.",
+      "risk": "Trading near the top of its 52-week range."
     },
     {
       "symbol": "NIMB",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading slightly above VWAP with a 0.99% gain, showing a value bounce signal. Current price is 21.1% below its 52-week high.",
-      "risk": "Significant room to rally to 52-week high."
+      "rationale": "Showed a slight gain today and is trading just below its 120-day average (199.03), indicating a potential value bounce.",
+      "risk": "Still trading below its 120-day average."
     },
     {
       "symbol": "MEHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Shows a value bounce signal and is trading near its 52-week low, but is still 56.1% below its 52-week high. Day gain is minimal.",
-      "risk": "Far from 52-week high, weak daily momentum."
+      "rationale": "Trading slightly below its VWAP and significantly below its 120-day average (356.98), showing signs of a potential value bounce.",
+      "risk": "Significantly below its 120-day average."
+    },
+    {
+      "symbol": "CITY",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Up 0.59% today but trading below its 120-day average (410.31), suggesting a potential value bounce.",
+      "risk": "Far from its 120-day average."
+    },
+    {
+      "symbol": "AHPC",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Gained 2.05% today but remains below its 120-day average (276.13), with a value bounce signal.",
+      "risk": "Below its 120-day average."
+    },
+    {
+      "symbol": "HIDCL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Up 1.67% today, trading below its 120-day average (264.5) with a value bounce signal.",
+      "risk": "Below its 120-day average."
     }
   ],
-  "outlook": "Watch for sustained upward momentum in the NEPSE Index and continued strong performance in leading stocks.",
-  "date": "2026-09-07",
+  "outlook": "Watch for continued upward momentum in the index and further confirmation of strength in selected stocks, particularly those showing liquidity and positive short-term trends.",
+  "date": "2026-09-08",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }

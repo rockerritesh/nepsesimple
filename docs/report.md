@@ -1,4 +1,4 @@
-# NEPSE Daily Brief — 2026-09-07
+# NEPSE Daily Brief — 2026-09-08
 
 **NEPSE Index**: 2560.84 (+18.07, +0.71%) · turnover 3,831,584,423
 
