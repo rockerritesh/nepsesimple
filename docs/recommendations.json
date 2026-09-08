@@ -1,78 +1,78 @@
 {
-  "market_summary": "The NEPSE Index saw a moderate gain of 0.71%, driven by positive movement in the Sensitive and Float indices. Market breadth was mixed with significant downward pressure on some large-cap stocks.",
+  "market_summary": "The NEPSE Index saw a positive opening and closed higher, gaining 18.07 points (0.71%) on significant turnover. Breadth appears mixed with notable gainers and losers.",
   "recommendations": [
     {
       "symbol": "GBBL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Trading 0.26% above its VWAP and 0.92% above its 120-day average (415.31), with strong liquidity and momentum signals.",
-      "risk": "Approaching 52-week high."
+      "rationale": "Trading at 447.0, it's slightly above its 52-week high of 450.0 and showing positive momentum with a 2.45% gain today on substantial turnover.",
+      "risk": "Slightly extended from 52-week high."
     },
     {
       "symbol": "SBL",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Currently trading 0.51% above its VWAP and 5.43% above its 120-day average (399.79), supported by liquidity and momentum.",
-      "risk": "Slightly extended from 120-day average."
+      "conviction": "medium",
+      "rationale": "Currently at 421.5, it has gained 2.31% today and is approaching its 52-week high of 424.7, indicating positive momentum.",
+      "risk": "Close to 52-week high resistance."
     },
     {
       "symbol": "NABIL",
-      "action": "ACCUMULATE",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showed a 2.5% gain today, trading above its VWAP and 120-day average (534.83) with good liquidity and momentum.",
-      "risk": "Near the upper end of its 52-week range."
+      "rationale": "Trading at 552.5 with a 2.5% gain, it shows strong upward momentum and is well within its 52-week range (471.0-568.0).",
+      "risk": "Approaching 52-week high."
     },
     {
       "symbol": "SAHAS",
-      "action": "ACCUMULATE",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Up 1.03% today, trading above its VWAP and 120-day average (650.35) with liquidity and momentum signals.",
-      "risk": "Below its 52-week high."
+      "rationale": "At 694.0, it's up 1.03% today and trading near its 52-week high of 716.6, with good liquidity.",
+      "risk": "Near 52-week high resistance."
     },
     {
       "symbol": "SHINE",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Gained 2.69% today, trading above its VWAP and 120-day average (411.72) with multiple positive signals.",
-      "risk": "Trading near the top of its 52-week range."
+      "rationale": "Showing a 2.69% gain to 419.9, this stock is trading above its 120-day (411.72) and 180-day (409.13) averages, indicating positive momentum.",
+      "risk": "52-week high at 449.7 may offer resistance."
     },
     {
-      "symbol": "NIMB",
-      "action": "WATCH",
+      "symbol": "GBIME",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Showed a slight gain today and is trading just below its 120-day average (199.03), indicating a potential value bounce.",
-      "risk": "Still trading below its 120-day average."
+      "rationale": "Trading at 251.9 with a 0.76% gain, it is above its 120-day (242.32) and 180-day (237.5) averages, showing consistent upward movement.",
+      "risk": "52-week high at 270.6."
     },
     {
-      "symbol": "MEHL",
-      "action": "WATCH",
+      "symbol": "NBL",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Trading slightly below its VWAP and significantly below its 120-day average (356.98), showing signs of a potential value bounce.",
-      "risk": "Significantly below its 120-day average."
-    },
-    {
-      "symbol": "CITY",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Up 0.59% today but trading below its 120-day average (410.31), suggesting a potential value bounce.",
-      "risk": "Far from its 120-day average."
+      "rationale": "Up 1.12% to 279.0, it is trading above its 120-day (270.0) and 180-day (261.38) averages, with good liquidity.",
+      "risk": "52-week high at 302.9."
     },
     {
       "symbol": "AHPC",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Gained 2.05% today but remains below its 120-day average (276.13), with a value bounce signal.",
-      "risk": "Below its 120-day average."
+      "rationale": "Trading at 253.3, it's up 2.05% but still below its 120-day (276.13) and 180-day (275.97) averages, suggesting a potential bounce from lower levels.",
+      "risk": "Below medium-term averages."
     },
     {
       "symbol": "HIDCL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Up 1.67% today, trading below its 120-day average (264.5) with a value bounce signal.",
-      "risk": "Below its 120-day average."
+      "rationale": "At 243.0, it's up 1.67% but remains below its 120-day (264.5) and 180-day (264.51) averages, indicating a potential value bounce.",
+      "risk": "Below medium-term averages."
+    },
+    {
+      "symbol": "MEHL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at 228.0, it's up 0.44% but significantly below its 120-day (356.98) and 180-day (387.71) averages, showing a 'value bounce' signal.",
+      "risk": "Significantly below medium-term averages."
     }
   ],
-  "outlook": "Watch for continued upward momentum in the index and further confirmation of strength in selected stocks, particularly those showing liquidity and positive short-term trends.",
+  "outlook": "Watch for continued upward momentum in the broader market and how these candidates perform against their respective 52-week highs and medium-term averages.",
   "date": "2026-09-08",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
