@@ -1,19 +1,19 @@
-# NEPSE Daily Brief — 2026-09-08
+# NEPSE Daily Brief — 2026-09-09
 
-**NEPSE Index**: 2560.84 (+18.07, +0.71%) · turnover 3,831,584,423
+**NEPSE Index**: 2545.4 (-15.43, -0.60%) · turnover 4,198,921,039
 
 ## Top Gainers
-- PURE: 761.3 (+15.00%)
-- GMFBS: 1145.0 (+7.35%)
-- SAIL: 1056.2 (+6.26%)
-- KMCDB: 820.0 (+6.22%)
-- SAGAR: 1593.0 (+6.20%)
+- ULHC: 299.0 (+15.00%)
+- SPL: 655.0 (+6.40%)
+- CBLD88: 1235.0 (+5.94%)
+- BHPL: 457.0 (+5.79%)
+- IHL: 302.9 (+3.66%)
 
 ## Top Losers
-- SINDU: 497.7 (-15.00%)
-- ENL: 691.6 (-15.00%)
-- JFL: 313.6 (-14.99%)
-- ULHC: 260.0 (-13.33%)
-- ALBSL: 1102.1 (-7.39%)
+- SINDU: 423.1 (-14.99%)
+- JFL: 266.6 (-14.99%)
+- ENL: 587.9 (-14.99%)
+- KDL: 623.2 (-14.28%)
+- ULBSL: 2498.0 (-12.04%)
 
-_Auto-generated. NEPSE index forecast (next session): 2579.51. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2576.55. Not investment advice._
