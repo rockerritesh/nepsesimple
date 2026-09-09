@@ -1,78 +1,78 @@
 {
-  "market_summary": "The NEPSE Index closed down 15.43 points (-0.6%) on significant turnover. Breadth was negative, with more stocks declining than advancing.",
+  "market_summary": "The NEPSE Index declined by 0.6% on a day with significant turnover, indicating selling pressure. Breadth appeared weak with notable losers dominating the top performers.",
   "recommendations": [
     {
       "symbol": "SMHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 467.0, slightly below its VWAP of 468.92, and showing a positive day change of 1.91%. It also has strong liquidity and a 'value_bounce' signal.",
-      "risk": "Index weakness"
+      "rationale": "Trading at 467.0, SMHL is slightly below its VWAP of 468.92 and shows a positive day change of 1.91%. It's also near its 52-week low of 443.0, suggesting potential value.",
+      "risk": "Further market downturn"
     },
     {
       "symbol": "SBL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Currently trading at 425.0, above its 120-day average of 400.0, with a positive day change of 0.83% and a 'momentum' signal.",
-      "risk": "Approaching 52-week high"
+      "rationale": "With a current price of 425.0, SBL is trading above its 120-day average of 400.0 and shows a positive day change of 0.83%, indicating upward momentum.",
+      "risk": "Reversal from upward trend"
     },
     {
       "symbol": "AHPC",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "Trading at 254.9, very close to its VWAP of 254.55 and showing a positive day change of 0.63%. It exhibits a 'value_bounce' signal and liquidity.",
-      "risk": "Below 120-day average"
+      "conviction": "medium",
+      "rationale": "AHPC is trading at 254.9, slightly above its VWAP of 254.55 and showing a positive day change of 0.63%. It's also trading near its 52-week low of 245.8.",
+      "risk": "Failure to hold support"
     },
     {
       "symbol": "MEN",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "Trading at 633.1 with a positive day change of 0.49% and above its 120-day average of 599.16, supported by a 'momentum' signal.",
-      "risk": "Slightly extended from VWAP"
+      "conviction": "medium",
+      "rationale": "MEN is trading at 633.1, very close to its VWAP of 633.77 with a positive day change of 0.49%. It's above its 120-day average of 599.16.",
+      "risk": "Profit taking"
     },
     {
       "symbol": "SANIMA",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "Trading at 366.8, slightly above its VWAP of 366.63 and 120-day average of 359.89, with a positive day change of 0.49% and a 'momentum' signal.",
-      "risk": "Near 52-week high"
+      "conviction": "medium",
+      "rationale": "SANIMA is trading at 366.8, slightly above its VWAP of 366.63 and showing a positive day change of 0.49%. It's also above its 120-day average of 359.89.",
+      "risk": "Pullback from current levels"
     },
     {
       "symbol": "NRN",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 1405.0, below its 120-day average of 1438.14, despite a positive day change of 0.36%. High turnover suggests interest, but it's below its average.",
-      "risk": "Below 120-day average"
+      "rationale": "NRN is trading at 1405.0, slightly below its VWAP of 1410.06, but its 52-week high is significantly higher at 2175.0, indicating it's well off its peak.",
+      "risk": "Extended downside potential"
     },
     {
       "symbol": "PRVU",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 180.4, slightly below its VWAP of 180.99 and 120-day average of 196.86. It shows a small positive day change and a 'value_bounce' signal.",
-      "risk": "Below 120-day average"
+      "rationale": "PRVU is trading at 180.4, slightly below its VWAP of 180.99 and showing a small positive day change of 0.22%. It is trading below its 120-day average of 196.86.",
+      "risk": "Struggling to gain traction"
     },
     {
       "symbol": "CBBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 947.0, exactly at its VWAP, with a positive day change of 0.42%. It's above its 120-day average of 923.34 and shows multiple positive signals.",
-      "risk": "Slightly below 52-week high"
+      "rationale": "CBBL is trading at 947.0, exactly at its VWAP, with a positive day change of 0.42%. However, it is trading below its 52-week high of 1054.9.",
+      "risk": "Lack of strong upward momentum"
     },
     {
       "symbol": "EBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 718.0, slightly above its VWAP of 717.67 and 120-day average of 708.09, with a positive day change of 0.28% and a 'momentum' signal.",
-      "risk": "Near 52-week high"
+      "rationale": "EBL is trading at 718.0, slightly above its VWAP of 717.67 with a positive day change of 0.28%. It is trading below its 52-week high of 753.0.",
+      "risk": "Potential for consolidation"
     },
     {
       "symbol": "SHPC",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 513.0, slightly above its VWAP of 512.71 and very close to its 120-day average of 514.17, with a positive day change of 0.63%.",
-      "risk": "Below 120-day average"
+      "rationale": "SHPC is trading at 513.0, slightly above its VWAP of 512.71 and showing a positive day change of 0.63%. It is trading below its 120-day average of 514.17.",
+      "risk": "Stagnant price action"
     }
   ],
-  "outlook": "Watch for a potential stabilization or continuation of the downward trend in the NEPSE Index; market sentiment will be key.",
+  "outlook": "Watch for a potential bounce or continued decline in the NEPSE Index, with attention on volume and breadth in the next session.",
   "date": "2026-09-09",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
