@@ -1,79 +1,79 @@
 {
-  "market_summary": "The NEPSE Index declined by 0.6% on a day with significant turnover, indicating selling pressure. Breadth appeared weak with notable losers dominating the top performers.",
+  "market_summary": "The NEPSE Index declined by 0.54% on a turnover of NPR 4.00 billion, indicating a bearish sentiment. Breadth appears weak with more stocks likely declining than advancing.",
   "recommendations": [
     {
-      "symbol": "SMHL",
+      "symbol": "LEC",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading at 467.0, SMHL is slightly below its VWAP of 468.92 and shows a positive day change of 1.91%. It's also near its 52-week low of 443.0, suggesting potential value.",
-      "risk": "Further market downturn"
+      "conviction": "high",
+      "rationale": "Top gainer today, up 15.0% on high volume and turnover (NPR 454.89M). LTP (246.1) is above its 120-day (225.66) and 180-day (220.88) averages, signaling strong upward momentum.",
+      "risk": "Potential for profit-taking after a sharp rise."
     },
     {
-      "symbol": "SBL",
-      "action": "BUY",
+      "symbol": "DOLTI",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "With a current price of 425.0, SBL is trading above its 120-day average of 400.0 and shows a positive day change of 0.83%, indicating upward momentum.",
-      "risk": "Reversal from upward trend"
+      "rationale": "Showed strong upward momentum, up 8.22% with significant turnover (NPR 17.15M). LTP (299.0) is near its 52-week low (275.0), suggesting a potential value bounce.",
+      "risk": "Still trading below its 120-day (365.29) and 180-day (416.8) averages."
     },
     {
-      "symbol": "AHPC",
+      "symbol": "CFCL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "AHPC is trading at 254.9, slightly above its VWAP of 254.55 and showing a positive day change of 0.63%. It's also trading near its 52-week low of 245.8.",
-      "risk": "Failure to hold support"
+      "rationale": "Gained 4.46% on good turnover (NPR 47.83M). LTP (586.0) is above its 120-day (580.6) and 180-day (560.54) averages, with momentum signals.",
+      "risk": "Price is nearing its 52-week high (699.0), could face resistance."
+    },
+    {
+      "symbol": "ENL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Was among the top gainers, up 5.46% on decent turnover (NPR 19.19M). LTP (620.0) is above its 120-day (857.89) and 180-day (878.07) averages, indicating a bounce from lower levels.",
+      "risk": "Significantly below its 52-week high (1021.0) and 120/180-day averages."
+    },
+    {
+      "symbol": "SBI",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Experienced a modest gain of 0.47% on substantial turnover (NPR 167.93M). LTP (403.9) is trading around its 120-day (402.29) and 180-day (403.4) averages, showing stability.",
+      "risk": "Lacks strong upward momentum, price consolidating around averages."
+    },
+    {
+      "symbol": "NABIL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showed slight upward movement of 0.09% on good turnover (NPR 31.25M). LTP (552.5) is above its 120-day (535.25) and 180-day (523.28) averages, with momentum signals.",
+      "risk": "Price is nearing its 52-week high (568.0), potential for resistance."
     },
     {
       "symbol": "MEN",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "MEN is trading at 633.1, very close to its VWAP of 633.77 with a positive day change of 0.49%. It's above its 120-day average of 599.16.",
-      "risk": "Profit taking"
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Slightly up 0.46% on good turnover (NPR 49.38M). LTP (636.0) is above its 120-day (599.33) and 180-day (592.76) averages, indicating a positive trend.",
+      "risk": "Price is approaching its 52-week high (683.4)."
     },
     {
       "symbol": "SANIMA",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "SANIMA is trading at 366.8, slightly above its VWAP of 366.63 and showing a positive day change of 0.49%. It's also above its 120-day average of 359.89.",
-      "risk": "Pullback from current levels"
-    },
-    {
-      "symbol": "NRN",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "NRN is trading at 1405.0, slightly below its VWAP of 1410.06, but its 52-week high is significantly higher at 2175.0, indicating it's well off its peak.",
-      "risk": "Extended downside potential"
+      "rationale": "Slightly up 0.35% on decent turnover (NPR 29.23M). LTP (368.1) is above its 120-day (360.05) and 180-day (349.87) averages, with momentum signals.",
+      "risk": "Price is close to its 52-week high (390.6)."
     },
     {
-      "symbol": "PRVU",
+      "symbol": "RHPL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "PRVU is trading at 180.4, slightly below its VWAP of 180.99 and showing a small positive day change of 0.22%. It is trading below its 120-day average of 196.86.",
-      "risk": "Struggling to gain traction"
+      "rationale": "Gained 2.45% on significant turnover (NPR 38.97M). LTP (167.0) is below its 120-day (266.43) and 180-day (271.73) averages, suggesting a potential recovery from oversold levels.",
+      "risk": "Still trading significantly below longer-term averages."
     },
     {
-      "symbol": "CBBL",
-      "action": "WATCH",
+      "symbol": "SOHL",
+      "action": "AVOID",
       "conviction": "low",
-      "rationale": "CBBL is trading at 947.0, exactly at its VWAP, with a positive day change of 0.42%. However, it is trading below its 52-week high of 1054.9.",
-      "risk": "Lack of strong upward momentum"
-    },
-    {
-      "symbol": "EBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "EBL is trading at 718.0, slightly above its VWAP of 717.67 with a positive day change of 0.28%. It is trading below its 52-week high of 753.0.",
-      "risk": "Potential for consolidation"
-    },
-    {
-      "symbol": "SHPC",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "SHPC is trading at 513.0, slightly above its VWAP of 512.71 and showing a positive day change of 0.63%. It is trading below its 120-day average of 514.17.",
-      "risk": "Stagnant price action"
+      "rationale": "Declined 1.54% on high turnover (NPR 82.25M). LTP (640.0) is below its 120-day (657.13) average and has a significant gap from its 52-week low (300.0).",
+      "risk": "Negative price action and below intermediate-term average."
     }
   ],
-  "outlook": "Watch for a potential bounce or continued decline in the NEPSE Index, with attention on volume and breadth in the next session.",
-  "date": "2026-09-09",
+  "outlook": "Watch for a potential bounce if the index finds support around the 2500 level, or further downside if selling pressure continues.",
+  "date": "2026-09-10",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
