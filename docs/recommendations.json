@@ -1,78 +1,71 @@
 {
-  "market_summary": "The NEPSE Index declined by 0.54% on a turnover of NPR 4.00 billion, indicating a bearish sentiment. Breadth appears weak with more stocks likely declining than advancing.",
+  "market_summary": "The NEPSE index declined by 0.54% on a turnover of over 4 billion NPR, with a majority of stocks trading lower. Breadth was weak, indicating cautious sentiment in the market.",
   "recommendations": [
     {
       "symbol": "LEC",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Top gainer today, up 15.0% on high volume and turnover (NPR 454.89M). LTP (246.1) is above its 120-day (225.66) and 180-day (220.88) averages, signaling strong upward momentum.",
+      "rationale": "Strong momentum with a 15% day gain, trading above its 120-day (225.66) and 180-day (220.88) averages, on significant turnover.",
       "risk": "Potential for profit-taking after a sharp rise."
     },
     {
       "symbol": "DOLTI",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Showed strong upward momentum, up 8.22% with significant turnover (NPR 17.15M). LTP (299.0) is near its 52-week low (275.0), suggesting a potential value bounce.",
+      "rationale": "Showing a positive 8.22% day change and trading near its 52-week low (275.0), suggesting potential for a value bounce on good liquidity.",
       "risk": "Still trading below its 120-day (365.29) and 180-day (416.8) averages."
     },
     {
       "symbol": "CFCL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Gained 4.46% on good turnover (NPR 47.83M). LTP (586.0) is above its 120-day (580.6) and 180-day (560.54) averages, with momentum signals.",
-      "risk": "Price is nearing its 52-week high (699.0), could face resistance."
+      "rationale": "Positive 4.46% day gain and momentum signal, trading close to its 120-day (580.6) average with good turnover.",
+      "risk": "Slightly below its 52-week high (699.0) and 180-day average (560.54)."
     },
     {
       "symbol": "ENL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Was among the top gainers, up 5.46% on decent turnover (NPR 19.19M). LTP (620.0) is above its 120-day (857.89) and 180-day (878.07) averages, indicating a bounce from lower levels.",
-      "risk": "Significantly below its 52-week high (1021.0) and 120/180-day averages."
+      "rationale": "A notable 5.46% gain today, indicating positive sentiment, and showing a value bounce signal while maintaining good liquidity.",
+      "risk": "Significantly below its 120-day (857.89) and 180-day (878.07) averages."
+    },
+    {
+      "symbol": "RHPL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "A 2.45% day gain with a value bounce signal, currently trading above its 52-week low (156.0) on decent turnover.",
+      "risk": "Still substantially below its 120-day (266.43) and 180-day (271.73) averages."
     },
     {
       "symbol": "SBI",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Experienced a modest gain of 0.47% on substantial turnover (NPR 167.93M). LTP (403.9) is trading around its 120-day (402.29) and 180-day (403.4) averages, showing stability.",
-      "risk": "Lacks strong upward momentum, price consolidating around averages."
+      "rationale": "Trading flat with a slight gain (0.47%) and momentum signal, currently near its 120-day (402.29) and 180-day (403.4) averages on high turnover.",
+      "risk": "Lack of strong upward momentum despite high liquidity."
     },
     {
       "symbol": "NABIL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed slight upward movement of 0.09% on good turnover (NPR 31.25M). LTP (552.5) is above its 120-day (535.25) and 180-day (523.28) averages, with momentum signals.",
-      "risk": "Price is nearing its 52-week high (568.0), potential for resistance."
+      "rationale": "Minimal day change (0.09%) with a momentum signal, trading near its 52-week high (568.0) and above its 120-day (535.25) average.",
+      "risk": "Appears extended, waiting for confirmation of further upside."
     },
     {
       "symbol": "MEN",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Slightly up 0.46% on good turnover (NPR 49.38M). LTP (636.0) is above its 120-day (599.33) and 180-day (592.76) averages, indicating a positive trend.",
-      "risk": "Price is approaching its 52-week high (683.4)."
-    },
-    {
-      "symbol": "SANIMA",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Slightly up 0.35% on decent turnover (NPR 29.23M). LTP (368.1) is above its 120-day (360.05) and 180-day (349.87) averages, with momentum signals.",
-      "risk": "Price is close to its 52-week high (390.6)."
-    },
-    {
-      "symbol": "RHPL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Gained 2.45% on significant turnover (NPR 38.97M). LTP (167.0) is below its 120-day (266.43) and 180-day (271.73) averages, suggesting a potential recovery from oversold levels.",
-      "risk": "Still trading significantly below longer-term averages."
+      "rationale": "Slight gain (0.46%) with a momentum signal, trading above its 120-day (599.33) average and within its 52-week range.",
+      "risk": "Not showing strong conviction in today's weak market."
     },
     {
       "symbol": "SOHL",
       "action": "AVOID",
       "conviction": "low",
-      "rationale": "Declined 1.54% on high turnover (NPR 82.25M). LTP (640.0) is below its 120-day (657.13) average and has a significant gap from its 52-week low (300.0).",
-      "risk": "Negative price action and below intermediate-term average."
+      "rationale": "Down 1.54% today, trading below its 120-day (657.13) average, despite high turnover and liquidity.",
+      "risk": "Negative price action and trend."
     }
   ],
-  "outlook": "Watch for a potential bounce if the index finds support around the 2500 level, or further downside if selling pressure continues.",
+  "outlook": "Watch for a potential rebound in the NEPSE index if buying pressure emerges around the 2525 support level, or further downside if the current selling pressure continues.",
   "date": "2026-09-10",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
