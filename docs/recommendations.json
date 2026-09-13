@@ -1,72 +1,65 @@
 {
-  "market_summary": "The NEPSE index declined by 0.54% on a turnover of over 4 billion NPR, with a majority of stocks trading lower. Breadth was weak, indicating cautious sentiment in the market.",
+  "market_summary": "The NEPSE Index saw a significant gain of 1.1%, closing at 2559.49 with strong turnover. Breadth appears positive with the index hitting new highs, although the forecast shows a slight downward trend.",
   "recommendations": [
     {
-      "symbol": "LEC",
+      "symbol": "SSHL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Strong momentum with a 15% day gain, trading above its 120-day (225.66) and 180-day (220.88) averages, on significant turnover.",
-      "risk": "Potential for profit-taking after a sharp rise."
+      "rationale": "Showed strong upward momentum with a 5.94% increase today, trading above its 120-day average of 210.47 and 180-day average of 200.09. High turnover of 124,091,535.0.",
+      "risk": "Potential for profit-taking after sharp gains."
     },
     {
-      "symbol": "DOLTI",
+      "symbol": "LEC",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Showing a positive 8.22% day change and trading near its 52-week low (275.0), suggesting potential for a value bounce on good liquidity.",
-      "risk": "Still trading below its 120-day (365.29) and 180-day (416.8) averages."
+      "rationale": "Exhibits momentum with a 2.48% gain, trading above its 120-day (225.57) and 180-day (221.2) averages. Very high turnover of 366,655,193.3 suggests strong institutional interest.",
+      "risk": "Trading near its 52-week high of 276.0."
     },
     {
-      "symbol": "CFCL",
+      "symbol": "TAMOR",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Demonstrated positive momentum with a 1.64% rise, trading above its 120-day (453.56) and 180-day (450.65) averages. Turnover of 73,360,501.4 is robust.",
+      "risk": "52-week high is not significantly far off at 528.1."
+    },
+    {
+      "symbol": "HIDCLP",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Positive 4.46% day gain and momentum signal, trading close to its 120-day (580.6) average with good turnover.",
-      "risk": "Slightly below its 52-week high (699.0) and 180-day average (560.54)."
+      "rationale": "Showed a 4.48% gain, trading above its 120-day (197.83) and 180-day (195.17) averages, with good turnover of 33,369,599.0.",
+      "risk": "Slightly below its 52-week high of 230.6."
     },
     {
-      "symbol": "ENL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "A notable 5.46% gain today, indicating positive sentiment, and showing a value bounce signal while maintaining good liquidity.",
-      "risk": "Significantly below its 120-day (857.89) and 180-day (878.07) averages."
+      "symbol": "CITY",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Experienced a 2.7% increase, trading above its 120-day (406.45) and 180-day (433.1) averages, with decent turnover of 29,434,347.5.",
+      "risk": "Significantly below its 52-week high of 649.0."
     },
     {
-      "symbol": "RHPL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "A 2.45% day gain with a value bounce signal, currently trading above its 52-week low (156.0) on decent turnover.",
-      "risk": "Still substantially below its 120-day (266.43) and 180-day (271.73) averages."
+      "symbol": "CHCL",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Gained 1.76% and is trading above its 120-day (476.95) and 180-day (478.4) averages, with turnover of 34,226,909.6.",
+      "risk": "Close to its 52-week low of 344.0, but still below its 52-week high of 525.0."
     },
     {
-      "symbol": "SBI",
+      "symbol": "KDL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading flat with a slight gain (0.47%) and momentum signal, currently near its 120-day (402.29) and 180-day (403.4) averages on high turnover.",
-      "risk": "Lack of strong upward momentum despite high liquidity."
+      "rationale": "Showed a small gain of 0.11% and is trading very close to its 52-week low of 618.0, with turnover of 42,372,541.8.",
+      "risk": "Still trading significantly below its 120-day average of 807.36."
     },
     {
-      "symbol": "NABIL",
+      "symbol": "HBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Minimal day change (0.09%) with a momentum signal, trading near its 52-week high (568.0) and above its 120-day (535.25) average.",
-      "risk": "Appears extended, waiting for confirmation of further upside."
-    },
-    {
-      "symbol": "MEN",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Slight gain (0.46%) with a momentum signal, trading above its 120-day (599.33) average and within its 52-week range.",
-      "risk": "Not showing strong conviction in today's weak market."
-    },
-    {
-      "symbol": "SOHL",
-      "action": "AVOID",
-      "conviction": "low",
-      "rationale": "Down 1.54% today, trading below its 120-day (657.13) average, despite high turnover and liquidity.",
-      "risk": "Negative price action and trend."
+      "rationale": "Posted a 1.51% gain, but is trading below its 120-day (201.17) and 180-day (198.34) averages. Turnover is relatively low at 9,296,948.2.",
+      "risk": "Potential for further downside if it cannot break above averages."
     }
   ],
-  "outlook": "Watch for a potential rebound in the NEPSE index if buying pressure emerges around the 2525 support level, or further downside if the current selling pressure continues.",
-  "date": "2026-09-10",
+  "outlook": "Monitor if the NEPSE Index can maintain its upward momentum and break through the 2570 level in the next session.",
+  "date": "2026-09-13",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }

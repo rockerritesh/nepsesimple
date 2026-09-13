@@ -1,19 +1,19 @@
-# NEPSE Daily Brief — 2026-09-10
+# NEPSE Daily Brief — 2026-09-13
 
-**NEPSE Index**: 2531.55 (-13.85, -0.54%) · turnover 4,000,971,899
+**NEPSE Index**: 2559.49 (+27.94, +1.10%) · turnover 4,360,159,487
 
 ## Top Gainers
-- LEC: 246.1 (+15.00%)
-- DOLTI: 299.0 (+8.22%)
-- ULHC: 320.0 (+7.02%)
-- ENL: 620.0 (+5.46%)
-- SSHL: 200.4 (+4.92%)
+- ULBSL: 2763.3 (+10.53%)
+- AVYAN: 1091.0 (+10.09%)
+- SINDU: 394.0 (+9.54%)
+- SAPIL: 1370.0 (+8.04%)
+- NCCD86: 1241.0 (+7.45%)
 
 ## Top Losers
-- SINDU: 359.7 (-14.98%)
-- PSF: 10.89 (-10.22%)
-- PRSF: 11.7 (-9.30%)
-- CORBL: 814.0 (-5.24%)
-- SPL: 621.0 (-5.19%)
+- MPFL: 537.0 (-5.71%)
+- ENL: 593.9 (-4.21%)
+- OMPL: 853.0 (-4.00%)
+- RBCLPO: 11200.0 (-3.00%)
+- LUK: 9.49 (-2.97%)
 
-_Auto-generated. NEPSE index forecast (next session): 2573.90. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2571.88. Not investment advice._
