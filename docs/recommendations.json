@@ -1,64 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a strong upward movement, closing up 0.99% on significant turnover. Market breadth appears positive with several gainers, though some notable losers were present.",
+  "market_summary": "The NEPSE Index saw a strong upward movement, gaining 0.99% on significant turnover. Breadth appears positive with the Sensitive and Float indices also trading higher.",
   "recommendations": [
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Trading at 4.0% above its VWAP of 511.5, with its current price of 516.9 below its 52-week high of 528.1, indicating room for upside. Strong turnover of 203M and positive quant score of 1.755.",
-      "risk": "Potential profit-taking near 52-week high."
+      "rationale": "Trading 4.0% higher today on strong turnover, it's above its 120-day (454.36) and 180-day (450.91) averages, showing clear momentum.",
+      "risk": "Proximity to 52-week high."
+    },
+    {
+      "symbol": "NRIC",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Showed a 2.63% gain today, with turnover above average. It appears to be bouncing from its 52-week low (780.0) and is below its 120-day (962.9) average.",
+      "risk": "Still significantly below its 52-week high (1599.3)."
+    },
+    {
+      "symbol": "HRL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Up 2.58% today with decent volume. It's trading above its 120-day (640.14) and 180-day (710.62) averages, suggesting a value bounce.",
+      "risk": "Further away from its 52-week high (965.0)."
+    },
+    {
+      "symbol": "MAKAR",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Gained 1.99% today on good volume. It's currently below its 120-day (473.11) and 180-day (499.28) averages, indicating a potential value bounce.",
+      "risk": "Still considerably below its 52-week high (629.3)."
+    },
+    {
+      "symbol": "CHCL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Posted a 1.87% gain on above-average volume. It's trading below its 120-day (475.69) and 180-day (477.66) averages, signaling a value opportunity.",
+      "risk": "Weakness relative to its 52-week high (525.0)."
     },
     {
       "symbol": "ALBSL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Showed a significant intraday gain of 3.12% to 1192.1, trading above its VWAP of 1170.55. Current price is below its 52-week high of 1334.0, with good turnover of 59.5M and a quant score of 1.417.",
-      "risk": "Recent volatility, price is still below 52-week high."
-    },
-    {
-      "symbol": "NRIC",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading slightly above its VWAP at 818.0 (up 2.63%), and its price is near the lower end of its 52-week range (780.0-1599.3), suggesting a potential value bounce. Quant score is 1.566.",
-      "risk": "Still significantly below its 52-week high."
-    },
-    {
-      "symbol": "HRL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Currently at 516.9, up 2.58% and above its VWAP of 514.68. The price is near its 52-week low of 485.0, indicating a potential bounce. Quant score of 1.556.",
-      "risk": "Significant downside from 52-week high of 965.0."
-    },
-    {
-      "symbol": "MAKAR",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading at 410.0, up 1.99% and above its VWAP of 408.7. Price is near its 52-week low of 389.0, suggesting a value play. Quant score of 1.517.",
-      "risk": "Still considerably below its 52-week high."
-    },
-    {
-      "symbol": "CHCL",
-      "action": "BUY",
-      "conviction": "low",
-      "rationale": "Price is up 1.87% to 358.7, above its VWAP of 357.88 and near its 52-week low of 344.0. Quant score of 1.449.",
-      "risk": "Price is still below its 120-day and 180-day averages."
-    },
-    {
-      "symbol": "NBL",
-      "action": "BUY",
-      "conviction": "low",
-      "rationale": "Trading at 282.5, up 1.62% and above its VWAP of 281.04. The current price is closer to its 52-week low (225.4) than its high (302.9). Quant score of 1.428.",
-      "risk": "Not a strong momentum play, but shows value potential."
+      "rationale": "Experienced a strong 3.12% increase today with significant turnover. It's trading above its 120-day (1118.76) and 180-day (1127.7) averages, showing momentum.",
+      "risk": "Nearing its 52-week high (1334.0)."
     },
     {
       "symbol": "GBBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 446.0, up 0.68% and very close to its VWAP of 446.29. Price is near its 52-week high of 450.0, indicating limited immediate upside but positive momentum. Quant score of 1.551.",
-      "risk": "Appears extended, nearing 52-week high."
+      "rationale": "Trading 0.68% higher today with substantial turnover, near its 52-week high (450.0). It's above both its 120-day (415.95) and 180-day (409.26) averages.",
+      "risk": "May be overextended near its 52-week high."
+    },
+    {
+      "symbol": "SAHAS",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Posted a modest 0.72% gain today on decent volume. It is trading above its 120-day (652.8) and 180-day (622.97) averages, showing some momentum.",
+      "risk": "Still below its 52-week high (720.0)."
     }
   ],
-  "outlook": "Monitor if the NEPSE Index can sustain its gains above the 2571.15 forecast level, with attention to broader market participation.",
+  "outlook": "Monitor if the NEPSE Index can sustain its gains above the 2571.15 forecast level.",
   "date": "2026-09-14",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
