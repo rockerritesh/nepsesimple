@@ -1,65 +1,65 @@
 {
-  "market_summary": "The NEPSE Index saw a significant gain of 1.1%, closing at 2559.49 with strong turnover. Breadth appears positive given the index movement, though specific gainer/loser details are limited.",
+  "market_summary": "The NEPSE Index saw a strong upward movement, closing up 0.99% on significant turnover. Market breadth appears positive with several gainers, though some notable losers were present.",
   "recommendations": [
     {
-      "symbol": "SSHL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Shows strong upward momentum with a 5.94% day gain, trading above its 120-day (210.47) and 180-day (200.09) averages, and has high turnover.",
-      "risk": "Potential for profit-taking after a sharp rise."
-    },
-    {
-      "symbol": "LEC",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading at 252.2, it's up 2.48% today and above its 120-day (225.57) and 180-day (221.2) averages, with significant turnover indicating strong interest.",
-      "risk": "Price is nearing its 52-week high (276.0)."
-    },
-    {
       "symbol": "TAMOR",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Shows positive momentum with a 1.64% day gain and is trading above its 120-day (453.56) and 180-day (450.65) averages, with substantial turnover.",
-      "risk": "Price is relatively close to its 52-week high (528.1)."
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Trading at 4.0% above its VWAP of 511.5, with its current price of 516.9 below its 52-week high of 528.1, indicating room for upside. Strong turnover of 203M and positive quant score of 1.755.",
+      "risk": "Potential profit-taking near 52-week high."
     },
     {
-      "symbol": "CITY",
+      "symbol": "ALBSL",
       "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading at 342.0 with a 2.7% day gain, it's showing signs of bouncing from its lower range, trading near its 52-week low (327.2) and above its 120-day average (406.45).",
-      "risk": "Still below its 120-day and 180-day averages."
+      "conviction": "medium",
+      "rationale": "Showed a significant intraday gain of 3.12% to 1192.1, trading above its VWAP of 1170.55. Current price is below its 52-week high of 1334.0, with good turnover of 59.5M and a quant score of 1.417.",
+      "risk": "Recent volatility, price is still below 52-week high."
     },
     {
-      "symbol": "CHCL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Up 1.76% today to 352.1, it is trading near its 52-week low (344.0) and showing potential for a bounce, with good liquidity.",
-      "risk": "Below its 120-day (476.95) and 180-day (478.4) averages."
-    },
-    {
-      "symbol": "KDL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading at 621.0, very close to its 52-week low of 618.0, suggesting a potential value bounce, but still significantly below its 120-day (807.36) average.",
-      "risk": "Price is significantly below medium-term averages."
+      "symbol": "NRIC",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Trading slightly above its VWAP at 818.0 (up 2.63%), and its price is near the lower end of its 52-week range (780.0-1599.3), suggesting a potential value bounce. Quant score is 1.566.",
+      "risk": "Still significantly below its 52-week high."
     },
     {
       "symbol": "HRL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading at 503.9, up 0.8% today, it is near its 52-week low (485.0) but still well below its 120-day (643.23) and 180-day (712.34) averages.",
-      "risk": "Significant overhead resistance from averages."
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Currently at 516.9, up 2.58% and above its VWAP of 514.68. The price is near its 52-week low of 485.0, indicating a potential bounce. Quant score of 1.556.",
+      "risk": "Significant downside from 52-week high of 965.0."
     },
     {
-      "symbol": "ULBSL",
+      "symbol": "MAKAR",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Trading at 410.0, up 1.99% and above its VWAP of 408.7. Price is near its 52-week low of 389.0, suggesting a value play. Quant score of 1.517.",
+      "risk": "Still considerably below its 52-week high."
+    },
+    {
+      "symbol": "CHCL",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Price is up 1.87% to 358.7, above its VWAP of 357.88 and near its 52-week low of 344.0. Quant score of 1.449.",
+      "risk": "Price is still below its 120-day and 180-day averages."
+    },
+    {
+      "symbol": "NBL",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Trading at 282.5, up 1.62% and above its VWAP of 281.04. The current price is closer to its 52-week low (225.4) than its high (302.9). Quant score of 1.428.",
+      "risk": "Not a strong momentum play, but shows value potential."
+    },
+    {
+      "symbol": "GBBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Top gainer with a 10.53% surge, indicating strong short-term interest, but without further data on its price relative to averages or volume, it's hard to assess sustainability.",
-      "risk": "Potential for a sharp reversal after a large gain."
+      "rationale": "Trading at 446.0, up 0.68% and very close to its VWAP of 446.29. Price is near its 52-week high of 450.0, indicating limited immediate upside but positive momentum. Quant score of 1.551.",
+      "risk": "Appears extended, nearing 52-week high."
     }
   ],
-  "outlook": "Monitor if the NEPSE Index can sustain its upward momentum and break above the 2571.88 forecast level.",
-  "date": "2026-09-13",
+  "outlook": "Monitor if the NEPSE Index can sustain its gains above the 2571.15 forecast level, with attention to broader market participation.",
+  "date": "2026-09-14",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
