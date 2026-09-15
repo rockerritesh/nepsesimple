@@ -1,78 +1,71 @@
 {
-  "market_summary": "The NEPSE index saw a significant upward movement, closing with a gain of 48.57 points (1.87%) on increased turnover. Breadth was positive, with most sectors participating in the rally.",
+  "market_summary": "The NEPSE Index saw a strong rebound, closing up 1.87% with significant turnover. Breadth was positive, with many stocks participating in the upward move.",
   "recommendations": [
     {
-      "symbol": "TAMOR",
+      "symbol": "HURJA",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading 1.95% higher at 527.0, the stock is showing strong momentum with a quant score of 1.701, trading above its 120-day (455.03) and 180-day (451.24) averages.",
-      "risk": "Potential for profit-taking near 52-week high."
-    },
-    {
-      "symbol": "LEC",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Up 2.72% to 256.8, this stock exhibits momentum with a quant score of 1.69, trading above its 120-day (225.41) and 180-day (221.83) averages.",
-      "risk": "Overextension if momentum falters."
-    },
-    {
-      "symbol": "GBBL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Gained 2.02% to 455.0, it shows momentum with a quant score of 1.618, trading above its 120-day (416.07) and 180-day (409.7) averages.",
-      "risk": "Approaching 52-week high."
-    },
-    {
-      "symbol": "LSL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showing momentum with a 3.01% gain to 236.3 and a quant score of 1.586, it is trading above its 120-day (220.75) and 180-day (219.07) averages.",
-      "risk": "Slightly extended from VWAP."
+      "conviction": "high",
+      "rationale": "Showed a strong 4.37% gain today, trading above its 120-day (250.16) and 180-day (249.23) averages, with good liquidity.",
+      "risk": "Pullback from intraday high"
     },
     {
       "symbol": "NMB",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Up 3.95% to 252.6, this stock demonstrates momentum and value bounce signals with a quant score of 1.529, trading above its 120-day (244.17) and 180-day (243.66) averages.",
-      "risk": "High volume might precede a pullback."
+      "rationale": "Gained 3.95% today, trading above its 120-day (244.17) and 180-day (243.66) averages, with significant turnover.",
+      "risk": "Approaching 52-week high"
     },
     {
-      "symbol": "SHIVM",
+      "symbol": "LEC",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading 1.64% higher at 681.0 with a quant score of 1.526, it shows momentum and is above its 120-day (658.2) and 180-day (644.51) averages.",
-      "risk": "Turnover is high, indicating potential volatility."
+      "rationale": "Posted a 2.72% gain on high volume, trading above its 120-day (225.41) and 180-day (221.83) averages.",
+      "risk": "Slightly extended from VWAP"
     },
     {
-      "symbol": "GBIME",
+      "symbol": "LSL",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "Gained 1.62% to 257.1 with momentum signals and a quant score of 1.502, trading above its 120-day (242.57) and 180-day (238.23) averages.",
-      "risk": "Close to 52-week high, may face resistance."
+      "conviction": "medium",
+      "rationale": "Increased 3.01% with substantial turnover, trading above its 120-day (220.75) and 180-day (219.07) averages.",
+      "risk": "Near 52-week high"
     },
     {
-      "symbol": "HURJA",
-      "action": "BUY",
+      "symbol": "GBBL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Closed up 2.02% above its 120-day (416.07) and 180-day (409.7) averages, with solid turnover.",
+      "risk": "Still below 52-week high"
+    },
+    {
+      "symbol": "TAMOR",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Experienced a 4.37% increase to 263.0, showing strong momentum with a quant score of 1.493, and trading above its 120-day (250.16) and 180-day (249.23) averages.",
-      "risk": "Rapid price increase could lead to a correction."
+      "rationale": "Gained 1.95% on good volume, trading above its 120-day (455.03) and 180-day (451.24) averages.",
+      "risk": "Below 52-week high"
+    },
+    {
+      "symbol": "SBL",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Showed a 1.78% gain with good liquidity, trading above its 120-day (400.6) and 180-day (393.99) averages.",
+      "risk": "Consolidating below 52-week high"
     },
     {
       "symbol": "KDL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading 1.46% higher at 625.0, it shows a value bounce signal but is significantly below its 120-day (802.59) and 180-day (824.42) averages.",
-      "risk": "Still trading well below historical averages."
+      "rationale": "Traded up 1.46% with decent volume, but is significantly below its 120-day (802.59) and 180-day (824.42) averages.",
+      "risk": "Significant overhead resistance"
     },
     {
       "symbol": "SMHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Up 1.09% to 465.0 with a value bounce signal, but it is trading below its 120-day (497.43) and 180-day (513.79) averages.",
-      "risk": "Price is below intermediate-term averages."
+      "rationale": "A modest 1.09% gain today, trading below its 120-day (497.43) and 180-day (513.79) averages.",
+      "risk": "Weak short-term momentum"
     }
   ],
-  "outlook": "Watch for continued strength in the NEPSE index, with a focus on stocks showing sustained momentum above their key moving averages.",
+  "outlook": "Watch for continued upward momentum and increased volume across broader market segments in the next session.",
   "date": "2026-09-15",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
