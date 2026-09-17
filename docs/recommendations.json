@@ -1,79 +1,79 @@
 {
-  "market_summary": "The NEPSE Index experienced a decline of 0.8%, closing at 2612.42 with significant turnover. Breadth appeared weak as most indices moved lower, reflecting a cautious market sentiment.",
+  "market_summary": "The NEPSE Index closed higher, gaining 11.93 points on 0.45% increase, with a turnover of NPR 5.49 billion. Market breadth appears positive with most indices showing gains.",
   "recommendations": [
     {
-      "symbol": "HDHPC",
+      "symbol": "SBL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "The stock is up 5.31% today, trading above its 120-day (218.05) and 180-day (211.48) averages, with strong turnover indicating buying interest.",
-      "risk": "Potential for profit-taking after a strong move."
+      "rationale": "Trading at NPR 447.0, it's close to its 52-week high of 450.0 and shows strong momentum with a 3.71% day's gain and significant turnover.",
+      "risk": "Approaching 52-week high resistance."
     },
     {
-      "symbol": "KKHC",
+      "symbol": "PHCL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Shows positive momentum with a 2.86% gain today, trading above its 120-day (272.28) and 180-day (265.77) averages, and decent liquidity.",
-      "risk": "May face resistance near its 52-week high of 362.0."
+      "rationale": "Showed a strong 4.19% jump to NPR 323.0 on good turnover, trading above its 120-day average of 306.16 and indicating positive momentum.",
+      "risk": "Potential for profit-taking after a sharp rise."
     },
     {
-      "symbol": "SSHL",
+      "symbol": "HURJA",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Gained 1.53% today and is trading above its 120-day (209.64) and 180-day (200.85) averages, showing good volume.",
-      "risk": "Price is still below its 52-week high of 251.0."
+      "rationale": "Gained 3.85% to NPR 266.9, trading above its 120-day average of 249.6 with healthy volume, signaling upward momentum.",
+      "risk": "Still below its 52-week high of 312.1."
     },
     {
-      "symbol": "CHDC",
-      "action": "BUY",
+      "symbol": "LICN",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Posted a 2.16% gain on substantial turnover, trading above its 120-day (2257.22) and 180-day (2301.01) averages.",
-      "risk": "High price point and proximity to 52-week high (2717.0) could lead to volatility."
+      "rationale": "Posted a 3.47% gain to NPR 806.0, trading near its 120-day average (800.8) and showing signs of a potential value bounce with good liquidity.",
+      "risk": "52-week high is still at 969.0."
     },
     {
       "symbol": "SBL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading slightly above its 120-day (400.78) and 180-day (394.44) averages, with a modest gain of 0.35% and good liquidity.",
-      "risk": "Limited upside potential in the short term."
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Trading at NPR 447.0, it's close to its 52-week high of 450.0 and shows strong momentum with a 3.71% day's gain and significant turnover.",
+      "risk": "Approaching 52-week high resistance."
     },
     {
-      "symbol": "MEN",
-      "action": "ACCUMULATE",
+      "symbol": "TAMOR",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Showing slight positive momentum (0.26% gain) while trading above its 120-day (600.08) and 180-day (595.14) averages with healthy turnover.",
-      "risk": "Price is approaching its 52-week high of 683.4."
+      "rationale": "Up 1.31% to NPR 533.0, trading just below its 52-week high of 539.0 with solid liquidity and momentum signals.",
+      "risk": "Very close to its 52-week high, potential for resistance."
     },
     {
-      "symbol": "GBIME",
-      "action": "ACCUMULATE",
+      "symbol": "LSL",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Trading slightly above its 120-day (242.59) and 180-day (238.43) averages with a 0.35% gain and decent volume.",
-      "risk": "Struggling to break out past its 52-week high of 270.6."
-    },
-    {
-      "symbol": "MAKAR",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Showing a small gain (0.14%) but trading below its 120-day (471.05) and 180-day (497.5) averages, suggesting a potential value bounce from oversold conditions.",
-      "risk": "Downward trend in longer-term averages."
-    },
-    {
-      "symbol": "HPPL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading above its 120-day (377.96) average with a small gain (0.29%), but is below its 180-day (411.4) average and 52-week high (605.0).",
-      "risk": "Weak longer-term trend."
+      "rationale": "Gained 2.58% to NPR 238.5, trading above its 120-day average of 220.7 and showing momentum, with turnover above average.",
+      "risk": "Still below its 52-week high of 244.0."
     },
     {
       "symbol": "LEC",
-      "action": "AVOID",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Declined 2.65% today and is trading above its 120-day (225.26) average but below its 180-day (222.14) average, with high volume on the down move.",
-      "risk": "Negative short-term momentum."
+      "rationale": "Showed a 0.84% increase to NPR 252.1, trading above its 120-day average of 225.12 on good volume, indicating positive momentum.",
+      "risk": "Below its 52-week high of 276.0."
+    },
+    {
+      "symbol": "KDL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at NPR 614.8, it's just above its 52-week low of 610.0, and shows liquidity. However, it is significantly below its 120-day average of 797.73.",
+      "risk": "Significant underperformance relative to averages."
+    },
+    {
+      "symbol": "SMHL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at NPR 467.5, it is below its 120-day average of 496.22 and 52-week high of 978.0, suggesting a potential value bounce but lacking strong current momentum.",
+      "risk": "Significant gap from 52-week high and averages."
     }
   ],
-  "outlook": "Watch for the NEPSE Index to hold above the 2600 level and for increased buying activity to confirm a potential short-term reversal.",
-  "date": "2026-09-16",
+  "outlook": "Watch for continued strength in the NEPSE Index and confirmation of upward momentum in selected stocks.",
+  "date": "2026-09-17",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
