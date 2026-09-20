@@ -1,65 +1,65 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.45%, closing at 2624.36, with a healthy turnover of over 5.49 billion. Market breadth appears positive, with the indices showing upward movement.",
+  "market_summary": "The NEPSE Index saw a significant gain of 0.87%, closing at 2647.22 with strong turnover. Breadth was positive, indicated by the gains in the Sensitive and Float indices.",
   "recommendations": [
     {
-      "symbol": "SBL",
+      "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Showing strong momentum with a 3.71% day gain, trading above its 120-day (401.04) and 180-day (394.98) averages, and nearing its 52-week high of 450.0.",
-      "risk": "Approaching resistance at 52-week high."
+      "rationale": "Trading 0.48% above its VWAP of 545.23, with a strong quant score of 1.798 and positive momentum signals. The current price of 547.9 is near its 52-week high of 550.0.",
+      "risk": "Proximity to 52-week high"
     },
     {
-      "symbol": "PHCL",
+      "symbol": "LEC",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Price of 259.9 is slightly above its VWAP of 259.22, supported by a quant score of 1.726 and momentum signals. It is trading within its 52-week range (180.0 - 276.0).",
+      "risk": "Near 52-week high"
+    },
+    {
+      "symbol": "LSL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Top gainer today with a 4.19% increase, trading above its 120-day (306.16) and 180-day (300.16) averages, and showing significant turnover.",
-      "risk": "May be overextended after a sharp move."
+      "rationale": "Current price of 246.4 is above its VWAP of 245.31, with a quant score of 1.71 and momentum signals. It is trading near its 52-week high of 250.4.",
+      "risk": "Approaching 52-week high"
     },
     {
-      "symbol": "HURJA",
+      "symbol": "NBL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Demonstrates positive momentum with a 3.85% day gain, trading above its 120-day (249.6) and 180-day (249.67) averages.",
-      "risk": "Still below its 52-week high of 312.1."
+      "rationale": "Trading at 296.5, above its VWAP of 293.69, with a quant score of 1.658 and momentum. The price is within its 52-week range (225.4 - 302.9).",
+      "risk": "Close to 52-week high"
     },
     {
-      "symbol": "LICN",
+      "symbol": "KBL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Strong day gain of 3.47%, trading above its 120-day (800.8) average and showing good liquidity with substantial turnover.",
-      "risk": "Recent price action is volatile; 180-day average is higher at 822.37."
+      "rationale": "Showed strong price appreciation of 4.13% to 227.0, above its VWAP of 225.3. It has a quant score of 1.591 and momentum signals.",
+      "risk": "Potential for short-term pullback"
     },
     {
-      "symbol": "SOHL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showing positive momentum with a 2.76% day gain, trading above its 120-day (664.21) average and exhibiting high turnover.",
-      "risk": "52-week high is significantly higher at 875.5."
-    },
-    {
-      "symbol": "PCBL",
-      "action": "BUY",
-      "conviction": "low",
-      "rationale": "Good day gain of 2.78%, trading above its 120-day (240.57) and 180-day (242.12) averages, indicating upward trend.",
-      "risk": "Price is still below the 52-week high of 275.9."
-    },
-    {
-      "symbol": "KDL",
+      "symbol": "SBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading near its 52-week low (610.0) with a minimal day change, but its 120-day (797.73) and 180-day (821.17) averages are significantly higher, suggesting a potential value bounce.",
-      "risk": "Weak recent price action despite underlying value."
+      "rationale": "Price of 447.9 is slightly below its VWAP of 449.36, with a decent quant score of 1.625. It is trading near its 52-week high of 452.9.",
+      "risk": "Stalled momentum near high"
     },
     {
-      "symbol": "SMHL",
+      "symbol": "GBIME",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading below its 120-day (496.22) and 180-day (510.84) averages, but showing a slight day gain and is near its 52-week low (443.0), potentially indicating a bottoming formation.",
-      "risk": "Still in a downtrend from longer-term averages."
+      "rationale": "Trading at 260.9, slightly above its VWAP of 259.4, with a quant score of 1.564. It is near its 52-week high of 270.6.",
+      "risk": "Extended near 52-week high"
+    },
+    {
+      "symbol": "CHCL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Price of 369.7 is up 2.98% and above its VWAP of 362.89. It has a quant score of 1.43 and value bounce signal, despite being below its 120-day average of 470.68.",
+      "risk": "Below longer-term averages"
     }
   ],
-  "outlook": "Continue to monitor the NEPSE Index for sustained upward movement and watch for further confirmation of momentum in the recommended stocks.",
-  "date": "2026-09-17",
+  "outlook": "Monitor if the market can sustain this upward momentum and break through key resistance levels in the next trading session.",
+  "date": "2026-09-20",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
