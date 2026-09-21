@@ -1,78 +1,64 @@
 {
-  "market_summary": "The NEPSE Index closed higher with a gain of 0.87%, driven by a broad market advance. Breadth was positive, with most sectors participating in the rally.",
+  "market_summary": "The NEPSE index saw a significant upward movement, closing with a gain of 0.87% on healthy turnover. Breadth appeared positive with most sectors participating in the rally.",
   "recommendations": [
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Trading at 547.9, up 2.8% on the day, it's near its 52-week high of 550.0 with strong turnover of 210M and positive liquidity and momentum signals.",
-      "risk": "Proximity to 52-week high."
+      "rationale": "Trading 2.8% higher today on substantial turnover, it's nearing its 52-week high of 550.0 and shows strong momentum signals.",
+      "risk": "Pullback from near-term resistance."
     },
     {
       "symbol": "LEC",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Current price of 259.9 is up 3.09% on good volume (879k) and turnover (227M), with liquidity and momentum signals, and is within 6% of its 52-week high.",
-      "risk": "Slightly extended from 52-week high."
+      "rationale": "Showed a strong 3.09% gain on high volume, with its current price of 259.9 well within its 52-week range (180.0-276.0) and exhibiting momentum.",
+      "risk": "Potential profit-taking near 52-week high."
     },
     {
       "symbol": "LSL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 246.4, up 3.31% on significant turnover (271M) and volume (1.1M), showing positive liquidity and momentum.",
-      "risk": "Still below 52-week high, but showing upward trend."
+      "rationale": "Gained 3.31% on high turnover, with its price of 246.4 approaching its 52-week high of 250.4, indicating positive momentum.",
+      "risk": "Overbought conditions if momentum falters."
     },
     {
       "symbol": "KBL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showed a strong 4.13% gain to 227.0 on high turnover (321M) and volume (1.4M), indicating positive liquidity and momentum.",
-      "risk": "Near the lower end of its 52-week range."
+      "rationale": "A strong 4.13% rise on significant volume, with its current price of 227.0 well above its 120-day average of 217.7 and showing momentum.",
+      "risk": "Reversion to the mean from a sharp gain."
     },
     {
       "symbol": "NBL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Price at 296.5, up 2.77%, with solid turnover (137M) and volume (469k), and strong liquidity and momentum signals, approaching its 52-week high.",
-      "risk": "Close to 52-week high."
+      "rationale": "Posted a 2.77% gain on good turnover, trading near its 52-week high (302.9) and showing liquidity and momentum signals.",
+      "risk": "Slightly extended, watch for consolidation."
     },
     {
       "symbol": "SBL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Trading at 447.9 with a modest 0.2% gain, but shows high liquidity and momentum signals on good turnover (217M).",
-      "risk": "Lack of strong daily price movement."
+      "rationale": "Trading near its 52-week high (452.9) with a modest 0.2% gain today on solid turnover, indicating sustained interest.",
+      "risk": "Lack of strong immediate upside momentum."
     },
     {
       "symbol": "GBIME",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Current price of 260.9 is up 1.05% on substantial turnover (232M) and volume (894k), with liquidity and momentum signals.",
-      "risk": "Below 52-week high, but showing steady progress."
-    },
-    {
-      "symbol": "PCBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Price at 259.0, up 2.86%, with decent turnover (69M) and volume (272k), but its quant score is lower than others with similar price action.",
-      "risk": "Lower quant score compared to peers."
-    },
-    {
-      "symbol": "SHIVM",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading at 688.0 with a slight 0.36% gain on good turnover (178M), but it is trading below its 52-week high.",
-      "risk": "Price not near 52-week high."
+      "rationale": "Showed a 1.05% gain on good volume, but its price of 260.9 is currently below its 120-day average of 242.64, suggesting it's still recovering.",
+      "risk": "Needs to break above key averages for stronger conviction."
     },
     {
       "symbol": "CHCL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a 2.98% gain to 369.7 on moderate turnover (43M), but has a significantly lower 120-day and 180-day average, suggesting potential value but also risk.",
-      "risk": "Significantly below longer-term averages."
+      "rationale": "Gained 2.98% on moderate volume, but its current price of 369.7 is significantly below its 120-day average of 470.68, indicating a potential value bounce but still a long way to recovery.",
+      "risk": "Long recovery path, potential for further downside."
     }
   ],
-  "outlook": "Monitor if the broader market rally continues and if the leading stocks maintain their upward momentum.",
+  "outlook": "Watch for continued strength in the broader market and for leading stocks to hold their gains.",
   "date": "2026-09-21",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
