@@ -1,22 +1,14 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "nepse_index_forecast": {
-    "next_value": 2573.96,
-    "trend_slope": -1.9733,
+    "next_value": 2575.56,
+    "trend_slope": -1.915,
     "method": "linear regression on merolagani index history"
   },
   "alpha_candidates": [
     {
-      "symbol": "TAMOR",
-      "combined_score": 1.798,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "LEC",
-      "combined_score": 1.726,
+      "symbol": "SBL",
+      "combined_score": 1.706,
       "signal_types": [
         "liquidity",
         "momentum"
@@ -24,7 +16,31 @@
     },
     {
       "symbol": "LSL",
-      "combined_score": 1.71,
+      "combined_score": 1.659,
+      "signal_types": [
+        "liquidity",
+        "momentum"
+      ]
+    },
+    {
+      "symbol": "LEC",
+      "combined_score": 1.628,
+      "signal_types": [
+        "liquidity",
+        "momentum"
+      ]
+    },
+    {
+      "symbol": "HDL",
+      "combined_score": 1.627,
+      "signal_types": [
+        "liquidity",
+        "momentum"
+      ]
+    },
+    {
+      "symbol": "GHL",
+      "combined_score": 1.608,
       "signal_types": [
         "liquidity",
         "momentum"
@@ -32,47 +48,7 @@
     },
     {
       "symbol": "NBL",
-      "combined_score": 1.658,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "SBL",
-      "combined_score": 1.625,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "KBL",
-      "combined_score": 1.591,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "GBIME",
-      "combined_score": 1.564,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "PCBL",
-      "combined_score": 1.496,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "SHIVM",
-      "combined_score": 1.473,
+      "combined_score": 1.561,
       "signal_types": [
         "liquidity",
         "momentum"
@@ -80,31 +56,15 @@
     },
     {
       "symbol": "GBBL",
-      "combined_score": 1.467,
+      "combined_score": 1.517,
       "signal_types": [
         "liquidity",
         "momentum"
       ]
     },
     {
-      "symbol": "MBL",
-      "combined_score": 1.455,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "CHCL",
-      "combined_score": 1.43,
-      "signal_types": [
-        "liquidity",
-        "value_bounce"
-      ]
-    },
-    {
-      "symbol": "SANIMA",
-      "combined_score": 1.427,
+      "symbol": "MEN",
+      "combined_score": 1.509,
       "signal_types": [
         "liquidity",
         "momentum"
@@ -112,23 +72,23 @@
     },
     {
       "symbol": "SAHAS",
-      "combined_score": 1.422,
+      "combined_score": 1.49,
       "signal_types": [
         "liquidity",
         "momentum"
       ]
     },
     {
-      "symbol": "NMB",
-      "combined_score": 1.417,
+      "symbol": "KBL",
+      "combined_score": 1.479,
       "signal_types": [
         "liquidity",
         "momentum"
       ]
     },
     {
-      "symbol": "BPCL",
-      "combined_score": 1.408,
+      "symbol": "HDHPC",
+      "combined_score": 1.465,
       "signal_types": [
         "liquidity",
         "momentum"
@@ -136,15 +96,7 @@
     },
     {
       "symbol": "GLH",
-      "combined_score": 1.402,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "CZBIL",
-      "combined_score": 1.381,
+      "combined_score": 1.439,
       "signal_types": [
         "liquidity",
         "momentum"
@@ -152,55 +104,105 @@
     },
     {
       "symbol": "NABIL",
-      "combined_score": 1.375,
+      "combined_score": 1.42,
       "signal_types": [
         "liquidity",
         "momentum"
       ]
     },
     {
-      "symbol": "CITY",
-      "combined_score": 1.365,
+      "symbol": "NTC",
+      "combined_score": 1.419,
       "signal_types": [
         "liquidity",
-        "value_bounce"
+        "momentum"
+      ]
+    },
+    {
+      "symbol": "PCBL",
+      "combined_score": 1.405,
+      "signal_types": [
+        "liquidity",
+        "momentum"
+      ]
+    },
+    {
+      "symbol": "MBL",
+      "combined_score": 1.403,
+      "signal_types": [
+        "liquidity",
+        "momentum"
+      ]
+    },
+    {
+      "symbol": "SSHL",
+      "combined_score": 1.368,
+      "signal_types": [
+        "liquidity",
+        "momentum"
       ]
     },
     {
       "symbol": "NIMB",
-      "combined_score": 1.338,
+      "combined_score": 1.343,
       "signal_types": [
         "liquidity",
+        "momentum",
         "value_bounce"
       ]
     },
     {
-      "symbol": "MAKAR",
-      "combined_score": 1.322,
-      "signal_types": [
-        "liquidity",
-        "value_bounce"
-      ]
-    },
-    {
-      "symbol": "HRL",
-      "combined_score": 1.317,
-      "signal_types": [
-        "liquidity",
-        "value_bounce"
-      ]
-    },
-    {
-      "symbol": "MBJC",
-      "combined_score": 1.278,
+      "symbol": "NMB",
+      "combined_score": 1.343,
       "signal_types": [
         "liquidity",
         "momentum"
       ]
     },
     {
-      "symbol": "SHEL",
-      "combined_score": 1.264,
+      "symbol": "JBBL",
+      "combined_score": 1.342,
+      "signal_types": [
+        "liquidity",
+        "momentum"
+      ]
+    },
+    {
+      "symbol": "SANIMA",
+      "combined_score": 1.341,
+      "signal_types": [
+        "liquidity",
+        "momentum"
+      ]
+    },
+    {
+      "symbol": "PHCL",
+      "combined_score": 1.328,
+      "signal_types": [
+        "liquidity",
+        "momentum"
+      ]
+    },
+    {
+      "symbol": "CZBIL",
+      "combined_score": 1.325,
+      "signal_types": [
+        "liquidity",
+        "momentum"
+      ]
+    },
+    {
+      "symbol": "HBL",
+      "combined_score": 1.318,
+      "signal_types": [
+        "liquidity",
+        "momentum",
+        "value_bounce"
+      ]
+    },
+    {
+      "symbol": "DORDI",
+      "combined_score": 1.273,
       "signal_types": [
         "liquidity",
         "momentum"
