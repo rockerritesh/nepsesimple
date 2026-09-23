@@ -1,78 +1,71 @@
 {
-  "market_summary": "The NEPSE Index saw a significant decline of 1.36%, closing at 2618.03, with broad market weakness indicated by the indices and substantial turnover. Breadth appears to be negative.",
+  "market_summary": "The NEPSE Index experienced a significant downturn, closing down 1.36% with broad market weakness indicated by all primary indices trading in the red. Turnover remained substantial despite the decline.",
   "recommendations": [
-    {
-      "symbol": "TAMOR",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "The stock is trading slightly above its 120-day (458.16) and 180-day (453.29) averages, with a positive day change of 0.19% and strong turnover of 130,958,753.2.",
-      "risk": "Proximity to 52-week high."
-    },
-    {
-      "symbol": "GHL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading 1.1% higher today on substantial turnover (171,588,595.9), it is above its 120-day (234.67) and 180-day (235.47) averages.",
-      "risk": "Below 52-week high."
-    },
-    {
-      "symbol": "SHIVM",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Shows positive momentum with a 0.42% day change and strong turnover (383,446,856.3), trading above its 120-day (657.35) and 180-day (647.4) averages.",
-      "risk": "Approaching 52-week high."
-    },
     {
       "symbol": "BHCL",
       "action": "BUY",
+      "conviction": "high",
+      "rationale": "Shows strong positive price action today with a 3.54% increase, trading above its 120-day (534.62) and 180-day (546.65) averages, and has substantial turnover.",
+      "risk": "Potential for profit-taking after today's surge."
+    },
+    {
+      "symbol": "SHIVM",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Experienced a strong 3.54% day gain on healthy turnover (63,156,074.2), trading above its 120-day (534.62) and 180-day (546.65) averages.",
-      "risk": "Significant distance from 52-week high."
+      "rationale": "Trading above its 120-day (657.35) and 180-day (647.4) averages with good liquidity and momentum signals, despite a modest 0.42% gain.",
+      "risk": "Market-wide downturn could pull it back."
+    },
+    {
+      "symbol": "TAMOR",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Price is near its 52-week high (550.0) with a 0.19% gain today, trading above its 120-day (458.16) and 180-day (453.29) averages, and shows strong liquidity.",
+      "risk": "Slightly extended from recent averages."
+    },
+    {
+      "symbol": "GHL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Showing positive momentum with a 1.1% gain, trading above its 120-day (234.67) and 180-day (235.47) averages, and has high liquidity.",
+      "risk": "Close to its 52-week high (290.0)."
     },
     {
       "symbol": "CHDC",
-      "action": "BUY",
+      "action": "WATCH",
       "conviction": "low",
-      "rationale": "Slightly positive 0.08% day change on good turnover (92,881,496.0), it is trading above its 120-day (2251.21) and 180-day (2304.27) averages.",
-      "risk": "High price point, below 52-week high."
+      "rationale": "Price is consolidating near its 52-week high (2717.0) with minimal change today, trading well above its 120-day (2251.21) and 180-day (2304.27) averages.",
+      "risk": "Lack of strong upward momentum today."
+    },
+    {
+      "symbol": "DLBS",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Top gainer today with a 15% surge, but needs to sustain above current levels and its 52-week low (396.4) to confirm trend.",
+      "risk": "Rapid price increase may lead to a pullback."
     },
     {
       "symbol": "AKJCL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Despite a negative day change (-1.86%), it has significant turnover (172,978,748.2) and is trading just below its 120-day average (371.32).",
-      "risk": "Below key moving averages."
+      "rationale": "Trading below its 120-day (371.32) average despite good liquidity, but is above its 180-day (348.42) average and within its 52-week range (461.4/179.0).",
+      "risk": "Negative price action today (-1.86%) and below its intermediate average."
     },
     {
       "symbol": "LSL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading below its 120-day (221.11) and 180-day (219.47) averages with a -1.64% day change, though turnover is robust (188,492,268.6).",
-      "risk": "Below key moving averages."
+      "rationale": "Trading slightly below its 120-day (221.11) and 180-day (219.47) averages with negative price action today, but shows high liquidity and is near its 52-week high (253.9).",
+      "risk": "Current downward pressure."
     },
     {
-      "symbol": "LEC",
-      "action": "WATCH",
+      "symbol": "HATHY",
+      "action": "AVOID",
       "conviction": "low",
-      "rationale": "Down 2.31% on the day, it's trading below its 120-day (225.17) and 180-day (223.54) averages, despite good liquidity.",
-      "risk": "Below key moving averages."
-    },
-    {
-      "symbol": "KBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Down 1.32% on the day and trading below its 120-day (217.54) and 180-day (209.86) averages, though liquidity is present.",
-      "risk": "Below key moving averages."
-    },
-    {
-      "symbol": "SADBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Slightly down (-0.23%) but trading above its 120-day (413.62) and 180-day (414.61) averages with high turnover (161,098,938.9).",
-      "risk": "Near 52-week high, potential resistance."
+      "rationale": "Significant price drop of 4.09% today, trading well below its 120-day (740.46) and 180-day (800.31) averages.",
+      "risk": "Sustained downtrend."
     }
   ],
-  "outlook": "Monitor if the NEPSE Index can hold above the 2600 level in the next session, with attention to any signs of market stabilization.",
+  "outlook": "Watch for the NEPSE Index to test support around the 2575.95 forecast level in the next session.",
   "date": "2026-09-23",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
