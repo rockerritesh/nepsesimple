@@ -1,64 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.44% with a turnover of over 5.44 billion. Breadth appears positive with several gainers outnumbering the few significant losers.",
+  "market_summary": "The NEPSE Index saw a positive uptick, closing 0.44% higher on decent turnover. Breadth appears mixed with significant gainers and some notable losers.",
   "recommendations": [
     {
       "symbol": "SONA",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Showed strong upward momentum with a 7.65% price increase today, closing well above its 120-day (425.14) and 180-day (429.8) averages, supported by significant turnover.",
-      "risk": "Potential for profit-taking after a sharp rise."
+      "rationale": "Showed strong upward momentum today with a 7.65% gain, trading above its 120-day (425.14) and 180-day (429.8) averages, and has good liquidity.",
+      "risk": "Pullback after sharp gains"
     },
     {
       "symbol": "GCIL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Experienced a 7.07% jump today, trading above both its 120-day (386.79) and 180-day (400.93) averages on healthy volume.",
-      "risk": "May be overextended in the short term."
+      "rationale": "Experienced a significant 7.07% price increase, trading well above its 120-day (386.79) and 180-day (400.93) averages with solid volume.",
+      "risk": "Potential profit-taking"
     },
     {
       "symbol": "CYCL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "A significant 6.47% gain today, pushing the price above its 120-day (1458.08) and 180-day (1499.48) averages, indicating positive momentum.",
-      "risk": "Lower volume compared to other top performers."
+      "rationale": "Gained 6.47% today, trading above its 120-day (1458.08) and 180-day (1499.48) averages, indicating positive momentum.",
+      "risk": "High current price relative to 52-week range"
     },
     {
       "symbol": "HDL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Gained 2.64% today, trading above its 120-day (1167.19) and 180-day (1166.0) averages with substantial turnover, suggesting underlying strength.",
-      "risk": "Still trading below its 52-week high of 1415.7."
+      "rationale": "Posted a 2.64% gain, trading above its 120-day (1167.19) and 180-day (1166.0) averages with good liquidity.",
+      "risk": "Still below its 52-week high"
     },
     {
       "symbol": "SHIVM",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Posted a 2.18% gain, closing above its 120-day (657.57) and 180-day (648.04) averages on high volume.",
-      "risk": "Price is approaching its 52-week high."
-    },
-    {
-      "symbol": "LSL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Showed a 1.67% increase, trading above its 120-day (221.36) and 180-day (219.67) averages with considerable turnover.",
-      "risk": "Price is near its 52-week high."
+      "rationale": "Showed a 2.18% increase, trading above its 120-day (657.57) and 180-day (648.04) averages with substantial turnover.",
+      "risk": "Approaching 52-week high"
     },
     {
       "symbol": "KDL",
-      "action": "WATCH",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "A 2.49% gain today, closing near its 52-week low (610.0) and showing signs of a potential bounce from oversold levels.",
-      "risk": "Still trading significantly below its 120-day (788.41) and 180-day (815.32) averages."
+      "rationale": "Gained 2.49% and shows a 'value_bounce' signal, trading near its 52-week low (610.0) but still below its 120-day (788.41) average.",
+      "risk": "Below longer-term averages"
     },
     {
-      "symbol": "HRL",
+      "symbol": "LSL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Gained 0.79% but remains well below its 120-day (618.87) and 180-day (698.47) averages, suggesting a potential value play if it can sustain upward movement.",
-      "risk": "Significant underperformance relative to longer-term averages."
+      "rationale": "Showed a 1.67% gain and has strong liquidity, trading near its 52-week high (253.9), but momentum signals are less compelling than others.",
+      "risk": "Extended gains, near 52w high"
+    },
+    {
+      "symbol": "NBL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Slightly up 0.17% with good liquidity, trading above its 120-day (270.93) and 180-day (264.16) averages, but lacks strong recent momentum.",
+      "risk": "Lack of significant price momentum"
     }
   ],
-  "outlook": "Watch for continued strength in the broader market and confirmation of upward trends in the recommended stocks.",
+  "outlook": "Watch for continued strength in the index and for any follow-through in today's top performers, while monitoring the broader market breadth.",
   "date": "2026-09-24",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
