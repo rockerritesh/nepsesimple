@@ -1,64 +1,71 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.44%, closing at 2629.81 with significant turnover. Breadth appears mixed as top gainers showed strength but notable losers also emerged.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.44% on a healthy turnover of over 5.44 billion NPR. Breadth appears positive with several gainers among the top movers.",
   "recommendations": [
     {
       "symbol": "SONA",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Experienced a strong 7.65% day-on-day gain on high turnover, moving towards its 52-week high of 510.0 from a low of 380.0.",
-      "risk": "Potential for profit-taking after sharp rise."
+      "rationale": "Posted a strong 7.65% gain on high turnover, surpassing its 120-day average (425.14) and approaching its 52-week high (510.0).",
+      "risk": "Potential for short-term profit-taking."
     },
     {
       "symbol": "GCIL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Posted a solid 7.07% gain on good volume, currently trading at 401.3, well within its 52-week range of 315.5 to 489.9.",
+      "rationale": "Showed a significant 7.07% increase on good volume, trading above its 120-day (386.79) and 180-day (400.93) averages, with room to its 52-week high (489.9).",
       "risk": "May face resistance near its 52-week high."
     },
     {
       "symbol": "CYCL",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Showed a significant 6.47% increase on decent turnover, with its current price of 1630.0 approaching its 52-week high of 1768.4.",
-      "risk": "Extended from its 52-week low of 1216.0."
+      "conviction": "medium",
+      "rationale": "Experienced a notable 6.47% jump on substantial turnover, trading above its 120-day (1458.08) and 180-day (1499.48) averages, with its 52-week high (1768.4) in sight.",
+      "risk": "High LTP and potential for overextension."
     },
     {
       "symbol": "HDL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Gained 2.64% on substantial turnover, trading at 1312.0, which is above its 120-day average of 1167.19 and within its 52-week range (1097.6-1415.7).",
+      "rationale": "Up 2.64% on significant turnover, trading above its 120-day (1167.19) and 180-day (1166.0) averages, with its 52-week high (1415.7) as a target.",
       "risk": "Still below its 52-week high."
     },
     {
       "symbol": "SHIVM",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Up 2.18% on high volume, currently at 702.0, comfortably above its 120-day average of 657.57 and within its 52-week range (546.6-730.0).",
-      "risk": "Approaching 52-week high, potential for resistance."
+      "rationale": "Gained 2.18% on high volume, trading above its 120-day (657.57) and 180-day (648.04) averages, with upside towards its 52-week high (730.0).",
+      "risk": "Slightly extended from its 120-day average."
     },
     {
       "symbol": "KDL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Showed a 2.49% gain on moderate turnover, trading at 629.8, near its 52-week low of 610.0 and showing signs of a value bounce.",
-      "risk": "52-week high is significantly higher at 1185.0."
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showed a 2.49% gain on moderate turnover, trading below its 120-day (788.41) and 180-day (815.32) averages, but near its 52-week low (610.0).",
+      "risk": "Still significantly below its historical averages and 52-week high."
     },
     {
       "symbol": "LSL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Rose 1.67% on high turnover, trading at 250.0 near its 52-week high of 253.9, indicating strong momentum but limited upside potential.",
-      "risk": "Extended, close to 52-week high."
+      "rationale": "Increased 1.67% on high turnover, trading above its 120-day (221.36) and 180-day (219.67) averages and nearing its 52-week high (253.9).",
+      "risk": "Close to its 52-week high, may face resistance."
     },
     {
-      "symbol": "HRL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Increased by 0.79% on low turnover, trading at 510.0, which is near its 52-week low of 485.0, suggesting a potential value bounce but lacking strong volume confirmation.",
-      "risk": "Low turnover and below long-term averages."
+      "symbol": "MSHL",
+      "action": "AVOID",
+      "conviction": "high",
+      "rationale": "Was the top loser, down 11.58% on significant volume, indicating strong selling pressure.",
+      "risk": "Continued downward trend."
+    },
+    {
+      "symbol": "DLBS",
+      "action": "AVOID",
+      "conviction": "high",
+      "rationale": "Experienced a sharp 10.19% decline on substantial volume, suggesting negative sentiment.",
+      "risk": "Significant price drop."
     }
   ],
-  "outlook": "Monitor if the NEPSE Index can hold gains above 2600 and if broader market participation improves in the next session.",
+  "outlook": "Watch for continued strength in indices and follow through on today's gainers, particularly SONA and GCIL.",
   "date": "2026-09-27",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
