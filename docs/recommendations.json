@@ -1,71 +1,64 @@
 {
-  "market_summary": "The NEPSE Index closed down 0.62% on declining volume, with all primary indices in the red. Breadth was negative, as indicated by the majority of stocks likely trading lower.",
+  "market_summary": "The NEPSE Index saw a decline of 0.62%, closing at 2613.33 with significant turnover, indicating selling pressure. Breadth appears weak as major indices trended downwards.",
   "recommendations": [
     {
       "symbol": "LSD92",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Experienced a significant 10.0% price jump on high turnover, approaching its 52-week high of 1112.0. The quant score of 1.605 and 'value_bounce' signal suggest potential upside.",
+      "rationale": "This stock experienced a strong 10.0% daily gain, reaching 1100.0, and its current price is near its 52-week high of 1112.0, with substantial turnover of 90.8M.",
       "risk": "Potential for profit-taking after a sharp rise."
     },
     {
       "symbol": "SBL",
-      "action": "BUY",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Price is up 0.2% and trading just below its 52-week high of 460.0, with good liquidity and a quant score of 1.645 indicating positive momentum.",
-      "risk": "Slightly extended near the 52-week high."
+      "rationale": "Trading at 457.7, slightly below its 52-week high of 460.0, with a positive daily change of 0.2% and solid turnover of 123.8M. Its 120-day average is 403.01.",
+      "risk": "Price approaching 52-week resistance."
     },
     {
       "symbol": "LSL",
-      "action": "BUY",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Showed a 0.36% gain, trading near its 52-week high of 254.7 with strong liquidity and a quant score of 1.619, suggesting continued momentum.",
+      "rationale": "Currently at 250.9, just below its 52-week high of 254.7, with a 0.36% daily increase and turnover of 96.3M. The 120-day average is 221.6.",
       "risk": "Close to its 52-week high, could face resistance."
     },
     {
       "symbol": "HDL",
-      "action": "BUY",
+      "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Price increased 0.84% on substantial turnover, with a quant score of 1.585 and 'momentum' signal, while staying within its 52-week range (1097.6 - 1415.7).",
-      "risk": "Trading in the mid-range of its 52-week channel."
-    },
-    {
-      "symbol": "NBL",
-      "action": "BUY",
-      "conviction": "low",
-      "rationale": "Up 0.68% on good turnover, with a quant score of 1.554 and momentum signal, and trading within its 52-week range (235.0 - 302.9).",
-      "risk": "Not yet challenging its 52-week high."
-    },
-    {
-      "symbol": "GBBL",
-      "action": "BUY",
-      "conviction": "low",
-      "rationale": "Posted a 0.66% gain on decent turnover, with a quant score of 1.533 and momentum signal, trading near its 52-week high of 460.0.",
-      "risk": "Price is close to its 52-week high, potential resistance."
+      "rationale": "Shows a 0.84% gain to 1323.0, with significant turnover (358.2M) and trading within its 52-week range (1097.6 to 1415.7). Its 120-day average is 1168.34.",
+      "risk": "Still below its 52-week high."
     },
     {
       "symbol": "PCBL",
-      "action": "BUY",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "A 1.17% increase on good volume with a quant score of 1.505 and momentum signal, trading within its 52-week range (225.0 - 275.9).",
-      "risk": "Still some distance from its 52-week high."
+      "rationale": "Up 1.17% to 260.0, with a turnover of 109.1M and its 120-day average at 240.66. It's trading below its 52-week high of 275.9.",
+      "risk": "Volume is high, but price is still some distance from its 52-week peak."
+    },
+    {
+      "symbol": "NBL",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Trading at 294.0 with a 0.68% daily gain and turnover of 95.4M. The 120-day average is 271.06, and it's below its 52-week high of 302.9.",
+      "risk": "Momentum may be slowing as it approaches resistance."
     },
     {
       "symbol": "CHCL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a 0.37% gain but its price is significantly below its 52-week high (525.0) and 120-day average (465.72), with a quant score of 1.408 and 'value_bounce' signal.",
-      "risk": "Price is well below its moving averages and 52-week high."
+      "rationale": "Showed a 0.37% increase to 353.3 on moderate turnover (25.8M), but its 120-day average is significantly higher at 465.72.",
+      "risk": "Price is well below its 120-day average, indicating potential fundamental weakness or a long recovery path."
     },
     {
       "symbol": "AHPC",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Price rose 0.79% with decent volume, but it's trading below its 120-day (271.89) and 180-day (275.0) averages, despite a quant score of 1.229 and 'value_bounce' signal.",
-      "risk": "Below key moving averages."
+      "rationale": "Posted a 0.79% gain to 269.0 with turnover of 47.9M, but its 120-day average is 271.89, suggesting it's struggling to break above recent averages.",
+      "risk": "Stuck near its 120-day average, lacking strong upward momentum."
     }
   ],
-  "outlook": "Watch for a potential bounce or continuation of the downtrend in the NEPSE Index, with focus on broader market participation and turnover.",
+  "outlook": "Watch for follow-through buying on strong movers and any signs of stabilization in the broader market indices.",
   "date": "2026-09-28",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
