@@ -1,177 +1,177 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "primary": [
     {
       "name": "NEPSE Index",
-      "open": 2611.39,
-      "high": 2629.94,
-      "low": 2605.32,
-      "current": 2629.81,
-      "points_change": 11.77,
-      "pct_change": 0.44,
-      "turnover": 5447313168.19
+      "open": 2632.92,
+      "high": 2638.28,
+      "low": 2605.31,
+      "current": 2613.33,
+      "points_change": -16.47,
+      "pct_change": -0.62,
+      "turnover": 5385785414.9
     },
     {
       "name": "Sensitive Index",
-      "open": 467.46,
-      "high": 469.2,
-      "low": 465.34,
-      "current": 469.01,
-      "points_change": 1.55,
-      "pct_change": 0.33,
-      "turnover": 2219221573.6
+      "open": 470.11,
+      "high": 471.33,
+      "low": 466.4,
+      "current": 467.67,
+      "points_change": -1.34,
+      "pct_change": -0.28,
+      "turnover": 2275987375.4
     },
     {
       "name": "Float Index",
-      "open": 179.82,
-      "high": 181.19,
-      "low": 179.46,
-      "current": 181.18,
-      "points_change": 0.79,
-      "pct_change": 0.43,
-      "turnover": 5216090156.6
+      "open": 181.33,
+      "high": 181.67,
+      "low": 179.63,
+      "current": 180.07,
+      "points_change": -1.11,
+      "pct_change": -0.61,
+      "turnover": 5108192976.8
     },
     {
       "name": "Sensitive Float Index",
-      "open": 157.8,
-      "high": 158.44,
-      "low": 157.05,
-      "current": 158.36,
-      "points_change": 0.55,
-      "pct_change": 0.35,
-      "turnover": 2219221573.6
+      "open": 158.49,
+      "high": 159.1,
+      "low": 157.44,
+      "current": 157.88,
+      "points_change": -0.48,
+      "pct_change": -0.3,
+      "turnover": 2275987375.4
     }
   ],
   "sub_indices": [
     {
       "name": "Banking SubIndex",
-      "open": 1497.87,
-      "high": 1507.36,
-      "low": 1490.86,
-      "current": 1504.77,
-      "points_change": 6.9,
-      "pct_change": 0.46,
-      "turnover": 730917037.2
+      "open": 1507.05,
+      "high": 1509.57,
+      "low": 1497.38,
+      "current": 1501.9,
+      "points_change": -2.87,
+      "pct_change": -0.19,
+      "turnover": 791586827.9
     },
     {
       "name": "Development Bank Index",
-      "open": 5438.97,
-      "high": 5452.76,
-      "low": 5418.14,
-      "current": 5444.56,
-      "points_change": 0.73,
-      "pct_change": 0.01,
-      "turnover": 238439864.0
+      "open": 5455.51,
+      "high": 5472.56,
+      "low": 5399.98,
+      "current": 5406.64,
+      "points_change": -37.92,
+      "pct_change": -0.69,
+      "turnover": 275984147.4
     },
     {
       "name": "Finance Index",
-      "open": 2230.87,
-      "high": 2233.33,
-      "low": 2210.07,
-      "current": 2233.28,
-      "points_change": 2.41,
-      "pct_change": 0.1,
-      "turnover": 145146196.2
+      "open": 2215.53,
+      "high": 2236.09,
+      "low": 2204.7,
+      "current": 2214.28,
+      "points_change": -19.0,
+      "pct_change": -0.85,
+      "turnover": 69983789.2
     },
     {
       "name": "Hotels And Tourism",
-      "open": 7161.86,
-      "high": 7192.84,
-      "low": 7116.53,
-      "current": 7171.19,
-      "points_change": 9.33,
-      "pct_change": 0.13,
-      "turnover": 123117195.3
+      "open": 7163.71,
+      "high": 7188.94,
+      "low": 7072.88,
+      "current": 7108.16,
+      "points_change": -63.03,
+      "pct_change": -0.87,
+      "turnover": 88847919.4
     },
     {
       "name": "HydroPower Index",
-      "open": 3574.59,
-      "high": 3604.09,
-      "low": 3570.28,
-      "current": 3603.41,
-      "points_change": 4.77,
-      "pct_change": 0.13,
-      "turnover": 1898422053.2
+      "open": 3600.77,
+      "high": 3607.04,
+      "low": 3549.02,
+      "current": 3566.23,
+      "points_change": -37.17,
+      "pct_change": -1.03,
+      "turnover": 1823276913.8
     },
     {
       "name": "Investment",
-      "open": 96.54,
-      "high": 97.86,
-      "low": 95.98,
-      "current": 96.65,
-      "points_change": 0.1,
-      "pct_change": 0.1,
-      "turnover": 262843153.7
+      "open": 96.75,
+      "high": 96.97,
+      "low": 95.28,
+      "current": 95.52,
+      "points_change": -1.12,
+      "pct_change": -1.16,
+      "turnover": 468176048.6
     },
     {
       "name": "Life Insurance",
-      "open": 11800.79,
-      "high": 11884.47,
-      "low": 11665.34,
-      "current": 11884.47,
-      "points_change": 83.68,
-      "pct_change": 0.7,
-      "turnover": 84034534.6
+      "open": 11868.92,
+      "high": 11953.8,
+      "low": 11760.52,
+      "current": 11786.04,
+      "points_change": -98.42,
+      "pct_change": -0.82,
+      "turnover": 138999298.3
     },
     {
       "name": "Manufacturing And Processing",
-      "open": 10638.15,
-      "high": 10853.13,
-      "low": 10612.57,
-      "current": 10833.44,
-      "points_change": 195.29,
-      "pct_change": 1.83,
-      "turnover": 1429705487.8
+      "open": 10913.84,
+      "high": 10967.57,
+      "low": 10748.38,
+      "current": 10800.6,
+      "points_change": -32.84,
+      "pct_change": -0.3,
+      "turnover": 1160414947.8
     },
     {
       "name": "Microfinance Index",
-      "open": 4530.62,
-      "high": 4558.7,
-      "low": 4498.24,
-      "current": 4558.7,
-      "points_change": 28.07,
-      "pct_change": 0.61,
-      "turnover": 210044345.6
+      "open": 4556.86,
+      "high": 4567.42,
+      "low": 4505.15,
+      "current": 4521.11,
+      "points_change": -37.58,
+      "pct_change": -0.82,
+      "turnover": 166916659.8
     },
     {
       "name": "Mutual Fund",
-      "open": 19.58,
-      "high": 19.67,
-      "low": 19.47,
-      "current": 19.67,
-      "points_change": 0.08,
-      "pct_change": 0.42,
-      "turnover": 46410490.2
+      "open": 19.7,
+      "high": 19.7,
+      "low": 19.44,
+      "current": 19.52,
+      "points_change": -0.14,
+      "pct_change": -0.75,
+      "turnover": 10149933.91
     },
     {
       "name": "Non Life Insurance",
-      "open": 9666.0,
-      "high": 9658.86,
-      "low": 9550.52,
-      "current": 9633.81,
-      "points_change": -32.19,
-      "pct_change": -0.33,
-      "turnover": 35959882.7
+      "open": 9633.81,
+      "high": 9663.81,
+      "low": 9517.39,
+      "current": 9517.39,
+      "points_change": -116.42,
+      "pct_change": -1.2,
+      "turnover": 41847327.2
     },
     {
       "name": "Others Index",
-      "open": 1829.74,
-      "high": 1851.23,
-      "low": 1807.59,
-      "current": 1830.6,
-      "points_change": 0.85,
-      "pct_change": 0.04,
-      "turnover": 50621733.3
+      "open": 1839.81,
+      "high": 1846.02,
+      "low": 1818.27,
+      "current": 1819.62,
+      "points_change": -10.97,
+      "pct_change": -0.59,
+      "turnover": 71281296.3
     },
     {
       "name": "Trading Index",
-      "open": 3238.56,
-      "high": 3271.47,
-      "low": 3233.12,
-      "current": 3270.07,
-      "points_change": 31.5,
-      "pct_change": 0.97,
-      "turnover": 6838673.0
+      "open": 3270.07,
+      "high": 3314.51,
+      "low": 3207.56,
+      "current": 3277.73,
+      "points_change": 7.66,
+      "pct_change": 0.23,
+      "turnover": 10877801.1
     }
   ]
 }

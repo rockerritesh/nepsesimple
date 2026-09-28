@@ -1,72 +1,72 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.44% on a healthy turnover of over 5.44 billion NPR. Breadth appears positive with several gainers among the top movers.",
+  "market_summary": "The NEPSE Index closed down 0.62% on declining volume, with all primary indices in the red. Breadth was negative, as indicated by the majority of stocks likely trading lower.",
   "recommendations": [
     {
-      "symbol": "SONA",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Posted a strong 7.65% gain on high turnover, surpassing its 120-day average (425.14) and approaching its 52-week high (510.0).",
-      "risk": "Potential for short-term profit-taking."
-    },
-    {
-      "symbol": "GCIL",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Showed a significant 7.07% increase on good volume, trading above its 120-day (386.79) and 180-day (400.93) averages, with room to its 52-week high (489.9).",
-      "risk": "May face resistance near its 52-week high."
-    },
-    {
-      "symbol": "CYCL",
+      "symbol": "LSD92",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Experienced a notable 6.47% jump on substantial turnover, trading above its 120-day (1458.08) and 180-day (1499.48) averages, with its 52-week high (1768.4) in sight.",
-      "risk": "High LTP and potential for overextension."
+      "rationale": "Experienced a significant 10.0% price jump on high turnover, approaching its 52-week high of 1112.0. The quant score of 1.605 and 'value_bounce' signal suggest potential upside.",
+      "risk": "Potential for profit-taking after a sharp rise."
     },
     {
-      "symbol": "HDL",
-      "action": "ACCUMULATE",
+      "symbol": "SBL",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Up 2.64% on significant turnover, trading above its 120-day (1167.19) and 180-day (1166.0) averages, with its 52-week high (1415.7) as a target.",
-      "risk": "Still below its 52-week high."
-    },
-    {
-      "symbol": "SHIVM",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Gained 2.18% on high volume, trading above its 120-day (657.57) and 180-day (648.04) averages, with upside towards its 52-week high (730.0).",
-      "risk": "Slightly extended from its 120-day average."
-    },
-    {
-      "symbol": "KDL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Showed a 2.49% gain on moderate turnover, trading below its 120-day (788.41) and 180-day (815.32) averages, but near its 52-week low (610.0).",
-      "risk": "Still significantly below its historical averages and 52-week high."
+      "rationale": "Price is up 0.2% and trading just below its 52-week high of 460.0, with good liquidity and a quant score of 1.645 indicating positive momentum.",
+      "risk": "Slightly extended near the 52-week high."
     },
     {
       "symbol": "LSL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Showed a 0.36% gain, trading near its 52-week high of 254.7 with strong liquidity and a quant score of 1.619, suggesting continued momentum.",
+      "risk": "Close to its 52-week high, could face resistance."
+    },
+    {
+      "symbol": "HDL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Price increased 0.84% on substantial turnover, with a quant score of 1.585 and 'momentum' signal, while staying within its 52-week range (1097.6 - 1415.7).",
+      "risk": "Trading in the mid-range of its 52-week channel."
+    },
+    {
+      "symbol": "NBL",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Up 0.68% on good turnover, with a quant score of 1.554 and momentum signal, and trading within its 52-week range (235.0 - 302.9).",
+      "risk": "Not yet challenging its 52-week high."
+    },
+    {
+      "symbol": "GBBL",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Posted a 0.66% gain on decent turnover, with a quant score of 1.533 and momentum signal, trading near its 52-week high of 460.0.",
+      "risk": "Price is close to its 52-week high, potential resistance."
+    },
+    {
+      "symbol": "PCBL",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "A 1.17% increase on good volume with a quant score of 1.505 and momentum signal, trading within its 52-week range (225.0 - 275.9).",
+      "risk": "Still some distance from its 52-week high."
+    },
+    {
+      "symbol": "CHCL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Increased 1.67% on high turnover, trading above its 120-day (221.36) and 180-day (219.67) averages and nearing its 52-week high (253.9).",
-      "risk": "Close to its 52-week high, may face resistance."
+      "rationale": "Showed a 0.37% gain but its price is significantly below its 52-week high (525.0) and 120-day average (465.72), with a quant score of 1.408 and 'value_bounce' signal.",
+      "risk": "Price is well below its moving averages and 52-week high."
     },
     {
-      "symbol": "MSHL",
-      "action": "AVOID",
-      "conviction": "high",
-      "rationale": "Was the top loser, down 11.58% on significant volume, indicating strong selling pressure.",
-      "risk": "Continued downward trend."
-    },
-    {
-      "symbol": "DLBS",
-      "action": "AVOID",
-      "conviction": "high",
-      "rationale": "Experienced a sharp 10.19% decline on substantial volume, suggesting negative sentiment.",
-      "risk": "Significant price drop."
+      "symbol": "AHPC",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Price rose 0.79% with decent volume, but it's trading below its 120-day (271.89) and 180-day (275.0) averages, despite a quant score of 1.229 and 'value_bounce' signal.",
+      "risk": "Below key moving averages."
     }
   ],
-  "outlook": "Watch for continued strength in indices and follow through on today's gainers, particularly SONA and GCIL.",
-  "date": "2026-09-27",
+  "outlook": "Watch for a potential bounce or continuation of the downtrend in the NEPSE Index, with focus on broader market participation and turnover.",
+  "date": "2026-09-28",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
