@@ -1,65 +1,79 @@
 {
-  "market_summary": "The NEPSE Index saw a decline of 0.62%, closing at 2613.33 with significant turnover, indicating selling pressure. Breadth appears weak as major indices trended downwards.",
+  "market_summary": "The NEPSE Index closed down 0.36% on 9.62 points, with a total turnover of NPR 4.65 billion. Market breadth was negative, with more stocks declining than advancing.",
   "recommendations": [
     {
-      "symbol": "LSD92",
+      "symbol": "HATHY",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "This stock experienced a strong 10.0% daily gain, reaching 1100.0, and its current price is near its 52-week high of 1112.0, with substantial turnover of 90.8M.",
-      "risk": "Potential for profit-taking after a sharp rise."
-    },
-    {
-      "symbol": "SBL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Trading at 457.7, slightly below its 52-week high of 460.0, with a positive daily change of 0.2% and solid turnover of 123.8M. Its 120-day average is 403.01.",
-      "risk": "Price approaching 52-week resistance."
+      "rationale": "Trading at NPR 419.0, it's 45.2% below its 52-week high of 1050.0, and shows a positive 3.46% day change on significant turnover.",
+      "risk": "Reversion to mean from 52-week low."
     },
     {
       "symbol": "LSL",
-      "action": "ACCUMULATE",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Currently at 250.9, just below its 52-week high of 254.7, with a 0.36% daily increase and turnover of 96.3M. The 120-day average is 221.6.",
-      "risk": "Close to its 52-week high, could face resistance."
+      "rationale": "Current price of NPR 252.2 is near its 52-week high of 254.7, with a 0.52% day change and strong liquidity, suggesting positive momentum.",
+      "risk": "Potential for overextension near 52-week high."
     },
     {
-      "symbol": "HDL",
-      "action": "ACCUMULATE",
+      "symbol": "LEC",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Shows a 0.84% gain to 1323.0, with significant turnover (358.2M) and trading within its 52-week range (1097.6 to 1415.7). Its 120-day average is 1168.34.",
-      "risk": "Still below its 52-week high."
+      "rationale": "Trading at NPR 247.6, it's 10.3% below its 52-week high of 276.0, with a 1.39% day change and good turnover, indicating upward momentum.",
+      "risk": "Pullback after a strong move."
     },
     {
-      "symbol": "PCBL",
+      "symbol": "GHL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "At NPR 253.0, it's 12.8% below its 52-week high of 290.0, with a 1.61% day change and substantial turnover, signaling positive momentum.",
+      "risk": "Approaching resistance at 52-week high."
+    },
+    {
+      "symbol": "TAMOR",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Up 1.17% to 260.0, with a turnover of 109.1M and its 120-day average at 240.66. It's trading below its 52-week high of 275.9.",
-      "risk": "Volume is high, but price is still some distance from its 52-week peak."
+      "rationale": "Price of NPR 533.9 is 4.7% below its 52-week high of 558.0, with a 0.39% day gain and solid turnover, showing resilience.",
+      "risk": "Slightly extended from 52-week high."
+    },
+    {
+      "symbol": "PHCL",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Trading at NPR 320.1, it's 21.0% below its 52-week high of 405.9, with a 0.16% day change and good volume, indicating steady accumulation.",
+      "risk": "Slow upward trend."
     },
     {
       "symbol": "NBL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Trading at 294.0 with a 0.68% daily gain and turnover of 95.4M. The 120-day average is 271.06, and it's below its 52-week high of 302.9.",
-      "risk": "Momentum may be slowing as it approaches resistance."
+      "rationale": "At NPR 295.0, it's 2.6% below its 52-week high of 302.9, with a 0.34% day gain and consistent turnover, suggesting continued interest.",
+      "risk": "Close to 52-week high, potential for profit-taking."
     },
     {
-      "symbol": "CHCL",
+      "symbol": "HRL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a 0.37% increase to 353.3 on moderate turnover (25.8M), but its 120-day average is significantly higher at 465.72.",
-      "risk": "Price is well below its 120-day average, indicating potential fundamental weakness or a long recovery path."
+      "rationale": "Price of NPR 501.0 is 46.2% below its 52-week high of 950.0, with a minor 0.14% day change and lower turnover, indicating a potential value bounce but lacking strong momentum.",
+      "risk": "Lack of strong buying interest."
     },
     {
-      "symbol": "AHPC",
+      "symbol": "SMHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Posted a 0.79% gain to 269.0 with turnover of 47.9M, but its 120-day average is 271.89, suggesting it's struggling to break above recent averages.",
-      "risk": "Stuck near its 120-day average, lacking strong upward momentum."
+      "rationale": "Trading at NPR 465.0, it's 48.2% below its 52-week high of 897.0, with a negligible 0.06% day change and low turnover, suggesting consolidation.",
+      "risk": "Very low daily volume."
+    },
+    {
+      "symbol": "CITY",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "At NPR 343.7, it's 41.8% below its 52-week high of 590.7, with a small 0.2% day gain and low turnover, indicating limited immediate buying pressure.",
+      "risk": "Struggling to gain traction."
     }
   ],
-  "outlook": "Watch for follow-through buying on strong movers and any signs of stabilization in the broader market indices.",
-  "date": "2026-09-28",
+  "outlook": "Watch for a sustained move above the 2610 level on the NEPSE Index with improving market breadth.",
+  "date": "2026-09-29",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
