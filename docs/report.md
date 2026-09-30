@@ -1,19 +1,19 @@
-# NEPSE Daily Brief — 2026-09-29
+# NEPSE Daily Brief — 2026-09-30
 
-**NEPSE Index**: 2603.71 (-9.62, -0.36%) · turnover 4,654,874,020
+**NEPSE Index**: 2598.89 (-4.82, -0.18%) · turnover 4,765,127,885
 
 ## Top Gainers
-- ICFCD83: 1056.0 (+9.18%)
-- SPHL: 535.0 (+6.79%)
-- SBID2090: 1122.7 (+6.42%)
-- SAPIL: 1290.0 (+6.29%)
-- SAGF: 9.78 (+3.82%)
+- SINDU: 444.9 (+14.37%)
+- SPHL: 580.0 (+8.41%)
+- GHL: 271.5 (+7.31%)
+- MKJC: 342.0 (+5.26%)
+- PHCL: 333.8 (+4.28%)
 
 ## Top Losers
-- MFILPO: 376.0 (-10.90%)
-- C30MF: 9.22 (-5.44%)
-- RMF2: 9.39 (-4.67%)
-- MMF1: 8.5 (-4.39%)
-- DLBS: 1100.4 (-4.23%)
+- MFILPO: 335.0 (-10.90%)
+- SAGF: 9.41 (-3.78%)
+- CKHL: 535.0 (-3.60%)
+- SOPL: 690.0 (-3.51%)
+- YMHL: 512.0 (-3.36%)
 
-_Auto-generated. NEPSE index forecast (next session): 2574.60. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2572.68. Not investment advice._

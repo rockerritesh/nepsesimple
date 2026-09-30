@@ -1,79 +1,65 @@
 {
-  "market_summary": "The NEPSE index saw a slight decline of 0.36% on a turnover of over 4.65 billion NPR. Breadth appears weak with the index closing below its opening and moving towards its low for the day.",
+  "market_summary": "The NEPSE Index saw a slight decline of 0.18%, closing at 2598.89, with a total turnover of over 4.76 billion. Breadth appears weak, with more losers than gainers among the top movers.",
   "recommendations": [
-    {
-      "symbol": "HATHY",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading at 419.0, it is below its 120-day (728.15) and 180-day (792.32) averages, suggesting potential value. It also shows strong liquidity with a turnover of 134M NPR.",
-      "risk": "Significant gap from 52-week high."
-    },
-    {
-      "symbol": "LSL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Currently at 252.2, it is above its 120-day (221.91) and 180-day (220.1) averages, indicating positive momentum. High liquidity with 474k volume.",
-      "risk": "Close to 52-week high, potential for retracement."
-    },
-    {
-      "symbol": "LEC",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading at 247.6, it shows positive momentum, being above its 120-day (225.43) and 180-day (224.44) averages. Good liquidity with 222k volume.",
-      "risk": "Still significantly below its 52-week high of 276.0."
-    },
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "At 253.0, it is above its 120-day (234.77) and 180-day (236.18) averages, indicating upward momentum. Turnover of 61M NPR suggests good trading interest.",
-      "risk": "Approaching 52-week high, could face resistance."
+      "rationale": "Showed strong upward momentum with a 7.31% gain today, trading above its 120-day (235.06) and 180-day (236.53) averages, and significant turnover.",
+      "risk": "Approaching 52-week high."
     },
     {
-      "symbol": "TAMOR",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading at 533.9, it has moved above its 120-day (460.08) and 180-day (454.53) averages, showing momentum. Turnover is solid at 83M NPR.",
-      "risk": "Slightly extended from recent averages."
-    },
-    {
-      "symbol": "NBL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "At 295.0, it is above its 120-day (271.28) and 180-day (264.77) averages, indicating momentum. Decent turnover of 49M NPR.",
-      "risk": "Close to its 52-week high of 302.9."
+      "symbol": "SPHL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Experienced a significant 8.41% price increase on high volume, trading above its 120-day (541.7) and 180-day (550.03) averages.",
+      "risk": "High volatility, trading significantly above VWAP."
     },
     {
       "symbol": "PHCL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Trading at 320.1, it is above its 120-day (305.68) and 180-day (301.77) averages, showing momentum. Good liquidity with 214k volume.",
-      "risk": "Below its 52-week high of 405.9."
+      "rationale": "Posted a solid 4.28% gain, trading above its 120-day (305.87) and 180-day (302.1) averages with good liquidity.",
+      "risk": "Still below its 52-week high."
     },
     {
-      "symbol": "SMHL",
-      "action": "WATCH",
+      "symbol": "LEC",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "At 465.0, it is slightly below its 120-day (493.11) and 180-day (503.8) averages, but shows 'value_bounce' signal. Turnover is low at 21M NPR.",
-      "risk": "Current price is below intermediate averages."
+      "rationale": "Showed positive momentum with a 2.1% increase, trading above its 120-day (225.58) and 180-day (224.76) averages.",
+      "risk": "Below 52-week high."
     },
     {
-      "symbol": "HRL",
-      "action": "WATCH",
+      "symbol": "LSL",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Trading at 501.0, it is below its 120-day (613.7) and 180-day (694.87) averages, but shows a 'value_bounce' signal. Low turnover at 30M NPR.",
-      "risk": "Significant distance from intermediate moving averages."
+      "rationale": "Maintained upward trend with a 0.52% gain, trading above its 120-day (222.24) and 180-day (220.32) averages.",
+      "risk": "Near 52-week high, potential resistance."
     },
     {
-      "symbol": "NIFRA",
+      "symbol": "GLH",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Demonstrated positive momentum with a 2.33% jump, trading above its 120-day (261.81) and 180-day (264.98) averages.",
+      "risk": "Still below 52-week high."
+    },
+    {
+      "symbol": "AHPC",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "At 252.0, it is slightly below its 120-day (255.25) and 180-day (259.96) averages, but shows a 'value_bounce' signal. Turnover of 29M NPR is moderate.",
-      "risk": "Consolidating below key moving averages."
+      "rationale": "Trading flat but showing signs of value bounce, currently below its 120-day (271.37) and 180-day (274.77) averages.",
+      "risk": "Lack of strong upward momentum."
+    },
+    {
+      "symbol": "MAKAR",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Slight gain of 0.71%, but trading below its 120-day (463.37) and 180-day (490.66) averages, indicating a potential value bounce.",
+      "risk": "Significant distance from moving averages."
     }
   ],
-  "outlook": "Watch for the NEPSE index to test support around 2588.28; a bounce from here would be positive, while a break lower could signal further downside.",
-  "date": "2026-09-29",
+  "outlook": "Watch for the NEPSE Index to hold above the 2590 level and for increased buying pressure to confirm market direction.",
+  "date": "2026-09-30",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
