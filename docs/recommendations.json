@@ -1,71 +1,71 @@
 {
-  "market_summary": "The market saw a marginal gain in the NEPSE Index, closing slightly up with modest turnover. Breadth appeared mixed, with a few top gainers showing significant upward movement while some others experienced declines.",
+  "market_summary": "The NEPSE saw a marginal gain of 0.01%, with a modest turnover of 4.89 billion NPR. Breadth appears weak as the index closed near its opening, despite positive movements in some float indices.",
   "recommendations": [
     {
       "symbol": "LSL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 258.0, LSL is slightly above its 120-day average of 222.66 and 180-day average of 220.58, with a positive day change of 1.78%. Its turnover of 129M is substantial, and the price is near its 52-week high of 260.0.",
-      "risk": "Proximity to 52-week high."
+      "rationale": "Trading 1.78% higher today on strong liquidity and momentum signals, with its current price (258.0) just below its 52-week high (260.0).",
+      "risk": "Approaching 52-week high"
     },
     {
       "symbol": "SBL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "SBL is trading at 459.9, above its 120-day (404.73) and 180-day (399.42) averages, with a positive day change of 0.99%. It shows strong liquidity with a turnover of 305M and is very close to its 52-week high of 460.1.",
-      "risk": "Extended from 52-week high."
-    },
-    {
-      "symbol": "GHL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "GHL is trading at 273.6, above its 120-day (235.44) and 180-day (236.9) averages, with a positive day change of 0.77%. Turnover is healthy at 185M, and the current price is within its 52-week range (197.1-290.0).",
-      "risk": "Approaching 52-week high."
+      "rationale": "Shows positive momentum with a 0.99% day change, trading near its 52-week high (460.1) at 459.9, supported by good liquidity.",
+      "risk": "Extended from 120-day average"
     },
     {
       "symbol": "PHCL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "PHCL shows a strong day change of 2.01% to 340.5, trading above its 120-day (306.27) and 180-day (302.49) averages. Its turnover is solid at 145M.",
-      "risk": "Below 52-week high but needs further upside."
+      "rationale": "Gained 2.01% today with strong liquidity and momentum, trading at 340.5, well within its 52-week range (249.7-405.9).",
+      "risk": "Below 120-day average"
     },
     {
       "symbol": "API",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "API is trading at 341.0 with a 1.79% day change, above its 120-day (338.88) and 180-day (330.16) averages. It has good liquidity with a turnover of 228M.",
-      "risk": "Price is close to 120-day average, not significantly extended."
+      "conviction": "medium",
+      "rationale": "Up 1.79% on good volume and momentum, price (341.0) is above its 120-day average (338.88) and within its 52-week range (269.0-370.0).",
+      "risk": "Slightly below 52-week high"
     },
     {
       "symbol": "HDHPC",
       "action": "BUY",
       "conviction": "low",
-      "rationale": "HDHPC gained 2.52% to 223.5, trading above its 120-day (217.06) and 180-day (213.72) averages. Turnover is decent at 108M.",
-      "risk": "Still below its 52-week high of 274.0."
+      "rationale": "Strong 2.52% gain on good liquidity and momentum, price (223.5) is above its 120-day average (217.06) and within its 52-week range (165.1-274.0).",
+      "risk": "Still below 52-week high"
+    },
+    {
+      "symbol": "GHL",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Trading 0.77% higher with good liquidity and momentum, price (273.6) is above its 120-day average (235.44) and nearing its 52-week high (290.0).",
+      "risk": "Approaching resistance"
     },
     {
       "symbol": "PCBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "PCBL is trading at 261.0 with a 1.08% day change, above its 120-day (241.12) and 180-day (242.48) averages. Turnover is moderate at 40M, and it's within its 52-week range (225.0-275.9).",
-      "risk": "Turnover is not as high as other candidates."
+      "rationale": "Shows positive momentum with a 1.08% day change, trading at 261.0, above its 120-day average (241.12) but still below its 52-week high (275.9).",
+      "risk": "Below 52-week high"
     },
     {
       "symbol": "AHPC",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "AHPC is trading at 255.0 with a 0.43% day change, slightly below its 120-day (271.24) and 180-day (274.67) averages. It shows potential for a value bounce but needs confirmation.",
-      "risk": "Currently trading below key moving averages."
+      "rationale": "Trading flat-ish (0.43% up) with low turnover, but showing a 'value bounce' signal, price (255.0) is below its 120-day average (271.24).",
+      "risk": "Below 120-day average"
     },
     {
       "symbol": "SMHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "SMHL is trading at 470.4 with a 0.94% day change, but it is below its 120-day (492.66) and 180-day (501.97) averages. The significant gap from its 52-week high (897.0) suggests a value bounce play, but needs more positive price action.",
-      "risk": "Significant distance from moving averages and 52-week high."
+      "rationale": "Trading 0.94% higher with a 'value bounce' signal, but price (470.4) is significantly below its 52-week high (897.0) and 120-day average (492.66).",
+      "risk": "Significantly below averages"
     }
   ],
-  "outlook": "Monitor if the NEPSE Index can hold above the 2600 level and if trading volumes increase to confirm upward momentum.",
+  "outlook": "Watch for sustained buying pressure on the NEPSE Index above 2600, with continued strength in fundamentally sound, liquid stocks.",
   "date": "2026-10-01",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
