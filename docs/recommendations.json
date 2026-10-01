@@ -1,65 +1,79 @@
 {
-  "market_summary": "The NEPSE Index closed down 0.18% with a turnover of over 4.76 billion NPR. Market breadth appears slightly negative as indices trended downwards.",
+  "market_summary": "The NEPSE Index saw a marginal increase of 0.26 points, with flat to slightly positive movement across indices. Turnover was robust at over 4.89 billion NRs. Breadth appears mixed with a notable number of gainers but also some significant losers.",
   "recommendations": [
+    {
+      "symbol": "LSL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Trading 1.78% higher at 258.0, it's just below its 52-week high of 260.0 and shows strong liquidity with a turnover of over 129 million NRs.",
+      "risk": "Approaching 52-week high"
+    },
+    {
+      "symbol": "SBL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Up 0.99% to 459.9, it's trading very close to its 52-week high of 460.1 with substantial turnover exceeding 305 million NRs.",
+      "risk": "Near 52-week high resistance"
+    },
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "The stock is up 7.31% today, trading above its 120-day (235.06) and 180-day (236.53) averages, with significant turnover of 394.89 million NPR.",
-      "risk": "Potential for profit-taking after a sharp rise."
-    },
-    {
-      "symbol": "SPHL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "A strong performer today, up 8.41%, with good liquidity and trading above its 120-day (541.7) and 180-day (550.03) averages.",
-      "risk": "Price is approaching its 52-week high (708.0)."
+      "rationale": "Gained 0.77% to 273.6, trading above its 120-day (235.44) and 180-day (236.9) averages, with significant turnover of over 185 million NRs.",
+      "risk": "Still below 52-week high"
     },
     {
       "symbol": "PHCL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showed a positive move of 4.28% on good turnover, trading above its 120-day (305.87) and 180-day (302.1) averages.",
-      "risk": "Still significantly below its 52-week high (405.9)."
+      "rationale": "Showed strong upside momentum, up 2.01% to 340.5, trading above its 120-day (306.27) and 180-day (302.49) averages with good turnover.",
+      "risk": "Potential profit-taking after gains"
     },
     {
-      "symbol": "LEC",
-      "action": "ACCUMULATE",
+      "symbol": "API",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Gained 2.1% today and is trading above its 120-day (225.58) and 180-day (224.76) averages, indicating positive momentum.",
-      "risk": "Price is below its 52-week high (276.0)."
+      "rationale": "Up 1.79% to 341.0, it's trading above its 120-day (338.88) and 180-day (330.16) averages with high liquidity and turnover.",
+      "risk": "Trading within a tight range"
     },
     {
-      "symbol": "LSL",
-      "action": "ACCUMULATE",
+      "symbol": "HDHPC",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Shows consistent upward momentum, up 0.52% today and trading above its 120-day (222.24) and 180-day (220.32) averages.",
-      "risk": "Trading near its 52-week high (254.7)."
+      "rationale": "Posted a solid 2.52% gain to 223.5, trading above its 120-day (217.06) and 180-day (213.72) averages with good turnover.",
+      "risk": "Still some distance from 52-week high"
     },
     {
-      "symbol": "GLH",
-      "action": "ACCUMULATE",
+      "symbol": "PCBL",
+      "action": "WATCH",
       "conviction": "low",
-      "rationale": "Up 2.33% today on decent volume, trading above its 120-day (261.81) and 180-day (264.98) averages.",
-      "risk": "Below its 52-week high (328.2)."
+      "rationale": "Trading 1.08% higher at 261.0, it's above its 120-day (241.12) and 180-day (242.48) averages but is below its 52-week high of 275.9.",
+      "risk": "Below 52-week high resistance"
     },
     {
       "symbol": "AHPC",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Slightly up 0.16% on low volume, trading below its 120-day (271.37) and 180-day (274.77) averages, suggesting a potential value bounce.",
-      "risk": "Lack of strong upward momentum and low turnover."
+      "rationale": "Slightly up 0.43% to 255.0, it's trading below its 120-day (271.24) and 180-day (274.67) averages, indicating potential value bounce.",
+      "risk": "Below key moving averages"
     },
     {
-      "symbol": "MAKAR",
+      "symbol": "SHIVM",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading up 0.71% but is significantly below its 120-day (463.37) and 180-day (490.66) averages, indicating it is in a recovery phase.",
-      "risk": "Still trading below key moving averages."
+      "rationale": "Trading flat at 685.0, it's above its 120-day (658.23) and 180-day (650.47) averages, showing consistent momentum but not a strong immediate buy signal.",
+      "risk": "Lack of strong upward momentum today"
+    },
+    {
+      "symbol": "SMHL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Down 0.94% to 470.4, it's below its 120-day (492.66) and 180-day (501.97) averages, showing a potential value bounce opportunity but needs confirmation.",
+      "risk": "Below key moving averages, recent dip"
     }
   ],
-  "outlook": "Watch for the NEPSE Index to hold above the 2590 support level in the next session.",
-  "date": "2026-09-30",
+  "outlook": "Watch for sustained buying pressure above the NEPSE Index's 2600 level and for any follow-through in today's leading gainers.",
+  "date": "2026-10-01",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
