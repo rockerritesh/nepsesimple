@@ -1,72 +1,79 @@
 {
-  "market_summary": "The NEPSE saw a marginal gain of 0.01%, with a modest turnover of 4.89 billion NPR. Breadth appears weak as the index closed near its opening, despite positive movements in some float indices.",
+  "market_summary": "The NEPSE Index declined by 0.45% on a turnover of NPR 4.29 billion, with the market showing weakness. Breadth was negative, as indicated by the decline in the primary indices.",
   "recommendations": [
     {
-      "symbol": "LSL",
+      "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading 1.78% higher today on strong liquidity and momentum signals, with its current price (258.0) just below its 52-week high (260.0).",
-      "risk": "Approaching 52-week high"
+      "rationale": "Trading at NPR 530.0, 14.2% above its 120-day average of 462.21 and showing positive momentum signals. Turnover was approximately NPR 67 million.",
+      "risk": "Approaching 52-week high."
     },
     {
-      "symbol": "SBL",
+      "symbol": "HDL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Shows positive momentum with a 0.99% day change, trading near its 52-week high (460.1) at 459.9, supported by good liquidity.",
-      "risk": "Extended from 120-day average"
+      "rationale": "Currently trading at NPR 1293.0, 10.3% above its 120-day average of 1172.75, with strong liquidity and momentum signals. Turnover was over NPR 132 million.",
+      "risk": "Slightly below 52-week high."
     },
     {
-      "symbol": "PHCL",
+      "symbol": "KBL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Gained 2.01% today with strong liquidity and momentum, trading at 340.5, well within its 52-week range (249.7-405.9).",
-      "risk": "Below 120-day average"
-    },
-    {
-      "symbol": "API",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Up 1.79% on good volume and momentum, price (341.0) is above its 120-day average (338.88) and within its 52-week range (269.0-370.0).",
-      "risk": "Slightly below 52-week high"
-    },
-    {
-      "symbol": "HDHPC",
-      "action": "BUY",
-      "conviction": "low",
-      "rationale": "Strong 2.52% gain on good liquidity and momentum, price (223.5) is above its 120-day average (217.06) and within its 52-week range (165.1-274.0).",
-      "risk": "Still below 52-week high"
-    },
-    {
-      "symbol": "GHL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading 0.77% higher with good liquidity and momentum, price (273.6) is above its 120-day average (235.44) and nearing its 52-week high (290.0).",
-      "risk": "Approaching resistance"
-    },
-    {
-      "symbol": "PCBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Shows positive momentum with a 1.08% day change, trading at 261.0, above its 120-day average (241.12) but still below its 52-week high (275.9).",
-      "risk": "Below 52-week high"
-    },
-    {
-      "symbol": "AHPC",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading flat-ish (0.43% up) with low turnover, but showing a 'value bounce' signal, price (255.0) is below its 120-day average (271.24).",
-      "risk": "Below 120-day average"
+      "rationale": "Trading at NPR 225.5, 3.6% above its 120-day average of 217.66, with good liquidity and momentum. Turnover exceeded NPR 118 million.",
+      "risk": "Further downside if market sentiment shifts."
     },
     {
       "symbol": "SMHL",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Showed a positive price change of 1.55% to NPR 477.7, indicating a potential value bounce from its 52-week low of 443.0. Turnover was around NPR 21.7 million.",
+      "risk": "Still significantly below its 120-day average of 492.44."
+    },
+    {
+      "symbol": "SANIMA",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Trading at NPR 366.0, 1.2% above its 120-day average of 361.57, with positive momentum and liquidity. Turnover was approximately NPR 31.7 million.",
+      "risk": "Limited upside potential in the short term."
+    },
+    {
+      "symbol": "CYCL",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Price increased by 1.25% to NPR 1544.0, trading above its 120-day average of 1456.45, with momentum and liquidity. Turnover was over NPR 40.6 million.",
+      "risk": "Near the upper end of its 52-week range."
+    },
+    {
+      "symbol": "CITY",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading 0.94% higher with a 'value bounce' signal, but price (470.4) is significantly below its 52-week high (897.0) and 120-day average (492.66).",
-      "risk": "Significantly below averages"
+      "rationale": "Trading at NPR 343.7, it is below its 120-day average of 390.8, but shows a value bounce signal. Turnover was approximately NPR 11.1 million.",
+      "risk": "Downtrending from its 52-week high."
+    },
+    {
+      "symbol": "NABIL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Price is relatively flat at NPR 528.7, slightly below its 120-day average of 538.1, with a value bounce signal. Turnover was over NPR 31.9 million.",
+      "risk": "Lack of strong upward momentum."
+    },
+    {
+      "symbol": "AKJCL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Turnover was strong at over NPR 148 million, but the price at NPR 356.0 is below its 120-day average of 369.85.",
+      "risk": "Bearish trend from its 52-week high."
+    },
+    {
+      "symbol": "GHL",
+      "action": "AVOID",
+      "conviction": "low",
+      "rationale": "Price declined by 1.68% to NPR 269.0, below its 120-day average of 235.65, indicating a potential continuation of the downtrend.",
+      "risk": "Negative price action and momentum."
     }
   ],
-  "outlook": "Watch for sustained buying pressure on the NEPSE Index above 2600, with continued strength in fundamentally sound, liquid stocks.",
-  "date": "2026-10-01",
+  "outlook": "Market participants will watch for a potential reversal or continuation of the current downtrend in the next trading session.",
+  "date": "2026-10-04",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
