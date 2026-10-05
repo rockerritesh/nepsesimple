@@ -1,64 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a decline of 0.79%, closing at 2566.76 with a significant turnover of over 3.27 billion. Market breadth appeared weak with a majority of scrips likely trading in the red.",
+  "market_summary": "The NEPSE Index closed down 0.79% on increased turnover, indicating selling pressure across the market. Breadth was weak with most sectors experiencing declines.",
   "recommendations": [
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 275.0, it's up 2.23% today and above its 120-day average of 235.93, showing strong momentum with high liquidity.",
-      "risk": "Potential for profit-taking from recent gains."
-    },
-    {
-      "symbol": "MBJC",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showed positive momentum with a 0.51% gain to 296.5, trading above its 120-day average of 280.41 and exhibiting good liquidity.",
-      "risk": "May face resistance near its 52-week high of 333.0."
-    },
-    {
-      "symbol": "MBL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Posted a 1.2% gain to 253.0, trading above its 120-day average of 250.52 with solid liquidity and positive momentum signals.",
-      "risk": "Close to its 52-week high, could see increased selling pressure."
+      "rationale": "Trading above its VWAP at 275.0 vs 273.91 and showing positive momentum with a quant score of 1.712, suggesting potential upside.",
+      "risk": "Pullback to VWAP or 52-week low"
     },
     {
       "symbol": "SHINE",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading at 398.0, up 1.04% today, it's near its 52-week low (384.0) and shows value bounce signals, but is below its 120-day average (410.72).",
-      "risk": "Still trading below its longer-term average, indicating potential for further downside."
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Trading near its 52-week low of 384.0 at 398.0, with a quant score of 1.382, indicating a potential value bounce opportunity.",
+      "risk": "Failure to hold above 52-week low"
+    },
+    {
+      "symbol": "MBJC",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Showing positive momentum, trading at 296.5 above its 120-day average of 280.41, supported by a quant score of 1.298.",
+      "risk": "Reversal from current levels"
+    },
+    {
+      "symbol": "MBL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Trading above its 120-day average of 250.52 at 253.0 with positive momentum signals and a quant score of 1.271.",
+      "risk": "Break below 250-day average"
     },
     {
       "symbol": "HATHY",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Despite a 4.07% decline to 422.1, it has substantial liquidity and is trading significantly above its 52-week low of 385.0, but well below its 120-day average of 713.38.",
-      "risk": "Significant underperformance relative to its 120-day average."
+      "rationale": "Price at 422.1 is significantly below its 120-day average of 713.38 and 180-day average of 782.19, suggesting it might be oversold but needs confirmation.",
+      "risk": "Continued downtrend"
     },
     {
       "symbol": "PHCL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 329.9, down 0.63%, it's above its 120-day average (306.65) and shows good liquidity, but the overall market trend is negative.",
-      "risk": "Market weakness could pull it down despite positive metrics."
+      "rationale": "Trading at 329.9, slightly below its 120-day average of 306.65, but showing a significant drop from its 52-week high of 405.9.",
+      "risk": "Further downside if support fails"
     },
     {
       "symbol": "SHIVM",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Down 1.32% to 672.0, it's trading above its 120-day average (658.41) with good liquidity, but the daily move is negative.",
-      "risk": "Slightly below its 52-week high, could face resistance."
+      "rationale": "Current price of 672.0 is above its 120-day average of 658.41, but the negative day change and proximity to 52-week high warrants caution.",
+      "risk": "Rejection from resistance"
     },
     {
       "symbol": "SOHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Down 0.65% to 616.0, it has good liquidity but is trading below its 120-day average of 662.24 and has a large gap from its 52-week high.",
-      "risk": "Weakness relative to its longer-term average and 52-week high."
+      "rationale": "Trading at 616.0, below its 120-day average of 662.24, and showing a negative day change, indicating potential weakness.",
+      "risk": "Break below current support"
     }
   ],
-  "outlook": "Watch for a potential reversal or continuation of the current downtrend in the next trading session, with a focus on index support levels.",
+  "outlook": "Watch for a potential bounce or continued weakness in the NEPSE index, paying attention to support and resistance levels.",
   "date": "2026-10-05",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
