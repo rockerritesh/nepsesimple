@@ -1,79 +1,65 @@
 {
-  "market_summary": "The NEPSE Index declined by 0.45% today, with a notable turnover of over 4.29 billion. Market breadth appears weak as the index closed lower.",
+  "market_summary": "The NEPSE Index saw a decline of 0.79%, closing at 2566.76 with a significant turnover of over 3.27 billion. Market breadth appeared weak with a majority of scrips likely trading in the red.",
   "recommendations": [
     {
-      "symbol": "TAMOR",
+      "symbol": "GHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 530.0, it is up 0.63% today and has a strong quant score of 1.586, supported by liquidity and momentum signals. It is trading below its 52-week high of 558.0.",
-      "risk": "Potential for profit-taking near 52-week high."
-    },
-    {
-      "symbol": "HDL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "With a quant score of 1.483 and strong liquidity/momentum signals, HDL is trading at 1293.0, up 0.54% today. It is currently below its 52-week high of 1415.7.",
-      "risk": "Price is approaching its 120-day average (1172.75)."
-    },
-    {
-      "symbol": "KBL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showing positive momentum and liquidity, KBL has a quant score of 1.439. It traded up 0.22% today to 225.5, well within its 52-week range (176.0-256.0).",
-      "risk": "Still below its 120-day average (217.66)."
-    },
-    {
-      "symbol": "SMHL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Despite a 1.55% gain today to 477.7, SMHL has a quant score of 1.407 and signals for liquidity and value bounce. It is significantly below its 52-week high of 897.0.",
-      "risk": "Trading below its 120-day (492.44) and 180-day (501.26) averages."
-    },
-    {
-      "symbol": "SANIMA",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Up 0.83% to 366.0 with good liquidity and momentum signals, SANIMA has a quant score of 1.344. It is trading below its 52-week high of 390.6.",
-      "risk": "Price is close to its 120-day average (361.57)."
-    },
-    {
-      "symbol": "CYCL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Showing momentum and liquidity with a quant score of 1.294, CYCL gained 1.25% to 1544.0. However, it's trading below its 120-day average (1456.45) and 180-day average (1498.4).",
-      "risk": "Price is still below key moving averages."
+      "rationale": "Trading at 275.0, it's up 2.23% today and above its 120-day average of 235.93, showing strong momentum with high liquidity.",
+      "risk": "Potential for profit-taking from recent gains."
     },
     {
       "symbol": "MBJC",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "With a quant score of 1.25 and momentum signals, MBJC is trading at 295.0, up 0.44%. It is below its 120-day average (280.36) and 180-day average (285.25).",
-      "risk": "Price is below key moving averages."
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Showed positive momentum with a 0.51% gain to 296.5, trading above its 120-day average of 280.41 and exhibiting good liquidity.",
+      "risk": "May face resistance near its 52-week high of 333.0."
     },
     {
-      "symbol": "HPPL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading at 380.9, up 0.26% with liquidity and momentum, HPPL has a quant score of 1.153. It is trading below its 180-day average (406.62).",
-      "risk": "Price is below its 180-day average."
+      "symbol": "MBL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Posted a 1.2% gain to 253.0, trading above its 120-day average of 250.52 with solid liquidity and positive momentum signals.",
+      "risk": "Close to its 52-week high, could see increased selling pressure."
     },
     {
-      "symbol": "NABIL",
+      "symbol": "SHINE",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "NABIL is trading at 528.7, up slightly by 0.04%, with a quant score of 1.145 and value bounce signal. It is trading below its 120-day average (538.1).",
-      "risk": "Price is below its 120-day average."
+      "rationale": "Trading at 398.0, up 1.04% today, it's near its 52-week low (384.0) and shows value bounce signals, but is below its 120-day average (410.72).",
+      "risk": "Still trading below its longer-term average, indicating potential for further downside."
     },
     {
-      "symbol": "AKJCL",
-      "action": "AVOID",
+      "symbol": "HATHY",
+      "action": "WATCH",
       "conviction": "low",
-      "rationale": "Despite a 0.65% gain to 356.0, AKJCL's quant score is 0.992 and it is trading significantly below its 120-day (369.85) and 180-day (354.08) averages, indicating weakness.",
-      "risk": "Trading below key moving averages."
+      "rationale": "Despite a 4.07% decline to 422.1, it has substantial liquidity and is trading significantly above its 52-week low of 385.0, but well below its 120-day average of 713.38.",
+      "risk": "Significant underperformance relative to its 120-day average."
+    },
+    {
+      "symbol": "PHCL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at 329.9, down 0.63%, it's above its 120-day average (306.65) and shows good liquidity, but the overall market trend is negative.",
+      "risk": "Market weakness could pull it down despite positive metrics."
+    },
+    {
+      "symbol": "SHIVM",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Down 1.32% to 672.0, it's trading above its 120-day average (658.41) with good liquidity, but the daily move is negative.",
+      "risk": "Slightly below its 52-week high, could face resistance."
+    },
+    {
+      "symbol": "SOHL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Down 0.65% to 616.0, it has good liquidity but is trading below its 120-day average of 662.24 and has a large gap from its 52-week high.",
+      "risk": "Weakness relative to its longer-term average and 52-week high."
     }
   ],
-  "outlook": "Watch for a potential rebound or continuation of the downtrend in the NEPSE Index in the next session.",
-  "date": "2026-10-04",
+  "outlook": "Watch for a potential reversal or continuation of the current downtrend in the next trading session, with a focus on index support levels.",
+  "date": "2026-10-05",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }

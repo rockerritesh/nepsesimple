@@ -1,192 +1,186 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "nepse_index_forecast": {
-    "next_value": 2568.89,
-    "trend_slope": -1.8632,
+    "next_value": 2566.18,
+    "trend_slope": -1.887,
     "method": "linear regression on merolagani index history"
   },
   "alpha_candidates": [
     {
-      "symbol": "TAMOR",
-      "combined_score": 1.586,
+      "symbol": "GHL",
+      "combined_score": 1.712,
       "signal_types": [
         "liquidity",
         "momentum"
       ]
     },
     {
-      "symbol": "HDL",
-      "combined_score": 1.483,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "KBL",
-      "combined_score": 1.439,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "SMHL",
-      "combined_score": 1.407,
+      "symbol": "SHINE",
+      "combined_score": 1.382,
       "signal_types": [
         "liquidity",
         "value_bounce"
-      ]
-    },
-    {
-      "symbol": "CITY",
-      "combined_score": 1.362,
-      "signal_types": [
-        "liquidity",
-        "value_bounce"
-      ]
-    },
-    {
-      "symbol": "SANIMA",
-      "combined_score": 1.344,
-      "signal_types": [
-        "liquidity",
-        "momentum"
-      ]
-    },
-    {
-      "symbol": "CYCL",
-      "combined_score": 1.294,
-      "signal_types": [
-        "liquidity",
-        "momentum"
       ]
     },
     {
       "symbol": "MBJC",
-      "combined_score": 1.25,
+      "combined_score": 1.298,
       "signal_types": [
         "liquidity",
         "momentum"
       ]
     },
     {
-      "symbol": "HPPL",
-      "combined_score": 1.153,
+      "symbol": "MBL",
+      "combined_score": 1.271,
       "signal_types": [
         "liquidity",
         "momentum"
       ]
     },
     {
-      "symbol": "NABIL",
-      "combined_score": 1.145,
-      "signal_types": [
-        "liquidity",
-        "value_bounce"
-      ]
-    },
-    {
-      "symbol": "AKJCL",
-      "combined_score": 0.992,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "GHL",
-      "combined_score": 0.992,
+      "symbol": "HATHY",
+      "combined_score": 0.993,
       "signal_types": [
         "liquidity"
       ]
     },
     {
       "symbol": "PHCL",
-      "combined_score": 0.983,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "HATHY",
-      "combined_score": 0.982,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "LEC",
-      "combined_score": 0.982,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "API",
-      "combined_score": 0.97,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "SBL",
-      "combined_score": 0.967,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "LSL",
-      "combined_score": 0.964,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "HDHPC",
-      "combined_score": 0.957,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "SOHL",
-      "combined_score": 0.95,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "RIDI",
-      "combined_score": 0.947,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "BHCL",
-      "combined_score": 0.943,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "RSML",
-      "combined_score": 0.941,
-      "signal_types": [
-        "liquidity"
-      ]
-    },
-    {
-      "symbol": "SONA",
-      "combined_score": 0.937,
+      "combined_score": 0.987,
       "signal_types": [
         "liquidity"
       ]
     },
     {
       "symbol": "SHIVM",
-      "combined_score": 0.93,
+      "combined_score": 0.976,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "SOHL",
+      "combined_score": 0.975,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "AKJCL",
+      "combined_score": 0.963,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "RIDI",
+      "combined_score": 0.963,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "KBL",
+      "combined_score": 0.962,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "API",
+      "combined_score": 0.955,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "HDHPC",
+      "combined_score": 0.955,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "LEC",
+      "combined_score": 0.955,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "SBL",
+      "combined_score": 0.953,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "CHCL",
+      "combined_score": 0.952,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "HDL",
+      "combined_score": 0.952,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "SONA",
+      "combined_score": 0.943,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "LSL",
+      "combined_score": 0.941,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "GBIME",
+      "combined_score": 0.936,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "SYPNL",
+      "combined_score": 0.932,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "TAMOR",
+      "combined_score": 0.931,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "PRVU",
+      "combined_score": 0.924,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "HLI",
+      "combined_score": 0.92,
+      "signal_types": [
+        "liquidity"
+      ]
+    },
+    {
+      "symbol": "SGHL",
+      "combined_score": 0.92,
       "signal_types": [
         "liquidity"
       ]
