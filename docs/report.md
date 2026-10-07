@@ -1,19 +1,19 @@
-# NEPSE Daily Brief — 2026-10-06
+# NEPSE Daily Brief — 2026-10-07
 
-**NEPSE Index**: 2578.73 (+11.96, +0.46%) · turnover 3,138,119,528
+**NEPSE Index**: 2572.34 (-6.38, -0.24%) · turnover 3,748,080,303
 
 ## Top Gainers
-- TVCL: 288.0 (+5.11%)
-- SABBL: 840.5 (+3.77%)
-- HATHY: 437.5 (+3.65%)
-- BPCL: 667.0 (+3.57%)
-- LEC: 251.5 (+3.50%)
+- GHL: 294.9 (+5.85%)
+- NICBF: 9.26 (+5.83%)
+- IHL: 324.0 (+4.85%)
+- ICFCD88: 1205.0 (+4.78%)
+- TAMOR: 549.9 (+3.66%)
 
 ## Top Losers
-- SAPIL: 1136.0 (-4.94%)
-- NIBLGF: 8.6 (-4.44%)
-- RBCLPO: 11168.7 (-3.00%)
-- CKHL: 508.3 (-3.00%)
-- NBLD85: 1047.7 (-2.98%)
+- GBIMESY2: 9.0 (-5.26%)
+- SBLD89: 1300.0 (-4.41%)
+- MMF1: 8.33 (-4.36%)
+- SKHEL: 742.0 (-3.64%)
+- YMHL: 480.0 (-3.42%)
 
-_Auto-generated. NEPSE index forecast (next session): 2564.61. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2563.66. Not investment advice._
