@@ -1,78 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.08% on light turnover, with the breadth appearing mixed as indicated by the slight upward movement in indices. The overall market sentiment remains cautious.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.08%, with a total turnover of over NPR 3.93 billion. Market breadth appeared mixed, with a slight upward bias but no strong conviction.",
   "recommendations": [
     {
       "symbol": "HDHPC",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading 2.38% higher today above its VWAP and showing strong liquidity signals. Its current price is well within its 52-week range and above its 120-day and 180-day averages.",
-      "risk": "Potential for profit-taking."
+      "rationale": "Trading at 228.3, it's above its 120-day (216.73) and 180-day (215.01) averages, with strong turnover (192M) and positive 'liquidity' and 'momentum' signals.",
+      "risk": "Potential for profit-taking from recent gains."
     },
     {
       "symbol": "SONA",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showed a strong 3.61% gain today with significant turnover, exceeding its VWAP. It has momentum signals and is trading above its 120-day and 180-day averages.",
-      "risk": "Could be nearing its 52-week high."
-    },
-    {
-      "symbol": "BHL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Gained 2.72% today on good volume, trading above its VWAP and showing momentum. The price is comfortably above its 120-day and 180-day moving averages.",
-      "risk": "Slightly extended from recent lows."
-    },
-    {
-      "symbol": "SPDL",
-      "action": "BUY",
-      "conviction": "low",
-      "rationale": "Positive 2.61% move today with decent turnover, trading above its VWAP and showing value bounce signals. It is above its 120-day and 180-day averages.",
-      "risk": "Price is closer to the upper end of its 52-week range."
-    },
-    {
-      "symbol": "SHIVM",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "A 1.59% increase today on solid turnover, trading above its VWAP with momentum signals. It remains above its 120-day and 180-day averages.",
-      "risk": "Trading below its 52-week high."
-    },
-    {
-      "symbol": "SANIMA",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Posted a 1.0% gain today with good liquidity and momentum signals, trading above its VWAP and 120/180-day averages.",
-      "risk": "Price is approaching its 52-week high."
+      "rationale": "Showed a strong 3.61% increase to 430.0, surpassing its 120-day (423.04) and 180-day (429.81) averages on high turnover (119M).",
+      "risk": "May be approaching its 52-week high (510.0)."
     },
     {
       "symbol": "HDL",
-      "action": "ACCUMULATE",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Closed at 1274.0, up 1.01%, and is trading above its 120-day (1176.07) and 180-day (1172.91) averages with significant turnover (63M).",
+      "risk": "Closer to its 52-week high (1415.7) than its low (1097.6)."
+    },
+    {
+      "symbol": "KBL",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "A 1.01% gain on good turnover, showing momentum and trading above its VWAP and longer-term averages.",
-      "risk": "Price is within the upper half of its 52-week range."
+      "rationale": "Trading at 227.8, it's above its 120-day (217.58) and 180-day (212.38) averages, with notable turnover (88M) and positive momentum.",
+      "risk": "Price is still below its 52-week high (256.0)."
+    },
+    {
+      "symbol": "SHIVM",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Gained 1.59% to 681.7, trading above its 120-day (658.05) and 180-day (652.65) averages with good liquidity and momentum signals.",
+      "risk": "Price is trading in the upper half of its 52-week range."
     },
     {
       "symbol": "AHPC",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a 1.11% gain today, but its current price is below its 120-day and 180-day averages, despite having liquidity and value bounce signals.",
-      "risk": "Below key moving averages."
+      "rationale": "Trading at 254.2, it's slightly below its 120-day (269.72) and 180-day (274.05) averages, showing a 'value_bounce' signal on decent turnover.",
+      "risk": "Still trading below key moving averages."
     },
     {
       "symbol": "NICA",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading slightly up by 0.16% today, it has value bounce signals but is trading below its 120-day and 180-day averages.",
-      "risk": "Below key moving averages and near 52-week low."
+      "rationale": "Closed at 309.5, a small gain, but is below its 120-day (335.21) and 180-day (339.79) averages, exhibiting a 'value_bounce' signal.",
+      "risk": "Price is near its 52-week low (302.9)."
     },
     {
-      "symbol": "KBL",
+      "symbol": "SPDL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "A 0.75% gain today with momentum signals, but its current price is only slightly above its 120-day and 180-day averages and below its 52-week high.",
-      "risk": "Limited upside potential from current levels."
+      "rationale": "Showed a 2.61% increase to 349.9, but it remains below its 120-day (379.27) and 180-day (390.52) averages, with a 'value_bounce' signal.",
+      "risk": "Significant distance from its 52-week high (474.0)."
     }
   ],
-  "outlook": "Watch for continued price action above the 2570 level on the NEPSE Index and for increased turnover to confirm buying interest.",
+  "outlook": "Watch for sustained buying pressure above key moving averages and continued strength in turnover for further upside.",
   "date": "2026-10-08",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
