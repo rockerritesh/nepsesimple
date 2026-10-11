@@ -1,65 +1,79 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.08%, with a total turnover of over NPR 3.93 billion. Market breadth appeared mixed, with a slight upward bias but no strong conviction.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.66%, closing at 2591.8, with turnover reaching over 4.83 billion. Breadth appears positive as multiple indices closed in the green, driven by strong performance in the sensitive and float indices.",
   "recommendations": [
     {
-      "symbol": "HDHPC",
+      "symbol": "LSL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 228.3, it's above its 120-day (216.73) and 180-day (215.01) averages, with strong turnover (192M) and positive 'liquidity' and 'momentum' signals.",
-      "risk": "Potential for profit-taking from recent gains."
-    },
-    {
-      "symbol": "SONA",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showed a strong 3.61% increase to 430.0, surpassing its 120-day (423.04) and 180-day (429.81) averages on high turnover (119M).",
-      "risk": "May be approaching its 52-week high (510.0)."
+      "rationale": "Trading 1.13% higher at 258.7, LSL is above its 120-day (224.59) and 180-day (222.01) averages, with significant turnover of 162.76 million.",
+      "risk": "Approaching 52-week high"
     },
     {
       "symbol": "HDL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Closed at 1274.0, up 1.01%, and is trading above its 120-day (1176.07) and 180-day (1172.91) averages with significant turnover (63M).",
-      "risk": "Closer to its 52-week high (1415.7) than its low (1097.6)."
+      "rationale": "Gained 2.04% to 1300.0, trading above its 120-day (1177.17) and 180-day (1173.78) averages with high turnover of 188.78 million.",
+      "risk": "Extended from recent lows"
     },
     {
       "symbol": "KBL",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "Trading at 227.8, it's above its 120-day (217.58) and 180-day (212.38) averages, with notable turnover (88M) and positive momentum.",
-      "risk": "Price is still below its 52-week high (256.0)."
+      "conviction": "medium",
+      "rationale": "Up 1.4% to 231.0, KBL is trading above its 120-day (217.6) and 180-day (212.67) averages and exhibits strong liquidity with over 913k volumes and 211 million turnover.",
+      "risk": "High volume might indicate profit-taking"
     },
     {
-      "symbol": "SHIVM",
+      "symbol": "NBL",
       "action": "BUY",
       "conviction": "low",
-      "rationale": "Gained 1.59% to 681.7, trading above its 120-day (658.05) and 180-day (652.65) averages with good liquidity and momentum signals.",
-      "risk": "Price is trading in the upper half of its 52-week range."
+      "rationale": "Showed positive momentum, up 1.4% to 297.0, trading above its 120-day (272.56) and 180-day (267.2) averages.",
+      "risk": "Close to 52-week high"
     },
     {
-      "symbol": "AHPC",
-      "action": "WATCH",
+      "symbol": "PCBL",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Trading at 254.2, it's slightly below its 120-day (269.72) and 180-day (274.05) averages, showing a 'value_bounce' signal on decent turnover.",
-      "risk": "Still trading below key moving averages."
+      "rationale": "Increased 1.53% to 265.0, trading above its 120-day (241.84) and 180-day (242.48) averages with good liquidity.",
+      "risk": "Slightly extended from averages"
     },
     {
-      "symbol": "NICA",
-      "action": "WATCH",
+      "symbol": "SANIMA",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Closed at 309.5, a small gain, but is below its 120-day (335.21) and 180-day (339.79) averages, exhibiting a 'value_bounce' signal.",
-      "risk": "Price is near its 52-week low (302.9)."
+      "rationale": "Closed 0.94% higher at 377.0, above its 120-day (362.43) and 180-day (355.72) averages with consistent turnover.",
+      "risk": "Near 52-week high"
     },
     {
-      "symbol": "SPDL",
+      "symbol": "BHL",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Gained 1.92% to 223.0, trading above its 120-day (213.83) and 180-day (213.26) averages with high volume and turnover.",
+      "risk": "Potential resistance near 52-week high"
+    },
+    {
+      "symbol": "CZBIL",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Strong day gain of 3.37% to 211.9, trading above its 120-day (203.17) and 180-day (203.44) averages with good liquidity.",
+      "risk": "Still below 52-week high, but moving fast"
+    },
+    {
+      "symbol": "CHCL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a 2.61% increase to 349.9, but it remains below its 120-day (379.27) and 180-day (390.52) averages, with a 'value_bounce' signal.",
-      "risk": "Significant distance from its 52-week high (474.0)."
+      "rationale": "Showed a decent 2.46% gain to 333.0, but is still below its 120-day (454.19) and 180-day (463.88) averages, suggesting a potential bounce play.",
+      "risk": "Still in a downtrend from longer-term averages"
+    },
+    {
+      "symbol": "HRL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at 490.5, slightly above its 52-week low of 475.4 and showing a small gain of 0.33%, but significantly below its 120-day (597.38) and 180-day (679.98) averages.",
+      "risk": "Still in a significant downtrend"
     }
   ],
-  "outlook": "Watch for sustained buying pressure above key moving averages and continued strength in turnover for further upside.",
-  "date": "2026-10-08",
+  "outlook": "Watch for continued strength in the broader market and for any follow-through buying in the recommended stocks, while monitoring for potential profit-taking.",
+  "date": "2026-10-11",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
