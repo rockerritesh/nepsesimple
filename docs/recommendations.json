@@ -1,78 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.15% on increased turnover, but breadth appears weak with more losing stocks than gaining ones. The market is showing signs of consolidation.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.15% on decent turnover, but breadth appears mixed with a slight downward trend indicated by the forecast. The market is consolidating after recent moves.",
   "recommendations": [
     {
       "symbol": "LSL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at its 52-week high of 267.0 with a positive day change of 3.21% on significant turnover, indicating strong momentum.",
-      "risk": "Potential for profit-taking after reaching a new high."
+      "rationale": "Trading at its 52-week high of 267.0, up 3.21% on the day with strong turnover (153M NPR), indicating positive momentum and liquidity.",
+      "risk": "Extended price action"
     },
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Shows strong momentum, trading at 291.9 with a 2.39% day change, well within its 52-week range (197.1-301.0) and above its 120-day average of 237.2.",
-      "risk": "Approaching 52-week high, could face resistance."
+      "rationale": "Shows strong upward momentum, trading at 291.9 (up 2.39%) and approaching its 52-week high of 301.0 with significant turnover (198M NPR).",
+      "risk": "Approaching resistance"
     },
     {
       "symbol": "KBL",
       "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading at 236.2 with a 2.25% day change, above its 120-day average of 217.63 and showing high volume.",
-      "risk": "Still below its 52-week high of 256.0."
+      "conviction": "medium",
+      "rationale": "Up 2.25% to 236.2 on high volume (1.07M shares, 251M NPR turnover), with its price above both 120-day (217.63) and 180-day (212.98) averages.",
+      "risk": "Below 52-week high"
     },
     {
       "symbol": "SBI",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Demonstrates a positive price movement of 2.82% to 419.0, trading above its 120-day average (400.77) with good turnover.",
-      "risk": "52-week high is at 441.0, potential resistance nearby."
+      "rationale": "Strong daily gain of 2.82% to 419.0, trading above its 120-day (400.77) and 180-day (404.2) averages with good turnover (63M NPR).",
+      "risk": "Near 52-week high, potential profit-taking"
     },
     {
       "symbol": "CZBIL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Positive day change of 1.93% to 216.0, trading above its 120-day average (203.18) with good volume.",
-      "risk": "Below its 52-week high of 238.6."
-    },
-    {
-      "symbol": "NBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading near its 52-week high (302.9) at 300.1 with a modest 1.04% gain and above its 120-day average (272.69).",
-      "risk": "Could be overextended near its peak."
+      "rationale": "Trading at 216.0, up 1.93% on decent turnover (41M NPR), and is above its 120-day (203.18) and 180-day (203.53) averages.",
+      "risk": "Still below 52-week high"
     },
     {
       "symbol": "HBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Shows a 2.32% gain to 198.7, potentially bouncing from its 120-day average (197.71) but still below its 52-week high (237.0).",
-      "risk": "Momentum is not yet confirmed strongly."
+      "rationale": "Shows a 'value_bounce' signal, trading up 2.32% to 198.7, and is above its 120-day (197.71) and 180-day (198.98) averages.",
+      "risk": "Still significantly below 52-week high"
+    },
+    {
+      "symbol": "NBL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at 300.1, up 1.04% and near its 52-week high of 302.9, with above-average turnover (78M NPR).",
+      "risk": "Potential resistance at 52-week high"
     },
     {
       "symbol": "NICA",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "A 2.36% gain to 320.4, but trading below its 120-day average (334.27) suggests it might be a value bounce rather than strong momentum.",
-      "risk": "Trend is currently downward based on longer-term averages."
-    },
-    {
-      "symbol": "RLEL",
-      "action": "AVOID",
-      "conviction": "low",
-      "rationale": "Top loser today, down 6.29% to 626.0, indicating negative sentiment.",
-      "risk": "Further downside potential."
-    },
-    {
-      "symbol": "TPKHL",
-      "action": "AVOID",
-      "conviction": "low",
-      "rationale": "Experienced a significant drop of 5.42% to 454.0, suggesting weakness.",
-      "risk": "Negative price action."
+      "rationale": "Showing a 'value_bounce' signal, up 2.36% to 320.4, but still trading below its 120-day (334.27) and 180-day (339.44) averages.",
+      "risk": "Below key moving averages"
     }
   ],
-  "outlook": "Monitor if the NEPSE Index can sustain above the 2595 level and if market breadth improves in the next session.",
+  "outlook": "Watch for sustained buying pressure above the 2600 level on the NEPSE Index and continued strength in high-turnover stocks.",
   "date": "2026-10-12",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
