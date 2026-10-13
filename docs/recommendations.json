@@ -1,64 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.15% on moderate turnover, with breadth appearing mixed as top gainers and losers showed significant percentage moves. The market is currently trading slightly above the forecast value of 2560.0.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.15% on decent turnover, with the Sensitive Index outperforming. Breadth appears mixed with notable gainers and losers.",
   "recommendations": [
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 301.0, the stock is up 3.12% today and is near its 52-week high of 304.8, supported by strong turnover of 364.7M and a quant score of 1.895.",
-      "risk": "Proximity to 52-week high."
+      "rationale": "Trading 0.4% above its VWAP of 299.87, with a strong daily gain of 3.12% and significant turnover of 364.7M. Its price is near its 52-week high of 304.8.",
+      "risk": "Approaching 52-week high"
     },
     {
       "symbol": "MEN",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "The stock is up 2.47% today to 663.0, trading above its 120-day (606.25) and 180-day (603.08) averages, with significant turnover (259.7M) and a quant score of 1.643.",
-      "risk": "Approaching 52-week high of 683.4."
-    },
-    {
-      "symbol": "NBL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showed a 2.3% gain to 307.0, trading above its 120-day (272.91) and 180-day (267.91) averages, near its 52-week high (307.9), with good turnover (88.8M) and a quant score of 1.706.",
-      "risk": "Trading at 52-week high."
+      "rationale": "Shows a 2.47% daily increase, trading slightly below its VWAP of 665.18. It has substantial turnover of 259.7M and its price is within 3% of its 52-week high of 683.4.",
+      "risk": "Slightly extended"
     },
     {
       "symbol": "SANIMA",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Up 2.13% to 384.0, trading above its 120-day (362.89) and 180-day (356.28) averages, with solid turnover (102.3M) and a quant score of 1.592.",
-      "risk": "Slightly below 52-week high of 390.6."
+      "rationale": "Up 2.13% today, trading above its VWAP of 382.23, with a healthy turnover of 102.3M. Price is near its 52-week high of 390.6.",
+      "risk": "Close to 52-week high"
+    },
+    {
+      "symbol": "NBL",
+      "action": "BUY",
+      "conviction": "low",
+      "rationale": "Posted a strong 2.3% gain, trading above its VWAP of 304.77 with solid turnover. Price is at its 52-week high of 307.9.",
+      "risk": "At 52-week high"
     },
     {
       "symbol": "NMB",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Gained 2.19% to 265.9, trading above its 120-day (244.57) and 180-day (244.7) averages, with decent turnover (76.5M) and a quant score of 1.594.",
-      "risk": "Still below 52-week high of 272.0."
+      "rationale": "Showing a 2.19% daily increase, trading above its VWAP of 263.97 with good turnover. Price is within 3% of its 52-week high of 272.0.",
+      "risk": "Near 52-week high"
     },
     {
       "symbol": "PCBL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Trading at 272.5, up 1.68%, it is above its 120-day (242.24) and 180-day (242.83) averages, with good turnover (83.5M) and a quant score of 1.639.",
-      "risk": "Near 52-week high of 278.0."
-    },
-    {
-      "symbol": "SBI",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Up 1.67% to 426.0, trading above its 120-day (400.92) and 180-day (404.35) averages, with consistent turnover (72.2M) and a quant score of 1.47.",
-      "risk": "Below 52-week high of 441.0."
+      "rationale": "Up 1.68% on decent turnover, trading above its VWAP of 271.09. Price is within 2.5% of its 52-week high of 278.0.",
+      "risk": "Approaching 52-week high"
     },
     {
       "symbol": "SKBBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Despite a 0.4% gain to 744.0, it is trading below its 120-day (758.25) and 180-day (765.25) averages, suggesting potential value bounce from its 52-week low of 735.0.",
-      "risk": "Below key moving averages."
+      "rationale": "Trading slightly below its VWAP, but shows a 'value_bounce' signal. Price is near its 52-week low of 735.0, despite a 0.4% daily gain.",
+      "risk": "Long-term downtrend"
+    },
+    {
+      "symbol": "HLI",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Shows a 2.99% gain today, but trading below its 120-day and 180-day averages. Price is near its 52-week low of 284.3.",
+      "risk": "Below longer-term averages"
     }
   ],
-  "outlook": "Watch for sustained buying pressure to confirm the upward trend and for the NEPSE Index to decisively break above recent resistance levels.",
+  "outlook": "Watch for follow-through buying on index strength and continued momentum in select large-cap stocks.",
   "date": "2026-10-13",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
