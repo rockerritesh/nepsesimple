@@ -1,19 +1,19 @@
-# NEPSE Daily Brief — 2026-10-12
+# NEPSE Daily Brief — 2026-10-13
 
-**NEPSE Index**: 2595.81 (+4.00, +0.15%) · turnover 4,465,246,361
+**NEPSE Index**: 2599.93 (+4.12, +0.15%) · turnover 4,736,867,622
 
 ## Top Gainers
-- SNORL: 999.3 (+14.99%)
-- DLBS: 1259.0 (+14.99%)
-- NMBUR93/94: 978.5 (+4.99%)
-- BUNGAL: 487.0 (+4.75%)
-- KSBBLD87: 1140.0 (+4.11%)
+- SMJC: 443.0 (+12.44%)
+- NSY: 9.28 (+4.62%)
+- NICGF2: 9.15 (+4.57%)
+- OHL: 636.0 (+3.74%)
+- SNLI: 416.0 (+3.17%)
 
 ## Top Losers
-- RLEL: 626.0 (-6.29%)
-- TPKHL: 454.0 (-5.42%)
-- HFIN: 527.0 (-4.01%)
-- NWCL: 517.0 (-3.31%)
-- TVCL: 278.0 (-3.14%)
+- SNORL: 849.4 (-15.00%)
+- DLBS: 1097.0 (-12.87%)
+- NICSF: 8.15 (-5.23%)
+- KBSH: 899.0 (-4.56%)
+- CITY: 330.0 (-3.65%)
 
-_Auto-generated. NEPSE index forecast (next session): 2560.51. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2560.00. Not investment advice._

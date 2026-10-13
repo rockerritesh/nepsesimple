@@ -1,65 +1,65 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.15% on decent turnover, but breadth appears mixed with a slight downward trend indicated by the forecast. The market is consolidating after recent moves.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.15% on moderate turnover, with breadth appearing mixed as top gainers and losers showed significant percentage moves. The market is currently trading slightly above the forecast value of 2560.0.",
   "recommendations": [
-    {
-      "symbol": "LSL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading at its 52-week high of 267.0, up 3.21% on the day with strong turnover (153M NPR), indicating positive momentum and liquidity.",
-      "risk": "Extended price action"
-    },
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Shows strong upward momentum, trading at 291.9 (up 2.39%) and approaching its 52-week high of 301.0 with significant turnover (198M NPR).",
-      "risk": "Approaching resistance"
+      "rationale": "Trading at 301.0, the stock is up 3.12% today and is near its 52-week high of 304.8, supported by strong turnover of 364.7M and a quant score of 1.895.",
+      "risk": "Proximity to 52-week high."
     },
     {
-      "symbol": "KBL",
-      "action": "ACCUMULATE",
+      "symbol": "MEN",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Up 2.25% to 236.2 on high volume (1.07M shares, 251M NPR turnover), with its price above both 120-day (217.63) and 180-day (212.98) averages.",
-      "risk": "Below 52-week high"
+      "rationale": "The stock is up 2.47% today to 663.0, trading above its 120-day (606.25) and 180-day (603.08) averages, with significant turnover (259.7M) and a quant score of 1.643.",
+      "risk": "Approaching 52-week high of 683.4."
+    },
+    {
+      "symbol": "NBL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Showed a 2.3% gain to 307.0, trading above its 120-day (272.91) and 180-day (267.91) averages, near its 52-week high (307.9), with good turnover (88.8M) and a quant score of 1.706.",
+      "risk": "Trading at 52-week high."
+    },
+    {
+      "symbol": "SANIMA",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Up 2.13% to 384.0, trading above its 120-day (362.89) and 180-day (356.28) averages, with solid turnover (102.3M) and a quant score of 1.592.",
+      "risk": "Slightly below 52-week high of 390.6."
+    },
+    {
+      "symbol": "NMB",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Gained 2.19% to 265.9, trading above its 120-day (244.57) and 180-day (244.7) averages, with decent turnover (76.5M) and a quant score of 1.594.",
+      "risk": "Still below 52-week high of 272.0."
+    },
+    {
+      "symbol": "PCBL",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Trading at 272.5, up 1.68%, it is above its 120-day (242.24) and 180-day (242.83) averages, with good turnover (83.5M) and a quant score of 1.639.",
+      "risk": "Near 52-week high of 278.0."
     },
     {
       "symbol": "SBI",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Strong daily gain of 2.82% to 419.0, trading above its 120-day (400.77) and 180-day (404.2) averages with good turnover (63M NPR).",
-      "risk": "Near 52-week high, potential profit-taking"
+      "rationale": "Up 1.67% to 426.0, trading above its 120-day (400.92) and 180-day (404.35) averages, with consistent turnover (72.2M) and a quant score of 1.47.",
+      "risk": "Below 52-week high of 441.0."
     },
     {
-      "symbol": "CZBIL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading at 216.0, up 1.93% on decent turnover (41M NPR), and is above its 120-day (203.18) and 180-day (203.53) averages.",
-      "risk": "Still below 52-week high"
-    },
-    {
-      "symbol": "HBL",
+      "symbol": "SKBBL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Shows a 'value_bounce' signal, trading up 2.32% to 198.7, and is above its 120-day (197.71) and 180-day (198.98) averages.",
-      "risk": "Still significantly below 52-week high"
-    },
-    {
-      "symbol": "NBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading at 300.1, up 1.04% and near its 52-week high of 302.9, with above-average turnover (78M NPR).",
-      "risk": "Potential resistance at 52-week high"
-    },
-    {
-      "symbol": "NICA",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Showing a 'value_bounce' signal, up 2.36% to 320.4, but still trading below its 120-day (334.27) and 180-day (339.44) averages.",
-      "risk": "Below key moving averages"
+      "rationale": "Despite a 0.4% gain to 744.0, it is trading below its 120-day (758.25) and 180-day (765.25) averages, suggesting potential value bounce from its 52-week low of 735.0.",
+      "risk": "Below key moving averages."
     }
   ],
-  "outlook": "Watch for sustained buying pressure above the 2600 level on the NEPSE Index and continued strength in high-turnover stocks.",
-  "date": "2026-10-12",
+  "outlook": "Watch for sustained buying pressure to confirm the upward trend and for the NEPSE Index to decisively break above recent resistance levels.",
+  "date": "2026-10-13",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
