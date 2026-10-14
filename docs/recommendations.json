@@ -1,65 +1,79 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.15% on decent turnover, with the Sensitive Index outperforming. Breadth appears mixed with notable gainers and losers.",
+  "market_summary": "The NEPSE Index saw a strong upward movement, closing 0.82% higher on healthy turnover. Breadth appears positive with the Sensitive Index and Float Index also showing gains.",
   "recommendations": [
     {
-      "symbol": "GHL",
+      "symbol": "LSL",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading 0.4% above its VWAP of 299.87, with a strong daily gain of 3.12% and significant turnover of 364.7M. Its price is near its 52-week high of 304.8.",
-      "risk": "Approaching 52-week high"
-    },
-    {
-      "symbol": "MEN",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Shows a 2.47% daily increase, trading slightly below its VWAP of 665.18. It has substantial turnover of 259.7M and its price is within 3% of its 52-week high of 683.4.",
-      "risk": "Slightly extended"
+      "conviction": "high",
+      "rationale": "Trading 1.98% higher today, its current price of 273.3 is just below its 52-week high of 274.0 and significantly above its 120-day average of 225.86.",
+      "risk": "Approaching 52-week high."
     },
     {
       "symbol": "SANIMA",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Up 2.13% today, trading above its VWAP of 382.23, with a healthy turnover of 102.3M. Price is near its 52-week high of 390.6.",
-      "risk": "Close to 52-week high"
+      "conviction": "high",
+      "rationale": "Showed a strong 2.08% gain today, with its current price of 392.0 near its 52-week high of 395.0 and above its 120-day average of 363.23.",
+      "risk": "Near 52-week high."
     },
     {
-      "symbol": "NBL",
+      "symbol": "ADBL",
       "action": "BUY",
-      "conviction": "low",
-      "rationale": "Posted a strong 2.3% gain, trading above its VWAP of 304.77 with solid turnover. Price is at its 52-week high of 307.9.",
-      "risk": "At 52-week high"
+      "conviction": "medium",
+      "rationale": "Posted a solid 2.47% increase today, trading at 328.0, which is above its 120-day average of 309.45 and approaching its 52-week high of 340.0.",
+      "risk": "Approaching 52-week high."
     },
     {
-      "symbol": "NMB",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Showing a 2.19% daily increase, trading above its VWAP of 263.97 with good turnover. Price is within 3% of its 52-week high of 272.0.",
-      "risk": "Near 52-week high"
+      "symbol": "GVL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Experienced a significant 4.2% jump today, reaching 521.0, well above its 120-day average of 485.9 and within reach of its 52-week high of 602.0.",
+      "risk": "Significant intraday gain."
     },
     {
-      "symbol": "PCBL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Up 1.68% on decent turnover, trading above its VWAP of 271.09. Price is within 2.5% of its 52-week high of 278.0.",
-      "risk": "Approaching 52-week high"
+      "symbol": "MBL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Gained 2.61% to 270.9, trading above its 120-day average of 250.93 and below its 52-week high of 284.0.",
+      "risk": "Near 52-week high."
     },
     {
-      "symbol": "SKBBL",
+      "symbol": "CZBIL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Up 2.4% to 221.9, its current price is comfortably above its 120-day average of 203.32 and within its 52-week range (183.0-238.6).",
+      "risk": "Near 52-week high."
+    },
+    {
+      "symbol": "SBL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Showed a strong 2.92% rise to 430.7, trading above its 120-day average of 405.84 and below its 52-week high of 460.1.",
+      "risk": "Near 52-week high."
+    },
+    {
+      "symbol": "SBI",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Increased by 1.88% to 434.0, its price is above its 120-day average of 401.14 and approaching its 52-week high of 441.0.",
+      "risk": "Near 52-week high."
+    },
+    {
+      "symbol": "TAMOR",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading slightly below its VWAP, but shows a 'value_bounce' signal. Price is near its 52-week low of 735.0, despite a 0.4% daily gain.",
-      "risk": "Long-term downtrend"
+      "rationale": "Up 1.67% to 559.0, it's trading above its 120-day average of 468.74 but is close to its 52-week high of 577.3.",
+      "risk": "Proximity to 52-week high."
     },
     {
-      "symbol": "HLI",
+      "symbol": "HRL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Shows a 2.99% gain today, but trading below its 120-day and 180-day averages. Price is near its 52-week low of 284.3.",
-      "risk": "Below longer-term averages"
+      "rationale": "Trading at 475.0, just above its 52-week low of 469.0, but significantly below its 120-day average of 591.3.",
+      "risk": "Significant underperformance vs. averages."
     }
   ],
-  "outlook": "Watch for follow-through buying on index strength and continued momentum in select large-cap stocks.",
-  "date": "2026-10-13",
+  "outlook": "Continued strength in the NEPSE Index and positive breadth would be encouraging for further upside.",
+  "date": "2026-10-14",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
