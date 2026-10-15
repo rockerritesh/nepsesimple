@@ -1,79 +1,65 @@
 {
-  "market_summary": "The NEPSE Index saw a strong upward movement, closing with a gain of 0.82% on decent turnover. Breadth appears positive with the primary indices trading higher.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.17%, with turnover reaching over 4.7 billion NPR. Breadth appears mixed as the index moved higher.",
   "recommendations": [
     {
-      "symbol": "LSL",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Trading 1.98% higher today, its price is above its 120-day (225.86) and 180-day (222.94) averages, with strong turnover of 128M.",
-      "risk": "Approaching 52-week high."
-    },
-    {
-      "symbol": "SANIMA",
+      "symbol": "GHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showed a solid 2.08% gain, currently trading near its 52-week high of 395.0, with turnover exceeding 106M.",
-      "risk": "Extended price action."
+      "rationale": "Trading 1.9% above its 52-week high of 307.1 and showing strong momentum with a quant score of 1.909.",
+      "risk": "Potential profit-taking after reaching highs."
     },
     {
-      "symbol": "KBL",
+      "symbol": "PHCL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Up 1.81% on significant turnover (264M), its price is above 120-day (217.78) and 180-day (213.65) averages.",
-      "risk": "High volume could indicate profit-taking."
+      "rationale": "Up 2.3% today, trading above its 120-day (307.88) and 180-day (306.42) averages, with a quant score of 1.564.",
+      "risk": "Still below its 52-week high of 395.7."
     },
     {
       "symbol": "ADBL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Gained 2.47% with good turnover (45M), price is above 120-day (309.45) and 180-day (309.04) averages.",
-      "risk": "Still below 52-week high."
+      "rationale": "Gained 1.77% today, trading above its 120-day (309.59) and 180-day (309.23) averages, with a quant score of 1.536.",
+      "risk": "Approaching its 52-week high of 344.0."
     },
     {
       "symbol": "GVL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Strong 4.2% jump on 83M turnover, price is above 120-day (485.9) and 180-day (491.17) averages.",
-      "risk": "Approaching 52-week high."
+      "rationale": "Up 3.45% today, trading above its 120-day (486.24) and 180-day (491.39) averages, with strong momentum signals.",
+      "risk": "Slightly extended from its 52-week high of 602.0."
     },
     {
-      "symbol": "MBL",
-      "action": "ACCUMULATE",
+      "symbol": "MBJC",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Posted a 2.61% gain on 49M turnover, price is above 120-day (250.93) and 180-day (247.76) averages.",
-      "risk": "Below 52-week high."
+      "rationale": "Showed positive momentum, trading above its 120-day (280.68) and 180-day (286.34) averages with a quant score of 1.565.",
+      "risk": "Below its 52-week high of 333.0."
     },
     {
-      "symbol": "CZBIL",
-      "action": "ACCUMULATE",
+      "symbol": "API",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Up 2.4% with 58M turnover, price is above 120-day (203.32) and 180-day (203.75) averages.",
-      "risk": "Below 52-week high."
+      "rationale": "Trading above its 120-day (337.93) and 180-day (332.86) averages, with good turnover and a quant score of 1.496.",
+      "risk": "Still below its 52-week high of 370.0."
     },
     {
-      "symbol": "SBL",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Gained 2.92% on 58M turnover, price is above 120-day (405.84) and 180-day (400.85) averages.",
-      "risk": "Approaching 52-week high."
-    },
-    {
-      "symbol": "HRL",
+      "symbol": "CITY",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading near its 52-week low (469.0) with a 0.61% gain today, but well below its 120-day (591.3) and 180-day (673.93) averages.",
-      "risk": "Significant underperformance relative to averages."
+      "rationale": "Showing a value bounce signal, but trading significantly below its 120-day (380.24) and 180-day (415.38) averages.",
+      "risk": "Weakness relative to moving averages."
     },
     {
       "symbol": "HATHY",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading near its 52-week low (385.0) with a 0.37% gain today, but significantly below 120-day (685.86) and 180-day (763.73) averages.",
-      "risk": "Strong downtrend."
+      "rationale": "Trading below its 120-day (682.05) and 180-day (761.06) averages, despite a value bounce signal.",
+      "risk": "Significant distance from key moving averages."
     }
   ],
-  "outlook": "Monitor if the upward momentum continues and if the broader market breadth improves further.",
-  "date": "2026-10-14",
+  "outlook": "Monitor if the NEPSE Index can sustain its upward momentum and break key resistance levels in the next session.",
+  "date": "2026-10-15",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
