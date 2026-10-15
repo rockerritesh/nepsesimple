@@ -1,64 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.17%, with turnover reaching over 4.7 billion NPR. Breadth appears mixed as the index moved higher.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.17%, closing at 2625.93, with a decent turnover of over 4.71 billion. Breadth appears mixed as the index moved higher.",
   "recommendations": [
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading 1.9% above its 52-week high of 307.1 and showing strong momentum with a quant score of 1.909.",
-      "risk": "Potential profit-taking after reaching highs."
+      "rationale": "Trading 1.54% above its VWAP of 302.21 and showing positive momentum signals with a quant score of 1.909.",
+      "risk": "Proximity to 52-week high."
     },
     {
       "symbol": "PHCL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Up 2.3% today, trading above its 120-day (307.88) and 180-day (306.42) averages, with a quant score of 1.564.",
-      "risk": "Still below its 52-week high of 395.7."
+      "rationale": "Up 2.3% today, trading above its 120-day (307.88) and 180-day (306.42) averages with strong momentum signals.",
+      "risk": "Still below 52-week high."
     },
     {
       "symbol": "ADBL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Gained 1.77% today, trading above its 120-day (309.59) and 180-day (309.23) averages, with a quant score of 1.536.",
-      "risk": "Approaching its 52-week high of 344.0."
+      "rationale": "Increased 1.77% today, trading above its 120-day (309.59) and 180-day (309.23) averages with positive momentum.",
+      "risk": "Approaching 52-week high."
     },
     {
       "symbol": "GVL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Up 3.45% today, trading above its 120-day (486.24) and 180-day (491.39) averages, with strong momentum signals.",
-      "risk": "Slightly extended from its 52-week high of 602.0."
+      "rationale": "Gained 3.45% on good turnover, trading above its 120-day (486.24) and 180-day (491.39) averages with momentum.",
+      "risk": "Slightly extended from VWAP."
     },
     {
       "symbol": "MBJC",
       "action": "BUY",
       "conviction": "low",
-      "rationale": "Showed positive momentum, trading above its 120-day (280.68) and 180-day (286.34) averages with a quant score of 1.565.",
-      "risk": "Below its 52-week high of 333.0."
+      "rationale": "Trading 0.8% higher today, with its current price of 315.5 above its 120-day (280.68) and 180-day (286.34) averages.",
+      "risk": "Below 52-week high."
     },
     {
       "symbol": "API",
       "action": "BUY",
       "conviction": "low",
-      "rationale": "Trading above its 120-day (337.93) and 180-day (332.86) averages, with good turnover and a quant score of 1.496.",
-      "risk": "Still below its 52-week high of 370.0."
+      "rationale": "Showed a 1.78% gain on significant turnover, trading above its 120-day (337.93) and 180-day (332.86) averages.",
+      "risk": "Below 52-week high."
     },
     {
       "symbol": "CITY",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showing a value bounce signal, but trading significantly below its 120-day (380.24) and 180-day (415.38) averages.",
-      "risk": "Weakness relative to moving averages."
+      "rationale": "Trading slightly above VWAP and showing value bounce signals, but current price is well below its 120-day (380.24) and 180-day (415.38) averages.",
+      "risk": "Significant distance from moving averages."
     },
     {
       "symbol": "HATHY",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading below its 120-day (682.05) and 180-day (761.06) averages, despite a value bounce signal.",
-      "risk": "Significant distance from key moving averages."
+      "rationale": "Price is below its 120-day (682.05) and 180-day (761.06) averages, despite value bounce signals.",
+      "risk": "Significant distance from moving averages."
     }
   ],
-  "outlook": "Monitor if the NEPSE Index can sustain its upward momentum and break key resistance levels in the next session.",
+  "outlook": "Monitor if the NEPSE Index can sustain its gains and break above recent resistance levels.",
   "date": "2026-10-15",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
