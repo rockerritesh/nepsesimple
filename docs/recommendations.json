@@ -1,79 +1,79 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.31% with a turnover of over 4.88 billion. Breadth appears positive with most indices trading higher, though the forecast suggests a downward trend.",
+  "market_summary": "The NEPSE index saw a modest gain of 0.31%, driven by positive movement in the Sensitive and Float indices, with overall turnover remaining strong. Breadth appears positive with more gainers than losers.",
   "recommendations": [
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Trading 2.27% higher today on significant turnover (204M), GHL is near its 52-week high of 311.0 and shows strong momentum signals.",
+      "rationale": "Trading 2.27% higher today, GHL is near its 52-week high of 311.0 and shows strong momentum signals with a quant score of 1.914.",
       "risk": "Approaching 52-week high resistance."
     },
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Up 3.21% on 126M turnover, TAMOR is also near its 52-week high of 577.3, indicating positive momentum.",
-      "risk": "Near 52-week high, potential for profit-taking."
-    },
-    {
-      "symbol": "NIMB",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Strong 3.36% gain today with high volume (894k) and turnover (182M), trading above its 120-day (194.53) and 180-day (197.17) averages.",
-      "risk": "Still below its 52-week high of 232.5."
+      "rationale": "Up 3.21% on high liquidity and strong momentum, TAMOR is trading above its 120-day (470.8) and 180-day (461.43) averages, with a quant score of 1.831.",
+      "risk": "Slightly extended from recent trading range."
     },
     {
       "symbol": "MBJC",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showing a 2.69% increase on 76M turnover, MBJC is trading above its 120-day (280.9) and 180-day (286.58) averages and has strong liquidity.",
-      "risk": "Below 52-week high of 333.0."
+      "rationale": "Showing a 2.69% increase on good volume, MBJC is trading above its 120-day (280.9) and 180-day (286.58) averages, with a quant score of 1.68.",
+      "risk": "Still below 52-week high of 333.0."
     },
     {
-      "symbol": "ADBL",
-      "action": "ACCUMULATE",
+      "symbol": "LSL",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "A 1.65% gain on 78M turnover, ADBL is trading above its 120-day (309.78) and 180-day (309.45) averages with momentum signals.",
-      "risk": "Approaching 52-week high resistance at 350.4."
-    },
-    {
-      "symbol": "GVL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Up 1.73% on significant turnover (175M), GVL is trading above its 120-day (486.68) and 180-day (491.69) averages, showing momentum.",
-      "risk": "Below 52-week high of 602.0."
+      "rationale": "Trading slightly higher by 0.22% near its 52-week high (274.9) with good liquidity and momentum signals, LSL has a quant score of 1.673.",
+      "risk": "Closer to 52-week high resistance."
     },
     {
       "symbol": "NMB",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "A 1.91% gain on 54M turnover, NMB is trading above its 120-day (245.14) and 180-day (245.19) averages and is very close to its 52-week high of 272.7.",
-      "risk": "At 52-week high, potential for reversal."
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Gaining 1.91% with strong liquidity and momentum, NMB is trading above its 120-day (245.14) and 180-day (245.19) averages, near its 52-week high of 272.7.",
+      "risk": "Testing 52-week high resistance."
+    },
+    {
+      "symbol": "MEN",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Up 0.93% with solid turnover, MEN is trading above its 120-day (607.94) and 180-day (604.7) averages, showing momentum signals and a quant score of 1.593.",
+      "risk": "Still below 52-week high of 683.4."
     },
     {
       "symbol": "MBL",
-      "action": "ACCUMULATE",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Demonstrating a 2.06% gain with high liquidity and momentum signals, MBL is trading above its 120-day (251.25) and 180-day (248.25) averages.",
+      "risk": "Potential resistance near 284.0."
+    },
+    {
+      "symbol": "ADBL",
+      "action": "BUY",
       "conviction": "low",
-      "rationale": "Trading 2.06% higher on 77M turnover, MBL is above its 120-day (251.25) and 180-day (248.25) averages with momentum.",
-      "risk": "Below 52-week high of 284.0."
+      "rationale": "Up 1.65% on good volume, ADBL is trading above its 120-day (309.78) and 180-day (309.45) averages, near its 52-week high of 350.4.",
+      "risk": "Approaching 52-week high resistance."
+    },
+    {
+      "symbol": "GVL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showing a 1.73% increase with high turnover and momentum, GVL is trading above its 120-day (486.68) and 180-day (491.69) averages, but is still some distance from its 52-week high of 602.0.",
+      "risk": "Significant gap to 52-week high."
     },
     {
       "symbol": "HRL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Gained 1.05% on low turnover (14M), but is trading significantly below its 120-day (587.5) and 180-day (669.92) averages, suggesting a potential value bounce.",
-      "risk": "Significant price gap below moving averages."
-    },
-    {
-      "symbol": "ENL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Up 2.11% on very low turnover (14M), ENL is trading well below its 120-day (776.88) and 180-day (826.61) averages, indicating a potential value bounce.",
-      "risk": "Extremely low liquidity and far from moving averages."
+      "rationale": "Up 1.05% with liquidity, HRL shows a 'value_bounce' signal, but is significantly below its 52-week high (950.0) and 120-day average (587.5).",
+      "risk": "Far from 52-week high and averages."
     }
   ],
-  "outlook": "Watch for continued strength in momentum stocks and any signs of reversal as the market approaches the projected downward trend.",
-  "date": "2026-10-19",
+  "outlook": "Watch for continued strength in the NEPSE index and sustained momentum in the recommended stocks, particularly those nearing their 52-week highs.",
+  "date": "2026-10-20",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
