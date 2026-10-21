@@ -1,79 +1,72 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.31%, closing at 2634.17 with a healthy turnover of over 4.88 billion. Breadth appears positive with the Sensitive and Float indices also trading higher.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.31% on moderate turnover, indicating cautious optimism as breadth was mixed. The primary indices closed higher, suggesting a generally positive sentiment.",
   "recommendations": [
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Trading at 310.9, GHL is slightly above its VWAP of 307.31 and near its 52-week high of 311.0, indicating strong upward momentum. Significant turnover of 204.9 million supports this.",
-      "risk": "Approaching 52-week high resistance."
+      "rationale": "Trading at 310.9, it's near its 52-week high of 311.0 and showing strong momentum with a positive diff_pct of 2.27% on significant turnover.",
+      "risk": "Potential for profit-taking near all-time highs."
     },
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "With a current price of 574.9, TAMOR has moved above its VWAP of 568.48 and is close to its 52-week high of 577.3, supported by a turnover of 126.6 million.",
-      "risk": "Extended price action near 52-week high."
+      "rationale": "Showing strong momentum with a 3.21% increase to 574.9, approaching its 52-week high of 577.3, supported by good liquidity.",
+      "risk": "Could face resistance at its 52-week high."
     },
     {
-      "symbol": "NMB",
+      "symbol": "MBJC",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "NMB is trading at 272.3, just above its 52-week high of 272.7 and its VWAP of 270.22, with a turnover of 54.5 million. It shows consistent positive price action.",
-      "risk": "Slightly overextended from VWAP."
-    },
-    {
-      "symbol": "MBL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "At 273.0, MBL is trading above its VWAP of 270.77 and showing positive momentum, with a substantial turnover of 77.2 million.",
-      "risk": "Approaching 52-week high resistance."
-    },
-    {
-      "symbol": "ADBL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "ADBL's current price of 339.3 is above its VWAP of 336.88 and shows good momentum, backed by a turnover of 78.1 million.",
-      "risk": "Close to 52-week high."
-    },
-    {
-      "symbol": "GVL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Trading at 548.3, GVL is above its VWAP of 546.84 and showing positive momentum with a strong turnover of 175.8 million.",
-      "risk": "Near 52-week high."
-    },
-    {
-      "symbol": "PHCL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "PHCL is trading at 346.5, slightly below its VWAP of 347.1 but showing positive momentum and significant turnover of 115.2 million.",
-      "risk": "Slightly below VWAP."
+      "rationale": "Demonstrates positive momentum with a 2.69% rise to 324.0, trading above its 120-day (280.94) and 180-day (286.58) averages.",
+      "risk": "Approaching its 52-week high of 333.0."
     },
     {
       "symbol": "NIMB",
       "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Experienced a notable 3.36% jump to 206.2, trading above its 120-day (194.53) and 180-day (197.17) averages with high volume.",
+      "risk": "Still below its 52-week high of 232.5."
+    },
+    {
+      "symbol": "ADBL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Up 1.65% to 339.3, trading above its 120-day (309.78) and 180-day (309.45) averages with solid volume.",
+      "risk": "Trading below its 52-week high of 350.4."
+    },
+    {
+      "symbol": "GVL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Positive momentum with a 1.73% gain to 548.3, trading above its 120-day (486.68) and 180-day (491.69) averages on high turnover.",
+      "risk": "Below its 52-week high of 602.0."
+    },
+    {
+      "symbol": "NMB",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "NIMB shows strong positive price action, trading at 206.2, well above its VWAP of 204.53 and with high turnover of 182.9 million. It's showing good momentum.",
-      "risk": "Still below 52-week high."
+      "rationale": "Shows positive momentum with a 1.91% increase to 272.3, trading near its 52-week high of 272.7 and above longer-term averages.",
+      "risk": "Very close to its 52-week high, potential for reversal."
     },
     {
       "symbol": "HRL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "HRL is trading at 479.0, slightly above its VWAP of 478.2, but significantly below its 52-week high of 950.0. The 'value_bounce' signal warrants observation.",
-      "risk": "Significant distance from 52-week high."
+      "rationale": "Trading at 479.0, it has a positive diff_pct of 1.05% but is significantly below its 52-week high of 950.0 and its 120-day average of 587.5.",
+      "risk": "Significant distance from its longer-term averages and 52-week high."
     },
     {
       "symbol": "ENL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "ENL is trading at 484.9, above its VWAP of 479.26, but far from its 52-week high of 995.0. The 'value_bounce' signal suggests potential for a rebound.",
-      "risk": "Large gap from 52-week high."
+      "rationale": "Showed a 2.11% gain to 484.9 but is trading far below its 120-day (776.88) and 180-day (826.61) averages, indicating it's a value bounce candidate.",
+      "risk": "Extended decline from longer-term averages."
     }
   ],
-  "outlook": "Continue to monitor the NEPSE Index's ability to hold above the 2630 level, with attention to broader market participation.",
-  "date": "2026-10-20",
+  "outlook": "Watch for sustained buying pressure on the NEPSE Index and continued strength in the recommended stocks.",
+  "date": "2026-10-21",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
