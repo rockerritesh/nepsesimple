@@ -1,65 +1,79 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.31% with a turnover of over 4.88 billion. Breadth appears positive with most indices trading in the green, though a few names experienced significant pullbacks.",
+  "market_summary": "The NEPSE Index saw a modest increase of 0.31%, driven by positive movement in sensitive and float indices. Breadth appears to be leaning positive with several gainers, though overall turnover remains significant.",
   "recommendations": [
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Trading 1.25% above its 120-day average of 238.94, with strong momentum signals and a turnover of 204 million.",
-      "risk": "Approaching 52-week high."
+      "rationale": "Trading at 310.9, it's near its 52-week high of 311.0 and shows strong momentum with a 2.27% gain on significant turnover.",
+      "risk": "Potential for profit-taking near all-time highs."
     },
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Price is 22.1% above its 120-day average of 470.80, showing strong momentum and liquidity with a turnover of 126 million.",
-      "risk": "Near 52-week high."
+      "rationale": "Current price of 574.9 is close to its 52-week high of 577.3, with a 3.21% daily gain and strong liquidity signals.",
+      "risk": "Slightly extended from its 120-day average of 470.8."
     },
     {
-      "symbol": "MBJC",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Up 2.69% on the day and trading above its 120-day average of 280.90, with good liquidity and momentum.",
-      "risk": "Still below 52-week high."
-    },
-    {
-      "symbol": "NIMB",
+      "symbol": "NMB",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Showed a strong 3.36% gain today, trading above its 120-day average of 194.53, with high volume and momentum.",
-      "risk": "52-week high is still some distance away."
+      "rationale": "Trading at 272.3, just shy of its 52-week high of 272.7, with a 1.91% gain and consistent liquidity.",
+      "risk": "Price is at the upper end of its recent trading range."
     },
     {
       "symbol": "GVL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Price is 12.6% above its 120-day average of 486.68, with strong momentum and high turnover of 175 million.",
-      "risk": "Below 52-week high."
-    },
-    {
-      "symbol": "NMB",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading 11.1% above its 120-day average of 245.14, with momentum and liquidity.",
-      "risk": "Close to 52-week high."
+      "rationale": "Shows a 1.73% gain to 548.3, trading above its 120-day average of 486.68 and exhibiting strong momentum.",
+      "risk": "Still some distance from its 52-week high of 602.0."
     },
     {
       "symbol": "ADBL",
       "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "A 1.65% increase to 339.3, trading above its 120-day average of 309.78, with good liquidity and momentum signals.",
+      "risk": "Price is below its 52-week high of 350.4."
+    },
+    {
+      "symbol": "MBL",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Up 2.06% to 273.0, trading above its 120-day average of 251.25 with strong liquidity and momentum.",
+      "risk": "Price is below its 52-week high of 284.0."
+    },
+    {
+      "symbol": "MBJC",
+      "action": "WATCH",
       "conviction": "low",
-      "rationale": "Price is 9.5% above its 120-day average of 309.78, showing momentum and good turnover.",
-      "risk": "Below 52-week high."
+      "rationale": "Posted a 2.69% gain to 324.0, trading above its 120-day average of 280.9, but the price is still below its 52-week high of 333.0.",
+      "risk": "Volume is lower compared to other top performers."
+    },
+    {
+      "symbol": "LSL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading at 272.2, near its 52-week high of 274.9, with only a 0.22% gain, suggesting potential consolidation.",
+      "risk": "Lack of strong upward momentum today."
     },
     {
       "symbol": "HRL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showing a value bounce signal, but trading significantly below its 120-day average of 587.50.",
-      "risk": "Weak trend, significant downside from averages."
+      "rationale": "Showed a 1.05% gain to 479.0, but this is significantly below its 52-week high of 950.0 and its 120-day average of 587.5, indicating a potential value bounce scenario rather than strong momentum.",
+      "risk": "Significant underperformance relative to its averages and highs."
+    },
+    {
+      "symbol": "ENL",
+      "action": "AVOID",
+      "conviction": "low",
+      "rationale": "While up 2.11% to 484.9, the price is substantially below its 120-day average of 776.88 and 52-week high of 995.0, suggesting a weak recovery.",
+      "risk": "Large gap between current price and historical averages/highs."
     }
   ],
-  "outlook": "Watch for continued strength in the primary indices and confirmation of upward momentum in the recommended stocks.",
-  "date": "2026-10-21",
+  "outlook": "Monitor if the NEPSE Index can sustain its gains and if breadth continues to improve in the next session.",
+  "date": "2026-10-22",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
