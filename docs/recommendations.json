@@ -1,79 +1,72 @@
 {
-  "market_summary": "The NEPSE Index closed higher, gaining 0.31% on solid turnover. Breadth appears positive with most indices showing gains, though the forecast suggests a potential downtrend.",
+  "market_summary": "The NEPSE Index saw a moderate gain of 0.31%, driven by positive movement in the Sensitive and Float indices. Turnover was robust at over 4.88 billion NPR, indicating healthy market participation.",
   "recommendations": [
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Trading at 310.9, slightly above its VWAP of 307.31 and near its 52-week high of 311.0, with strong momentum and liquidity signals.",
-      "risk": "Approaching 52-week high"
+      "rationale": "Trading 0.22% above its VWAP at 310.9, it's near its 52-week high of 311.0. Strong quant score of 1.914 with liquidity and momentum signals.",
+      "risk": "Proximity to 52-week high."
     },
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Currently at 574.9, up 3.21% and near its 52-week high of 577.3, showing good liquidity and momentum.",
-      "risk": "Extended from 120-day average"
-    },
-    {
-      "symbol": "NIMB",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Posted a strong 3.36% gain to 206.2, above its VWAP of 204.53, with high volume and momentum signals.",
-      "risk": "Below 120-day average"
+      "rationale": "Current price of 574.9 is 1.15% above VWAP and nearing its 52-week high of 577.3. Strong quant score (1.831) with good liquidity and momentum.",
+      "risk": "Trading near 52-week high."
     },
     {
       "symbol": "MBJC",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 324.0, up 2.69% and above its VWAP of 323.63, with positive momentum and liquidity.",
-      "risk": "Slightly below 52-week high"
-    },
-    {
-      "symbol": "GVL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Showed a 1.73% gain to 548.3, above its VWAP of 546.84, with significant turnover and momentum.",
-      "risk": "Below 120-day average"
-    },
-    {
-      "symbol": "ADBL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Closed at 339.3, up 1.65% and above its VWAP of 336.88, exhibiting strong liquidity and momentum.",
-      "risk": "Below 120-day average"
+      "rationale": "Trading at 324.0, slightly above VWAP of 323.63, and showing positive momentum. Quant score of 1.68 is solid.",
+      "risk": "Slightly extended from VWAP."
     },
     {
       "symbol": "NMB",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Rose 1.91% to 272.3, trading above its VWAP of 270.22 and near its 52-week high of 272.7.",
-      "risk": "Near 52-week high"
+      "rationale": "Price of 272.3 is 0.77% above VWAP of 270.22, approaching its 52-week high of 272.7. Good momentum signal and quant score of 1.618.",
+      "risk": "Close to 52-week high."
     },
     {
-      "symbol": "MBL",
+      "symbol": "GVL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Gained 2.06% to 273.0, above its VWAP of 270.77, with good liquidity and momentum signals.",
-      "risk": "Below 120-day average"
+      "rationale": "Trading at 548.3, 0.27% above VWAP, with strong liquidity and momentum signals. Quant score of 1.568.",
+      "risk": "Slightly above VWAP."
     },
     {
-      "symbol": "PHCL",
+      "symbol": "ADBL",
       "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Trading at 346.5, up 1.38% and above its VWAP of 347.1, showing momentum and liquidity.",
-      "risk": "Below 120-day average"
+      "conviction": "medium",
+      "rationale": "Current price of 339.3 is 0.72% above VWAP, showing positive momentum. Quant score of 1.573.",
+      "risk": "Potential for minor pullback to VWAP."
+    },
+    {
+      "symbol": "NIMB",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Strong price increase of 3.36% to 206.2, well above its VWAP of 204.53. High volume suggests strong interest.",
+      "risk": "Rapid price increase may lead to short-term consolidation."
     },
     {
       "symbol": "HRL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Currently at 479.0, up 1.05% but significantly below its 120-day average of 587.5, showing value bounce potential.",
-      "risk": "Significant distance from 120-day average"
+      "rationale": "Trading at 479.0, slightly above VWAP, but significantly below its 52-week high of 950.0. Value bounce signal is present.",
+      "risk": "Significant gap between current price and 52-week high."
+    },
+    {
+      "symbol": "ENL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Price of 484.9 is 1.18% above VWAP, but substantially below its 52-week high of 995.0. Value bounce signal noted.",
+      "risk": "Large discount to 52-week high."
     }
   ],
-  "outlook": "Watch for continued strength in the NEPSE Index and follow through in today's gainers, while monitoring the forecasted downtrend.",
-  "date": "2026-10-22",
+  "outlook": "Watch for continued strength in the NEPSE Index and sustained turnover, with attention to any potential profit-taking in recently strong movers.",
+  "date": "2026-10-25",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
