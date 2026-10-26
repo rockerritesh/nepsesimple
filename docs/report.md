@@ -1,19 +1,19 @@
-# NEPSE Daily Brief — 2026-10-25
+# NEPSE Daily Brief — 2026-10-26
 
-**NEPSE Index**: 2634.17 (+8.23, +0.31%) · turnover 4,880,005,921
+**NEPSE Index**: 2629.82 (-4.34, -0.16%) · turnover 4,002,421,168
 
 ## Top Gainers
-- CKHL: 581.0 (+14.82%)
-- BENH: 353.0 (+12.46%)
-- SPL: 620.0 (+8.58%)
-- ECL: 1280.0 (+7.47%)
-- SMFBS: 1385.0 (+5.73%)
+- BENH: 405.9 (+14.99%)
+- MMKJL: 364.0 (+5.81%)
+- SONA: 456.0 (+5.07%)
+- SMJC: 443.9 (+4.72%)
+- GCIL: 397.0 (+4.47%)
 
 ## Top Losers
-- SBLD89: 1370.0 (-5.84%)
-- HEI: 439.0 (-4.98%)
-- NRIC: 765.0 (-3.16%)
-- MFIL: 776.0 (-3.00%)
-- SBLD2091: 1164.0 (-3.00%)
+- CKHL: 535.0 (-7.92%)
+- MLBSL: 999.2 (-7.57%)
+- SBLD89: 1289.1 (-5.91%)
+- GLBSL: 1422.2 (-5.81%)
+- GBILD84/85: 1106.0 (-5.47%)
 
-_Auto-generated. NEPSE index forecast (next session): 2562.47. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2563.65. Not investment advice._
