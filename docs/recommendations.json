@@ -1,72 +1,72 @@
 {
-  "market_summary": "The NEPSE Index saw a slight decline of 0.16%, closing at 2629.82, with a total turnover of over 4 billion NPR. Market breadth was negative, with more stocks declining than advancing.",
+  "market_summary": "The NEPSE Index edged up slightly by 0.03%, while the Sensitive and Float indices saw minor declines. Breadth appears mixed, with some strong individual movers despite the overall index flatness.",
   "recommendations": [
-    {
-      "symbol": "TAMOR",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Trading at 597.0, it's very close to its 52-week high of 599.0 and shows strong momentum with a diff_pct of 3.84%.",
-      "risk": "Potential for profit-taking near 52-week high."
-    },
     {
       "symbol": "GHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Shows positive momentum with a diff_pct of 1.61% and trades at 315.9, below its 52-week high of 319.9.",
-      "risk": "Slightly extended from its 120-day average of 239.54."
+      "rationale": "Trading 2.88% higher today at 325.0, surpassing its VWAP of 324.34 and nearing its 52-week high of 329.0.",
+      "risk": "Slightly extended near 52-week high."
     },
     {
-      "symbol": "MBJC",
+      "symbol": "PHCL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 330.0, it's near its 52-week high of 333.0 and shows a positive diff_pct of 1.85%.",
-      "risk": "Approaching resistance at the 52-week high."
-    },
-    {
-      "symbol": "SHIVM",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Demonstrates momentum with a diff_pct of 1.98% and trades at 696.4, which is below its 52-week high of 737.1.",
-      "risk": "Has a significant gap from its 120-day average of 657.7."
-    },
-    {
-      "symbol": "SONA",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Was a top gainer with a 5.07% increase and trades at 456.0, well within its 52-week range and showing momentum.",
-      "risk": "Recent sharp price increase may lead to consolidation."
+      "rationale": "Showed strong intraday momentum, up 4.89% to 365.0, well above its VWAP of 360.24 and 52-week low of 249.7.",
+      "risk": "Still below 52-week high of 395.7."
     },
     {
       "symbol": "GVL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Currently trading at 579.9, up 3.39% and above its VWAP of 571.66, with significant turnover.",
+      "risk": "Approaching 52-week high of 602.0."
+    },
+    {
+      "symbol": "SMHL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "A top gainer, up 5.95% to 520.0, trading above its VWAP and showing strong daily price action.",
+      "risk": "Volatile, with a wide 52-week range."
+    },
+    {
+      "symbol": "DORDI",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Trading at 560.9 with a positive diff_pct of 2.3%, it shows momentum and is below its 52-week high of 602.0.",
-      "risk": "Slightly extended from its 120-day average of 487.19."
+      "rationale": "As a top gainer, up 6.79% to 283.1, it's trading above its 120-day average (260.12) and showing increasing volume.",
+      "risk": "Potential for profit-taking after sharp gains."
     },
     {
-      "symbol": "MEN",
-      "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Shows positive momentum with a diff_pct of 0.67% and trades at 675.5, near its 52-week high of 683.4.",
-      "risk": "Trading very close to its 52-week high."
-    },
-    {
-      "symbol": "SANIMA",
+      "symbol": "MBJC",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 395.0, it's near its 52-week high of 401.0 and shows slight positive momentum (0.53%).",
-      "risk": "Price is consolidating near the 52-week high."
+      "rationale": "Trading 2.12% higher at 337.0, near its 52-week high of 340.0, with good liquidity.",
+      "risk": "Extended near resistance."
     },
     {
-      "symbol": "HATHY",
+      "symbol": "BHL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "While showing a small gain (0.24%), it's significantly below its 52-week high of 1008.0, indicating potential value bounce potential.",
-      "risk": "Long-term downtrend from its 120-day average of 674.51."
+      "rationale": "Up 3.96% to 233.5, trading above its VWAP and 120-day average (213.64), with solid volume.",
+      "risk": "Below its 52-week high of 264.4."
+    },
+    {
+      "symbol": "HDL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading slightly higher at 1331.0, above its 120-day (1185.39) and 180-day (1179.72) averages, with substantial turnover.",
+      "risk": "Price is relatively flat today, near 52-week high."
+    },
+    {
+      "symbol": "LEC",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading 1.25% higher at 243.0, above its 120-day (226.59) and 180-day (228.54) averages, with high volume.",
+      "risk": "Nearing its 52-week high of 276.0."
     }
   ],
-  "outlook": "Watch for a potential continuation of the intraday trend or a reversal if the NEPSE Index breaks below the 2620 support level.",
-  "date": "2026-10-26",
+  "outlook": "Monitor the NEPSE Index for a sustained move above 2630 and breadth confirmation in the next session.",
+  "date": "2026-10-27",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
