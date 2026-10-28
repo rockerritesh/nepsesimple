@@ -1,19 +1,19 @@
-# NEPSE Daily Brief — 2026-10-27
+# NEPSE Daily Brief — 2026-10-28
 
-**NEPSE Index**: 2630.76 (+0.94, +0.03%) · turnover 5,799,330,203
+**NEPSE Index**: 2664.06 (+33.29, +1.26%) · turnover 7,458,677,368
 
 ## Top Gainers
-- BENH: 466.7 (+14.98%)
-- MMKJL: 408.0 (+12.09%)
-- DORDI: 283.1 (+6.79%)
-- SMHL: 520.0 (+5.95%)
-- SHLB: 1302.0 (+5.68%)
+- BENH: 536.7 (+15.00%)
+- BPCL: 718.9 (+10.60%)
+- SKHL: 740.0 (+6.26%)
+- NRN: 1449.9 (+6.22%)
+- UNHPL: 377.5 (+5.86%)
 
 ## Top Losers
-- UNL: 47500.0 (-4.91%)
-- EBLD85: 1068.0 (-4.64%)
-- NABILD2089: 1100.0 (-4.35%)
-- RBBF40: 9.1 (-3.29%)
-- SFMF: 9.46 (-2.97%)
+- PBD88: 1222.7 (-2.96%)
+- GSY: 9.21 (-2.75%)
+- SHLB: 1272.0 (-2.30%)
+- CKHL: 509.0 (-2.12%)
+- NICSF: 8.6 (-2.05%)
 
-_Auto-generated. NEPSE index forecast (next session): 2565.27. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2568.87. Not investment advice._
