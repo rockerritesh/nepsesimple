@@ -1,65 +1,72 @@
 {
-  "market_summary": "The NEPSE Index saw a significant upward movement, closing 1.26% higher, with strong turnover. Breadth was positive, with a majority of sectors likely participating in the rally.",
+  "market_summary": "The NEPSE Index saw a significant upward movement, closing 1.18% higher with strong turnover. Breadth appears positive as most indices moved up.",
   "recommendations": [
     {
-      "symbol": "BPCL",
+      "symbol": "SBL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Strong momentum with a 10.6% day change, trading above its 120-day (663.26) and 180-day (685.66) averages, and high turnover of 264,343,349.3.",
-      "risk": "Recent sharp upward move, potential for profit-taking."
+      "rationale": "Trading at 454.8, up 4.31%, it's near its 52-week high of 460.1 and shows strong momentum signals. Turnover is substantial at 253.8M.",
+      "risk": "Slightly extended from 120-day average."
     },
     {
-      "symbol": "SANIMA",
+      "symbol": "NMB",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Price of 282.8 is up 3.21% and has reached its 52-week high of 283.0. Strong liquidity and momentum are evident with a turnover of 111.8M.",
+      "risk": "Approaching resistance at 52-week high."
+    },
+    {
+      "symbol": "NBL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "With a price of 312.9, up 2.25%, it's trading very close to its 52-week high of 314.1. Good liquidity and momentum are supported by a turnover of 129.2M.",
+      "risk": "Potential for minor pullback after touching 52-week high."
+    },
+    {
+      "symbol": "ADBL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Current price of 348.9 is up 2.95% and is near its 52-week high of 350.4. Strong momentum and liquidity are indicated by a turnover of 118.1M.",
+      "risk": "Extended from 120-day average."
+    },
+    {
+      "symbol": "SBI",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "Trading at 449.8, up 2.69%, it has reached its 52-week high. Momentum and liquidity are positive with a turnover of 98.6M.",
+      "risk": "Exact touch of 52-week high may see profit-taking."
+    },
+    {
+      "symbol": "GHL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Positive momentum with a 4.17% day change, trading near its 52-week high (410.0) and above its 120-day (365.28) and 180-day (358.24) averages.",
-      "risk": "Approaching 52-week high, could face resistance."
+      "rationale": "Price of 335.0 is up 2.76% and is approaching its 52-week high of 340.0. Strong liquidity and momentum are present with a turnover of 356.1M.",
+      "risk": "Still has room to its 52-week high."
     },
     {
       "symbol": "LSL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Showing positive momentum with a 1.49% day change, trading above its 120-day (228.21) and 180-day (224.49) averages and close to its 52-week high (276.0).",
-      "risk": "Slightly extended from its 52-week high."
+      "rationale": "Trading at 281.0, up 2.93%, it is close to its 52-week high of 284.0. Shows good liquidity and momentum with a turnover of 242.7M.",
+      "risk": "Near resistance at 52-week high."
     },
     {
-      "symbol": "LEC",
+      "symbol": "TAMOR",
       "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Good liquidity with high turnover (325,078,696.1) and a 2.88% day change, trading above its 120-day (226.74) and 180-day (228.82) averages.",
-      "risk": "Volume surge could indicate short-term exhaustion."
-    },
-    {
-      "symbol": "SONA",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Positive momentum with a 2.59% day change, trading above its 120-day (422.29) and 180-day (430.46) averages, and within its 52-week range (380.0-510.0).",
-      "risk": "Still below its 52-week high."
-    },
-    {
-      "symbol": "GHL",
-      "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading near its 52-week high (333.0) with a small 0.31% day change and decent liquidity. Needs to break resistance for a stronger signal.",
-      "risk": "Struggling to break above recent highs."
-    },
-    {
-      "symbol": "PHCL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Positive momentum with a 0.82% day change, trading above its 120-day (309.57) and 180-day (308.55) averages, but slightly below its 52-week high (395.7).",
-      "risk": "Price is consolidating below its 52-week high."
+      "rationale": "Price of 601.8 is up 1.48% and is trading near its 52-week high of 608.0. Demonstrates good liquidity and momentum with a turnover of 158.2M.",
+      "risk": "Slightly extended from 120-day average."
     },
     {
       "symbol": "HRL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showing a value bounce signal, but trading significantly below its 120-day (582.04) and 180-day (663.66) averages, and far from its 52-week high (950.0).",
-      "risk": "Significant distance from moving averages and 52-week high."
+      "rationale": "Trading at 478.8, up 2.31%, but is significantly below its 120-day average of 580.38 and 52-week high of 950.0. The 'value_bounce' signal is noted.",
+      "risk": "Significant gap from averages suggests caution."
     }
   ],
-  "outlook": "Watch for continued strength in the NEPSE Index and assess if the momentum carries into the next session, particularly in the banking and finance sectors.",
-  "date": "2026-10-28",
+  "outlook": "Continue to monitor the NEPSE Index for sustained upward momentum and breadth expansion in the next session.",
+  "date": "2026-10-29",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
