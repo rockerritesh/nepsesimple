@@ -1,79 +1,79 @@
 {
-  "market_summary": "The NEPSE Index saw a strong upward move, closing 1.18% higher with significant turnover. Breadth appears positive, with major indices showing gains.",
+  "market_summary": "The NEPSE Index saw a slight decline of 0.2%, closing at 2690.15 on moderate turnover. Breadth appears weak with more declining stocks than advancing ones, despite some individual gainers.",
   "recommendations": [
     {
-      "symbol": "GHL",
+      "symbol": "LBBL",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Trading at 335.0, up 2.76% on the day, GHL is near its 52-week high of 340.0 and shows strong liquidity and momentum signals.",
-      "risk": "Approaching 52-week high"
+      "conviction": "medium",
+      "rationale": "Showed strong upward momentum with a 7.0% price increase, trading above its 120-day average (486.87) and approaching its 52-week high of 555.0.",
+      "risk": "Potential for profit-taking after sharp rise."
     },
     {
-      "symbol": "LSL",
+      "symbol": "TAMOR",
       "action": "BUY",
-      "conviction": "high",
-      "rationale": "Closed at 281.0, up 2.93%, with strong liquidity and momentum. It's trading just below its 52-week high of 284.0.",
-      "risk": "Near 52-week high"
+      "conviction": "medium",
+      "rationale": "Exhibits positive momentum, trading 0.37% higher and well above its 120-day (477.38) and 180-day (465.57) averages, with good liquidity.",
+      "risk": "Slightly extended from 52-week high of 612.1."
     },
     {
-      "symbol": "SBL",
-      "action": "ACCUMULATE",
+      "symbol": "GVL",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Posted a solid 4.31% gain to 454.8, trading above its 120-day average of 408.05 and showing good liquidity.",
-      "risk": "May consolidate after strong gain"
+      "rationale": "Trading 0.17% higher and above its 120-day (490.02) and 180-day (493.56) averages, indicating positive sentiment and liquidity.",
+      "risk": "Approaching 52-week high of 602.0."
     },
     {
-      "symbol": "NMB",
+      "symbol": "PHCL",
       "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Up 3.21% to 282.8, trading close to its 52-week high of 283.0 with good liquidity and momentum.",
-      "risk": "At 52-week high"
+      "conviction": "low",
+      "rationale": "Trading slightly higher (0.19%) and showing consistent upward movement above its 120-day (310.53) and 180-day (309.65) averages.",
+      "risk": "Lower turnover compared to other candidates."
     },
     {
-      "symbol": "SANIMA",
+      "symbol": "GBIME",
       "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Gained 1.86% to 417.0, near its 52-week high of 418.0, with strong liquidity and momentum.",
-      "risk": "At 52-week high"
-    },
-    {
-      "symbol": "NBL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Up 2.25% to 312.9, near its 52-week high of 314.1, with strong liquidity and momentum signals.",
-      "risk": "At 52-week high"
-    },
-    {
-      "symbol": "PCBL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Trading at 281.5, up 2.81%, near its 52-week high of 283.0, showing good liquidity and momentum.",
-      "risk": "At 52-week high"
-    },
-    {
-      "symbol": "ADBL",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Showed a 2.95% gain to 348.9, trading near its 52-week high of 350.4 with strong liquidity.",
-      "risk": "At 52-week high"
+      "conviction": "low",
+      "rationale": "Demonstrated positive momentum with a 1.49% increase, trading above its 120-day (244.52) and 180-day (241.41) averages.",
+      "risk": "Price is near the upper end of its 52-week range."
     },
     {
       "symbol": "CZBIL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Gained 3.44% to 225.5, trading above its 120-day average of 203.88 with good liquidity and momentum.",
-      "risk": "Still below 52-week high"
+      "rationale": "Trading 1.55% higher, comfortably above its 120-day (204.06) and 180-day (204.71) averages, with good volume.",
+      "risk": "Still below its 52-week high of 238.6."
     },
     {
-      "symbol": "SBI",
+      "symbol": "PCBL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Closed at 449.8, up 2.69%, matching its 52-week high with good liquidity and momentum.",
-      "risk": "At 52-week high"
+      "rationale": "Slightly positive (0.53%) and trading above its 120-day (244.36) and 180-day (244.36) averages, with decent liquidity.",
+      "risk": "Price is near its 52-week high of 286.8."
+    },
+    {
+      "symbol": "MBL",
+      "action": "ACCUMULATE",
+      "conviction": "low",
+      "rationale": "Showing positive momentum (0.61%) and trading above its 120-day (252.51) and 180-day (249.59) averages with good volume.",
+      "risk": "Price is near the upper boundary of its 52-week range."
+    },
+    {
+      "symbol": "SHIVM",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Trading 0.86% higher and above its 120-day (658.69) and 180-day (656.83) averages, but nearing its 52-week high (737.1).",
+      "risk": "Potential resistance at 52-week high."
+    },
+    {
+      "symbol": "CFCL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Experienced a notable 3.54% price jump, trading above its 120-day (589.91) and 180-day (573.99) averages, but near its 52-week high (699.0).",
+      "risk": "Could be approaching overbought territory."
     }
   ],
-  "outlook": "Watch for continued momentum and potential new highs in leading sectors, while monitoring any pullbacks in extended names.",
-  "date": "2026-10-29",
+  "outlook": "Watch for the NEPSE Index to hold above the 2680 support level and for broader market participation to improve.",
+  "date": "2026-11-01",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
