@@ -1,64 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.24%, closing at 2664.13, with turnover exceeding 5.65 billion NPR. Breadth appears mixed, with some strong gainers offset by notable losers.",
+  "market_summary": "The NEPSE Index saw a modest gain of 0.24%, closing at 2664.13 with a turnover of over 5.65 billion. Breadth was mixed, as indicated by the primary indices' performance and the presence of both top gainers and losers.",
   "recommendations": [
     {
       "symbol": "RFPL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Top gainer today with a 5.8% increase on significant turnover, trading well above its 120-day (346.25) and 180-day (364.74) averages.",
-      "risk": "Potential for profit-taking after a sharp rise."
+      "rationale": "RFPL is a top gainer, up 5.8% today on strong turnover. Its current price of 383.0 is above its 120-day average of 346.25 and is nearing its 52-week high of 464.2.",
+      "risk": "Potential for profit-taking after a strong move."
     },
     {
       "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Shows strong momentum, trading at 610.0, near its 52-week high of 612.1, with a 2.52% gain today on substantial turnover.",
-      "risk": "Approaching resistance at its 52-week high."
+      "rationale": "TAMOR is up 2.52% today with significant turnover. Its current price of 610.0 is close to its 52-week high of 612.1 and well above its 120-day average of 480.15.",
+      "risk": "Trading near 52-week high, may face resistance."
     },
     {
       "symbol": "SHL",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Trading at 555.2, up 1.93% today and close to its 52-week high of 560.0, with good liquidity.",
-      "risk": "Could face resistance near its 52-week high."
+      "rationale": "SHL shows a 1.93% gain today with solid turnover. Its current price of 555.2 is above its 120-day average of 504.08 and approaching its 52-week high of 560.0.",
+      "risk": "Potential resistance at the 52-week high."
     },
     {
       "symbol": "GBIME",
-      "action": "ACCUMULATE",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Showing consistent upward momentum, up 1.83% today and trading at 272.0, just below its 52-week high of 275.0.",
-      "risk": "Slightly extended from its 120-day average (245.17)."
+      "rationale": "GBIME is up 1.83% on good turnover. The current price of 272.0 is above its 120-day average of 245.17 and within reach of its 52-week high of 275.0.",
+      "risk": "Slightly extended, approaching 52-week high."
     },
     {
       "symbol": "KBL",
-      "action": "ACCUMULATE",
+      "action": "BUY",
       "conviction": "medium",
-      "rationale": "Posted a solid 2.37% gain today to 237.7, with high volume and trading above its 120-day (219.02) and 180-day (216.38) averages.",
-      "risk": "Still some distance from its 52-week high of 256.0."
+      "rationale": "KBL is up 2.37% with high volume. Its current price of 237.7 is above its 120-day average of 219.02 and has room to move towards its 52-week high of 256.0.",
+      "risk": "Needs to break above recent resistance levels."
     },
     {
-      "symbol": "PHCL",
+      "symbol": "PCBL",
       "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Up 1.23% today to 360.9, with good liquidity and trading above its 120-day (311.46) and 180-day (310.54) averages.",
-      "risk": "Below its 52-week high of 395.7, suggesting room for growth."
+      "rationale": "PCBL is up 1.17% with good turnover. Its current price of 277.0 is above its 120-day average of 244.98, but is still below its 52-week high of 286.8.",
+      "risk": "Consolidation before a potential breakout."
     },
     {
-      "symbol": "NBL",
-      "action": "WATCH",
+      "symbol": "LSL",
+      "action": "ACCUMULATE",
       "conviction": "low",
-      "rationale": "Trading at 308.9 with a 0.62% gain, it's near its 52-week high of 316.9 and above its longer-term averages.",
-      "risk": "Slightly extended, could consolidate near highs."
+      "rationale": "LSL shows a 0.51% gain on substantial turnover. The current price of 276.9 is above its 120-day average of 230.24 and has upside towards its 52-week high of 286.5.",
+      "risk": "Slower momentum compared to peers."
     },
     {
       "symbol": "HATHY",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Trading at 409.0, it's near its 52-week low (385.0) and shows a 'value bounce' signal, though its 120-day average is significantly higher at 653.18.",
-      "risk": "Significant gap between current price and longer-term averages suggests a challenging recovery."
+      "rationale": "HATHY is trading near its 52-week low of 385.0, currently at 409.0, and has a significantly lower price than its 120-day average of 653.18, suggesting potential value but weak current momentum.",
+      "risk": "Long-term downtrend, requires sustained buying pressure."
     }
   ],
-  "outlook": "Watch for sustained buying pressure on the NEPSE Index and continued strength in momentum stocks near their 52-week highs.",
+  "outlook": "Watch for continued strength in the NEPSE Index and increased participation in broader market segments.",
   "date": "2026-11-03",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
