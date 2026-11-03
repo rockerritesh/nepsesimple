@@ -1,19 +1,19 @@
-# NEPSE Daily Brief — 2026-11-02
+# NEPSE Daily Brief — 2026-11-03
 
-**NEPSE Index**: 2657.5 (-32.65, -1.21%) · turnover 7,183,713,047
+**NEPSE Index**: 2664.13 (+6.62, +0.24%) · turnover 5,651,142,523
 
 ## Top Gainers
-- BENH: 806.1 (+13.58%)
-- MAKAR: 460.0 (+8.77%)
-- MHL: 495.7 (+5.47%)
-- NICA: 341.0 (+3.02%)
-- BPCL: 730.0 (+2.48%)
+- SIPD: 535.0 (+5.94%)
+- RFPL: 383.0 (+5.80%)
+- PSF: 11.56 (+4.14%)
+- TVCL: 299.9 (+3.77%)
+- NICA: 352.0 (+3.23%)
 
 ## Top Losers
-- SLCF: 9.21 (-4.86%)
-- JHAPA: 910.0 (-4.11%)
-- SADBL: 400.0 (-4.08%)
-- NLG: 500.0 (-3.83%)
-- MEPDL: 569.0 (-3.56%)
+- BENH: 765.5 (-5.04%)
+- CKHL: 460.0 (-4.94%)
+- CCBD88: 1245.0 (-4.23%)
+- SMFBS: 1436.8 (-3.57%)
+- NIMBD90: 1242.7 (-2.99%)
 
-_Auto-generated. NEPSE index forecast (next session): 2581.19. Not investment advice._
+_Auto-generated. NEPSE index forecast (next session): 2584.85. Not investment advice._
