@@ -1,65 +1,79 @@
 {
-  "market_summary": "The NEPSE Index saw a modest gain of 0.24%, closing at 2664.13 with a turnover of over 5.65 billion. Breadth was mixed, as indicated by the primary indices' performance and the presence of both top gainers and losers.",
+  "market_summary": "The NEPSE Index saw a slight gain of 0.05% on modest turnover, while the Sensitive and Float indices declined, indicating a mixed market sentiment with breadth appearing weak.",
   "recommendations": [
     {
-      "symbol": "RFPL",
+      "symbol": "NRIC",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "RFPL is a top gainer, up 5.8% today on strong turnover. Its current price of 383.0 is above its 120-day average of 346.25 and is nearing its 52-week high of 464.2.",
-      "risk": "Potential for profit-taking after a strong move."
+      "rationale": "Showed significant strength with a 15.0% price increase on strong turnover, trading well above its 120-day average of 903.51.",
+      "risk": "Potential for profit-taking after a sharp rise."
     },
     {
-      "symbol": "TAMOR",
+      "symbol": "SGHC",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "TAMOR is up 2.52% today with significant turnover. Its current price of 610.0 is close to its 52-week high of 612.1 and well above its 120-day average of 480.15.",
-      "risk": "Trading near 52-week high, may face resistance."
+      "rationale": "Posted a strong 8.65% gain with high turnover, and its current price of 333.0 is above its 120-day average of 325.51.",
+      "risk": "Approaching its 52-week high of 487.6."
     },
     {
-      "symbol": "SHL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "SHL shows a 1.93% gain today with solid turnover. Its current price of 555.2 is above its 120-day average of 504.08 and approaching its 52-week high of 560.0.",
-      "risk": "Potential resistance at the 52-week high."
-    },
-    {
-      "symbol": "GBIME",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "GBIME is up 1.83% on good turnover. The current price of 272.0 is above its 120-day average of 245.17 and within reach of its 52-week high of 275.0.",
-      "risk": "Slightly extended, approaching 52-week high."
-    },
-    {
-      "symbol": "KBL",
-      "action": "BUY",
-      "conviction": "medium",
-      "rationale": "KBL is up 2.37% with high volume. Its current price of 237.7 is above its 120-day average of 219.02 and has room to move towards its 52-week high of 256.0.",
-      "risk": "Needs to break above recent resistance levels."
-    },
-    {
-      "symbol": "PCBL",
+      "symbol": "GCIL",
       "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "PCBL is up 1.17% with good turnover. Its current price of 277.0 is above its 120-day average of 244.98, but is still below its 52-week high of 286.8.",
-      "risk": "Consolidation before a potential breakout."
+      "conviction": "medium",
+      "rationale": "Gained 5.0% with substantial turnover, trading above its 120-day average of 379.27 and showing positive momentum signals.",
+      "risk": "Price is still below its 52-week high of 489.9."
     },
     {
-      "symbol": "LSL",
+      "symbol": "MHL",
       "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "LSL shows a 0.51% gain on substantial turnover. The current price of 276.9 is above its 120-day average of 230.24 and has upside towards its 52-week high of 286.5.",
-      "risk": "Slower momentum compared to peers."
+      "conviction": "medium",
+      "rationale": "Increased 4.42% on decent turnover, trading above its 120-day average of 475.07 and showing liquidity and momentum.",
+      "risk": "Still below its 52-week high of 580.0."
     },
     {
-      "symbol": "HATHY",
+      "symbol": "HRL",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Surged 11.48% on high turnover, indicating strong buying interest despite trading below its 120-day average of 574.52.",
+      "risk": "Significant gap between current price and 120-day average suggests potential volatility."
+    },
+    {
+      "symbol": "NICA",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "HATHY is trading near its 52-week low of 385.0, currently at 409.0, and has a significantly lower price than its 120-day average of 653.18, suggesting potential value but weak current momentum.",
-      "risk": "Long-term downtrend, requires sustained buying pressure."
+      "rationale": "Showed a modest 1.34% gain with good turnover, trading above its 120-day average of 330.96, but momentum is not as strong as top movers.",
+      "risk": "Slower price appreciation compared to other gainers."
+    },
+    {
+      "symbol": "SONA",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Posted a small gain of 0.64% on moderate turnover, trading above its 120-day average of 423.76, indicating stability.",
+      "risk": "Limited upside momentum currently."
+    },
+    {
+      "symbol": "MBJC",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Slightly up 0.52% with decent turnover, trading well above its 120-day average of 283.97 and within its 52-week range.",
+      "risk": "Low volume compared to larger cap stocks."
+    },
+    {
+      "symbol": "ADBL",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showed minimal price change (0.18%) with moderate turnover, trading above its 120-day average of 311.67.",
+      "risk": "Lack of strong directional momentum."
+    },
+    {
+      "symbol": "HLI",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Gained 1.32% on lower turnover, trading below its 120-day average of 320.24, suggesting a potential value bounce.",
+      "risk": "Below its 120-day average and lower volume."
     }
   ],
-  "outlook": "Watch for continued strength in the NEPSE Index and increased participation in broader market segments.",
-  "date": "2026-11-03",
+  "outlook": "Investors should monitor the NEPSE Index's ability to hold above the 2660 level and watch for continued strength in the top-performing stocks.",
+  "date": "2026-11-04",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
