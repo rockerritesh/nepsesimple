@@ -1,78 +1,64 @@
 {
-  "market_summary": "The NEPSE Index saw a slight gain of 0.05% on modest turnover, while the Sensitive and Float indices declined, indicating a mixed market sentiment with breadth appearing weak.",
+  "market_summary": "The NEPSE Index closed slightly higher by 0.05%, but the Sensitive and Float indices saw declines, indicating mixed market sentiment. Breadth appears weak as only a few gainers significantly outperformed.",
   "recommendations": [
     {
       "symbol": "NRIC",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Showed significant strength with a 15.0% price increase on strong turnover, trading well above its 120-day average of 903.51.",
+      "rationale": "Showed a strong 15.0% gain on significant turnover, trading above its 120-day average (903.51) and 52-week average. Its current price (921.7) is well within its 52-week range.",
       "risk": "Potential for profit-taking after a sharp rise."
     },
     {
       "symbol": "SGHC",
       "action": "BUY",
       "conviction": "medium",
-      "rationale": "Posted a strong 8.65% gain with high turnover, and its current price of 333.0 is above its 120-day average of 325.51.",
-      "risk": "Approaching its 52-week high of 487.6."
+      "rationale": "Experienced a notable 8.65% increase with high turnover. The current price (333.0) is above its 120-day average (325.51) and shows strong momentum.",
+      "risk": "Approaching its 52-week high (487.6)."
+    },
+    {
+      "symbol": "HRL",
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "A top gainer with an 11.48% increase on substantial turnover. The current price (534.0) is above its 52-week low (462.0) and shows recent upward momentum.",
+      "risk": "Still significantly below its 52-week high (950.0), indicating potential for recovery."
     },
     {
       "symbol": "GCIL",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Gained 5.0% with substantial turnover, trading above its 120-day average of 379.27 and showing positive momentum signals.",
-      "risk": "Price is still below its 52-week high of 489.9."
+      "rationale": "Posted a 5.0% gain with high turnover. The current price (420.0) is above its 120-day average (379.27) and its 52-week low (315.5).",
+      "risk": "Trading below its 52-week high (489.9)."
     },
     {
       "symbol": "MHL",
       "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Increased 4.42% on decent turnover, trading above its 120-day average of 475.07 and showing liquidity and momentum.",
-      "risk": "Still below its 52-week high of 580.0."
-    },
-    {
-      "symbol": "HRL",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Surged 11.48% on high turnover, indicating strong buying interest despite trading below its 120-day average of 574.52.",
-      "risk": "Significant gap between current price and 120-day average suggests potential volatility."
-    },
-    {
-      "symbol": "NICA",
-      "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a modest 1.34% gain with good turnover, trading above its 120-day average of 330.96, but momentum is not as strong as top movers.",
-      "risk": "Slower price appreciation compared to other gainers."
+      "rationale": "Showed a 4.42% increase, trading above its 120-day average (475.07) and within its 52-week range (433.0 - 580.0).",
+      "risk": "Turnover is relatively low compared to other gainers."
     },
     {
       "symbol": "SONA",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Posted a small gain of 0.64% on moderate turnover, trading above its 120-day average of 423.76, indicating stability.",
-      "risk": "Limited upside momentum currently."
+      "rationale": "Trading slightly above its 120-day average (423.76) with decent turnover, but the day's gain (0.64%) is modest.",
+      "risk": "Price is near its 52-week high (510.0)."
+    },
+    {
+      "symbol": "NICA",
+      "action": "WATCH",
+      "conviction": "low",
+      "rationale": "Showed a 1.34% increase, trading above its 120-day average (330.96). Turnover is moderate.",
+      "risk": "Price is below its 52-week high (411.0)."
     },
     {
       "symbol": "MBJC",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Slightly up 0.52% with decent turnover, trading well above its 120-day average of 283.97 and within its 52-week range.",
-      "risk": "Low volume compared to larger cap stocks."
-    },
-    {
-      "symbol": "ADBL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Showed minimal price change (0.18%) with moderate turnover, trading above its 120-day average of 311.67.",
-      "risk": "Lack of strong directional momentum."
-    },
-    {
-      "symbol": "HLI",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Gained 1.32% on lower turnover, trading below its 120-day average of 320.24, suggesting a potential value bounce.",
-      "risk": "Below its 120-day average and lower volume."
+      "rationale": "Slightly positive day (0.52%) with moderate turnover, trading above its 120-day average (283.97).",
+      "risk": "Low volume and not near its 52-week high (342.0)."
     }
   ],
-  "outlook": "Investors should monitor the NEPSE Index's ability to hold above the 2660 level and watch for continued strength in the top-performing stocks.",
+  "outlook": "Watch for continued strength in the NEPSE Index and the performance of recent gainers like NRIC and SGHC.",
   "date": "2026-11-04",
   "generated_by": "gemini:gemini-2.5-flash-lite",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
