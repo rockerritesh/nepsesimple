@@ -1,65 +1,65 @@
 {
-  "market_summary": "The NEPSE Index closed slightly higher by 0.05%, but the Sensitive and Float indices saw declines, indicating mixed market sentiment. Breadth appears weak as only a few gainers significantly outperformed.",
+  "market_summary": "349 scrips traded on 2026-11-05. Ranked by the quantitative screen (momentum / liquidity / value-bounce).",
   "recommendations": [
     {
-      "symbol": "NRIC",
+      "symbol": "CBBL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Showed a strong 15.0% gain on significant turnover, trading above its 120-day average (903.51) and 52-week average. Its current price (921.7) is well within its 52-week range.",
-      "risk": "Potential for profit-taking after a sharp rise."
+      "rationale": "Quant score 1.474 from liquidity, momentum; LTP 989.8 vs 120d 934.02.",
+      "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "SGHC",
+      "symbol": "CFCL",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "Experienced a notable 8.65% increase with high turnover. The current price (333.0) is above its 120-day average (325.51) and shows strong momentum.",
-      "risk": "Approaching its 52-week high (487.6)."
+      "conviction": "high",
+      "rationale": "Quant score 1.423 from liquidity, momentum; LTP 605.0 vs 120d 593.6.",
+      "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "HRL",
+      "symbol": "MBL",
       "action": "BUY",
-      "conviction": "medium",
-      "rationale": "A top gainer with an 11.48% increase on substantial turnover. The current price (534.0) is above its 52-week low (462.0) and shows recent upward momentum.",
-      "risk": "Still significantly below its 52-week high (950.0), indicating potential for recovery."
+      "conviction": "high",
+      "rationale": "Quant score 1.408 from liquidity, momentum; LTP 270.0 vs 120d 253.46.",
+      "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "GCIL",
+      "symbol": "LEC",
       "action": "ACCUMULATE",
       "conviction": "medium",
-      "rationale": "Posted a 5.0% gain with high turnover. The current price (420.0) is above its 120-day average (379.27) and its 52-week low (315.5).",
-      "risk": "Trading below its 52-week high (489.9)."
+      "rationale": "Quant score 1.281 from liquidity, momentum; LTP 231.3 vs 120d 227.37.",
+      "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "MHL",
+      "symbol": "NIFRA",
       "action": "ACCUMULATE",
-      "conviction": "low",
-      "rationale": "Showed a 4.42% increase, trading above its 120-day average (475.07) and within its 52-week range (433.0 - 580.0).",
-      "risk": "Turnover is relatively low compared to other gainers."
+      "conviction": "medium",
+      "rationale": "Quant score 1.263 from liquidity, value_bounce; LTP 247.0 vs 120d 251.54.",
+      "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "SONA",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Trading slightly above its 120-day average (423.76) with decent turnover, but the day's gain (0.64%) is modest.",
-      "risk": "Price is near its 52-week high (510.0)."
+      "symbol": "SHPC",
+      "action": "ACCUMULATE",
+      "conviction": "medium",
+      "rationale": "Quant score 1.253 from liquidity, momentum; LTP 553.0 vs 120d 514.44.",
+      "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "NICA",
+      "symbol": "AKJCL",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Showed a 1.34% increase, trading above its 120-day average (330.96). Turnover is moderate.",
-      "risk": "Price is below its 52-week high (411.0)."
+      "rationale": "Quant score 0.995 from liquidity; LTP 346.0 vs 120d 363.52.",
+      "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "MBJC",
+      "symbol": "API",
       "action": "WATCH",
       "conviction": "low",
-      "rationale": "Slightly positive day (0.52%) with moderate turnover, trading above its 120-day average (283.97).",
-      "risk": "Low volume and not near its 52-week high (342.0)."
+      "rationale": "Quant score 0.993 from liquidity; LTP 333.0 vs 120d 338.37.",
+      "risk": "Screen-only signal \u2014 no fundamental review."
     }
   ],
-  "outlook": "Watch for continued strength in the NEPSE Index and the performance of recent gainers like NRIC and SGHC.",
-  "date": "2026-11-04",
-  "generated_by": "gemini:gemini-2.5-flash-lite",
+  "outlook": "Watch breadth and turnover leaders into the next session.",
+  "date": "2026-11-05",
+  "generated_by": "quant-fallback",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
