@@ -1,65 +1,65 @@
 {
-  "market_summary": "349 scrips traded on 2026-11-05. Ranked by the quantitative screen (momentum / liquidity / value-bounce).",
+  "market_summary": "336 scrips traded on 2026-11-08. Ranked by the quantitative screen (momentum / liquidity / value-bounce).",
   "recommendations": [
     {
-      "symbol": "CBBL",
+      "symbol": "LSL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.474 from liquidity, momentum; LTP 989.8 vs 120d 934.02.",
+      "rationale": "Quant score 1.702 from liquidity, momentum; LTP 274.9 vs 120d 231.66.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "CFCL",
+      "symbol": "TAMOR",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.423 from liquidity, momentum; LTP 605.0 vs 120d 593.6.",
+      "rationale": "Quant score 1.677 from liquidity, momentum; LTP 599.0 vs 120d 484.32.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "MBL",
+      "symbol": "GBIME",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.408 from liquidity, momentum; LTP 270.0 vs 120d 253.46.",
+      "rationale": "Quant score 1.54 from liquidity, momentum; LTP 266.0 vs 120d 246.08.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "LEC",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Quant score 1.281 from liquidity, momentum; LTP 231.3 vs 120d 227.37.",
+      "symbol": "SAHAS",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Quant score 1.539 from liquidity, momentum; LTP 722.0 vs 120d 674.07.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "NIFRA",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Quant score 1.263 from liquidity, value_bounce; LTP 247.0 vs 120d 251.54.",
+      "symbol": "PHCL",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Quant score 1.528 from liquidity, momentum; LTP 354.1 vs 120d 312.92.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
       "symbol": "SHPC",
-      "action": "ACCUMULATE",
-      "conviction": "medium",
-      "rationale": "Quant score 1.253 from liquidity, momentum; LTP 553.0 vs 120d 514.44.",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Quant score 1.511 from liquidity, momentum; LTP 558.3 vs 120d 514.84.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "AKJCL",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Quant score 0.995 from liquidity; LTP 346.0 vs 120d 363.52.",
+      "symbol": "MBJC",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Quant score 1.505 from liquidity, momentum; LTP 329.0 vs 120d 284.74.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "API",
-      "action": "WATCH",
-      "conviction": "low",
-      "rationale": "Quant score 0.993 from liquidity; LTP 333.0 vs 120d 338.37.",
+      "symbol": "CKHL",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Quant score 1.459 from liquidity, value_bounce; LTP 438.0 vs 120d 594.59.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     }
   ],
   "outlook": "Watch breadth and turnover leaders into the next session.",
-  "date": "2026-11-05",
+  "date": "2026-11-08",
   "generated_by": "quant-fallback",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
