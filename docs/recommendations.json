@@ -1,5 +1,5 @@
 {
-  "market_summary": "336 scrips traded on 2026-11-09. Ranked by the quantitative screen (momentum / liquidity / value-bounce).",
+  "market_summary": "336 scrips traded on 2026-11-10. Ranked by the quantitative screen (momentum / liquidity / value-bounce).",
   "recommendations": [
     {
       "symbol": "LSL",
@@ -59,7 +59,7 @@
     }
   ],
   "outlook": "Watch breadth and turnover leaders into the next session.",
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "generated_by": "quant-fallback",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
