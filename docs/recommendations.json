@@ -1,65 +1,65 @@
 {
-  "market_summary": "336 scrips traded on 2026-11-12. Ranked by the quantitative screen (momentum / liquidity / value-bounce).",
+  "market_summary": "335 scrips traded on 2026-11-15. Ranked by the quantitative screen (momentum / liquidity / value-bounce).",
   "recommendations": [
     {
-      "symbol": "LSL",
+      "symbol": "GHL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.702 from liquidity, momentum; LTP 274.9 vs 120d 231.66.",
+      "rationale": "Quant score 1.801 from liquidity, momentum; LTP 324.0 vs 120d 247.31.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "TAMOR",
+      "symbol": "HATHY",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.677 from liquidity, momentum; LTP 599.0 vs 120d 484.32.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
-    },
-    {
-      "symbol": "GBIME",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.54 from liquidity, momentum; LTP 266.0 vs 120d 246.08.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
-    },
-    {
-      "symbol": "SAHAS",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.539 from liquidity, momentum; LTP 722.0 vs 120d 674.07.",
-      "risk": "Screen-only signal \u2014 no fundamental review."
-    },
-    {
-      "symbol": "PHCL",
-      "action": "BUY",
-      "conviction": "high",
-      "rationale": "Quant score 1.528 from liquidity, momentum; LTP 354.1 vs 120d 312.92.",
+      "rationale": "Quant score 1.699 from liquidity, value_bounce; LTP 406.0 vs 120d 639.94.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
       "symbol": "SHPC",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.511 from liquidity, momentum; LTP 558.3 vs 120d 514.84.",
+      "rationale": "Quant score 1.675 from liquidity, momentum; LTP 575.0 vs 120d 515.35.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "MBJC",
+      "symbol": "SGHC",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.505 from liquidity, momentum; LTP 329.0 vs 120d 284.74.",
+      "rationale": "Quant score 1.6 from liquidity, momentum; LTP 357.1 vs 120d 325.05.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     },
     {
-      "symbol": "CKHL",
+      "symbol": "GVL",
       "action": "BUY",
       "conviction": "high",
-      "rationale": "Quant score 1.459 from liquidity, value_bounce; LTP 438.0 vs 120d 594.59.",
+      "rationale": "Quant score 1.597 from liquidity, momentum; LTP 570.0 vs 120d 493.94.",
+      "risk": "Screen-only signal \u2014 no fundamental review."
+    },
+    {
+      "symbol": "PHCL",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Quant score 1.547 from liquidity, momentum; LTP 356.0 vs 120d 313.38.",
+      "risk": "Screen-only signal \u2014 no fundamental review."
+    },
+    {
+      "symbol": "SHL",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Quant score 1.501 from liquidity, momentum; LTP 550.0 vs 120d 505.84.",
+      "risk": "Screen-only signal \u2014 no fundamental review."
+    },
+    {
+      "symbol": "SANIMA",
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "Quant score 1.485 from liquidity, momentum; LTP 402.0 vs 120d 368.96.",
       "risk": "Screen-only signal \u2014 no fundamental review."
     }
   ],
   "outlook": "Watch breadth and turnover leaders into the next session.",
-  "date": "2026-11-12",
+  "date": "2026-11-15",
   "generated_by": "quant-fallback",
   "disclaimer": "Auto-generated from public NEPSE data for educational purposes. Not investment advice. Do your own research."
 }
